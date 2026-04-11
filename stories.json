@@ -1,6 +1,228 @@
 {
   "pulls": [
     {
+      "date": "2026-04-11",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Wild Rhinos Return to Uganda's Kidepo Valley After 43 Years",
+              "summary": "For the first time since 1983, southern white rhinos are back in Uganda's Kidepo Valley National Park — four decades after poaching wiped them out. The first arrivals from Ziwa Sanctuary are settling in, with eight planned for release by May. Uganda's wild rhino population has now grown back to 61 individuals through patient, collaborative conservation.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/03/decades-after-poaching-drove-them-extinct-rhinos-are-back-in-the-wild-in-uganda/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "af-2",
+              "title": "African-Led Conservation Generates Prosperity Alongside Wildlife Wins",
+              "summary": "A new wave of African-led conservation is integrating environmental stewardship with community livelihoods, with 90% of monitored wildlife populations across 8.6 million hectares now stable or increasing. Leaders gathered in Nairobi this week to map out a wildlife economy rooted in local ownership, credible investment, and joyful, practical action.",
+              "source": "Top Africa News",
+              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "af-3",
+              "title": "$59M Future4Binti Project Launches to Protect East Africa's Girls",
+              "summary": "A major $59 million Future4Binti programme has launched across Kenya, Ethiopia, and Somalia to strengthen safeguarding for girls and dismantle harmful practices through education, healthcare, and community leadership. Backed by Amref and partners, the initiative will reach hundreds of thousands of young women — investing in the next generation of African changemakers.",
+              "source": "Amref Health Africa",
+              "url": "https://newsroom.amref.org/news/2026/04/usd-59m-future4binti-project-to-protect-girls-of-e-africa-launched-2/",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "Japan's 800-Year-Old Diaries Unlock Secrets of Ancient Solar Storms",
+              "summary": "Japanese researchers are mining the 13th-century diary of poet Fujiwara no Teika alongside ancient tree rings to reconstruct the history of extreme solar storms. The cross-disciplinary work — bridging classical literature and modern space weather science — is helping forecast risks to today's satellites and power grids in a beautifully unexpected way.",
+              "source": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/04/10/japan/science-health/fujiwara-no-teika-diary-solar-storms/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "as-2",
+              "title": "India's Renewable Boom: 31 GW Added in Eight Months",
+              "summary": "India added a record 31.24 gigawatts of new renewable capacity from April to November 2025 — more than double the previous year's pace — as solar power costs dropped to roughly a third the price of new thermal plants. The momentum is set to continue through 2026, putting the world's most populous country firmly on a clean-energy trajectory.",
+              "source": "S&P Global",
+              "url": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/010226-asia-pacific-to-boost-renewable-energy-capacity-in-2026-despite-geopolitical-challenges-inflation",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "as-3",
+              "title": "World Health Day Unites Asia Around 'Stand With Science'",
+              "summary": "WHO marked World Health Day 2026 this week with the theme 'Together for Health, Stand With Science', uniting countries across Asia to celebrate scientific collaboration that protects people, animals, plants, and the planet. Events from India to the Pacific spotlighted breakthroughs in vaccines, maternal care, and One Health partnerships.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/india/news-room/events/detail/2026/04/07/default-calendar/world-health-day-2026",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "Scotland's Rewilded Lands See Bird Numbers Soar 261%",
+              "summary": "A new study of more than 100 rewilding sites across Scotland has revealed extraordinary results — bird numbers up 261%, breeding territories up 546%, and pollinator abundance more than tenfold higher than on conventional land. Spotted flycatchers, cuckoos, and woodcocks are thriving where they had been vanishing, proof that nature recovers fast when given space.",
+              "source": "Liverpool John Moores University",
+              "url": "https://www.ljmu.ac.uk/about-us/news/articles/2026/3/6/rewilding",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "eu-2",
+              "title": "Orkney Voles Rebound After Successful Stoat Eradication",
+              "summary": "On Scotland's Orkney archipelago, ecologists are reporting the highest numbers of Orkney voles since 2019 — a delightful sign that the island-wide stoat eradication programme is working. The native vole, found nowhere else on Earth, anchors a fragile food web that includes hen harriers and short-eared owls now bouncing back across the islands.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-14-of-2026/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "eu-3",
+              "title": "Fungi Champion Toby Kiers Wins 2026 Tyler Prize for Environmental Achievement",
+              "summary": "Dr Toby Kiers has won the prestigious 2026 Tyler Prize for her pioneering work on mycorrhizal fungi — Earth's hidden underground networks that draw down an estimated 13 billion tons of CO2 each year. Her research is reshaping how scientists value soil life and inspiring new global protections for the fungal kingdom beneath our feet.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/03/12/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "Record 30,000 Endangered Coho Salmon Return to Mendocino Coast",
+              "summary": "A record 30,000 endangered Central California Coast coho salmon have returned to Mendocino coast rivers over the last two seasons — double the previous record and ten times the typical recent run. NOAA-funded restoration of more than 100 tributaries and habitats has helped reconnect the rivers these silver fish call home.",
+              "source": "NOAA Fisheries",
+              "url": "https://www.fisheries.noaa.gov/feature-story/record-30000-endangered-central-california-coast-coho-salmon-return-mendocino-coast",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "na-2",
+              "title": "North America's Largest Wildlife Crossing Opens Over Colorado's I-25",
+              "summary": "Colorado has opened North America's largest wildlife overpass — a sweeping six-lane bridge over Interstate 25 that connects critical elk, deer, and pronghorn habitat. Experts predict the structure will reduce wildlife-vehicle collisions by up to 90% in an area that once averaged one strike every day. It's a true win-win for animals and drivers alike.",
+              "source": "CBS News Colorado",
+              "url": "https://www.cbsnews.com/colorado/news/largest-wildlife-overpass-north-america-opens-colorado/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "na-3",
+              "title": "Monterey Bay Salmon Fishery Reopens Today After Four-Year Pause",
+              "summary": "California's Monterey Bay reopens to recreational salmon fishing today, April 11 — the first salmon season for the region in four years and a hopeful sign of rebounding Chinook stocks. Commercial fishing is expected to follow in May, bringing relief and joy to fishing families and coastal communities along the Central Coast.",
+              "source": "Monterey County Now",
+              "url": "https://www.montereycountynow.com/blogs/news_blog/california-announces-reopening-of-chinook-salmon-fishery-in-monterey-bay-for-the-2026-season/article_dad7b210-c95b-43e5-bc73-f404aefb9c8c.html",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Brazil's Amazon Deforestation Drops 33% — Lowest on Record in Sight",
+              "summary": "Brazil's Environment Ministry confirmed a 33% drop in Amazon deforestation between August 2025 and February 2026 — putting the country on track for the lowest rate ever recorded since monitoring began in 1988. Strengthened enforcement, municipal cooperation, and Indigenous-led protection are credited with the historic turnaround.",
+              "source": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-04/environment-minister-highlights-lower-deforestation-brazil",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "sa-2",
+              "title": "Up to 36% of the Amazon Shows Surprising Climate Resilience",
+              "summary": "Brand-new research published this month finds that as much as 36% of the Amazon rainforest is far more climate-resilient than scientists had feared — capable of retaining its structure and function even under stress. The discovery offers a hopeful, evidence-based foundation for targeted protection of the Amazon's most enduring strongholds.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/novel-research-finds-unexpected-climate-resilience-in-up-to-36-of-amazon-forest/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "sa-3",
+              "title": "Indigenous Governance Holds the Key to a Connected Amazon",
+              "summary": "A new expert assessment shows that Indigenous-managed territories are the single most effective tool for keeping the Amazon Basin ecologically connected — sustaining wildlife corridors, river health, and climate stability across nine countries. Researchers urged governments to scale up support for Indigenous land rights as the foundation of Amazon protection.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/indigenous-governance-key-to-protecting-amazon-basin-connectivity-experts-say/",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Australia Ratifies Global Ocean Treaty in 'Historic Moment'",
+              "summary": "Australia's Parliament has formally ratified the Global Ocean Treaty — the most significant ocean protection agreement in a generation. The move opens the door to creating world-first high seas sanctuaries in the Tasman Sea and beyond, with the first Ocean COP under the Treaty taking place later this year.",
+              "source": "Greenpeace Australia Pacific",
+              "url": "https://www.greenpeace.org.au/news/ocean-treaty-passes-australian-parliament-a-historic-moment-for-nature-protection/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "oc-2",
+              "title": "Western Australia's Demersal Fishing Ban Lets Reef Fish Recover",
+              "summary": "Western Australia's bold demersal fishing ban is delivering exactly what marine scientists predicted — reef fish populations are showing the first signs of recovery, vindicating years of patient research and community advocacy. The decision is being celebrated as a model for evidence-based ocean management worldwide.",
+              "source": "Greenpeace Australia Pacific",
+              "url": "https://www.greenpeace.org.au/article/was-demersal-fishing-ban-shows-what-science-has-been-telling-us-for-years/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "oc-3",
+              "title": "1,000th Royal Albatross Chick Hatches at Otago's Taiaroa Head",
+              "summary": "A historic milestone has been reached at New Zealand's beloved Taiaroa Head colony — the 1,000th royal albatross chick has hatched since the breeding ground was established in 1938. DOC ranger Sharyn Broni, who has guarded the birds for nearly 30 years, called the moment 'amazing'. The chick will fledge with a 3-metre wingspan in spring.",
+              "source": "1News",
+              "url": "https://www.1news.co.nz/2026/01/27/amazing-jubilation-as-1000th-toroaalbatross-chick-hatches-in-otago/",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "China's Xuelong Sets New Antarctic Hot-Water Drilling World Record",
+              "summary": "China's polar icebreaker Xuelong has returned home from a 160-day voyage with a stunning achievement — the country's first hot-water drilling experiment on the Antarctic ice sheet reached 3,413 metres deep, surpassing the previous world record of 2,540 metres. The mission opens new doors for studying ancient subglacial environments.",
+              "source": "Guangming Online",
+              "url": "https://en.gmw.cn/2026-04/10/content_38700856.htm",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "an-2",
+              "title": "523-Metre Ice Core Reveals 23 Million Years of Climate History",
+              "summary": "An international team has drilled 523 metres through Antarctic ice and into the rock beneath, extracting a sediment core that captures 23 million years of Earth's climate story. The deepest sample of its kind ever obtained will help scientists understand how the great ice sheet behaved in past warm periods — and improve predictions of its future.",
+              "source": "SciTechDaily",
+              "url": "https://scitechdaily.com/scientists-drill-523-meters-through-antarctic-ice-uncovering-23-million-years-of-climate-secrets/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "an-3",
+              "title": "Antarctic Ice Cores Extend Climate Record Three Million Years",
+              "summary": "New ice core studies from Oregon State University have extended humanity's direct record of greenhouse gases and ocean temperatures back three million years — confirming that atmospheric CO2 and methane levels remained broadly stable across deep time. The findings give scientists their clearest baseline yet for understanding modern climate change.",
+              "source": "Oregon State University",
+              "url": "https://news.oregonstate.edu/news/new-ice-core-studies-expand-histories-greenhouse-gases-and-ocean-temperature-3-million-years",
+              "date": "2026-04-11"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-10",
       "regions": {
         "Africa": {
