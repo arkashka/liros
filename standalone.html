@@ -535,8 +535,7 @@ function formatDate(iso) {
   // Update date badge
   const dateEl = document.getElementById('update-date');
   if (window.STORIES_DATA.pulls && window.STORIES_DATA.pulls.length) {
-    const d = new Date(window.STORIES_DATA.pulls[0].date);
-    dateEl.textContent = 'Updated ' + d.toLocaleDateString('en-GB', {day:'numeric', month:'long', year:'numeric'});
+    dateEl.textContent = 'Updated ' + formatDate(window.STORIES_DATA.pulls[0].date);
   }
 
   renderLegend();
