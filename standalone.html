@@ -188,7 +188,7 @@ async function fetchStories() {
   mapSection.prepend(loadingEl);
 
   try {
-    const res = await fetch('./stories.json');
+    const res = await fetch('./stories.json?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     window.STORIES_DATA = await res.json();
   } catch (err) {
