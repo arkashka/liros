@@ -1,0 +1,448 @@
+{
+  "pulls": [
+    {
+      "date": "2026-04-10",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Kenya Hosts World Health Summit Affirming Africa's Health Leadership",
+              "summary": "Kenya is hosting the World Health Summit Regional Conference for Africa in April 2026, demonstrating the continent's growing role in shaping global health discourse. The event highlights Africa's transition from reactive to proactive health systems addressing cancer elimination, health security preparedness, and data-driven solutions.",
+              "source": "WHO Regional Office for Africa",
+              "url": "https://www.afro.who.int/countries/kenya/news/kenya-launches-national-cervical-cancer-elimination-action-plan-2026-2030",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "af-2",
+              "title": "Rwanda's Akagera Park Elephant Population Rebounds to 130",
+              "summary": "Rwanda's Akagera National Park has seen elephant numbers rebound to approximately 130 individuals through dedicated conservation partnerships. This remarkable recovery represents success in restoring wildlife in a region once devastated by conflict, with total animal populations in the park increasing from under 5,000 to over 13,000.",
+              "source": "African Parks",
+              "url": "https://www.akagerarwandasafaris.com/elephants-in-akagera/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "af-3",
+              "title": "Nigeria Launches $552M Education Reform to Empower 250,000 Youth",
+              "summary": "Nigeria's Federal Government has launched the HOPE-EDU programme with a $552 million investment — the highest education sector allocation in its history. The initiative includes expanded vocational training enrolling 250,000 young people, curriculum modernisation, and digital learning platforms rolling out across all 36 states.",
+              "source": "News Agency of Nigeria",
+              "url": "https://nannews.ng/2026/03/03/fg-unveils-552m-hope-edu-initiative-to-boost-basic-education-reform/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "$2.2B Renewable Energy Joint Venture to Power Nine Asian Nations",
+              "summary": "TotalEnergies and Masdar announced a binding $2.2 billion 50/50 joint venture to accelerate renewable energy across nine Asian countries. The partnership combines 3 GW of operational capacity and 6 GW under development — covering solar, wind, and battery storage projects across a continent hungry for clean power.",
+              "source": "TotalEnergies",
+              "url": "https://totalenergies.com/news/press-releases/totalenergies-and-masdar-form-22-billion-joint-venture-accelerate-renewable",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "as-2",
+              "title": "Green Sea Turtle Downlisted From Endangered After Indonesia's Decade of Work",
+              "summary": "Decades of intensive conservation in Indonesia's Berau Archipelago — including releasing over 10 million hatchlings — helped the IUCN downlist the green sea turtle from 'endangered' to 'least concern'. Forty-four primary conservation areas now protect 5.5 million hectares of critical turtle habitat across the archipelago.",
+              "source": "Turtle Foundation / IUCN",
+              "url": "https://www.turtle-foundation.org/en/iucn-green-sea-turtle/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "as-3",
+              "title": "Bangladesh Solar Rollout Reaches 46,000 Public Buildings",
+              "summary": "Bangladesh's nationwide rooftop solar programme is targeting 1,454 megawatts of clean electricity by 2026, reaching 46,854 public institutions including schools and hospitals. The Asian Development Bank partnership will establish a 20 MW solar plant generating 30,000 megawatt-hours annually — powering communities across the country.",
+              "source": "Asian Development Bank",
+              "url": "https://www.pvknowhow.com/news/bangladesh-solar-panel-project-impressive-2026-rollout/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "Griffon Vultures Return to Romania After 50 Years of Absence",
+              "summary": "After nearly five decades, griffon vultures will be reintroduced to Romania's Southern Carpathians in 2026 through a partnership with Domogled National Park and Spanish conservation group GREFA. This homecoming caps a broader European vulture recovery — populations have rebounded from near extinction to thriving colonies across the continent.",
+              "source": "Rewilding Europe",
+              "url": "https://rewildingeurope.com/news/rhodope-mountains-rewilding-area-maintains-griffon-vulture-breeding-success/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eu-2",
+              "title": "France's Osprey Chicks Hatch for the First Time in Restored Wetland",
+              "summary": "EU-supported restoration of the Marais d'Orx wetland in southwest France is bearing beautiful results — osprey chicks have been born naturally for the first time since the Balbuzard conservation plan began in 2018. The 1,000-hectare reserve revival shows how strategic wetland restoration can bring apex species back to landscapes they once called home.",
+              "source": "EU Regional Policy",
+              "url": "https://ec.europa.eu/regional_policy/whats-new/newsroom/25-01-2026-france-restoring-the-marais-d-orx-wetland-and-bringing-birds-of-prey-back-to-their-habitat_en",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eu-3",
+              "title": "Poland Shields Its Most Precious Forests With 20% Logging Exclusion",
+              "summary": "Poland's government has committed to excluding 20% of the country's most ecologically valuable forests from logging, while implementing national nature recovery plans aligned with EU law. The Białowieża Forest and Yotvingia wetlands are anchoring major ecosystem restoration projects — protecting irreplaceable ancient woodland for generations.",
+              "source": "European Commission",
+              "url": "https://polish-presidency.consilium.europa.eu/en/news/meeting-of-eu-directors-general-for-nature-nature-restoration-law/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "US Set to Add Record 86 Gigawatts of Renewable Capacity in 2026",
+              "summary": "The United States plans to add a record 86 gigawatts of new electricity capacity in 2026, with 99% coming from solar, wind, and battery storage. Solar alone will contribute 43.4 GW — a 60% leap from the prior year — cementing renewables as the dominant source of new American power generation.",
+              "source": "U.S. Energy Information Administration",
+              "url": "https://www.eia.gov/todayinenergy/detail.php?id=67205",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "na-2",
+              "title": "FDA Approves First New Non-Opioid Pain Drug in Decades",
+              "summary": "The FDA approved Journavx (suzetrigine), the first drug in a new class of pain management medicines for treating moderate to severe acute pain — with no opioid addiction risks. The medication blocks pain signals before they reach the brain, offering a new path forward for the millions of Americans living with chronic pain.",
+              "source": "FDA",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "na-3",
+              "title": "Great Lakes Water Levels Stabilise, Ecosystems Bounce Back",
+              "summary": "After years of volatility, Great Lakes water levels have stabilised at healthy mid-range marks, giving shoreline ecosystems time to recover. Wetlands along Lakes Erie and Michigan are expanding, native fish populations are rebounding, and restoration projects from Ohio to Ontario are bringing back migratory birds that once defined the region's spring landscape.",
+              "source": "Great Lakes Commission",
+              "url": "https://glc.org/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Colombia Co-Hosts World's First Fossil Fuel Phase-Out Conference",
+              "summary": "Colombia and the Netherlands are co-hosting the inaugural International Conference on the Just Transition Away from Fossil Fuels in Santa Marta, bringing together governments, Indigenous peoples, and scientists. The landmark summit aims to draft a global Fossil Fuel Treaty and map an equitable path away from oil, gas, and coal extraction.",
+              "source": "Fossil Fuel Treaty Initiative",
+              "url": "https://www.fossilfueltreaty.org/first-international-conference",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "sa-2",
+              "title": "Peru's New 1.3-Million-Hectare Park Completes Andes-Amazon Corridor",
+              "summary": "Sierra del Divisor National Park — a newly protected 1.3-million-hectare area along the Peru-Brazil border — completes the Andes-Amazon Conservation Corridor, one of Earth's largest contiguous blocks of protected rainforest. The corridor spans 1,770 kilometres from the Amazon River to the Andean peaks, safeguarding irreplaceable biodiversity.",
+              "source": "World Land Trust",
+              "url": "https://www.worldlandtrust.org/what-we-do/where-we-work/peru/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "sa-3",
+              "title": "Brazil's Endangered National Tree Wins Global CITES Protection",
+              "summary": "Brazil successfully lobbied for CITES protection of Brazilwood — the endangered national tree that gave the country its name. Starting March 2026, all 185 CITES signatories are prohibited from exporting Brazilwood for commercial purposes, marking a landmark win for forest biodiversity and Brazil's cultural and natural heritage.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/02/brazil-wanted-more-protections-for-its-endangered-national-tree-then-france-called/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Kākāpō Shatters Records With 105 Chicks in Historic Season",
+              "summary": "New Zealand's beloved kākāpō has achieved a historic breeding milestone — 105 chicks hatched in 2026, the highest number in over 30 years. Once numbering just 51 individuals, the population now stands at 237. Decades of dedicated conservation, careful island management, and genetic science are delivering a beautiful, long-awaited outcome.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/short-article/2026/04/record-kakapo-breeding-season-with-95-rare-parrot-hatchlings-photo-of-the-week/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "oc-2",
+              "title": "Australia's Greater Bilby Population Quadruples in Five Years",
+              "summary": "Australia's threatened Greater Bilby has quadrupled in numbers over five years, reaching 5,330 individuals across protected sanctuaries. Conservation efforts at six sanctuaries across Western Australia, the Northern Territory, South Australia, and New South Wales have achieved unprecedented success — some sites recording populations 27 times larger than initial releases.",
+              "source": "Australian Wildlife Conservancy",
+              "url": "https://www.australianwildlife.org/news-and-resources/press-release/australias-greater-bilby-population-quadruples/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "oc-3",
+              "title": "Volunteers Restore New Zealand's East Coast for Native Wildlife",
+              "summary": "The East Coast Protection Group — a network of volunteers and landowners — is driving powerful ecosystem restoration along New Zealand's coastline through strategic predator control and habitat work. Their efforts are creating safer environments for native birds, reptiles, and plants to recover from pressure by introduced species like rats and stoats.",
+              "source": "Scoop News",
+              "url": "https://community.scoop.co.nz/2026/03/community-conservation-driving-real-change-along-new-zealands-east-coastprotecting-native-wildlife/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "Scientists Stumble Upon Uncharted Island in the Weddell Sea",
+              "summary": "A 93-scientist expedition aboard the icebreaker Polarstern discovered an unmapped island in the northwestern Weddell Sea — initially mistaken for a dirty iceberg. The island will now appear on international navigation charts for the first time ever, a reminder of how much mystery still waits beneath Antarctica's remote waters.",
+              "source": "Phys.org",
+              "url": "https://phys.org/news/2026-04-uncharted-island-nautical.html",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "an-2",
+              "title": "Hidden Jurassic Granite Giant Found Beneath Pine Island Glacier",
+              "summary": "Pink granite boulders led scientists to discover a massive formation stretching nearly 100 kilometres wide and 7 kilometres thick beneath Pine Island Glacier. Dating to 175 million years ago, this Jurassic giant reveals how ancient ice sheets moved — helping researchers build more accurate models of future sea-level rise.",
+              "source": "SciTechDaily",
+              "url": "https://scitechdaily.com/pink-granite-boulders-led-scientists-to-a-hidden-jurassic-giant-beneath-the-pine-island-glacier/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "an-3",
+              "title": "Six-Million-Year-Old Ice Opens an Unprecedented Climate Window",
+              "summary": "Scientists have directly dated ice in East Antarctica at 6 million years old — the oldest ever confirmed — with trapped air preserving a snapshot of a much warmer ancient Earth. This extraordinary climate archive will inform extended research through 2031, deepening humanity's understanding of natural temperature cycles across deep time.",
+              "source": "Oregon State University",
+              "url": "https://news.oregonstate.edu/news/six-million-year-old-ice-discovered-antarctica-offers-unprecedented-window-into-warmer-earth/",
+              "date": "2026-04-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Mountain Gorilla Twins Born at Virunga — Both Thriving",
+              "summary": "A mountain gorilla named Nyiramurema in Virunga National Park gave birth to healthy twins — both alive and well, watched over by dedicated rangers. Hundreds of elephants have also been documented returning to the park's interior, a sign of nature's quiet and powerful resilience.",
+              "source": "Africa.com",
+              "url": "https://africa.com/two-of-a-kind-twice-inside-virungas-extraordinary-wildlife-comeback/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "af-2",
+              "title": "Baby Gorilla & Elephant Calves Light Up the Congo Basin",
+              "summary": "In the Dzanga-Sangha Protected Areas, a baby gorilla named Moandja was born — the youngest of female Mapoki's three offspring. Rangers also spotted the most elephant calves under one year old in recent memory, gathering at the famous Dzanga bai forest clearing.",
+              "source": "World Wildlife Fund",
+              "url": "https://www.worldwildlife.org/news/stories/-ivonne-kienast/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "af-3",
+              "title": "90% of African Wildlife Populations Stable or Growing",
+              "summary": "Across 8.6 million hectares of actively managed land, the African Wildlife Foundation reports that 90% of monitored wildlife populations are stable or increasing. Community-led conservancies, women's diplomacy, and biodiversity enterprises are driving this extraordinary continental recovery.",
+              "source": "African Wildlife Foundation",
+              "url": "https://www.awf.org/news",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "Singapore Opens Cutting-Edge AI Health Innovation Hub",
+              "summary": "The National University Hospital in Singapore has launched a pioneering innovation hub where clinicians, startups, and researchers co-develop AI-powered healthcare solutions in a live clinical environment. It's a model for how technology can make healthcare faster, smarter, and more humane.",
+              "source": "Healthcare IT News",
+              "url": "https://www.healthcareitnews.com/news/asia/whats-inside-national-university-hospitals-latest-health-tech-hub",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "as-2",
+              "title": "Asia-Pacific Leads the World in Cell & Gene Therapy",
+              "summary": "The Asia-Pacific region now accounts for up to 70% of globally approved cell and gene therapy products, with over 650 active clinical trials underway. From South Korea to India, a new era of life-saving treatments is being pioneered across the continent.",
+              "source": "BioSpectrum Asia",
+              "url": "https://www.biospectrumasia.com/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "as-3",
+              "title": "GITEX Asia Puts Singapore at the Heart of Global Tech",
+              "summary": "Asia's biggest tech festival, GITEX Asia 2026, drew innovators from around the world to Singapore's Marina Bay Sands. The event spotlighted breakthroughs in AI, quantum computing, and digital health — celebrating Asia's growing role as a force for technological good.",
+              "source": "GITEX Asia",
+              "url": "https://conferenceindex.org/event/gitex-asia-2026-april-singapore-sg-1",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "European Bison Roam Free Again — 7,000 Strong and Growing",
+              "summary": "Once hunted to extinction in the wild, the European bison has made a spectacular comeback — numbers have soared from 2,579 to 7,000 free-roaming individuals in just a decade. New research shows herds in Romania are also capturing carbon equivalent to 84,000 petrol cars per year.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/08/from-biodiversity-to-carbon-capture-saving-bison-from-extinction-has-brought-big-benefits-",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eu-2",
+              "title": "Portugal Hits 80%+ Renewable Electricity — A National Record",
+              "summary": "In January 2026, Portugal generated 80.7% of its electricity from renewable sources — its best performance in nine months and second highest in Europe. Wind farms, solar panels, and hydropower are transforming Portugal into one of the continent's green energy stars.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/03/12/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eu-3",
+              "title": "Ireland to Launch Europe's First Marine Rewilding Landscape",
+              "summary": "Rewilding Europe has announced its first-ever marine rewilding landscape in Ireland — a groundbreaking initiative to restore ocean habitats and bring back marine life to the North Atlantic. Combined with dam removals and river restorations across the continent, Europe's wild places are coming back.",
+              "source": "Rewilding Europe",
+              "url": "https://rewildingeurope.com/blog/why-2026-matters-for-rewilding-in-europe-building-solidarity-for-nature-recovery/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "NC Science Festival Brings Wonder to All 100 Counties",
+              "summary": "North Carolina's month-long NCSciFest 2026 is lighting up all 100 counties with hundreds of interactive science events. The theme 'Science Matters' is bringing hands-on discovery to students, families, and communities — from planetariums in cities to parks in every rural corner of the state.",
+              "source": "UNC News",
+              "url": "https://www.unc.edu/posts/2026/04/02/aprils-ncscifest-shows-science-matters-in-all-100-counties/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "na-2",
+              "title": "Citizen Science Month: 2.5 Million Acts of Discovery",
+              "summary": "Every April, Americans join Citizen Science Month — and in 2026, the goal is 2.5 million acts of science to celebrate America's 250th birthday. From tracking bird migrations to mapping night skies, everyday people are contributing real discoveries to real scientific research.",
+              "source": "SciStarter",
+              "url": "https://scistarter.org/citizensciencemonth",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "na-3",
+              "title": "US Road Deaths Fall to Second-Lowest Level on Record",
+              "summary": "Traffic fatalities on US roads fell by 6.7% to 36,640 — the second lowest level ever recorded. Better road design, safer vehicles, and improved emergency response are making American roads meaningfully safer for families and communities across the country.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Jaguar Rivers Initiative: A Million Square Miles for Nature",
+              "summary": "The Jaguar Rivers Initiative will protect nearly one million square miles across Argentina, Bolivia, Brazil, and Paraguay — the largest cross-border ecosystem restoration in South American history. It unites Indigenous communities, local NGOs, and governments to bring back jaguars and wild rivers.",
+              "source": "The Pew Charitable Trusts",
+              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "sa-2",
+              "title": "Pantanal Ranchers Voluntarily Choose Wildlife Conservation",
+              "summary": "In Brazil's stunning Pantanal — the world's largest tropical wetland — a growing number of ranchers are voluntarily adopting conservation standards. Jaguars, giant anteaters, and giant otters are rebounding, and wildlife tourism is giving local families a sustainable and joyful economic future.",
+              "source": "The Pew Charitable Trusts",
+              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "sa-3",
+              "title": "Indigenous Rangers Protect Bolivia's Gran Chaco with Ancient Wisdom",
+              "summary": "A wildfire response unit led by Guaraní and Chiquitano Indigenous people is defending Bolivia's Gran Chaco, blending traditional ecological knowledge with modern science to protect millions of acres of wildlife habitat. It's a powerful model of Indigenous-led conservation the world is watching.",
+              "source": "Born Free USA",
+              "url": "https://www.bornfreeusa.org/2026/04/07/defiantly-optimistic-the-recent-wildlife-wins-you-almost-missed/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Kākāpō Shatters Records: 105 Chicks in Historic Season",
+              "summary": "New Zealand's beloved kākāpō is having its best breeding season ever, with 105 chicks hatched — shattering the previous record of 73. Once numbering just 51 individuals, the population now stands at 237. Decades of dedicated conservation work are delivering a beautiful outcome.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/news/national/590633/over-100-kakapo-chicks-hatch-in-record-breaking-breeding-season",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "oc-2",
+              "title": "New Zealand Conservation Week Moves to April for Earth Day",
+              "summary": "For the first time in its 57-year history, New Zealand's Conservation Week is being held in April (April 20–26) to align with Earth Day. It's a joyful shift that promises to inspire even more people to protect Aotearoa's unique and extraordinary wildlife.",
+              "source": "Science Learn NZ",
+              "url": "https://www.sciencelearn.org.nz/events/conservation-week-te-wiki-tiaki-ao-turoa-2026",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "oc-3",
+              "title": "10% of the Ocean Is Now Under Protection — A Global Milestone",
+              "summary": "The UN Environment Programme confirmed that 10.01% of the world's ocean is now officially protected — with five million square kilometres newly added in just two years. Pacific island nations have been central to this landmark breakthrough for global marine biodiversity.",
+              "source": "UNEP / Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "Scientists Stumble Upon Uncharted Island in Weddell Sea",
+              "summary": "While seeking shelter from Antarctic storms, researchers aboard the German icebreaker Polarstern discovered a previously unmapped island in the Weddell Sea. Initially mistaken for a dirty iceberg, the find will now appear on nautical charts for the very first time.",
+              "source": "Phys.org",
+              "url": "https://phys.org/news/2026-04-uncharted-island-nautical.html",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "an-2",
+              "title": "Rothera's Discovery Building Wins Antarctica's First Green Rating",
+              "summary": "The Discovery Building at Rothera Research Station has become the first building in Antarctica to achieve an Outstanding BREEAM sustainability rating — the highest possible. The UK's largest-ever Antarctic construction project is now a blueprint for eco-friendly building in the world's most extreme environment.",
+              "source": "Energy Live News",
+              "url": "https://www.energylivenews.com/2026/04/07/discovery-building-first-in-antarctica-to-achieve-highest-uk-sustainability-rating/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "an-3",
+              "title": "Antarctic Ice Reveals 6 Million Years of Climate History",
+              "summary": "Scientists have identified ice in Antarctica potentially dating back 6 million years — far older than any previous ice core record. This frozen archive of ancient atmosphere could reshape our understanding of long-term climate patterns and help build more accurate models of Earth's climate future.",
+              "source": "SciTechDaily",
+              "url": "https://scitechdaily.com/antarcticas-6-million-year-ice-discovery-rewrites-what-we-know-about-climate/",
+              "date": "2026-04-10"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiRoS — Happy News from Around the World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #FFFBF5; --bg-card: #fff; --text: #1C1610; --muted: #6B5E4E;
+      --border: #EDE3D6; --r: 14px; --shadow: 0 2px 16px rgba(0,0,0,.07);
+      --shadow-lg: 0 8px 40px rgba(0,0,0,.12);
+      --serif: 'Fraunces', Georgia, serif; --sans: 'Inter', system-ui, sans-serif;
+    }
+    html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+    /* ── Header ── */
+    .app-header {
+      height: 70px; background: linear-gradient(135deg,#FF6B35 0%,#E94F8B 50%,#FFB700 100%);
+      box-shadow: 0 2px 20px rgba(255,107,53,.3); position: sticky; top: 0; z-index: 100;
+    }
+    .header-inner {
+      max-width: 1400px; margin: 0 auto; padding: 0 2rem; height: 100%;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    }
+    .header-brand { display: flex; align-items: center; gap: .75rem; }
+    .header-logo { font-size: 2rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,.2)); }
+    .header-title { font-family: var(--serif); font-size: 1.8rem; font-weight: 700; color: #fff; letter-spacing: -.02em; line-height: 1; text-shadow: 0 1px 3px rgba(0,0,0,.2); }
+    .header-sub { font-size: .78rem; color: rgba(255,255,255,.88); margin-top: 2px; font-weight: 500; }
+    .header-badge {
+      display: flex; align-items: center; gap: 6px; font-size: .78rem;
+      color: rgba(255,255,255,.9); background: rgba(255,255,255,.15);
+      padding: 6px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,.25); white-space: nowrap;
+    }
+    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #7FFF7A; box-shadow: 0 0 6px #7FFF7A; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+    /* ── Main ── */
+    .app-main { flex: 1; max-width: 1400px; width: 100%; margin: 0 auto; padding: 1.5rem 2rem; }
+    /* ── Layout ── */
+    .content-layout { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+    .content-layout.panel-open { grid-template-columns: 1fr 420px; }
+    /* ── Map section ── */
+    .map-section {
+      background: var(--bg-card); border-radius: var(--r); border: 1px solid var(--border);
+      box-shadow: var(--shadow); padding: 1.25rem 1.25rem .75rem; overflow: hidden;
+    }
+    .map-prompt {
+      display: flex; align-items: center; justify-content: center; gap: .5rem;
+      font-size: .9rem; color: var(--muted); background: linear-gradient(90deg,#FF6B3508,#FFB70008,#E94F8B08);
+      border: 1px dashed var(--border); border-radius: 8px; padding: .6rem 1rem; margin-bottom: .75rem;
+    }
+    /* ── SVG map ── */
+    #world-map { width: 100%; height: auto; cursor: default; display: block; }
+    .country { transition: filter .15s; }
+    .country:hover { filter: brightness(1.15); }
+    /* ── Tooltip ── */
+    #tooltip {
+      position: fixed; z-index: 200; padding: 5px 12px; border-radius: 20px; color: #fff;
+      font-size: .78rem; font-weight: 600; pointer-events: none; box-shadow: 0 2px 10px rgba(0,0,0,.2);
+      transform: translateY(-50%); white-space: nowrap; display: none;
+    }
+    /* ── Legend ── */
+    .map-legend { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; padding: .75rem .5rem .25rem; }
+    .legend-chip {
+      font-size: .72rem; font-weight: 600; padding: 4px 10px; border-radius: 20px;
+      border: 1.5px solid; cursor: pointer; transition: all .2s; font-family: var(--sans); letter-spacing: .01em;
+    }
+    .legend-chip:hover,.legend-chip.active { transform: translateY(-1px); box-shadow: 0 3px 12px rgba(0,0,0,.15); }
+    /* ── Panel ── */
+    .panel-section { animation: slideIn .35s cubic-bezier(.22,1,.36,1); }
+    @keyframes slideIn { from{opacity:0;transform:translateX(24px)} to{opacity:1;transform:translateX(0)} }
+    .region-panel {
+      background: var(--bg-card); border-radius: var(--r); border: 1px solid var(--border);
+      box-shadow: var(--shadow-lg); overflow: hidden; position: sticky; top: 86px;
+      max-height: calc(100vh - 100px); overflow-y: auto;
+    }
+    .panel-header { padding: 1.25rem 1.25rem 1rem; border-bottom: 1px solid var(--border); }
+    .panel-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: .75rem; }
+    .panel-emoji { font-size: 2rem; display: block; margin-bottom: .25rem; }
+    .panel-region-name { font-family: var(--serif); font-size: 1.6rem; font-weight: 700; line-height: 1.1; letter-spacing: -.02em; }
+    .panel-tagline { font-size: .82rem; color: var(--muted); margin-top: 4px; font-style: italic; }
+    .panel-close {
+      background: none; border: 1.5px solid; border-radius: 8px; width: 32px; height: 32px;
+      cursor: pointer; font-size: .8rem; display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; transition: all .15s; opacity: .6;
+    }
+    .panel-close:hover { opacity: 1; transform: scale(1.05); }
+    .panel-badge {
+      display: inline-flex; align-items: center; gap: 4px; color: #fff;
+      font-size: .75rem; font-weight: 600; padding: 4px 12px; border-radius: 20px; letter-spacing: .02em;
+    }
+    /* ── Story cards ── */
+    .panel-stories { padding: 1rem; display: flex; flex-direction: column; gap: .75rem; }
+    .story-card {
+      display: flex; gap: .75rem; background: var(--bg); border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden; transition: transform .2s, box-shadow .2s;
+    }
+    .story-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+    .story-accent { width: 4px; flex-shrink: 0; }
+    .story-body { padding: .85rem .85rem .85rem 0; display: flex; flex-direction: column; gap: .4rem; flex: 1; }
+    .story-title { font-family: var(--serif); font-size: .95rem; font-weight: 600; line-height: 1.35; color: var(--text); }
+    .story-summary { font-size: .8rem; color: var(--muted); line-height: 1.5; }
+    .story-footer { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin-top: .25rem; flex-wrap: wrap; }
+    .story-source { font-size: .68rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; border: 1px solid; letter-spacing: .02em; }
+    .story-link { font-size: .75rem; font-weight: 600; text-decoration: none; letter-spacing: .01em; transition: opacity .15s; }
+    .story-link:hover { opacity: .7; text-decoration: underline; }
+    .story-date { font-size: .68rem; color: var(--muted); opacity: .75; white-space: nowrap; }
+    /* ── Pull date tabs ── */
+    .pull-tabs { display: flex; gap: 6px; padding: .65rem 1.25rem; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+    .pull-tab { font-size: .72rem; font-weight: 600; padding: 4px 12px; border-radius: 20px; border: 1.5px solid var(--border); background: transparent; cursor: pointer; color: var(--muted); transition: all .2s; font-family: var(--sans); letter-spacing: .01em; }
+    .pull-tab:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    /* ── Footer ── */
+    .app-footer {
+      text-align: center; padding: 1.25rem 2rem; font-size: .78rem; color: var(--muted);
+      border-top: 1px solid var(--border); background: var(--bg-card); margin-top: auto;
+    }
+    /* ── Loading ── */
+    .loading { display: flex; align-items: center; justify-content: center; min-height: 300px; color: var(--muted); }
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .content-layout.panel-open { grid-template-columns: 1fr; }
+      .region-panel { position: static; max-height: none; }
+      .header-sub { display: none; }
+    }
+    @media (max-width: 600px) {
+      .app-main { padding: 1rem; } .header-badge { display: none; }
+      .legend-chip { font-size: .65rem; padding: 3px 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="header-logo">🌍</span>
+      <div>
+        <div class="header-title">LiRoS</div>
+        <div class="header-sub">Light of the World — Happy stories from every corner of Earth</div>
+      </div>
+    </div>
+    <div class="header-badge" id="update-badge">
+      <span class="live-dot"></span>
+      <span id="update-date">Loading…</span>
+    </div>
+  </div>
+</header>
+
+<div id="tooltip"></div>
+
+<main class="app-main">
+  <div class="content-layout" id="content-layout">
+    <section class="map-section" id="map-section">
+      <div class="map-prompt" id="map-prompt">
+        <span>👆</span> Click any continent to discover today's happy stories
+      </div>
+      <svg id="world-map" viewBox="0 0 960 500"></svg>
+      <div class="map-legend" id="map-legend"></div>
+    </section>
+    <aside id="panel-section" style="display:none"></aside>
+  </div>
+</main>
+
+<footer class="app-footer">
+  🌱 LiRoS collects uplifting news from every continent, updated daily.
+  &nbsp;·&nbsp; Stories sourced from trusted international publications.
+</footer>
+
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- D3 + topojson loaded from CDN (no install needed)      -->
+<!-- ─────────────────────────────────────────────────────── -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo@3/dist/d3-geo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   STORIES DATA — loaded from stories.json at runtime
+   ═══════════════════════════════════════════════════════════ */
+async function fetchStories() {
+  const mapSection = document.getElementById('map-section');
+  const loadingEl = document.createElement('div');
+  loadingEl.id = 'stories-loading';
+  loadingEl.style.cssText = 'text-align:center;padding:1.5rem;color:var(--muted);font-size:.9rem;';
+  loadingEl.textContent = '✨ Loading happy stories…';
+  mapSection.prepend(loadingEl);
+
+  try {
+    const res = await fetch('./stories.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    window.STORIES_DATA = await res.json();
+  } catch (err) {
+    loadingEl.style.color = '#E94F8B';
+    loadingEl.textContent = '⚠️ Could not load stories. Please refresh the page or check your connection.';
+    console.error('fetchStories error:', err);
+    throw err;
+  } finally {
+    loadingEl.remove();
+  }
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   CONTINENT → COLOUR MAP
+   ═══════════════════════════════════════════════════════════ */
+const CONTINENT_COLORS = {
+  "Africa":        "#FF6B35",
+  "Asia":          "#FFB700",
+  "Europe":        "#44BBA4",
+  "North America": "#E94F8B",
+  "South America": "#3B82F6",
+  "Oceania":       "#10B981",
+  "Antarctica":    "#94A3B8"
+};
+
+/* ═══════════════════════════════════════════════════════════
+   ISO 3166-1 NUMERIC → CONTINENT
+   ═══════════════════════════════════════════════════════════ */
+const NUMERIC_TO_CONTINENT = {
+  4:"Asia",8:"Europe",10:"Antarctica",12:"Africa",20:"Europe",24:"Africa",
+  28:"North America",31:"Asia",32:"South America",36:"Oceania",40:"Europe",
+  44:"North America",48:"Asia",50:"Asia",51:"Asia",52:"North America",
+  56:"Europe",60:"North America",64:"Asia",68:"South America",70:"Europe",
+  72:"Africa",76:"South America",84:"North America",90:"Oceania",96:"Asia",
+  100:"Europe",104:"Asia",108:"Africa",112:"Europe",116:"Asia",120:"Africa",
+  124:"North America",132:"Africa",140:"Africa",144:"Asia",148:"Africa",
+  152:"South America",156:"Asia",158:"Asia",170:"South America",174:"Africa",
+  175:"Africa",178:"Africa",180:"Africa",184:"Oceania",188:"North America",
+  191:"Europe",192:"North America",196:"Asia",203:"Europe",204:"Africa",
+  208:"Europe",212:"North America",214:"North America",218:"South America",
+  222:"North America",226:"Africa",231:"Africa",232:"Africa",233:"Europe",
+  238:"South America",242:"Oceania",246:"Europe",250:"Europe",258:"Oceania",
+  262:"Africa",266:"Africa",268:"Asia",270:"Africa",276:"Europe",288:"Africa",
+  296:"Oceania",300:"Europe",304:"North America",308:"North America",
+  312:"North America",316:"Oceania",320:"North America",324:"Africa",
+  328:"South America",332:"North America",336:"Europe",340:"North America",
+  344:"Asia",348:"Europe",352:"Europe",356:"Asia",360:"Asia",364:"Asia",
+  368:"Asia",372:"Europe",376:"Asia",380:"Europe",384:"Africa",388:"North America",
+  392:"Asia",398:"Asia",400:"Asia",404:"Africa",408:"Asia",410:"Asia",
+  414:"Asia",417:"Asia",418:"Asia",422:"Asia",426:"Africa",428:"Europe",
+  430:"Africa",434:"Africa",438:"Europe",440:"Europe",442:"Europe",446:"Asia",
+  450:"Africa",454:"Africa",458:"Asia",462:"Asia",466:"Africa",470:"Europe",
+  478:"Africa",480:"Africa",484:"North America",492:"Europe",496:"Asia",
+  498:"Europe",499:"Europe",504:"Africa",508:"Africa",516:"Africa",520:"Oceania",
+  524:"Asia",528:"Europe",540:"Oceania",548:"Oceania",554:"Oceania",
+  558:"North America",562:"Africa",566:"Africa",574:"Oceania",578:"Europe",
+  583:"Oceania",584:"Oceania",585:"Oceania",586:"Asia",591:"North America",
+  598:"Oceania",600:"South America",604:"South America",608:"Asia",616:"Europe",
+  620:"Europe",624:"Africa",626:"Asia",630:"North America",634:"Asia",
+  642:"Europe",643:"Europe",646:"Africa",659:"North America",662:"North America",
+  670:"North America",674:"Europe",678:"Africa",682:"Asia",686:"Africa",
+  688:"Europe",690:"Africa",694:"Africa",702:"Asia",703:"Europe",704:"Asia",
+  705:"Europe",706:"Africa",710:"Africa",716:"Africa",724:"Europe",728:"Africa",
+  729:"Africa",740:"South America",748:"Africa",752:"Europe",756:"Europe",
+  760:"Asia",762:"Asia",764:"Asia",768:"Africa",772:"Oceania",776:"Oceania",
+  780:"North America",784:"Asia",788:"Africa",792:"Asia",795:"Asia",
+  796:"North America",798:"Oceania",800:"Africa",804:"Europe",807:"Europe",
+  818:"Africa",826:"Europe",834:"Africa",840:"North America",850:"North America",
+  854:"Africa",858:"South America",860:"Asia",862:"South America",
+  876:"Oceania",882:"Oceania",887:"Asia",894:"Africa"
+};
+
+/* ═══════════════════════════════════════════════════════════
+   APP STATE
+   ═══════════════════════════════════════════════════════════ */
+let selectedContinent = null;
+let hoveredContinent = null;
+let selectedPullIndex = 0;
+
+/* ═══════════════════════════════════════════════════════════
+   MAP RENDERING
+   ═══════════════════════════════════════════════════════════ */
+async function initMap() {
+  const W = 960, H = 500;
+  const svg = document.getElementById('world-map');
+
+  const projection = d3.geoNaturalEarth1()
+    .scale(153)
+    .translate([W / 2, H / 2]);
+
+  const pathGen = d3.geoPath().projection(projection);
+
+  // Graticule (grid lines)
+  const graticule = d3.geoGraticule()();
+  const gratPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  gratPath.setAttribute('d', pathGen(graticule));
+  gratPath.setAttribute('fill', 'none');
+  gratPath.setAttribute('stroke', '#E8D9C8');
+  gratPath.setAttribute('stroke-width', '0.3');
+  svg.appendChild(gratPath);
+
+  // World sphere (background)
+  const sphere = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  sphere.setAttribute('d', pathGen({type: 'Sphere'}));
+  sphere.setAttribute('fill', '#F0EBE3');
+  sphere.setAttribute('stroke', '#DDD3C8');
+  sphere.setAttribute('stroke-width', '0.5');
+  svg.insertBefore(sphere, svg.firstChild);
+
+  // Load world atlas
+  const world = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(r => r.json());
+  const countries = topojson.feature(world, world.objects.countries);
+
+  const tooltip = document.getElementById('tooltip');
+  const countryPaths = [];
+
+  countries.features.forEach(geo => {
+    const id = +geo.id;
+    const continent = NUMERIC_TO_CONTINENT[id];
+    const color = continent ? CONTINENT_COLORS[continent] : null;
+
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', pathGen(geo));
+    path.setAttribute('stroke', '#fff');
+    path.setAttribute('stroke-width', '0.4');
+    path.setAttribute('stroke-linejoin', 'round');
+    path.classList.add('country');
+    path._continent = continent;
+    path._baseColor = color;
+
+    if (continent) path.style.cursor = 'pointer';
+
+    path.addEventListener('mouseenter', (e) => {
+      if (!continent) return;
+      hoveredContinent = continent;
+      updateColors();
+      tooltip.textContent = continent;
+      tooltip.style.background = CONTINENT_COLORS[continent];
+      tooltip.style.display = 'block';
+      tooltip.style.left = (e.clientX + 14) + 'px';
+      tooltip.style.top = (e.clientY) + 'px';
+    });
+
+    path.addEventListener('mousemove', (e) => {
+      tooltip.style.left = (e.clientX + 14) + 'px';
+      tooltip.style.top = (e.clientY) + 'px';
+    });
+
+    path.addEventListener('mouseleave', () => {
+      hoveredContinent = null;
+      updateColors();
+      tooltip.style.display = 'none';
+    });
+
+    path.addEventListener('click', () => {
+      if (!continent) return;
+      selectedContinent = selectedContinent === continent ? null : continent;
+      updateColors();
+      renderPanel();
+      const prompt = document.getElementById('map-prompt');
+      if (prompt) prompt.style.display = selectedContinent ? 'none' : 'flex';
+    });
+
+    svg.appendChild(path);
+    countryPaths.push(path);
+  });
+
+  window._countryPaths = countryPaths;
+  updateColors();
+}
+
+function updateColors() {
+  if (!window._countryPaths) return;
+  window._countryPaths.forEach(path => {
+    const continent = path._continent;
+    const base = path._baseColor;
+    let fill = '#DDD3C8';
+
+    if (base && continent) {
+      if (selectedContinent) {
+        fill = continent === selectedContinent ? base : '#DDD3C8';
+      } else if (hoveredContinent) {
+        fill = continent === hoveredContinent ? base : base + '55';
+      } else {
+        fill = base + 'CC';
+      }
+    }
+    path.setAttribute('fill', fill);
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PANEL RENDERING
+   ═══════════════════════════════════════════════════════════ */
+function renderPanel() {
+  const panel = document.getElementById('panel-section');
+  const layout = document.getElementById('content-layout');
+
+  if (!selectedContinent) {
+    panel.style.display = 'none';
+    layout.classList.remove('panel-open');
+    return;
+  }
+
+  const pull = window.STORIES_DATA.pulls[selectedPullIndex];
+  const data = pull.regions[selectedContinent];
+  if (!data) return;
+
+  const { emoji, color, tagline, stories } = data;
+
+  const pullTabsHtml = window.STORIES_DATA.pulls.length > 1 ? `
+    <div class="pull-tabs">
+      ${window.STORIES_DATA.pulls.map((p, i) => `
+        <button class="pull-tab" style="${i === selectedPullIndex
+          ? `background:${color};color:#fff;border-color:${color}`
+          : ''}" onclick="switchPull(${i})">${formatDate(p.date)}</button>
+      `).join('')}
+    </div>
+  ` : '';
+
+  const storyCards = stories.map(s => `
+    <article class="story-card">
+      <div class="story-accent" style="background:${color}"></div>
+      <div class="story-body">
+        <div class="story-title">${escHtml(s.title)}</div>
+        <div class="story-summary">${escHtml(s.summary)}</div>
+        <div class="story-footer">
+          <span class="story-source" style="color:${color};border-color:${color}44;background:${color}11">${escHtml(s.source)}</span>
+          ${s.date ? `<span class="story-date">📅 ${formatDate(s.date)}</span>` : ''}
+          <a class="story-link" href="${s.url}" target="_blank" rel="noopener" style="color:${color}">Read more →</a>
+        </div>
+      </div>
+    </article>
+  `).join('');
+
+  panel.innerHTML = `
+    <div class="region-panel">
+      <div class="panel-header" style="background:linear-gradient(135deg,${color}22,${color}08);border-bottom-color:${color}33">
+        <div class="panel-title-row">
+          <div>
+            <span class="panel-emoji">${emoji}</span>
+            <div class="panel-region-name" style="color:${color}">${escHtml(selectedContinent)}</div>
+            <div class="panel-tagline">${escHtml(tagline)}</div>
+          </div>
+          <button class="panel-close" onclick="closePanel()" style="color:${color};border-color:${color}44">✕</button>
+        </div>
+        <span class="panel-badge" style="background:${color}">✨ 3 happy stories today</span>
+      </div>
+      ${pullTabsHtml}
+      <div class="panel-stories">${storyCards}</div>
+    </div>
+  `;
+
+  panel.style.display = 'block';
+  layout.classList.add('panel-open');
+  // Trigger slide-in animation
+  panel.classList.remove('panel-section');
+  void panel.offsetWidth;
+  panel.classList.add('panel-section');
+}
+
+function closePanel() {
+  selectedContinent = null;
+  updateColors();
+  renderPanel();
+  const prompt = document.getElementById('map-prompt');
+  if (prompt) prompt.style.display = 'flex';
+}
+
+function switchPull(index) {
+  selectedPullIndex = index;
+  renderPanel();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   LEGEND
+   ═══════════════════════════════════════════════════════════ */
+function renderLegend() {
+  const legend = document.getElementById('map-legend');
+  legend.innerHTML = Object.entries(CONTINENT_COLORS).map(([continent, color]) => `
+    <button
+      class="legend-chip"
+      id="chip-${continent.replace(/\s/g,'_')}"
+      style="background:${color}22;color:#333;border-color:${color}"
+      onclick="selectFromLegend('${continent}')"
+    >${continent}</button>
+  `).join('');
+}
+
+function selectFromLegend(continent) {
+  selectedContinent = selectedContinent === continent ? null : continent;
+  updateColors();
+  renderPanel();
+  const prompt = document.getElementById('map-prompt');
+  if (prompt) prompt.style.display = selectedContinent ? 'none' : 'flex';
+  // Update chip styles
+  document.querySelectorAll('.legend-chip').forEach(chip => {
+    const c = chip.textContent.trim();
+    const col = CONTINENT_COLORS[c];
+    if (c === selectedContinent) {
+      chip.style.background = col;
+      chip.style.color = '#fff';
+      chip.classList.add('active');
+    } else {
+      chip.style.background = col + '22';
+      chip.style.color = '#333';
+      chip.classList.remove('active');
+    }
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   UTILS
+   ═══════════════════════════════════════════════════════════ */
+function escHtml(str) {
+  return str
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;')
+    .replace(/'/g,'&#39;');
+}
+
+function formatDate(iso) {
+  if (!iso) return '';
+  const [y, m, d] = iso.split('-').map(Number);
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${months[m - 1]} ${d}, ${y}`;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   INIT
+   ═══════════════════════════════════════════════════════════ */
+(async () => {
+  // Fetch stories first — map and panel depend on this data
+  try {
+    await fetchStories();
+  } catch (err) {
+    // fetchStories already shows an error message; abort init
+    return;
+  }
+
+  // Update date badge
+  const dateEl = document.getElementById('update-date');
+  if (window.STORIES_DATA.pulls && window.STORIES_DATA.pulls.length) {
+    const d = new Date(window.STORIES_DATA.pulls[0].date);
+    dateEl.textContent = 'Updated ' + d.toLocaleDateString('en-GB', {day:'numeric', month:'long', year:'numeric'});
+  }
+
+  renderLegend();
+
+  try {
+    await initMap();
+  } catch (err) {
+    document.getElementById('map-section').innerHTML +=
+      '<p style="text-align:center;color:#E94F8B;padding:1rem">Map failed to load. Please check your internet connection and refresh.</p>';
+  }
+})();
+</script>
+</body>
+</html>
