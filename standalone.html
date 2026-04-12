@@ -127,21 +127,7 @@
       .app-main { padding: 1rem; } .header-badge { display: none; }
       .legend-chip { font-size: .65rem; padding: 3px 8px; }
     }
-    /* ── Auth ── */
-    .header-auth { display: flex; align-items: center; gap: .6rem; margin-left: .5rem; }
-    .sign-in-btn {
-      display: flex; align-items: center; gap: .45rem;
-      background: rgba(255,255,255,.2); color: #fff;
-      border: 1.5px solid rgba(255,255,255,.4); border-radius: 20px;
-      padding: 6px 14px; font-size: .78rem; font-weight: 600;
-      cursor: pointer; font-family: var(--sans); transition: all .2s; white-space: nowrap;
-    }
-    .sign-in-btn:hover { background: rgba(255,255,255,.32); transform: translateY(-1px); }
-    .user-info { display: flex; align-items: center; gap: .5rem; }
-    .user-avatar { width: 28px; height: 28px; border-radius: 50%; border: 2px solid rgba(255,255,255,.5); object-fit: cover; }
-    .user-name { font-size: .78rem; font-weight: 600; color: #fff; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .sign-out-link { font-size: .7rem; color: rgba(255,255,255,.7); background: none; border: none; cursor: pointer; font-family: var(--sans); text-decoration: underline; padding: 0; }
-    .sign-out-link:hover { color: #fff; }
+    /* ── Vote button ── (auth removed — everyone can vote) */
     /* ── Vote button ── */
     .vote-btn {
       display: inline-flex; align-items: center; gap: 3px;
@@ -150,6 +136,32 @@
       color: var(--muted); font-family: var(--sans); transition: all .2s; white-space: nowrap;
     }
     .vote-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    /* ── View tabs ── */
+    .view-tabs { display: flex; gap: 6px; margin-bottom: 1rem; }
+    .view-tab {
+      font-family: var(--sans); font-size: .75rem; font-weight: 600;
+      padding: 4px 14px; border-radius: 20px; border: 1.5px solid var(--border);
+      background: transparent; cursor: pointer; color: var(--muted);
+      transition: all .2s; letter-spacing: .01em;
+    }
+    .view-tab.active { background: var(--text); color: #fff; border-color: var(--text); }
+    .view-tab:hover:not(.active) { border-color: var(--muted); color: var(--text); }
+    /* ── Topics grid ── */
+    .topics-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem; align-content: start;
+    }
+    .topic-card {
+      background: var(--bg-card); border-radius: var(--r); border: 1.5px solid var(--border);
+      box-shadow: var(--shadow); padding: 1.5rem; cursor: pointer;
+      transition: transform .2s, box-shadow .2s, border-color .2s, background .2s;
+      display: flex; flex-direction: column; gap: .6rem;
+    }
+    .topic-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+    .topic-card-emoji { font-size: 2.25rem; line-height: 1; }
+    .topic-card-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 700; line-height: 1.2; letter-spacing: -.02em; }
+    .topic-card-tagline { font-size: .8rem; color: var(--muted); font-style: italic; line-height: 1.4; flex: 1; }
+    .topic-card-count { font-size: .7rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; width: fit-content; margin-top: .25rem; border: 1.5px solid; }
   </style>
 </head>
 <body>
@@ -167,38 +179,41 @@
       <span class="live-dot"></span>
       <span id="update-date">Loading…</span>
     </div>
-    <div class="header-auth" id="header-auth">
-      <button class="sign-in-btn" id="sign-in-btn" onclick="signInWithGoogle()" style="display:none">
-        <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path fill="#fff" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 01-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z"/>
-          <path fill="#fff" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 009 18z"/>
-          <path fill="#fff" d="M3.964 10.706A5.41 5.41 0 013.682 9c0-.593.102-1.17.282-1.706V4.962H.957A8.996 8.996 0 000 9c0 1.452.348 2.827.957 4.038l3.007-2.332z"/>
-          <path fill="#fff" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 00.957 4.962L3.964 7.294C4.672 5.163 6.656 3.58 9 3.58z"/>
-        </svg>
-        Sign in
-      </button>
-      <div class="user-info" id="user-info" style="display:none">
-        <img class="user-avatar" id="user-avatar" src="" alt="profile" />
-        <span class="user-name" id="user-name"></span>
-        <button class="sign-out-link" onclick="signOutUser()">Sign out</button>
-      </div>
-    </div>
   </div>
 </header>
 
 <div id="tooltip"></div>
 
 <main class="app-main">
-  <div class="content-layout" id="content-layout">
-    <section class="map-section" id="map-section">
-      <div class="map-prompt" id="map-prompt">
-        <span>👆</span> Click any continent to discover today's happy stories
-      </div>
-      <svg id="world-map" viewBox="0 0 960 500"></svg>
-      <div class="map-legend" id="map-legend"></div>
-    </section>
-    <aside id="panel-section" style="display:none"></aside>
+
+  <!-- Subtle view switcher — focus stays on the map -->
+  <div class="view-tabs">
+    <button class="view-tab active" id="tab-regions" onclick="switchTab('regions')">🗺 Regions</button>
+    <button class="view-tab" id="tab-topics" onclick="switchTab('topics')">💡 Topics</button>
   </div>
+
+  <!-- ── Regions view (default) ── -->
+  <div id="view-regions">
+    <div class="content-layout" id="content-layout">
+      <section class="map-section" id="map-section">
+        <div class="map-prompt" id="map-prompt">
+          <span>👆</span> Click any continent to discover today's happy stories
+        </div>
+        <svg id="world-map" viewBox="0 0 960 500"></svg>
+        <div class="map-legend" id="map-legend"></div>
+      </section>
+      <aside id="panel-section" style="display:none"></aside>
+    </div>
+  </div>
+
+  <!-- ── Topics view ── -->
+  <div id="view-topics" style="display:none">
+    <div class="content-layout" id="topics-layout">
+      <div class="topics-grid" id="topics-grid"></div>
+      <aside id="topic-panel-section" style="display:none"></aside>
+    </div>
+  </div>
+
 </main>
 
 <footer class="app-footer">
@@ -214,12 +229,11 @@
 <script src="https://cdn.jsdelivr.net/npm/d3-geo@3/dist/d3-geo.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore-compat.js"></script>
 
 <script>
 /* ═══════════════════════════════════════════════════════════
-   FIREBASE — authentication + vote storage
+   FIREBASE — vote storage (anonymous, no sign-in required)
    ═══════════════════════════════════════════════════════════ */
 firebase.initializeApp({
   apiKey: "AIzaSyDe_MbrNt2nbHkZ3edQbvkS4pOe82sjjUg",
@@ -230,68 +244,45 @@ firebase.initializeApp({
   appId: "1:125368740551:web:5ef13e666949d53da8ace2",
   measurementId: "G-JKSDLRYHNH"
 });
-const auth = firebase.auth();
-const db   = firebase.firestore();
+const db = firebase.firestore();
 
-window.currentUser = null;
+// Anonymous visitor ID persisted in localStorage
+function getVisitorId() {
+  let id = localStorage.getItem('hapi_visitor_id');
+  if (!id) { id = crypto.randomUUID(); localStorage.setItem('hapi_visitor_id', id); }
+  return id;
+}
+const VISITOR_ID = getVisitorId();
+
 window.VOTES       = {};  // storyKey → { count, myVote }
 window.STORIES_MAP = {};  // storyKey → { title, url }
 
-auth.onAuthStateChanged(user => {
-  window.currentUser = user;
-  const signInBtn = document.getElementById('sign-in-btn');
-  const userInfo  = document.getElementById('user-info');
-  if (user) {
-    signInBtn.style.display = 'none';
-    userInfo.style.display  = 'flex';
-    document.getElementById('user-avatar').src       = user.photoURL || '';
-    document.getElementById('user-name').textContent = user.displayName || user.email || '';
-    // Reload votes so ♥ state reflects the now-logged-in user
-    if (window._panelCtx) loadVotesForStories(window._panelCtx.stories, window._panelCtx.pullDate);
-  } else {
-    signInBtn.style.display = 'flex';
-    userInfo.style.display  = 'none';
-    Object.keys(window.VOTES).forEach(k => { window.VOTES[k] = { ...window.VOTES[k], myVote: false }; });
-    updateVoteButtons();
-  }
-});
-
-function signInWithGoogle() {
-  auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
-    .catch(err => console.error('Sign-in error:', err));
-}
-
-function signOutUser() {
-  auth.signOut();
-}
-
 async function loadVotesForStories(stories, pullDate) {
   window._panelCtx = { stories, pullDate };
-  const uid = window.currentUser?.uid;
   await Promise.all(stories.map(async s => {
     const key = `${pullDate}_${s.id}`;
     window.STORIES_MAP[key] = { title: s.title, url: s.url };
     try {
       const snap = await db.collection('votes').doc(key).get();
-      if (snap.exists) {
-        const d = snap.data();
-        window.VOTES[key] = { count: d.count || 0, myVote: uid ? !!(d.voters?.[uid]) : false };
+      const server = snap.exists
+        ? { count: snap.data().count || 0, myVote: !!(snap.data().voters?.[VISITOR_ID]) }
+        : { count: 0, myVote: false };
+      // Don't clobber an active optimistic vote with stale server state —
+      // the write may not have propagated yet when this read completes.
+      const current = window.VOTES[key];
+      if (current?.myVote && !server.myVote) {
+        window.VOTES[key] = { count: server.count + 1, myVote: true };
       } else {
-        window.VOTES[key] = { count: 0, myVote: false };
+        window.VOTES[key] = server;
       }
-    } catch { window.VOTES[key] = { count: 0, myVote: false }; }
+    } catch {
+      if (!window.VOTES[key]) window.VOTES[key] = { count: 0, myVote: false };
+    }
   }));
   updateVoteButtons();
 }
 
 async function toggleVote(key) {
-  if (!window.currentUser) {
-    // Flash the sign-in button as a nudge
-    const btn = document.getElementById('sign-in-btn');
-    if (btn) { btn.style.background = 'rgba(255,255,255,.45)'; setTimeout(() => btn.style.background = '', 400); }
-    return;
-  }
-  const uid    = window.currentUser.uid;
   const story  = window.STORIES_MAP[key] || {};
   const prev   = window.VOTES[key] || { count: 0, myVote: false };
   const adding = !prev.myVote;
@@ -305,21 +296,24 @@ async function toggleVote(key) {
     await db.runTransaction(async t => {
       const snap = await t.get(ref);
       if (!snap.exists) {
-        if (adding) t.set(ref, { title: story.title || '', url: story.url || '', count: 1, voters: { [uid]: true } });
+        if (adding) t.set(ref, { title: story.title || '', url: story.url || '', count: 1, voters: { [VISITOR_ID]: true } });
       } else {
         const d = snap.data();
-        const hasVote = !!(d.voters?.[uid]);
+        const hasVote = !!(d.voters?.[VISITOR_ID]);
         if (adding && !hasVote) {
-          t.update(ref, { count: firebase.firestore.FieldValue.increment(1), [`voters.${uid}`]: true });
+          t.update(ref, { count: firebase.firestore.FieldValue.increment(1), [`voters.${VISITOR_ID}`]: true });
         } else if (!adding && hasVote) {
-          t.update(ref, { count: firebase.firestore.FieldValue.increment(-1), [`voters.${uid}`]: firebase.firestore.FieldValue.delete() });
+          t.update(ref, { count: firebase.firestore.FieldValue.increment(-1), [`voters.${VISITOR_ID}`]: firebase.firestore.FieldValue.delete() });
         }
       }
     });
   } catch (err) {
-    console.error('Vote error:', err);
+    console.error('Vote write failed:', err?.code, err?.message);
     window.VOTES[key] = prev; // revert optimistic update
     updateVoteButtons();
+    // Surface the failure so it's not invisible to the user
+    const btn = document.querySelector(`.vote-btn[data-key="${key}"]`);
+    if (btn) { btn.title = 'Vote failed — please try again'; }
   }
 }
 
@@ -329,14 +323,14 @@ function updateVoteButtons() {
     const col = btn.dataset.color;
     btn.querySelector('.vote-count').textContent = v.count > 0 ? v.count : '';
     btn.style.cssText = v.myVote ? `background:${col};border-color:${col};color:#fff` : '';
-    btn.title = window.currentUser ? (v.myVote ? 'Remove vote' : 'Upvote this story') : 'Sign in to vote';
+    btn.title = v.myVote ? 'Remove vote' : 'Upvote this story';
   });
 }
 
 /* ═══════════════════════════════════════════════════════════
-   STORIES DATA — loaded from stories.json at runtime
+   REGIONS DATA — loaded from regions.json at runtime
    ═══════════════════════════════════════════════════════════ */
-async function fetchStories() {
+async function fetchRegions() {
   const mapSection = document.getElementById('map-section');
   const loadingEl = document.createElement('div');
   loadingEl.id = 'stories-loading';
@@ -345,19 +339,31 @@ async function fetchStories() {
   mapSection.prepend(loadingEl);
 
   try {
-    const res = await fetch('./stories.json?t=' + Date.now(), { cache: 'no-store' });
+    const res = await fetch('./regions.json?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     window.STORIES_DATA = await res.json();
   } catch (err) {
     loadingEl.style.color = '#E94F8B';
     loadingEl.textContent = '⚠️ Could not load stories. Please refresh the page or check your connection.';
-    console.error('fetchStories error:', err);
+    console.error('fetchRegions error:', err);
     throw err;
   } finally {
     loadingEl.remove();
   }
 }
 
+
+async function fetchTopics() {
+  try {
+    const res = await fetch('./topics.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    window.TOPICS_DATA = await res.json();
+  } catch (err) {
+    const grid = document.getElementById('topics-grid');
+    if (grid) grid.innerHTML = '<p style="color:#E94F8B;padding:1rem;font-size:.9rem">⚠️ Could not load topics. Please refresh.</p>';
+    console.error('fetchTopics error:', err);
+  }
+}
 
 /* ═══════════════════════════════════════════════════════════
    CONTINENT → COLOUR MAP
@@ -425,6 +431,8 @@ const NUMERIC_TO_CONTINENT = {
 let selectedContinent = null;
 let hoveredContinent = null;
 let selectedPullIndex = 0;
+let selectedTopic = null;
+let selectedTopicPullIndex = 0;
 
 /* ═══════════════════════════════════════════════════════════
    MAP RENDERING
@@ -580,7 +588,7 @@ function renderPanel() {
         <div class="story-footer">
           <span class="story-source" style="color:${color};border-color:${color}44;background:${color}11">${escHtml(s.source)}</span>
           ${s.date ? `<span class="story-date">📅 ${formatDate(s.date)}</span>` : ''}
-          <button class="vote-btn" data-key="${key}" data-color="${color}" onclick="toggleVote('${key}')" style="${voteStyle}" title="${window.currentUser ? (v.myVote ? 'Remove vote' : 'Upvote this story') : 'Sign in to vote'}">♥ <span class="vote-count">${v.count > 0 ? v.count : ''}</span></button>
+          <button class="vote-btn" data-key="${key}" data-color="${color}" onclick="toggleVote('${key}')" style="${voteStyle}" title="${v.myVote ? 'Remove vote' : 'Upvote this story'}">♥ <span class="vote-count">${v.count > 0 ? v.count : ''}</span></button>
           <a class="story-link" href="${s.url}" target="_blank" rel="noopener" style="color:${color}">Read more →</a>
         </div>
       </div>
@@ -627,6 +635,132 @@ function closePanel() {
 function switchPull(index) {
   selectedPullIndex = index;
   renderPanel();
+}
+
+function switchTopicPull(index) {
+  selectedTopicPullIndex = index;
+  renderTopicsGrid();
+  renderTopicPanel();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TAB SWITCHING
+   ═══════════════════════════════════════════════════════════ */
+function switchTab(tab) {
+  const isRegions = tab === 'regions';
+  document.getElementById('view-regions').style.display = isRegions ? '' : 'none';
+  document.getElementById('view-topics').style.display  = isRegions ? 'none' : '';
+  document.getElementById('tab-regions').classList.toggle('active', isRegions);
+  document.getElementById('tab-topics').classList.toggle('active', !isRegions);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TOPICS RENDERING
+   ═══════════════════════════════════════════════════════════ */
+function renderTopicsGrid() {
+  const grid = document.getElementById('topics-grid');
+  if (!window.TOPICS_DATA || !grid) return;
+  const pull = window.TOPICS_DATA.pulls[selectedTopicPullIndex];
+  grid.innerHTML = Object.entries(pull.topics).map(([name, data]) => {
+    const { emoji, color, tagline, stories } = data;
+    const active = selectedTopic === name;
+    return `
+      <div class="topic-card" data-topic="${escHtml(name)}"
+           style="${active ? `border-color:${color};box-shadow:0 4px 24px ${color}33;background:${color}08` : ''}"
+           onclick="selectTopic(this.dataset.topic)">
+        <div class="topic-card-emoji">${emoji}</div>
+        <div class="topic-card-name" style="color:${color}">${escHtml(name)}</div>
+        <div class="topic-card-tagline">${escHtml(tagline)}</div>
+        <span class="topic-card-count" style="background:${color}15;color:${color};border-color:${color}44">
+          ${stories.length} ${stories.length === 1 ? 'story' : 'stories'}
+        </span>
+      </div>`;
+  }).join('');
+}
+
+function selectTopic(name) {
+  selectedTopic = selectedTopic === name ? null : name;
+  renderTopicsGrid();
+  renderTopicPanel();
+}
+
+function renderTopicPanel() {
+  const panel  = document.getElementById('topic-panel-section');
+  const layout = document.getElementById('topics-layout');
+
+  if (!selectedTopic) {
+    panel.style.display = 'none';
+    layout.classList.remove('panel-open');
+    return;
+  }
+
+  const pull = window.TOPICS_DATA.pulls[selectedTopicPullIndex];
+  const data = pull.topics[selectedTopic];
+  if (!data) return;
+
+  const { emoji, color, tagline, stories } = data;
+
+  const pullTabsHtml = window.TOPICS_DATA.pulls.length > 1 ? `
+    <div class="pull-tabs">
+      ${window.TOPICS_DATA.pulls.map((p, i) => `
+        <button class="pull-tab" style="${i === selectedTopicPullIndex
+          ? `background:${color};color:#fff;border-color:${color}`
+          : ''}" onclick="switchTopicPull(${i})">${formatDate(p.date)}</button>
+      `).join('')}
+    </div>
+  ` : '';
+
+  const storyCards = stories.map(s => {
+    const key = `${pull.date}_${s.id}`;
+    const v   = window.VOTES[key] || { count: 0, myVote: false };
+    const voteStyle = v.myVote ? `background:${color};border-color:${color};color:#fff` : '';
+    return `
+    <article class="story-card">
+      <div class="story-accent" style="background:${color}"></div>
+      <div class="story-body">
+        <div class="story-title">${escHtml(s.title)}</div>
+        <div class="story-summary">${escHtml(s.summary)}</div>
+        <div class="story-footer">
+          <span class="story-source" style="color:${color};border-color:${color}44;background:${color}11">${escHtml(s.source)}</span>
+          ${s.date ? `<span class="story-date">📅 ${formatDate(s.date)}</span>` : ''}
+          <button class="vote-btn" data-key="${key}" data-color="${color}" onclick="toggleVote('${key}')" style="${voteStyle}" title="${v.myVote ? 'Remove vote' : 'Upvote this story'}">♥ <span class="vote-count">${v.count > 0 ? v.count : ''}</span></button>
+          <a class="story-link" href="${s.url}" target="_blank" rel="noopener" style="color:${color}">Read more →</a>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+
+  panel.innerHTML = `
+    <div class="region-panel">
+      <div class="panel-header" style="background:linear-gradient(135deg,${color}22,${color}08);border-bottom-color:${color}33">
+        <div class="panel-title-row">
+          <div>
+            <span class="panel-emoji">${emoji}</span>
+            <div class="panel-region-name" style="color:${color}">${escHtml(selectedTopic)}</div>
+            <div class="panel-tagline">${escHtml(tagline)}</div>
+          </div>
+          <button class="panel-close" onclick="closeTopicPanel()" style="color:${color};border-color:${color}44">✕</button>
+        </div>
+        <span class="panel-badge" style="background:${color}">✨ ${stories.length} ${stories.length === 1 ? 'story' : 'stories'} today</span>
+      </div>
+      ${pullTabsHtml}
+      <div class="panel-stories">${storyCards}</div>
+    </div>
+  `;
+
+  panel.style.display = 'block';
+  layout.classList.add('panel-open');
+  panel.classList.remove('panel-section');
+  void panel.offsetWidth;
+  panel.classList.add('panel-section');
+
+  loadVotesForStories(stories, pull.date);
+}
+
+function closeTopicPanel() {
+  selectedTopic = null;
+  renderTopicsGrid();
+  renderTopicPanel();
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -689,21 +823,22 @@ function formatDate(iso) {
    INIT
    ═══════════════════════════════════════════════════════════ */
 (async () => {
-  // Fetch stories first — map and panel depend on this data
+  // Fetch both data sources in parallel — topics failure is non-fatal
   try {
-    await fetchStories();
+    await fetchRegions();
   } catch (err) {
-    // fetchStories already shows an error message; abort init
-    return;
+    return; // fetchRegions already shows the error in the UI
   }
+  await fetchTopics(); // silently degrades if topics.json unavailable
 
-  // Update date badge
-  const dateEl = document.getElementById('update-date');
+  // Update date badge from regions data
   if (window.STORIES_DATA.pulls && window.STORIES_DATA.pulls.length) {
-    dateEl.textContent = 'Updated ' + formatDate(window.STORIES_DATA.pulls[0].date);
+    document.getElementById('update-date').textContent =
+      'Updated ' + formatDate(window.STORIES_DATA.pulls[0].date);
   }
 
   renderLegend();
+  renderTopicsGrid();
 
   try {
     await initMap();
