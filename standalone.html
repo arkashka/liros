@@ -229,6 +229,7 @@
 <script src="https://cdn.jsdelivr.net/npm/d3-geo@3/dist/d3-geo.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore-compat.js"></script>
 
 <script>
@@ -246,13 +247,18 @@ firebase.initializeApp({
 });
 const db = firebase.firestore();
 
-// Anonymous visitor ID persisted in localStorage
-function getVisitorId() {
-  let id = localStorage.getItem('hapi_visitor_id');
-  if (!id) { id = crypto.randomUUID(); localStorage.setItem('hapi_visitor_id', id); }
-  return id;
-}
-const VISITOR_ID = getVisitorId();
+// Visitor ID — seeded from localStorage, replaced with Firebase UID once auth resolves
+let VISITOR_ID = localStorage.getItem('hapi_visitor_id') || crypto.randomUUID();
+localStorage.setItem('hapi_visitor_id', VISITOR_ID);
+
+// Sign in anonymously so Firestore write rules (request.auth != null) are satisfied.
+// Resolves quickly and silently; no UI shown to the user.
+const authReady = firebase.auth().signInAnonymously()
+  .then(cred => {
+    VISITOR_ID = cred.user.uid;
+    localStorage.setItem('hapi_visitor_id', VISITOR_ID);
+  })
+  .catch(err => console.warn('Anonymous auth unavailable:', err.code, '— votes may not persist'));
 
 window.VOTES       = {};  // storyKey → { count, myVote }
 window.STORIES_MAP = {};  // storyKey → { title, url }
@@ -283,6 +289,7 @@ async function loadVotesForStories(stories, pullDate) {
 }
 
 async function toggleVote(key) {
+  await authReady; // ensure we have a Firebase auth token before writing
   const story  = window.STORIES_MAP[key] || {};
   const prev   = window.VOTES[key] || { count: 0, myVote: false };
   const adding = !prev.myVote;
