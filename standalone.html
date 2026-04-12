@@ -127,6 +127,42 @@
       .app-main { padding: 1rem; } .header-badge { display: none; }
       .legend-chip { font-size: .65rem; padding: 3px 8px; }
     }
+    /* ── Mobile topics: compact chips + bottom-sheet panel ── */
+    #topics-backdrop {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,.35); z-index: 399;
+    }
+    @media (max-width: 768px) {
+      /* 2-column compact grid — all 7 topics visible without scrolling */
+      .topics-grid { grid-template-columns: repeat(2, 1fr); gap: .6rem; }
+      .topic-card {
+        flex-direction: row; align-items: center;
+        padding: .7rem .9rem; gap: .65rem;
+      }
+      .topic-card-emoji { font-size: 1.3rem; flex-shrink: 0; }
+      .topic-card-name { font-size: .82rem; }
+      .topic-card-tagline, .topic-card-count { display: none; }
+      /* Bottom sheet — overlays topics, no scrolling required */
+      #topics-layout.panel-open { display: block !important; }
+      #topic-panel-section {
+        position: fixed !important;
+        left: 0; right: 0; bottom: 0;
+        height: 72vh; z-index: 400;
+        border-radius: 18px 18px 0 0;
+        overflow: hidden;
+        box-shadow: 0 -6px 40px rgba(0,0,0,.2);
+        animation: sheetUp .3s cubic-bezier(.22,1,.36,1);
+      }
+      #topic-panel-section .region-panel {
+        position: static; max-height: 72vh;
+        border-radius: 0; box-shadow: none; border: none;
+      }
+      #topics-backdrop.visible { display: block; }
+    }
+    @keyframes sheetUp {
+      from { transform: translateY(100%); }
+      to   { transform: translateY(0); }
+    }
     /* ── Vote button ── (auth removed — everyone can vote) */
     /* ── Vote button ── */
     .vote-btn {
@@ -213,6 +249,7 @@
       <aside id="topic-panel-section" style="display:none"></aside>
     </div>
   </div>
+  <div id="topics-backdrop" onclick="closeTopicPanel()"></div>
 
 </main>
 
@@ -760,12 +797,14 @@ function renderTopicPanel() {
   panel.classList.remove('panel-section');
   void panel.offsetWidth;
   panel.classList.add('panel-section');
+  document.getElementById('topics-backdrop').classList.add('visible');
 
   loadVotesForStories(stories, pull.date);
 }
 
 function closeTopicPanel() {
   selectedTopic = null;
+  document.getElementById('topics-backdrop').classList.remove('visible');
   renderTopicsGrid();
   renderTopicPanel();
 }
