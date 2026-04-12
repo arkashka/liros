@@ -1,0 +1,336 @@
+{
+  "pulls": [
+    {
+      "date": "2026-04-12",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "id": "eb-1",
+              "title": "Africa Set to Be Among the World's Fastest-Growing Economies in 2026",
+              "summary": "A new UN report projects Africa's economy will grow 4.0% in 2026 and 4.1% in 2027, with several nations ranking among the world's fastest-growing. Capital is flowing in, the working-age population is expanding, and South-South trade is growing at 9% — nearly double the global average. Africa is consolidating its place at the center of the global development story.",
+              "source": "UN Office of the Special Adviser on Africa",
+              "url": "https://www.un.org/osaa/Africa-economy-2026",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "eb-2",
+              "title": "South America Crowned the World's Top Tourism Destination for 2026",
+              "summary": "Brazil, Argentina, Peru, and Colombia are promoting South America as the world's premier travel destination for 2026, topping a global liveability ranking drawn from 24,000 resident surveys. A record international visitor wave is discovering the continent's extraordinary biodiversity, vibrant culture, and cuisine — injecting fresh momentum and sustained investment into regional economies.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/peru-joins-argentina-brazil-and-colombia-to-transform-south-america-into-the-worlds-ultimate-travel-destination-for-2026-with-stunning-diversity-and-rich-heritage/",
+              "date": "2026-04-06"
+            },
+            {
+              "id": "eb-3",
+              "title": "Virginia's Giant Wind Farm to Save Customers $3 Billion Over a Decade",
+              "summary": "Dominion Energy's Coastal Virginia Offshore Wind project — the largest in the US — has started generating electricity while still 30% from completion. When fully built, it will power 660,000 homes and is projected to deliver $3 billion in customer savings over its first decade, demonstrating that large-scale offshore wind investment now pays economic dividends alongside its clean energy benefits.",
+              "source": "Electrek",
+              "url": "https://electrek.co/2026/03/25/us-largest-wind-farm-just-produced-power-for-the-first-time/",
+              "date": "2026-03-25"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "id": "st-1",
+              "title": "Scientists Unlock a Million-Year Climate Archive From Antarctic Seafloor",
+              "summary": "CSIRO's RV Investigator completed a landmark Antarctic voyage, recovering a record 20.5-meter sediment core and over 10,000 samples from the Cook Ice Shelf. These geological time capsules encode climate data stretching back hundreds of thousands of years. The trove will help scientists build far more precise models of how Earth's frozen south responds to warming temperatures.",
+              "source": "Phys.org",
+              "url": "https://phys.org/news/2026-03-milestone-voyage-antarctic-science.html",
+              "date": "2026-03-16"
+            },
+            {
+              "id": "st-2",
+              "title": "iNaturalist Turns 6 Million Nature-Lovers Into Contributing Scientists",
+              "summary": "The iNaturalist app has transformed 6 million monthly users into citizen scientists, generating biodiversity records and habitat change data now cited in peer-reviewed research worldwide. From backyards to rainforests, smartphone-toting enthusiasts are documenting species in real time, filling critical gaps in scientific knowledge and showing that a love of nature can be a genuine contribution to global science.",
+              "source": "CBS News",
+              "url": "https://www.cbsnews.com/news/how-inaturalist-app-users-have-fun-while-aiding-science/",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "st-3",
+              "title": "Uzbekistan and ZTE Partner to Build a 6G-Ready Digital Economy",
+              "summary": "Uzbekistan's Ministry of Digital Technologies signed a landmark MOU with ZTE Corporation to accelerate digital transformation across the country. The agreement covers high-speed broadband, advanced data centers, and next-generation 6G and Wi-Fi 8 technologies. The partnership positions Uzbekistan as a growing digital hub in Central Asia and opens new economic pathways for the broader region.",
+              "source": "ZTE Corporation",
+              "url": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/Uzbekistan-and-ZTE-Forge-Strategic-Partnership-to-Accelerate-Digital-Transformation.html",
+              "date": "2026-04-08"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "id": "ec-1",
+              "title": "Chile Creates 337,000 km² No-Take Marine Reserve Around Juan Fernández",
+              "summary": "Chile's President Boric signed a decree establishing one of the world's largest no-take marine reserves, protecting 337,000 square kilometers around the Juan Fernández archipelago and placing more than 50% of Chile's waters under conservation. The Juan Fernández fur seal — once near extinction — has rebounded to 200,000 individuals, proof that sustained protection can reverse even the steepest declines.",
+              "source": "The Portugal News",
+              "url": "https://www.theportugalnews.com/news/2026-04-04/ocean-sanctuary/998195",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "ec-2",
+              "title": "UK Renewable Energy Tops 52% for Second Straight Year — a New Normal",
+              "summary": "Great Britain's renewables generated 52.5% of its electricity in 2025 — a new record and the second consecutive year above 50%. Wind power was the dominant contributor. In March 2026, record renewable output saved the UK nearly £1 billion in gas imports. Clean energy has moved from aspiration to dependable baseline, redefining what is possible for an industrialized nation's grid.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "ec-3",
+              "title": "African Conservation Models Revive Gorillas and Restore Watersheds",
+              "summary": "Across Africa, community-led conservation is delivering measurable results. In Cameroon, a women's initiative cut farmer-herder conflicts by 62%. Tanzania communities are restoring river ecosystems through indigenous tree planting. Mountain gorilla populations have grown significantly, with eco-lodges now earning millions for local communities — proving that when communities lead conservation, both nature and prosperity follow.",
+              "source": "Top Africa News",
+              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
+              "date": "2026-04-09"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "id": "hw-1",
+              "title": "WHO: Global Maternal Mortality Down 40%, Child Deaths Halved Since 2000",
+              "summary": "Marking World Health Day 2026, the WHO highlighted sweeping global health gains: maternal mortality has fallen by more than 40% since 2000, and deaths among children under five have been reduced by more than 50%. Nearly 800 scientific institutions from 80+ countries are now collaborating on health breakthroughs that are turning once-deadly conditions into manageable diseases.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/06-04-2026-who-calls-for-action---together-for-health.-stand-with-science.--to-mark-world-health-day",
+              "date": "2026-04-06"
+            },
+            {
+              "id": "hw-2",
+              "title": "Staying Optimistic Linked to 15% Lower Dementia Risk, Study Finds",
+              "summary": "A landmark 14-year study of over 9,000 cognitively healthy adults found that people with higher optimism scores had approximately 15% lower risk of developing dementia. Researchers believe optimism protects the aging brain through reduced stress hormones, healthier lifestyle habits, and stronger social connections — adding compelling evidence to the growing science of hope and long-term brain health.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/lifestyle/how-to-reduce-dementia-risk/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "hw-3",
+              "title": "Dogs Detect Parkinson's With 98% Accuracy Years Before Symptoms Appear",
+              "summary": "Dogs trained to detect Parkinson's disease through scent are achieving 98% accuracy — identifying the condition years before clinical symptoms emerge. The breakthrough could transform early diagnosis, enabling patients to begin protective treatment far sooner. Researchers believe this approach could meaningfully slow disease progression and improve quality of life for millions of people worldwide.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/parkinsons-trial-dog-detection",
+              "date": "2026-04-04"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "id": "sc-1",
+              "title": "Elbas Transform Sierra Leone's Sherbro Island From Aid to Investment",
+              "summary": "Actor Idris Elba and wife Sabrina are reshaping the future of Sherbro Island, Sierra Leone, shifting the region's story from aid dependency to sustainable investment. Their initiative pairs ecological preservation with enterprise development, drawing international attention and funding. National Geographic reports the project is already opening new economic pathways for a community long overlooked by global markets.",
+              "source": "National Geographic",
+              "url": "https://www.nationalgeographic.com/culture/nat-geo-33/article/sabrina-idris-elba-2026",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "sc-2",
+              "title": "PBS Kids' First Autistic Lead Character Wins Emmy for Public Service",
+              "summary": "Carl the Collector, PBS Kids' groundbreaking show featuring its first autistic lead character, earned an Emmy Award for Outstanding Public Service Initiative. The joyful series portrays a child navigating the world on his own wonderful terms. Families and educators report it has sparked meaningful conversations about neurodiversity, belonging, and what it means to see yourself reflected on screen.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/pbs-kids-carl-the-collector-autism",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "sc-3",
+              "title": "California's Pet-Friendly Shelters Are Keeping Homeless Families Together",
+              "summary": "California's $15 million investment to make homeless shelters welcoming to pets is showing real results, removing the critical emotional barrier of having to leave animals behind. Early outcomes show more people successfully transitioning off the streets, keeping human and animal families intact, and rebuilding the stability needed for long-term housing security.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/pet-friendly-homeless-shelters-california",
+              "date": "2026-04-04"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "id": "ea-1",
+              "title": "China Opens Immersive Sound Museum in Reclaimed Industrial Ruins",
+              "summary": "An abandoned factory in China has been reborn as the 1Y Sound Museum, where walls of reclaimed materials broadcast oral histories from former workers and local residents. Designed by 1Y Architects, the space transforms industrial ruins into a living archive of human experience — where the sounds of the past create meaningful dialogue with the communities of today.",
+              "source": "Designboom",
+              "url": "https://www.designboom.com/architecture/1y-architects-museum-industrial-history-reclaimed-materials-sound-echo-ruins-china/",
+              "date": "2026-04-09"
+            },
+            {
+              "id": "ea-2",
+              "title": "Stephen Colbert Raises Over $1 Million for World Central Kitchen",
+              "summary": "Late Night host Stephen Colbert mobilized his audience to raise over $1 million for World Central Kitchen through a T-shirt campaign and live on-air auction. More than 33,000 fans purchased shirts, and auction proceeds added another $400,000. The campaign is a testament to how entertainment can turn laughter and loyalty into life-changing generosity for people in crisis.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/stephen-colbert-late-show-tshirt-fundraiser",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "ea-3",
+              "title": "The 'Slow Looking' Movement Is Changing How We Experience Art",
+              "summary": "The 'slow looking' movement — spending extended, meditative time with a single artwork — is gaining global momentum in galleries worldwide. Studies show the practice significantly boosts wellbeing and emotional depth, countering the typical three-second gallery glance. Advocates call it a gentle antidote to the culture of speed: staying with one piece reveals layers that rushed viewing can never uncover.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/lifestyle/for-the-love-of-appreciating-art-slowly/",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "id": "sl-1",
+              "title": "UK Dad Founds Forget-Me-Knot FC: Football for Bereaved Fathers",
+              "summary": "After losing a child, one British father created Forget-Me-Knot FC — a football club exclusively for dads who have experienced child bereavement. Starting with just six members, the team has grown to 36, finding solidarity, healing, and joy through the beautiful game. Plans are underway to expand the club across the UK, turning personal grief into a nationwide community of support.",
+              "source": "People",
+              "url": "https://people.com/dad-stars-soccer-team-for-grieving-fathers-baby-loss-exclusive-11927576",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "sl-2",
+              "title": "Women's Sports Revenues Are Surging at Double-Digit Rates Globally",
+              "summary": "Deloitte's 2026 Global Sports Industry Outlook reveals women's sports commercial revenues are growing at double-digit rates worldwide, with media rights, sponsorships, and fan engagement all reaching new heights. Alongside record franchise valuations and stadium development, women's sports are fundamentally reshaping global athletics — proving beyond any doubt that investing in women's games pays dividends in every sense.",
+              "source": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html",
+              "date": "2026-02-18"
+            },
+            {
+              "id": "sl-3",
+              "title": "Vietnam's First Sports Economy Summit Opens Billion-Dollar Conversations",
+              "summary": "Vietnam hosted its inaugural Sports Economy Summit 2026, gathering government officials, investors, and industry leaders to map the sector's economic potential. Discussions spanned infrastructure, media rights, tourism linkages, and youth development. Experts say the summit marks a pivotal moment in how Vietnam — and broader Southeast Asia — thinks about sport as a serious and scalable economic driver.",
+              "source": "VietnamPlus",
+              "url": "https://en.vietnamplus.vn/vietnam-sports-economy-summit-2026-explores-pathways-to-new-sector-post340057.vnp",
+              "date": "2026-04-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "id": "af-3",
+              "title": "Africa's First Road Safety Charter Enters Into Force",
+              "summary": "After a decade-long campaign, the African Road Safety Charter — the continent's first legally binding road safety framework — has officially entered into force with 15 African Union ratifications. Signatory nations must now establish road safety agencies, enact laws on speeding and drink-driving, and invest in safer infrastructure to save thousands of lives.",
+              "source": "WHO",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "id": "as-3",
+              "title": "Manila Bay Gets Solar-Powered Plastic Interceptors",
+              "summary": "The Philippines has joined The Ocean Cleanup's 30 Cities Program, deploying solar-powered Interceptor systems in Manila Bay's waterways. Using AI and detailed river mapping, the initiative targets the rivers carrying over 90% plastic waste. Manila joins a growing global coalition aiming to eliminate one-third of all river-borne plastic reaching the ocean by 2030.",
+              "source": "Manila Bulletin",
+              "url": "https://mb.com.ph/2026/01/27/manila-joins-global-push-to-stop-ocean-plastic-as-the-ocean-cleanup-launches-30-cities-program",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "id": "eu-3",
+              "title": "'Extinct' Large Tortoiseshell Butterfly Returns to England",
+              "summary": "The large tortoiseshell butterfly, declared extinct in Britain in the 1990s, has been spotted breeding across multiple counties in southern England. Butterfly Conservation now considers the species resident once again, with individuals photographed at Hengistbury Head in Dorset as recently as April 7 — a remarkable natural comeback after more than three decades.",
+              "source": "EnviroLink Network",
+              "url": "https://www.envirolink.org/2026/03/10/large-tortoiseshell-butterfly-returns-to-uk-after-decades-of-extinction/",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "id": "na-3",
+              "title": "Massachusetts Nature Fund Initiative Heads to 2026 Ballot",
+              "summary": "The Nature for Massachusetts Coalition surpassed 100,000 signatures to place the Protect Water and Nature Initiative on the November 2026 ballot. If passed, it would dedicate over $100 million annually from existing sales tax revenue to clean water, parks, trails, and equitable access to nature across the state — a grassroots victory for conservation.",
+              "source": "Ballotpedia",
+              "url": "https://ballotpedia.org/Massachusetts_Establish_a_Nature_for_All_Fund_Initiative_(2026)",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "id": "sa-3",
+              "title": "Colombia Hosts World's First Just Fossil Fuel Transition Summit",
+              "summary": "Colombia and the Netherlands are co-hosting the first-ever International Conference on the Just Transition Away from Fossil Fuels on April 28–29 in Santa Marta. Backed by the Belem Declaration signed by 24 nations, the conference will bring together governments, Indigenous communities, and scientists to chart equitable pathways away from fossil fuel dependence.",
+              "source": "Down To Earth",
+              "url": "https://www.downtoearth.org.in/climate-change/colombia-rallies-global-coalition-for-fossil-fuel-phaseout-announces-landmark-santa-marta-conference",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "id": "oc-3",
+              "title": "Tuvalu Launches Rat Eradication to Restore Niulakita Island",
+              "summary": "Teams from Tuvalu's Department of Environment and Island Conservation are on Niulakita Island preparing a major operation to eradicate invasive rats that damage coconut harvests and prey on seabirds. The community-backed initiative, supported by the Predator Free Pacific programme, aims to restore native ecosystems and strengthen food security for residents.",
+              "source": "Islands Business",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-two-10-april-2026/",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "id": "an-2",
+              "title": "Scientists Rewrite Origin of Earth's Mightiest Ocean Current",
+              "summary": "A study published in PNAS rewrites the origin story of the Antarctic Circumpolar Current, the planet's most powerful ocean flow. Scientists found that powerful westerly winds had to align with opening ocean gateways before the current could develop its climate-cooling effects — deepening our understanding of how Antarctica's isolation shaped the global climate we know today.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260406192902.htm",
+              "date": "2026-04-12"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
