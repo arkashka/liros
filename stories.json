@@ -1,6 +1,220 @@
 {
   "pulls": [
     {
+      "date": "2026-04-12",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Africa's First Soybean Speed Breeding Facility Opens in Zambia",
+              "summary": "The International Institute of Tropical Agriculture has inaugurated Africa's first soybean speed breeding facility in Zambia, using optimized light and temperature to grow multiple crop generations per year. The breakthrough cuts new variety development from 6–8 years down to 4–5, supporting Zambia's goal of producing one million tons of soybean by 2030 and boosting food security across the region.",
+              "source": "TOP Africa News",
+              "url": "https://www.topafricanews.com/2026/04/09/iita-launches-africas-first-soybean-speed-breeding-facility-in-zambia-to-accelerate-crop-innovation/",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "af-2",
+              "title": "African-Led Conservation Keeps 90% of Wildlife Populations Stable",
+              "summary": "Across more than 8.6 million hectares of actively managed land, 90% of monitored wildlife populations are now stable or increasing. Highlights include 27 hectares of restored mountain gorilla habitat in Rwanda and a women-led initiative in Cameroon that reduced herder-farmer conflicts by 62% — proof that African-led models are redefining conservation success.",
+              "source": "TOP Africa News",
+              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "af-3",
+              "title": "Africa's First Road Safety Charter Enters Into Force",
+              "summary": "After a decade-long campaign, the African Road Safety Charter — the continent's first legally binding road safety framework — has officially entered into force with 15 African Union ratifications. Signatory nations must now establish road safety agencies, enact laws on speeding and drink-driving, and invest in safer infrastructure to save thousands of lives.",
+              "source": "WHO",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "Taiwan's Volunteer Doctors Become Asia's Quiet Humanitarian Force",
+              "summary": "Taiwan's independent medical NGOs — led by the Tzu Chi Foundation and Taiwan Root Medical Peace Corps — have mobilized over 9,000 physicians providing free care to millions worldwide. What began in 1966 with thirty housewives saving spare change in bamboo coin banks has grown into a global relief network often arriving in disaster zones before larger nations.",
+              "source": "Global Taiwan Institute",
+              "url": "https://globaltaiwan.org/2026/04/the-bamboo-doctors/",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "as-2",
+              "title": "Thailand's Songkran Festival Draws Record 3.7 Million Travellers",
+              "summary": "Thailand's airports are preparing for a record-setting Songkran celebration, with 3.7 million passengers expected from April 10–19. Visitors from China, Japan, Malaysia, India, and South Korea are flocking to celebrate the Thai New Year, generating an estimated 30.35 billion Baht in tourism revenue — a joyful 6% rise over last year.",
+              "source": "Asia News Network",
+              "url": "https://asianews.network/songkran-2026-travel-surge-thailand-expects-3-7-million-passengers/",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "as-3",
+              "title": "Manila Bay Gets Solar-Powered Plastic Interceptors",
+              "summary": "The Philippines has joined The Ocean Cleanup's 30 Cities Program, deploying solar-powered Interceptor systems in Manila Bay's waterways. Using AI and detailed river mapping, the initiative targets the rivers carrying over 90% plastic waste. Manila joins a growing global coalition aiming to eliminate one-third of all river-borne plastic reaching the ocean by 2030.",
+              "source": "Manila Bulletin",
+              "url": "https://mb.com.ph/2026/01/27/manila-joins-global-push-to-stop-ocean-plastic-as-the-ocean-cleanup-launches-30-cities-program",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "Croatia Declared Landmine-Free After 30 Years of Clearing",
+              "summary": "Croatia has officially been declared free of landmines, completing a monumental 30-year effort to clear the deadly remnants of its 1990s war. Almost 107,000 mines and 407,000 pieces of unexploded ordnance were removed at a cost of over one billion euros — closing a painful chapter and fulfilling the country's Ottawa Convention commitment.",
+              "source": "Taipei Times",
+              "url": "https://www.taipeitimes.com/News/world/archives/2026/04/08/2003855246",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "eu-2",
+              "title": "World Crosses 10% Ocean Protection Milestone",
+              "summary": "The world has officially crossed a landmark threshold: 10% of the global ocean is now within protected or conserved areas, according to IUCN and UNEP. Over the past two years, roughly 5 million square kilometers — an area larger than the entire European Union — gained protected status, showing accelerating momentum toward the 30% by 2030 target.",
+              "source": "IUCN",
+              "url": "https://iucn.org/press-release/202604/world-reaches-milestone-nature-10-ocean-now-officially-protected",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "eu-3",
+              "title": "'Extinct' Large Tortoiseshell Butterfly Returns to England",
+              "summary": "The large tortoiseshell butterfly, declared extinct in Britain in the 1990s, has been spotted breeding across multiple counties in southern England. Butterfly Conservation now considers the species resident once again, with individuals photographed at Hengistbury Head in Dorset as recently as April 7 — a remarkable natural comeback after more than three decades.",
+              "source": "EnviroLink Network",
+              "url": "https://www.envirolink.org/2026/03/10/large-tortoiseshell-butterfly-returns-to-uk-after-decades-of-extinction/",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "US Traffic Deaths Drop to Lowest Level Since 2019",
+              "summary": "NHTSA announced that US traffic fatalities dropped 6.7% in 2025 to 36,640 — the lowest since 2019 — with the fatality rate hitting 1.10 per 100 million vehicle miles traveled, the second-lowest in US history. Fatalities decreased across 39 states, DC, and Puerto Rico, marking a meaningful nationwide win for road safety.",
+              "source": "U.S. News & World Report",
+              "url": "https://www.usnews.com/news/us/articles/2026-04-01/us-traffic-deaths-fall-to-lowest-number-since-2019",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "na-2",
+              "title": "Harvard Finds Optimism Lowers Dementia Risk by 15%",
+              "summary": "A Harvard T.H. Chan School of Public Health study published in the Journal of the American Geriatrics Society found that optimistic older adults had a 15% lower risk of developing dementia over 14 years. Following 9,071 cognitively healthy participants, the research offers hopeful evidence that a positive outlook may genuinely protect brain health as we age.",
+              "source": "News-Medical.net",
+              "url": "https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "na-3",
+              "title": "Massachusetts Nature Fund Initiative Heads to 2026 Ballot",
+              "summary": "The Nature for Massachusetts Coalition surpassed 100,000 signatures to place the Protect Water and Nature Initiative on the November 2026 ballot. If passed, it would dedicate over $100 million annually from existing sales tax revenue to clean water, parks, trails, and equitable access to nature across the state — a grassroots victory for conservation.",
+              "source": "Ballotpedia",
+              "url": "https://ballotpedia.org/Massachusetts_Establish_a_Nature_for_All_Fund_Initiative_(2026)",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Paraguay's Holy Week Tourism Surges With 36% Revenue Jump",
+              "summary": "Paraguay's domestic tourism surged during Holy Week, with hotel occupancy hitting 90% nationwide — up 12% from 2025. Over 409,000 visitors generated $55.5 million in revenue, a 36% jump year-over-year. The candlelight procession at Tanarandy near the UNESCO-listed Jesuit missions drew 30,000 visitors alone, showcasing the country's rich cultural heritage.",
+              "source": "MercoPress",
+              "url": "https://en.mercopress.com/2026/04/07/holy-week-boosts-paraguayan-tourism-90-hotel-occupancy-and-36-revenue-increase",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "sa-2",
+              "title": "Peru Restores Its Senate for First Time in 30 Years",
+              "summary": "On April 12, Peruvians headed to the polls in a historic general election that restores the country's Senate for the first time in nearly three decades, thanks to a 2024 reform. The bicameral legislature will now include 60 senators alongside 130 deputies — a major step in strengthening democratic institutions after years of political turbulence.",
+              "source": "CSIS",
+              "url": "https://www.csis.org/analysis/peru-2026-general-election-first-round-vote-must-knows",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "sa-3",
+              "title": "Colombia Hosts World's First Just Fossil Fuel Transition Summit",
+              "summary": "Colombia and the Netherlands are co-hosting the first-ever International Conference on the Just Transition Away from Fossil Fuels on April 28–29 in Santa Marta. Backed by the Belem Declaration signed by 24 nations, the conference will bring together governments, Indigenous communities, and scientists to chart equitable pathways away from fossil fuel dependence.",
+              "source": "Down To Earth",
+              "url": "https://www.downtoearth.org.in/climate-change/colombia-rallies-global-coalition-for-fossil-fuel-phaseout-announces-landmark-santa-marta-conference",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "New Zealand Signs Landmark 30-Year Auckland City Deal",
+              "summary": "Prime Minister Christopher Luxon and Auckland Mayor Wayne Brown signed New Zealand's first-ever city deal on April 10, establishing a 30-year coordinated transport and infrastructure strategy for Auckland. The historic agreement includes priority rapid transit projects, a new Crown co-funding tool, and sets the model for future regional deals across the country.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/news/political/591977/christopher-luxon-and-wayne-brown-sign-auckland-city-deal",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "oc-2",
+              "title": "New Zealand Funds Breakthrough Blood Cancer Treatments",
+              "summary": "New Zealand's drug-buying agency Pharmac confirmed it will fund two new combination therapies for chronic lymphocytic leukaemia starting May 1, 2026. Around 110 patients per year will gain access to venetoclax-based combination treatments as first-line options, with wider access also granted to ibrutinib regardless of mutation type — a lifeline for families across the country.",
+              "source": "LiveNews.co.nz",
+              "url": "https://livenews.co.nz/2026/04/09/pharmac-to-fund-two-new-combination-treatments-and-widen-access-to-another-for-people-with-a-type-of-blood-cancer/",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "oc-3",
+              "title": "Tuvalu Launches Rat Eradication to Restore Niulakita Island",
+              "summary": "Teams from Tuvalu's Department of Environment and Island Conservation are on Niulakita Island preparing a major operation to eradicate invasive rats that damage coconut harvests and prey on seabirds. The community-backed initiative, supported by the Predator Free Pacific programme, aims to restore native ecosystems and strengthen food security for residents.",
+              "source": "Islands Business",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-two-10-april-2026/",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "Uncharted Island Discovered in Antarctica's Weddell Sea",
+              "summary": "An international team of 93 scientists aboard the German icebreaker Polarstern stumbled upon a previously unmapped island in the Weddell Sea while sheltering from a storm. The roughly 130-metre-long island had been invisible on satellite imagery because it blended in with surrounding icebergs — a charming reminder that our planet still holds surprises waiting to be found.",
+              "source": "Gizmodo",
+              "url": "https://gizmodo.com/antarctic-expedition-to-danger-zone-accidentally-discovers-previously-uncharted-island-2000744598",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "an-2",
+              "title": "Scientists Rewrite Origin of Earth's Mightiest Ocean Current",
+              "summary": "A study published in PNAS rewrites the origin story of the Antarctic Circumpolar Current, the planet's most powerful ocean flow. Scientists found that powerful westerly winds had to align with opening ocean gateways before the current could develop its climate-cooling effects — deepening our understanding of how Antarctica's isolation shaped the global climate we know today.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260406192902.htm",
+              "date": "2026-04-12"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-11",
       "regions": {
         "Africa": {
@@ -438,228 +652,6 @@
               "summary": "Scientists have directly dated ice in East Antarctica at 6 million years old — the oldest ever confirmed — with trapped air preserving a snapshot of a much warmer ancient Earth. This extraordinary climate archive will inform extended research through 2031, deepening humanity's understanding of natural temperature cycles across deep time.",
               "source": "Oregon State University",
               "url": "https://news.oregonstate.edu/news/six-million-year-old-ice-discovered-antarctica-offers-unprecedented-window-into-warmer-earth/",
-              "date": "2026-04-10"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-04-10",
-      "regions": {
-        "Africa": {
-          "emoji": "🌍",
-          "color": "#FF6B35",
-          "tagline": "A continent rising with energy and hope",
-          "stories": [
-            {
-              "id": "af-1",
-              "title": "Mountain Gorilla Twins Born at Virunga — Both Thriving",
-              "summary": "A mountain gorilla named Nyiramurema in Virunga National Park gave birth to healthy twins — both alive and well, watched over by dedicated rangers. Hundreds of elephants have also been documented returning to the park's interior, a sign of nature's quiet and powerful resilience.",
-              "source": "Africa.com",
-              "url": "https://africa.com/two-of-a-kind-twice-inside-virungas-extraordinary-wildlife-comeback/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "af-2",
-              "title": "Baby Gorilla & Elephant Calves Light Up the Congo Basin",
-              "summary": "In the Dzanga-Sangha Protected Areas, a baby gorilla named Moandja was born — the youngest of female Mapoki's three offspring. Rangers also spotted the most elephant calves under one year old in recent memory, gathering at the famous Dzanga bai forest clearing.",
-              "source": "World Wildlife Fund",
-              "url": "https://www.worldwildlife.org/news/stories/-ivonne-kienast/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "af-3",
-              "title": "90% of African Wildlife Populations Stable or Growing",
-              "summary": "Across 8.6 million hectares of actively managed land, the African Wildlife Foundation reports that 90% of monitored wildlife populations are stable or increasing. Community-led conservancies, women's diplomacy, and biodiversity enterprises are driving this extraordinary continental recovery.",
-              "source": "African Wildlife Foundation",
-              "url": "https://www.awf.org/news",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "Asia": {
-          "emoji": "🌏",
-          "color": "#FFB700",
-          "tagline": "Ancient wisdom, modern breakthroughs",
-          "stories": [
-            {
-              "id": "as-1",
-              "title": "Singapore Opens Cutting-Edge AI Health Innovation Hub",
-              "summary": "The National University Hospital in Singapore has launched a pioneering innovation hub where clinicians, startups, and researchers co-develop AI-powered healthcare solutions in a live clinical environment. It's a model for how technology can make healthcare faster, smarter, and more humane.",
-              "source": "Healthcare IT News",
-              "url": "https://www.healthcareitnews.com/news/asia/whats-inside-national-university-hospitals-latest-health-tech-hub",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "as-2",
-              "title": "Asia-Pacific Leads the World in Cell & Gene Therapy",
-              "summary": "The Asia-Pacific region now accounts for up to 70% of globally approved cell and gene therapy products, with over 650 active clinical trials underway. From South Korea to India, a new era of life-saving treatments is being pioneered across the continent.",
-              "source": "BioSpectrum Asia",
-              "url": "https://www.biospectrumasia.com/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "as-3",
-              "title": "GITEX Asia Puts Singapore at the Heart of Global Tech",
-              "summary": "Asia's biggest tech festival, GITEX Asia 2026, drew innovators from around the world to Singapore's Marina Bay Sands. The event spotlighted breakthroughs in AI, quantum computing, and digital health — celebrating Asia's growing role as a force for technological good.",
-              "source": "GITEX Asia",
-              "url": "https://conferenceindex.org/event/gitex-asia-2026-april-singapore-sg-1",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "Europe": {
-          "emoji": "🌍",
-          "color": "#44BBA4",
-          "tagline": "Green, resilient, and reaching for the future",
-          "stories": [
-            {
-              "id": "eu-1",
-              "title": "European Bison Roam Free Again — 7,000 Strong and Growing",
-              "summary": "Once hunted to extinction in the wild, the European bison has made a spectacular comeback — numbers have soared from 2,579 to 7,000 free-roaming individuals in just a decade. New research shows herds in Romania are also capturing carbon equivalent to 84,000 petrol cars per year.",
-              "source": "Euronews",
-              "url": "https://www.euronews.com/2026/04/08/from-biodiversity-to-carbon-capture-saving-bison-from-extinction-has-brought-big-benefits-",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "eu-2",
-              "title": "Portugal Hits 80%+ Renewable Electricity — A National Record",
-              "summary": "In January 2026, Portugal generated 80.7% of its electricity from renewable sources — its best performance in nine months and second highest in Europe. Wind farms, solar panels, and hydropower are transforming Portugal into one of the continent's green energy stars.",
-              "source": "Euronews",
-              "url": "https://www.euronews.com/2026/03/12/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "eu-3",
-              "title": "Ireland to Launch Europe's First Marine Rewilding Landscape",
-              "summary": "Rewilding Europe has announced its first-ever marine rewilding landscape in Ireland — a groundbreaking initiative to restore ocean habitats and bring back marine life to the North Atlantic. Combined with dam removals and river restorations across the continent, Europe's wild places are coming back.",
-              "source": "Rewilding Europe",
-              "url": "https://rewildingeurope.com/blog/why-2026-matters-for-rewilding-in-europe-building-solidarity-for-nature-recovery/",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "North America": {
-          "emoji": "🌎",
-          "color": "#E94F8B",
-          "tagline": "Bold dreams, bigger firsts",
-          "stories": [
-            {
-              "id": "na-1",
-              "title": "NC Science Festival Brings Wonder to All 100 Counties",
-              "summary": "North Carolina's month-long NCSciFest 2026 is lighting up all 100 counties with hundreds of interactive science events. The theme 'Science Matters' is bringing hands-on discovery to students, families, and communities — from planetariums in cities to parks in every rural corner of the state.",
-              "source": "UNC News",
-              "url": "https://www.unc.edu/posts/2026/04/02/aprils-ncscifest-shows-science-matters-in-all-100-counties/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "na-2",
-              "title": "Citizen Science Month: 2.5 Million Acts of Discovery",
-              "summary": "Every April, Americans join Citizen Science Month — and in 2026, the goal is 2.5 million acts of science to celebrate America's 250th birthday. From tracking bird migrations to mapping night skies, everyday people are contributing real discoveries to real scientific research.",
-              "source": "SciStarter",
-              "url": "https://scistarter.org/citizensciencemonth",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "na-3",
-              "title": "US Road Deaths Fall to Second-Lowest Level on Record",
-              "summary": "Traffic fatalities on US roads fell by 6.7% to 36,640 — the second lowest level ever recorded. Better road design, safer vehicles, and improved emergency response are making American roads meaningfully safer for families and communities across the country.",
-              "source": "Good News Network",
-              "url": "https://www.goodnewsnetwork.org/",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "South America": {
-          "emoji": "🌎",
-          "color": "#3B82F6",
-          "tagline": "Nature's guardian, culture's champion",
-          "stories": [
-            {
-              "id": "sa-1",
-              "title": "Jaguar Rivers Initiative: A Million Square Miles for Nature",
-              "summary": "The Jaguar Rivers Initiative will protect nearly one million square miles across Argentina, Bolivia, Brazil, and Paraguay — the largest cross-border ecosystem restoration in South American history. It unites Indigenous communities, local NGOs, and governments to bring back jaguars and wild rivers.",
-              "source": "The Pew Charitable Trusts",
-              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "sa-2",
-              "title": "Pantanal Ranchers Voluntarily Choose Wildlife Conservation",
-              "summary": "In Brazil's stunning Pantanal — the world's largest tropical wetland — a growing number of ranchers are voluntarily adopting conservation standards. Jaguars, giant anteaters, and giant otters are rebounding, and wildlife tourism is giving local families a sustainable and joyful economic future.",
-              "source": "The Pew Charitable Trusts",
-              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "sa-3",
-              "title": "Indigenous Rangers Protect Bolivia's Gran Chaco with Ancient Wisdom",
-              "summary": "A wildfire response unit led by Guaraní and Chiquitano Indigenous people is defending Bolivia's Gran Chaco, blending traditional ecological knowledge with modern science to protect millions of acres of wildlife habitat. It's a powerful model of Indigenous-led conservation the world is watching.",
-              "source": "Born Free USA",
-              "url": "https://www.bornfreeusa.org/2026/04/07/defiantly-optimistic-the-recent-wildlife-wins-you-almost-missed/",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "Oceania": {
-          "emoji": "🌏",
-          "color": "#10B981",
-          "tagline": "Islands of partnership and discovery",
-          "stories": [
-            {
-              "id": "oc-1",
-              "title": "Kākāpō Shatters Records: 105 Chicks in Historic Season",
-              "summary": "New Zealand's beloved kākāpō is having its best breeding season ever, with 105 chicks hatched — shattering the previous record of 73. Once numbering just 51 individuals, the population now stands at 237. Decades of dedicated conservation work are delivering a beautiful outcome.",
-              "source": "RNZ",
-              "url": "https://www.rnz.co.nz/news/national/590633/over-100-kakapo-chicks-hatch-in-record-breaking-breeding-season",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "oc-2",
-              "title": "New Zealand Conservation Week Moves to April for Earth Day",
-              "summary": "For the first time in its 57-year history, New Zealand's Conservation Week is being held in April (April 20–26) to align with Earth Day. It's a joyful shift that promises to inspire even more people to protect Aotearoa's unique and extraordinary wildlife.",
-              "source": "Science Learn NZ",
-              "url": "https://www.sciencelearn.org.nz/events/conservation-week-te-wiki-tiaki-ao-turoa-2026",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "oc-3",
-              "title": "10% of the Ocean Is Now Under Protection — A Global Milestone",
-              "summary": "The UN Environment Programme confirmed that 10.01% of the world's ocean is now officially protected — with five million square kilometres newly added in just two years. Pacific island nations have been central to this landmark breakthrough for global marine biodiversity.",
-              "source": "UNEP / Positive News",
-              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "Antarctica": {
-          "emoji": "🧊",
-          "color": "#94A3B8",
-          "tagline": "The frozen frontier of human knowledge",
-          "stories": [
-            {
-              "id": "an-1",
-              "title": "Scientists Stumble Upon Uncharted Island in Weddell Sea",
-              "summary": "While seeking shelter from Antarctic storms, researchers aboard the German icebreaker Polarstern discovered a previously unmapped island in the Weddell Sea. Initially mistaken for a dirty iceberg, the find will now appear on nautical charts for the very first time.",
-              "source": "Phys.org",
-              "url": "https://phys.org/news/2026-04-uncharted-island-nautical.html",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "an-2",
-              "title": "Rothera's Discovery Building Wins Antarctica's First Green Rating",
-              "summary": "The Discovery Building at Rothera Research Station has become the first building in Antarctica to achieve an Outstanding BREEAM sustainability rating — the highest possible. The UK's largest-ever Antarctic construction project is now a blueprint for eco-friendly building in the world's most extreme environment.",
-              "source": "Energy Live News",
-              "url": "https://www.energylivenews.com/2026/04/07/discovery-building-first-in-antarctica-to-achieve-highest-uk-sustainability-rating/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "an-3",
-              "title": "Antarctic Ice Reveals 6 Million Years of Climate History",
-              "summary": "Scientists have identified ice in Antarctica potentially dating back 6 million years — far older than any previous ice core record. This frozen archive of ancient atmosphere could reshape our understanding of long-term climate patterns and help build more accurate models of Earth's climate future.",
-              "source": "SciTechDaily",
-              "url": "https://scitechdaily.com/antarcticas-6-million-year-ice-discovery-rewrites-what-we-know-about-climate/",
               "date": "2026-04-10"
             }
           ]
