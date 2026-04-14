@@ -1,6 +1,228 @@
 {
   "pulls": [
     {
+      "date": "2026-04-14",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "id": "eb-1",
+              "title": "Africa's Economy Set for 4.0% Growth, East Africa Racing Ahead at 5.8%",
+              "summary": "A new UN report forecasts Africa's economy will grow 4.0% in 2026 and 4.1% in 2027, with East Africa — led by Ethiopia and Kenya — surging ahead at 5.8%. Investments in renewable energy, digital infrastructure, and regional integration are driving the acceleration. Africa's working-age population and growing intra-continental trade are cementing its position as one of the world's most dynamic growth stories.",
+              "source": "UN Africa Renewal",
+              "url": "https://africarenewal.un.org/en/magazine/african-economies-grow-2026-despite-uncertain-global-context",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "eb-2",
+              "title": "South America's Adventure Tourism Industry Races Toward a $40 Billion Boom",
+              "summary": "South America's adventure tourism sector is projected to reach nearly $40 billion by 2031, growing at a remarkable 15.3% annually. Brazil, Argentina, Chile, Colombia, and Peru are leading the charge as a record wave of international visitors discovers the continent's extraordinary biodiversity and cultural richness. The boom is injecting fresh economic momentum into communities from Patagonia to the Amazon.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/mexico-joins-brazil-us-argentina-chile-colombia-peru-and-more-in-pioneering-south-americas-nearly-forty-billion-dollar-adventure-tourism-boom/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eb-3",
+              "title": "Google and Stony Brook University Launch AI Academy for Long Island Businesses",
+              "summary": "Stony Brook University and the Long Island Association have launched a Google-funded AI Academy, equipping local small businesses with AI literacy skills and $5,000 implementation grants. The initiative is part of a broader national push to ensure the economic benefits of artificial intelligence reach communities well beyond Silicon Valley, turning local entrepreneurs into drivers of regional growth and job creation.",
+              "source": "Stony Brook University",
+              "url": "https://news.stonybrook.edu/university/stony-brook-university-and-lia-launch-google-funded-ai-academy/",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "id": "st-1",
+              "title": "Artemis II Crew Shatters Record for Farthest Humans From Earth",
+              "summary": "NASA's Artemis II crew reached 252,757 miles (406,773 km) from Earth — more than 50,000 miles beyond the previous record set by Apollo — as they swept around the far side of the Moon. The four astronauts are the first humans to travel this deep into space in more than 50 years, marking a triumphant return to lunar exploration and reigniting wonder about humanity's future beyond our home planet.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "st-2",
+              "title": "New Neuro-Symbolic AI Cuts Energy Use by 100x While Improving Accuracy",
+              "summary": "Researchers have developed a neuro-symbolic AI architecture that uses 100 times less energy than conventional deep learning systems — while actually improving accuracy. The approach mimics human reasoning, breaking problems into logical steps rather than brute-forcing patterns. The breakthrough could make sophisticated AI viable on mobile devices and in low-energy environments, dramatically expanding where intelligent systems can be deployed.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
+              "date": "2026-04-05"
+            },
+            {
+              "id": "st-3",
+              "title": "Japanese Scientists Push Solar Panel Efficiency Beyond 130%",
+              "summary": "A Japanese research team has achieved solar cell efficiency of 130% — surpassing what was once considered a hard theoretical ceiling — using a multi-junction design that captures a broader slice of the light spectrum. The advance could fundamentally reshape the economics of solar power, requiring far less land and fewer panels to generate the same energy, with profound implications for the global clean energy transition.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "id": "ec-1",
+              "title": "High Seas Treaty Enters Into Force, Protecting International Ocean Biodiversity",
+              "summary": "The landmark High Seas Treaty has officially entered into force, creating the first-ever legal framework to protect biodiversity in international waters — which cover nearly half of Earth's surface. Nations can now establish marine protected areas, regulate bioprospecting, and share the benefits of ocean resources fairly. Scientists call it a historic turning point for ocean conservation, long overdue and globally transformative.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "ec-2",
+              "title": "Monarch Butterfly Population Soars 64%, Occupying Most Land Since 2018",
+              "summary": "Mexico's monarch butterfly overwintering colonies grew 64% this season, now covering 7.24 acres — the largest area since 2018. The rebound follows years of milkweed restoration, reduced pesticide use, and trilateral conservation commitments between the United States, Canada, and Mexico. Researchers call it a hard-won win for one of the world's most iconic and beloved migratory species.",
+              "source": "Global Choices",
+              "url": "https://globalchoices.org/7-inspiring-climate-wins-in-early-2026/",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "ec-3",
+              "title": "Portugal Powers 80.7% of Its Grid From Renewables — a Nine-Month Best",
+              "summary": "Portugal generated 80.7% of its electricity from renewable sources in January 2026 — the country's best renewable share in nine months and a powerful signal that its clean energy transition has reached a new baseline. Wind and hydro led the way, with solar contributing a growing share. Energy watchers say Portugal now consistently operates one of the greenest grids of any European nation.",
+              "source": "Ecologi",
+              "url": "https://ecologi.com/resources/blog/latest-good-news",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "id": "hw-1",
+              "title": "US Smoking Rate Falls to Historic 9.9% — First Time in Single Digits",
+              "summary": "The share of US adults who smoke has dropped to 9.9% — the lowest ever recorded and the first time in history the figure has fallen below 10%. The milestone reflects decades of tobacco control policies, healthcare interventions, and cultural shifts around smoking. Public health experts say the number represents millions of lives saved and stands as one of the quiet triumphs of modern preventive medicine.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-12-of-2026/",
+              "date": "2026-03-21"
+            },
+            {
+              "id": "hw-2",
+              "title": "Chile Becomes the First Country in the Americas to Eliminate Leprosy",
+              "summary": "The World Health Organization has officially certified Chile as the first country in the Americas — and only the second globally — to eliminate leprosy as a public health problem. Sustained treatment programs, community health outreach, and early detection infrastructure achieved what was once seen as an ambitious long-term goal. Health officials say Chile's approach offers a replicable roadmap for the dozen countries still fighting the disease.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "hw-3",
+              "title": "New Drug Zorevunersen Dramatically Reduces Seizures in Children With Dravet Syndrome",
+              "summary": "Early clinical trials of zorevunersen are showing life-changing promise for children with Dravet syndrome, a severe form of childhood epilepsy. Trial participants experienced significant reductions in seizure frequency, along with improvements in communication and quality of life. Researchers and families describe the results as transformative — offering real hope for a condition that has long resisted effective treatment.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/",
+              "date": "2026-04-08"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "id": "sc-1",
+              "title": "France Opens One of Its First LGBTQIA+-Inclusive Senior Living Residences",
+              "summary": "A pioneering LGBTQIA+-inclusive senior residence has opened in Lyon, France — one of the first in the country. Designed as a space of safety, dignity, and true community, the facility ensures older LGBTQIA+ individuals can grow old without fear of discrimination. Advocates say it represents a meaningful step forward in eldercare and reflects a broader societal commitment to inclusion across every stage of life.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "sc-2",
+              "title": "Colombia's Youth Choir to Perform at Walt Disney World and Rio de Janeiro",
+              "summary": "Colombia Canta y Encanta, a children's and youth choir from Medellín, has confirmed performances at Walt Disney World Resort on April 18 and in Rio de Janeiro later in the year. The group — ambassadors of Colombia's vibrant musical traditions — will share their culture and joy with audiences thousands of miles from home, celebrating what music can do when children lead the way.",
+              "source": "Colombia One",
+              "url": "https://colombiaone.com/2026/04/13/colombia-canta-encanta-disney-brazil/",
+              "date": "2026-04-13"
+            },
+            {
+              "id": "sc-3",
+              "title": "130+ Nations Sign Landmark Accord Protecting Jaguars, Manta Rays, and Migratory Birds",
+              "summary": "More than 130 governments signed a sweeping global wildlife protection accord at the COP15 migratory species conference in Brazil, granting stronger safeguards to jaguars, manta rays, and scores of migratory bird species. The agreement is the most expansive update to international wildlife law in years, and a powerful signal that governments are willing to act together for the species that connect ecosystems across continents and oceans.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-14-of-2026/",
+              "date": "2026-04-04"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "id": "ea-1",
+              "title": "Paddington The Musical Sweeps Olivier Awards With Four Wins",
+              "summary": "London's West End celebrated a joyful night as Paddington The Musical swept the 2026 Olivier Awards, winning Best New Musical, Best Director, Best Set Design, and Best Costume Design. The beloved Peruvian bear's theatrical debut captivated audiences with warmth and wonder, proving that a story about kindness, belonging, and a very good marmalade sandwich can take the stage by storm.",
+              "source": "AP Entertainment",
+              "url": "https://www.rutlandherald.com/features/ap-entertainment/ap-entertainment-summarybrief-at-12-36-p-m-edt/article_96b4a83b-b3a3-5118-8133-75e83c87f022.html",
+              "date": "2026-04-13"
+            },
+            {
+              "id": "ea-2",
+              "title": "SWISH Festival Puts 200+ Indianapolis Artists in the Spotlight at Final Four",
+              "summary": "The SWISH Arts & Culture Festival brought together more than 200 local Indianapolis artists, performers, chefs, and vendors during the 2026 NCAA Men's Final Four, offering paid opportunities and a world-class stage for homegrown talent. The four-day festival featured live music, dance, visual art, and food — a joyful proof that big sporting events and thriving local arts scenes can lift each other up.",
+              "source": "Mirror Indy",
+              "url": "https://mirrorindy.org/2026-swish-indianapolis-ncaa-mens-final-four-indy-arts-council/",
+              "date": "2026-04-03"
+            },
+            {
+              "id": "ea-3",
+              "title": "Super Mario Galaxy Movie Rockets to $629M Global Box Office in Two Weekends",
+              "summary": "The Super Mario Galaxy Movie has become a global phenomenon, earning $629 million worldwide in just two weekends of release. With $308 million at home and $321 million internationally, the film has already surpassed the first Mario Movie's opening pace. Audiences of all ages are cheering for the Mushroom Kingdom's latest cinematic adventure, reminding Hollywood that wholesome, joyful storytelling is box-office gold.",
+              "source": "AP Entertainment",
+              "url": "https://www.rutlandherald.com/features/ap-entertainment/ap-entertainment-summarybrief-at-12-36-p-m-edt/article_96b4a83b-b3a3-5118-8133-75e83c87f022.html",
+              "date": "2026-04-13"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "id": "sl-1",
+              "title": "New Zealand's Stunning Te Kaha Stadium Opens in Christchurch",
+              "summary": "The NZ$683 million One New Zealand Stadium at Te Kaha has officially opened in Christchurch, offering a 30,000-person capacity for sports and 37,500 for concerts. The world-class venue replaces the earthquake-lost AMI Stadium and marks a triumphant chapter in Christchurch's long rebuilding story. International acts and sporting fixtures are already booked, and locals say the arena has breathed new life into the city's heart.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "sl-2",
+              "title": "World Health Day Sports Events in Ashgabat Champion Youth and Gender Equality",
+              "summary": "A large-scale sports festival organized by UNFPA and Turkmenistan's Sports Committee filled the Olympic Village in Ashgabat on World Health Day, drawing young athletes to celebrate healthy living and gender equality through sport. Women's participation was central to the program, with coaches, officials, and young competitors sharing a day of movement, connection, and mutual inspiration rooted in the power of sport.",
+              "source": "News Central Asia",
+              "url": "https://www.newscentralasia.net/2026/04/04/sports-events-held-in-ashgabat-to-mark-world-health-day/",
+              "date": "2026-04-04"
+            },
+            {
+              "id": "sl-3",
+              "title": "April 2026: A Golden Month for Sports Fans With Masters, Final Fours, and More",
+              "summary": "April 2026 is shaping up as one of the great months for sport, packed wall to wall with marquee events: The Masters, the NCAA Men's and Women's Final Fours, the NBA and NHL playoffs, WrestleMania, and the NFL Draft. Fans across North America are basking in a rare convergence of championships, and cities like Indianapolis and Augusta are alive with the electricity of high-stakes competition and shared celebration.",
+              "source": "National Today",
+              "url": "https://nationaltoday.com/us/in/indianapolis/news/2026/04/03/april-2026-packed-with-major-sports-events/",
+              "date": "2026-04-03"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-12",
       "topics": {
         "Economy & Business": {
