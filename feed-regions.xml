@@ -5,8 +5,168 @@
     <link>https://arkashka.github.io/liros</link>
     <description>Uplifting stories from every corner of the world, organised by region.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://arkashka.github.io/liros/feed-topics.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://arkashka.github.io/liros/feed-regions.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Rwanda's Mountain Gorilla Habitat Grows by 27 Hectares</title>
+      <link>https://www.awf.org/pressroom/awf-hands-over-restored-land-expand-volcanoes-national-park-boosting-mountain-gorilla</link>
+      <guid isPermaLink="true">https://www.awf.org/pressroom/awf-hands-over-restored-land-expand-volcanoes-national-park-boosting-mountain-gorilla</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <description>The African Wildlife Foundation donated 27 hectares of restored forest land to Rwanda's Volcanoes National Park, directly expanding habitat for endangered mountain gorillas. Four years of collaborative bamboo restoration and native planting now provide new feeding grounds and safer corridors for gorilla families. It's a milestone born from patient, community-rooted conservation work.</description>
+      <category>Africa</category>
+    </item>
+    <item>
+      <title>Nine in Ten AWF-Managed Wildlife Populations Now Stable or Growing</title>
+      <link>https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/</link>
+      <guid isPermaLink="true">https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <description>The African Wildlife Foundation's 2025 annual report reveals that across 8.6 million hectares of active conservation management, 90% of monitored wildlife populations are stable or increasing. Women-led peace initiatives like TANGO in northern Cameroon have cut herder-farmer conflicts by 62%, showing how community empowerment drives lasting ecological and social gains.</description>
+      <category>Africa</category>
+    </item>
+    <item>
+      <title>Africa's Economic Growth Outpaces Asia for the First Time in 2026</title>
+      <link>https://www.cnbcafrica.com/2026/the-11-trends-factors-that-will-shape-african-affairs-in-2026</link>
+      <guid isPermaLink="true">https://www.cnbcafrica.com/2026/the-11-trends-factors-that-will-shape-african-affairs-in-2026</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <description>For the first time in recent history, African GDP growth is forecast to exceed Asia's in 2026 at 4.4% versus 4.1%, driven by metals, commodities, and decades of sustained economic expansion. This milestone extends more than 25 consecutive years of continental growth and signals Africa's rising place in the global economy.</description>
+      <category>Africa</category>
+    </item>
+    <item>
+      <title>India's First Fast Breeder Nuclear Reactor Reaches Criticality</title>
+      <link>https://www.aljazeera.com/news/2026/4/7/indias-nuclear-leap-why-its-fast-breeder-reactor-success-matters</link>
+      <guid isPermaLink="true">https://www.aljazeera.com/news/2026/4/7/indias-nuclear-leap-why-its-fast-breeder-reactor-success-matters</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <description>India's 500 MWe Prototype Fast Breeder Reactor at Kalpakkam achieved first criticality on April 7, a pivotal milestone in the nation's three-stage nuclear energy programme. When fully operational, India will become only the second country after Russia with a commercial fast breeder reactor, unlocking a path to virtually unlimited clean energy through the thorium cycle.</description>
+      <category>Asia</category>
+    </item>
+    <item>
+      <title>Giant Pandas Officially No Longer Endangered</title>
+      <link>https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered/</link>
+      <guid isPermaLink="true">https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>After decades of dedicated effort, the IUCN upgraded the giant panda from Endangered to Vulnerable, reflecting a wild population now approaching 1,900 individuals. China's investment in habitat protection and breeding programmes — supported by conservationists worldwide — has delivered one of the most celebrated recoveries in conservation history.</description>
+      <category>Asia</category>
+    </item>
+    <item>
+      <title>Indonesia Unlocks Vast Geothermal Energy Potential with ADB Support</title>
+      <link>https://www.renewableenergyasia.org/2026/04/asian-development-on-developing-indonesias-geothermal-power-potential.html</link>
+      <guid isPermaLink="true">https://www.renewableenergyasia.org/2026/04/asian-development-on-developing-indonesias-geothermal-power-potential.html</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <description>The Asian Development Bank is backing Indonesia's push to develop its enormous untapped geothermal power reserves, among the largest in the world. This clean, reliable baseload energy source could transform Indonesia's power grid, reduce dependence on fossil fuels, and serve as a model for sustainable energy development across Southeast Asia.</description>
+      <category>Asia</category>
+    </item>
+    <item>
+      <title>UK Renewables Power a Record 52.5% of Electricity — Zero Coal Year Too</title>
+      <link>https://renewablesnow.com/news/renewables-provide-record-52-5-percent-of-uk-generation-in-2025-1292531/</link>
+      <guid isPermaLink="true">https://renewablesnow.com/news/renewables-provide-record-52-5-percent-of-uk-generation-in-2025-1292531/</guid>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <description>For the second consecutive year, renewables provided more than half of UK electricity, reaching a record 52.5% in 2025. The year also marked the first full calendar year without any coal-fired generation — closing more than 140 years of coal power in Britain and cementing the UK's status as a global clean energy leader.</description>
+      <category>Europe</category>
+    </item>
+    <item>
+      <title>WHO Launches Open Database to Help Europe Build Better Health Policy</title>
+      <link>https://www.who.int/europe/news/item/08-04-2026-new-who-database-helps-countries-turn-health-data-into-better-policy</link>
+      <guid isPermaLink="true">https://www.who.int/europe/news/item/08-04-2026-new-who-database-helps-countries-turn-health-data-into-better-policy</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <description>The World Health Organization's European office unveiled a new open-access database unifying nearly 70 health data indicators across member states. Designed for policymakers, researchers, and the public alike, the tool makes evidence-based health decision-making faster, more transparent, and more equitable across the diverse nations of the WHO European Region.</description>
+      <category>Europe</category>
+    </item>
+    <item>
+      <title>EU Launches Bold Health Innovation Package Including First 'Safe Hearts' Plan</title>
+      <link>https://longevity.technology/news/eu-rolls-out-plan-to-address-bottlenecks-in-healthcare/</link>
+      <guid isPermaLink="true">https://longevity.technology/news/eu-rolls-out-plan-to-address-bottlenecks-in-healthcare/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <description>The European Commission unveiled a sweeping pro-innovation health package featuring a proposed Biotech Act, simplified medical device regulations, and a landmark Safe Hearts Plan — the EU's first coordinated strategy targeting cardiovascular disease. The package positions Europe as a global leader in health innovation while aiming to make its health sector more resilient and competitive.</description>
+      <category>Europe</category>
+    </item>
+    <item>
+      <title>Artemis II Crew Returns Safely After Historic Journey Around the Moon</title>
+      <link>https://www.nasa.gov/gallery/artemis-ii-splashdown-and-return/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/gallery/artemis-ii-splashdown-and-return/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <description>NASA's Artemis II crew splashed down in the Pacific Ocean on April 10 after a nearly 10-day journey around the Moon — the first crewed lunar mission since Apollo 17 in 1972. The mission set a new distance record for human spaceflight and included the first woman, first person of color, and first non-American to fly beyond low Earth orbit.</description>
+      <category>North America</category>
+    </item>
+    <item>
+      <title>Being Optimistic Linked to 15% Lower Dementia Risk, Harvard Finds</title>
+      <link>https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx</link>
+      <guid isPermaLink="true">https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <description>A landmark Harvard T.H. Chan School of Public Health study, published April 8 in the Journal of the American Geriatrics Society, found that higher optimism is associated with a 15% lower risk of developing dementia. The link held consistently across racial groups, health conditions, and depression levels across 14 years of follow-up data covering 9,000 participants.</description>
+      <category>North America</category>
+    </item>
+    <item>
+      <title>Oksana Masters Wins Four Golds at Milan-Cortina, Reaches 24 Career Medals</title>
+      <link>https://www.npr.org/2026/03/17/nx-s1-5749163/oksana-masters-2026-winter-paralympics-medals</link>
+      <guid isPermaLink="true">https://www.npr.org/2026/03/17/nx-s1-5749163/oksana-masters-2026-winter-paralympics-medals</guid>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <description>American Paralympic athlete Oksana Masters earned four gold medals and a bronze at the 2026 Winter Paralympics, bringing her all-time medal total to 24 — the most ever by a U.S. Winter Paralympian. From para biathlon to cross-country skiing, her performances in Milan-Cortina were a masterclass in resilience, joy, and the limitless potential of adaptive sport.</description>
+      <category>North America</category>
+    </item>
+    <item>
+      <title>COP15 in Brazil Grants Protection to 40 New Migratory Species</title>
+      <link>https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-03/cop15-ends-40-additional-species-granted-protection</link>
+      <guid isPermaLink="true">https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-03/cop15-ends-40-additional-species-granted-protection</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <description>The CMS COP15 conference in Campo Grande, Brazil extended protection to 40 species — including cheetah, giant otter, snowy owl, and manta ray — under the UN Convention on Migratory Species. Governments also formally recognised marine flyways for the first time, a decision scientists called one of the most significant advances in ocean conservation in a generation.</description>
+      <category>South America</category>
+    </item>
+    <item>
+      <title>Amazon Deforestation Hits Decade Low as Brazil Charts Bold Nature Course</title>
+      <link>https://news.mongabay.com/2026/01/brazil-sets-out-its-strategy-for-nature/</link>
+      <guid isPermaLink="true">https://news.mongabay.com/2026/01/brazil-sets-out-its-strategy-for-nature/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Annual Amazon deforestation fell for the fifth consecutive year in 2025, reaching its lowest level in over a decade. Alongside this breakthrough, Brazil launched its national biodiversity strategy committing to protect 80% of the Amazon by 2030 — backed by improved enforcement, better-integrated data systems, and a $125 billion Tropical Forests Forever Facility.</description>
+      <category>South America</category>
+    </item>
+    <item>
+      <title>Argentina's Iberá Rewilding Dream Transforms Land and 100,000 Lives</title>
+      <link>https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources</link>
+      <guid isPermaLink="true">https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Argentina's landmark Iberá rewilding programme has spent two decades restoring keystone species — from giant anteaters to jaguars — to the vast Corrientes wetlands. Today it supports a thriving ecotourism economy and has revitalised the cultural identity of 100,000 people living around the park, proving that restoring nature can rebuild communities too.</description>
+      <category>South America</category>
+    </item>
+    <item>
+      <title>Papua New Guinea Makes History in Women's World Cup Qualifiers</title>
+      <link>https://islandsbusiness.com/pacnews/pacnews-sports-13-april-2026/</link>
+      <guid isPermaLink="true">https://islandsbusiness.com/pacnews/pacnews-sports-13-april-2026/</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Papua New Guinea's women's national football team secured a historic berth in the FIFA Women's World Cup 2027 Oceania Qualifiers final, defeating American Samoa 1-0 on April 13 in a resolute, disciplined performance. The result is a proud milestone for Pacific women's football, signalling the growing strength and ambition of the game across the islands.</description>
+      <category>Oceania</category>
+    </item>
+    <item>
+      <title>New Zealand Books Women's World Cup Final with Commanding 5-0 Win</title>
+      <link>https://islandsbusiness.com/pacnews/pacnews-sports-14-april-2026/</link>
+      <guid isPermaLink="true">https://islandsbusiness.com/pacnews/pacnews-sports-14-april-2026/</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <description>New Zealand's women's football team delivered a dominant 5-0 victory over Fiji at FMG Stadium in Hamilton to secure their place in the FIFA Women's World Cup 2027 Oceania Qualifiers final. The result underscores New Zealand's continued rise as a major force in women's international football ahead of the 2027 global tournament.</description>
+      <category>Oceania</category>
+    </item>
+    <item>
+      <title>IOC President Kirsty Coventry Makes Historic First Visit to Oceania</title>
+      <link>https://islandsbusiness.com/pacnews/pacnews-sports-15-april-2026/</link>
+      <guid isPermaLink="true">https://islandsbusiness.com/pacnews/pacnews-sports-15-april-2026/</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <description>IOC President Kirsty Coventry made her inaugural visit to Oceania to address the ONOC Annual General Assembly, underscoring the international Olympic movement's renewed commitment to the Pacific region. Her presence signals Oceania's growing voice in global sport governance and the IOC's investment in developing Olympic sport across Pacific island nations.</description>
+      <category>Oceania</category>
+    </item>
+    <item>
+      <title>Pink Boulders Reveal Hidden 100km Giant Beneath Antarctic Ice</title>
+      <link>https://www.sciencedaily.com/releases/2026/03/260318033126.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/03/260318033126.htm</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Mysterious pink granite boulders atop Antarctica's Hudson Mountains led scientists to a stunning discovery: a hidden granite mass stretching nearly 100km beneath Pine Island Glacier. Detected through sensitive airborne gravity measurements, the finding illuminates how the glacier behaved during the last ice age and will sharpen predictions of how Antarctic ice responds to future warming.</description>
+      <category>Antarctica</category>
+    </item>
+    <item>
+      <title>Scientists Unveil Most Complete Map of Antarctica's Hidden Landscape</title>
+      <link>https://www.gbnews.com/science/antarctica-breakthrough-scientific-discovery-map-under-the-ice</link>
+      <guid isPermaLink="true">https://www.gbnews.com/science/antarctica-breakthrough-scientific-discovery-map-under-the-ice</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Researchers produced the most comprehensive map ever created of the terrain beneath Antarctica's ice sheet, revealing a rich world of mountains, canyons, valleys, and over 30,000 previously unknown hills. This bedrock atlas transforms scientists' ability to model how Antarctica's frozen mass will respond to climate change in the decades ahead.</description>
+      <category>Antarctica</category>
+    </item>
     <item>
       <title>Africa's Solar Boom Hits Record 54% Growth in a Single Year</title>
       <link>https://renewablesnow.com/regions/sub-saharan-africa/</link>
@@ -325,166 +485,6 @@
       <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/04/260406192902.htm</guid>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       <description>A landmark study has revealed that Earth's most powerful ocean current — circling Antarctica, stronger than all rivers combined — formed through a complex interplay of shifting continents and ancient wind patterns. The discovery reshapes understanding of how past ice ages developed and how carbon was drawn from the atmosphere, offering vital new clues for building accurate climate models.</description>
-      <category>Antarctica</category>
-    </item>
-    <item>
-      <title>Africa's First Soybean Speed Breeding Facility Opens in Zambia</title>
-      <link>https://www.topafricanews.com/2026/04/09/iita-launches-africas-first-soybean-speed-breeding-facility-in-zambia-to-accelerate-crop-innovation/</link>
-      <guid isPermaLink="true">https://www.topafricanews.com/2026/04/09/iita-launches-africas-first-soybean-speed-breeding-facility-in-zambia-to-accelerate-crop-innovation/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>The International Institute of Tropical Agriculture has inaugurated Africa's first soybean speed breeding facility in Zambia, using optimized light and temperature to grow multiple crop generations per year. The breakthrough cuts new variety development from 6–8 years down to 4–5, supporting Zambia's goal of producing one million tons of soybean by 2030 and boosting food security across the region.</description>
-      <category>Africa</category>
-    </item>
-    <item>
-      <title>African-Led Conservation Keeps 90% of Wildlife Populations Stable</title>
-      <link>https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/</link>
-      <guid isPermaLink="true">https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Across more than 8.6 million hectares of actively managed land, 90% of monitored wildlife populations are now stable or increasing. Highlights include 27 hectares of restored mountain gorilla habitat in Rwanda and a women-led initiative in Cameroon that reduced herder-farmer conflicts by 62% — proof that African-led models are redefining conservation success.</description>
-      <category>Africa</category>
-    </item>
-    <item>
-      <title>Africa's First Road Safety Charter Enters Into Force</title>
-      <link>https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force</link>
-      <guid isPermaLink="true">https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>After a decade-long campaign, the African Road Safety Charter — the continent's first legally binding road safety framework — has officially entered into force with 15 African Union ratifications. Signatory nations must now establish road safety agencies, enact laws on speeding and drink-driving, and invest in safer infrastructure to save thousands of lives.</description>
-      <category>Africa</category>
-    </item>
-    <item>
-      <title>Taiwan's Volunteer Doctors Become Asia's Quiet Humanitarian Force</title>
-      <link>https://globaltaiwan.org/2026/04/the-bamboo-doctors/</link>
-      <guid isPermaLink="true">https://globaltaiwan.org/2026/04/the-bamboo-doctors/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Taiwan's independent medical NGOs — led by the Tzu Chi Foundation and Taiwan Root Medical Peace Corps — have mobilized over 9,000 physicians providing free care to millions worldwide. What began in 1966 with thirty housewives saving spare change in bamboo coin banks has grown into a global relief network often arriving in disaster zones before larger nations.</description>
-      <category>Asia</category>
-    </item>
-    <item>
-      <title>Thailand's Songkran Festival Draws Record 3.7 Million Travellers</title>
-      <link>https://asianews.network/songkran-2026-travel-surge-thailand-expects-3-7-million-passengers/</link>
-      <guid isPermaLink="true">https://asianews.network/songkran-2026-travel-surge-thailand-expects-3-7-million-passengers/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Thailand's airports are preparing for a record-setting Songkran celebration, with 3.7 million passengers expected from April 10–19. Visitors from China, Japan, Malaysia, India, and South Korea are flocking to celebrate the Thai New Year, generating an estimated 30.35 billion Baht in tourism revenue — a joyful 6% rise over last year.</description>
-      <category>Asia</category>
-    </item>
-    <item>
-      <title>Manila Bay Gets Solar-Powered Plastic Interceptors</title>
-      <link>https://mb.com.ph/2026/01/27/manila-joins-global-push-to-stop-ocean-plastic-as-the-ocean-cleanup-launches-30-cities-program</link>
-      <guid isPermaLink="true">https://mb.com.ph/2026/01/27/manila-joins-global-push-to-stop-ocean-plastic-as-the-ocean-cleanup-launches-30-cities-program</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>The Philippines has joined The Ocean Cleanup's 30 Cities Program, deploying solar-powered Interceptor systems in Manila Bay's waterways. Using AI and detailed river mapping, the initiative targets the rivers carrying over 90% plastic waste. Manila joins a growing global coalition aiming to eliminate one-third of all river-borne plastic reaching the ocean by 2030.</description>
-      <category>Asia</category>
-    </item>
-    <item>
-      <title>Croatia Declared Landmine-Free After 30 Years of Clearing</title>
-      <link>https://www.taipeitimes.com/News/world/archives/2026/04/08/2003855246</link>
-      <guid isPermaLink="true">https://www.taipeitimes.com/News/world/archives/2026/04/08/2003855246</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Croatia has officially been declared free of landmines, completing a monumental 30-year effort to clear the deadly remnants of its 1990s war. Almost 107,000 mines and 407,000 pieces of unexploded ordnance were removed at a cost of over one billion euros — closing a painful chapter and fulfilling the country's Ottawa Convention commitment.</description>
-      <category>Europe</category>
-    </item>
-    <item>
-      <title>World Crosses 10% Ocean Protection Milestone</title>
-      <link>https://iucn.org/press-release/202604/world-reaches-milestone-nature-10-ocean-now-officially-protected</link>
-      <guid isPermaLink="true">https://iucn.org/press-release/202604/world-reaches-milestone-nature-10-ocean-now-officially-protected</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>The world has officially crossed a landmark threshold: 10% of the global ocean is now within protected or conserved areas, according to IUCN and UNEP. Over the past two years, roughly 5 million square kilometers — an area larger than the entire European Union — gained protected status, showing accelerating momentum toward the 30% by 2030 target.</description>
-      <category>Europe</category>
-    </item>
-    <item>
-      <title>'Extinct' Large Tortoiseshell Butterfly Returns to England</title>
-      <link>https://www.envirolink.org/2026/03/10/large-tortoiseshell-butterfly-returns-to-uk-after-decades-of-extinction/</link>
-      <guid isPermaLink="true">https://www.envirolink.org/2026/03/10/large-tortoiseshell-butterfly-returns-to-uk-after-decades-of-extinction/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>The large tortoiseshell butterfly, declared extinct in Britain in the 1990s, has been spotted breeding across multiple counties in southern England. Butterfly Conservation now considers the species resident once again, with individuals photographed at Hengistbury Head in Dorset as recently as April 7 — a remarkable natural comeback after more than three decades.</description>
-      <category>Europe</category>
-    </item>
-    <item>
-      <title>US Traffic Deaths Drop to Lowest Level Since 2019</title>
-      <link>https://www.usnews.com/news/us/articles/2026-04-01/us-traffic-deaths-fall-to-lowest-number-since-2019</link>
-      <guid isPermaLink="true">https://www.usnews.com/news/us/articles/2026-04-01/us-traffic-deaths-fall-to-lowest-number-since-2019</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>NHTSA announced that US traffic fatalities dropped 6.7% in 2025 to 36,640 — the lowest since 2019 — with the fatality rate hitting 1.10 per 100 million vehicle miles traveled, the second-lowest in US history. Fatalities decreased across 39 states, DC, and Puerto Rico, marking a meaningful nationwide win for road safety.</description>
-      <category>North America</category>
-    </item>
-    <item>
-      <title>Harvard Finds Optimism Lowers Dementia Risk by 15%</title>
-      <link>https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx</link>
-      <guid isPermaLink="true">https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>A Harvard T.H. Chan School of Public Health study published in the Journal of the American Geriatrics Society found that optimistic older adults had a 15% lower risk of developing dementia over 14 years. Following 9,071 cognitively healthy participants, the research offers hopeful evidence that a positive outlook may genuinely protect brain health as we age.</description>
-      <category>North America</category>
-    </item>
-    <item>
-      <title>Massachusetts Nature Fund Initiative Heads to 2026 Ballot</title>
-      <link>https://ballotpedia.org/Massachusetts_Establish_a_Nature_for_All_Fund_Initiative_(2026)</link>
-      <guid isPermaLink="true">https://ballotpedia.org/Massachusetts_Establish_a_Nature_for_All_Fund_Initiative_(2026)</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>The Nature for Massachusetts Coalition surpassed 100,000 signatures to place the Protect Water and Nature Initiative on the November 2026 ballot. If passed, it would dedicate over $100 million annually from existing sales tax revenue to clean water, parks, trails, and equitable access to nature across the state — a grassroots victory for conservation.</description>
-      <category>North America</category>
-    </item>
-    <item>
-      <title>Paraguay's Holy Week Tourism Surges With 36% Revenue Jump</title>
-      <link>https://en.mercopress.com/2026/04/07/holy-week-boosts-paraguayan-tourism-90-hotel-occupancy-and-36-revenue-increase</link>
-      <guid isPermaLink="true">https://en.mercopress.com/2026/04/07/holy-week-boosts-paraguayan-tourism-90-hotel-occupancy-and-36-revenue-increase</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Paraguay's domestic tourism surged during Holy Week, with hotel occupancy hitting 90% nationwide — up 12% from 2025. Over 409,000 visitors generated $55.5 million in revenue, a 36% jump year-over-year. The candlelight procession at Tanarandy near the UNESCO-listed Jesuit missions drew 30,000 visitors alone, showcasing the country's rich cultural heritage.</description>
-      <category>South America</category>
-    </item>
-    <item>
-      <title>Peru Restores Its Senate for First Time in 30 Years</title>
-      <link>https://www.csis.org/analysis/peru-2026-general-election-first-round-vote-must-knows</link>
-      <guid isPermaLink="true">https://www.csis.org/analysis/peru-2026-general-election-first-round-vote-must-knows</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>On April 12, Peruvians headed to the polls in a historic general election that restores the country's Senate for the first time in nearly three decades, thanks to a 2024 reform. The bicameral legislature will now include 60 senators alongside 130 deputies — a major step in strengthening democratic institutions after years of political turbulence.</description>
-      <category>South America</category>
-    </item>
-    <item>
-      <title>Colombia Hosts World's First Just Fossil Fuel Transition Summit</title>
-      <link>https://www.downtoearth.org.in/climate-change/colombia-rallies-global-coalition-for-fossil-fuel-phaseout-announces-landmark-santa-marta-conference</link>
-      <guid isPermaLink="true">https://www.downtoearth.org.in/climate-change/colombia-rallies-global-coalition-for-fossil-fuel-phaseout-announces-landmark-santa-marta-conference</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Colombia and the Netherlands are co-hosting the first-ever International Conference on the Just Transition Away from Fossil Fuels on April 28–29 in Santa Marta. Backed by the Belem Declaration signed by 24 nations, the conference will bring together governments, Indigenous communities, and scientists to chart equitable pathways away from fossil fuel dependence.</description>
-      <category>South America</category>
-    </item>
-    <item>
-      <title>New Zealand Signs Landmark 30-Year Auckland City Deal</title>
-      <link>https://www.rnz.co.nz/news/political/591977/christopher-luxon-and-wayne-brown-sign-auckland-city-deal</link>
-      <guid isPermaLink="true">https://www.rnz.co.nz/news/political/591977/christopher-luxon-and-wayne-brown-sign-auckland-city-deal</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Prime Minister Christopher Luxon and Auckland Mayor Wayne Brown signed New Zealand's first-ever city deal on April 10, establishing a 30-year coordinated transport and infrastructure strategy for Auckland. The historic agreement includes priority rapid transit projects, a new Crown co-funding tool, and sets the model for future regional deals across the country.</description>
-      <category>Oceania</category>
-    </item>
-    <item>
-      <title>New Zealand Funds Breakthrough Blood Cancer Treatments</title>
-      <link>https://livenews.co.nz/2026/04/09/pharmac-to-fund-two-new-combination-treatments-and-widen-access-to-another-for-people-with-a-type-of-blood-cancer/</link>
-      <guid isPermaLink="true">https://livenews.co.nz/2026/04/09/pharmac-to-fund-two-new-combination-treatments-and-widen-access-to-another-for-people-with-a-type-of-blood-cancer/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>New Zealand's drug-buying agency Pharmac confirmed it will fund two new combination therapies for chronic lymphocytic leukaemia starting May 1, 2026. Around 110 patients per year will gain access to venetoclax-based combination treatments as first-line options, with wider access also granted to ibrutinib regardless of mutation type — a lifeline for families across the country.</description>
-      <category>Oceania</category>
-    </item>
-    <item>
-      <title>Tuvalu Launches Rat Eradication to Restore Niulakita Island</title>
-      <link>https://islandsbusiness.com/pacnews/pacnews-two-10-april-2026/</link>
-      <guid isPermaLink="true">https://islandsbusiness.com/pacnews/pacnews-two-10-april-2026/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>Teams from Tuvalu's Department of Environment and Island Conservation are on Niulakita Island preparing a major operation to eradicate invasive rats that damage coconut harvests and prey on seabirds. The community-backed initiative, supported by the Predator Free Pacific programme, aims to restore native ecosystems and strengthen food security for residents.</description>
-      <category>Oceania</category>
-    </item>
-    <item>
-      <title>Uncharted Island Discovered in Antarctica's Weddell Sea</title>
-      <link>https://gizmodo.com/antarctic-expedition-to-danger-zone-accidentally-discovers-previously-uncharted-island-2000744598</link>
-      <guid isPermaLink="true">https://gizmodo.com/antarctic-expedition-to-danger-zone-accidentally-discovers-previously-uncharted-island-2000744598</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>An international team of 93 scientists aboard the German icebreaker Polarstern stumbled upon a previously unmapped island in the Weddell Sea while sheltering from a storm. The roughly 130-metre-long island had been invisible on satellite imagery because it blended in with surrounding icebergs — a charming reminder that our planet still holds surprises waiting to be found.</description>
-      <category>Antarctica</category>
-    </item>
-    <item>
-      <title>Scientists Rewrite Origin of Earth's Mightiest Ocean Current</title>
-      <link>https://www.sciencedaily.com/releases/2026/04/260406192902.htm</link>
-      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/04/260406192902.htm</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <description>A study published in PNAS rewrites the origin story of the Antarctic Circumpolar Current, the planet's most powerful ocean flow. Scientists found that powerful westerly winds had to align with opening ocean gateways before the current could develop its climate-cooling effects — deepening our understanding of how Antarctica's isolation shaped the global climate we know today.</description>
       <category>Antarctica</category>
     </item>
   </channel>
