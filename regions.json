@@ -1,6 +1,212 @@
 {
   "pulls": [
     {
+      "date": "2026-04-18",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Africa's First Legally Binding Road Safety Law Enters Into Force",
+              "summary": "After Mozambique became the 15th country to ratify, the African Road Safety Charter officially entered into force on 12 March 2026 — the continent's first legally binding road safety framework. It commits nations to halving road fatalities by 2030, mandates national road safety agencies, and sets new standards for safe infrastructure and vehicle safety across 15 AU member states.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-03-26"
+            },
+            {
+              "id": "af-2",
+              "title": "46 Community Scouts Graduate to Guard Kenya's Tsavo Wildlife Corridor",
+              "summary": "Forty-six scouts from 13 conservancies across Kenya's Taita Taveta County completed a rigorous 21-day programme in anti-poaching, wildlife law enforcement, and human-wildlife conflict mitigation — bringing AWF and Ol Pejeta's total of trained scouts to over 150. Camera traps are already returning early signs of increased wildlife presence in protected zones.",
+              "source": "African Wildlife Foundation",
+              "url": "https://www.awf.org/pressroom/46-community-scouts-graduate-kenyas-tsavo-landscape-strengthening-frontline-conservation",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "af-3",
+              "title": "Namibia's Cheetah-Farmer Coexistence Model Becomes a Global Conservation Blueprint",
+              "summary": "Namibia is earning international acclaim for an innovative programme that allows cheetahs and livestock farmers to thrive side by side. Led by the Cheetah Conservation Fund, the approach demonstrates that apex predators and agriculture can coexist — boosting both conservation outcomes and eco-tourism revenues, and inspiring replication across the continent.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/namibia-to-showcase-wildlife-travel-harmony-as-cheetahs-and-farmers-coexist-boosting-conservation-tourism-from-south-africa-india-kenya-and-beyond/",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "Malaysia Becomes Southeast Asia's Fastest-Rising AI and Data Centre Hub",
+              "summary": "Capturing 32% of Southeast Asia's AI investment and drawing over US$15 billion in commitments, Malaysia raised its data centre capacity from 120 MW to 690 MW in a single year. Its first NVIDIA-powered sovereign AI data centre runs entirely on solar power, and AI is projected to contribute US$115 billion to Malaysia's GDP by 2030.",
+              "source": "Citizens Journal",
+              "url": "https://cj.my/156461/malaysia-emerges-as-southeast-asias-fastest-rising-ai-and-data-centre-hub",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "as-2",
+              "title": "Bangladesh's PM Tarique Rahman Named to TIME's 100 Most Influential People",
+              "summary": "Prime Minister Tarique Rahman, who returned from 17 years in exile to win a landmark election in February, has been recognised among TIME's 100 Most Influential People of 2026. The honour celebrates Bangladesh's historic democratic renewal and Rahman's role in steering a nation of 170 million toward a more open and hopeful future.",
+              "source": "TIME Magazine",
+              "url": "https://time.com/collection/100-most-influential-people/2026/tarique-rahman/",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "as-3",
+              "title": "Asian Cruise Destinations Report 20%+ Growth and Exciting New Port Openings",
+              "summary": "Asia's cruise sector is on a record run, with destinations reporting over 20% growth in passenger arrivals and port calls. South Korea alone expects 1.8 million cruise visitors in 2026 and opened two new ports at Masan and Saemangeum, as international fleets race to expand across the region's dynamic coastlines and cultural gems.",
+              "source": "Cruise Industry News",
+              "url": "https://cruiseindustrynews.com/cruise-news/2026/04/asian-destinations-report-double-digit-growth-and-new-port-developments/",
+              "date": "2026-04-14"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "Hungary's Peter Magyar Wins Landslide Election, Ending 16 Years of Orbán",
+              "summary": "In Hungary's most watched election in a generation, Peter Magyar's Tisza party won 138 of 199 parliamentary seats on 53.6% of the vote, ousting Viktor Orbán after 16 years. A record 77% voter turnout and tens of thousands celebrating along the Danube marked Hungary's democratic renewal — and paved the way for a €90 billion Ukraine aid package.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "eu-2",
+              "title": "Europe's Wild Bison Bounce Back From Near-Extinction to 9,000 Strong",
+              "summary": "A century after European bison were hunted to fewer than 60 individuals in captivity, the continent's largest land mammal has rebounded to around 9,000. Community-led rewilding projects across Poland, Romania, Bulgaria, and Spain are driving the recovery — and a single herd of 170 bison has been shown to offset the carbon emissions of 84,000 petrol cars per year.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/08/from-biodiversity-to-carbon-capture-saving-bison-from-extinction-has-brought-big-benefits-",
+              "date": "2026-04-08"
+            },
+            {
+              "id": "eu-3",
+              "title": "Germany's Lusatia Turns Former Coal Mines Into a Spectacular Lakeland Paradise",
+              "summary": "In Germany's former coal heartland of Lusatia, old open-cast mining pits are being flooded and transformed into a vast interconnected lakeland landscape — one of Europe's most celebrated post-industrial success stories. The project is drawing international admiration and creating thousands of nature-based tourism jobs in communities once defined by fossil fuels.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-16-of-2026/",
+              "date": "2026-04-18"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "Canada Launches National AI Supercomputing Initiative to Lead Global Research",
+              "summary": "Canada unveiled an ambitious effort to build one of the world's most advanced AI supercomputing systems under its Sovereign AI Compute Strategy. The initiative gives Canadian researchers, universities, and innovators the computational power to lead at the frontier of AI — while protecting national data sovereignty and strengthening the country's innovation ecosystem.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/canada-launches-national-initiative-to-build-large-scale-ai-supercomputing-capacity.html",
+              "date": "2026-04-16"
+            },
+            {
+              "id": "na-2",
+              "title": "Canada Invests $127 Million in Life Sciences, Creating 400 Jobs in Vancouver",
+              "summary": "The Canadian government announced a $127 million investment in Aspect Biosystems and Providence Health Care, supporting pioneering tissue bioprinting and life sciences research in Vancouver. The funding creates 400 permanent jobs, 268 student co-op positions, and positions Canada as a world leader in next-generation biomanufacturing.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/government-of-canada-announces-127-million-investment-in-aspect-biosystems-and-providence-health-care-to-bolster-the-canadian-biomanufacturing-and-.html",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "na-3",
+              "title": "Cornell Scientists Achieve Breakthrough Toward Safe, Reversible Male Birth Control",
+              "summary": "Cornell researchers developed a compound that completely halts sperm production in mice — reversibly, without hormonal effects — with healthy offspring after treatment ended. Published in PNAS, the study marks the most significant advance toward male contraception in decades and lays the scientific groundwork for future human clinical trials.",
+              "source": "Cornell Chronicle",
+              "url": "https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Venezuela Wins World Baseball Classic for the First Time in History",
+              "summary": "In a breathtaking final at Miami's loanDepot Park, Venezuela stunned the United States 3-2 to claim the World Baseball Classic trophy for the very first time. Eugenio Suárez's ninth-inning clutch double settled the contest, sparking nationwide celebrations and making Venezuela the first South American nation to win baseball's premier international prize.",
+              "source": "MLB",
+              "url": "https://www.mlb.com/news/venezuela-wins-world-baseball-classic-2026",
+              "date": "2026-03-17"
+            },
+            {
+              "id": "sa-2",
+              "title": "Brazil's Power Grid Reaches 84.6% Renewable as Solar Capacity Surpasses 68 GW",
+              "summary": "Brazil's electricity system has hit a remarkable milestone: 84.6% of its total installed capacity is now renewable. Solar has grown sixfold over five years, surpassing 68 GW, while wind and solar together supply nearly 25% of national generation. An offshore wind pipeline exceeding 189 GW — backed by a new Offshore Wind Law — is set to extend Brazil's clean energy lead.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/brazil-renewable-energy-2026-guide/",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "sa-3",
+              "title": "Argentina's Fiscal Reforms Win IMF Upgrade and Renewed Investor Confidence",
+              "summary": "After years of economic turbulence, Argentina's fiscal stabilization plan is delivering results: the IMF upgraded its 2026 outlook for the country in April, citing improved financial conditions, easing inflation, and rising foreign investor confidence. The turnaround signals a hard-won new chapter for South America's second-largest economy.",
+              "source": "AS/COA",
+              "url": "https://www.as-coa.org/articles/imf-and-world-banks-april-2026-update-latin-americas-economic-outlook",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Australia Honours Indigenous Scientists Reviving Native Seeds and Food Systems",
+              "summary": "The Australian Academy of Science's 2026 Aboriginal and Torres Strait Islander Scientist Award goes to Dr Cassandra Sedran-Price and Mr Jacob Birch. Dr Sedran-Price's community-led seed banks protect culturally vital plant species while creating new economic opportunities; Mr Birch is restoring drought-tolerant native grains to strengthen food security in climate-vulnerable regions.",
+              "source": "Australian Academy of Science",
+              "url": "https://science.org.au/news-events/news-views/indigenous-scientists-recognised-climate-resilience-research",
+              "date": "2026-03-28"
+            },
+            {
+              "id": "oc-2",
+              "title": "New Zealand Conservation Week Breaks With 57-Year Tradition to Celebrate in April",
+              "summary": "For the first time in its 57-year history, New Zealand's Conservation Week moves to April 20–26, with hundreds of events inviting Kiwis to 'get naturing.' The week highlights remarkable recoveries: the takahē's return from apparent extinction and kōkako populations growing from a single breeding pair to over 250 pairs in the Hunua Ranges.",
+              "source": "Connovation",
+              "url": "https://www.connovation.co.nz/blog/conservation-week-te-wiki-o-te-taiao-20-26-april-2026/",
+              "date": "2026-04-20"
+            },
+            {
+              "id": "oc-3",
+              "title": "South Pacific Cruise Boom Draws Record Visitors as Australia-NZ Partnership Grows",
+              "summary": "A strengthening Australia–New Zealand cruise alliance is transforming the South Pacific's standing in global travel, with record visitor numbers boosting ports across Fiji, Vanuatu, and Polynesia. Major international lines are rapidly expanding South Pacific itineraries, drawn by the region's unrivalled natural beauty and world-class hospitality.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/south-pacific-cruise-boom-australia-new-zealand-alliance-boosts-ports-routes-and-global-traveller-experience/",
+              "date": "2026-04-12"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "Scientists Drill Record Antarctic Core Revealing 23 Million Years of Climate History",
+              "summary": "An international team has extracted the deepest-ever sediment core from beneath the West Antarctic Ice Sheet — 228 metres of ancient rock and mud drilled through 523 metres of ice at remote Crary Ice Rise. The core spans 23 million years and includes warming periods similar to today's, giving scientists a powerful new tool for predicting future sea-level rise.",
+              "source": "ETH Zurich",
+              "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/02/record-breaking-sediment-core-may-help-predict-antarctic-ice-loss.html",
+              "date": "2026-02-25"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-16",
       "regions": {
         "Africa": {
@@ -423,220 +629,6 @@
               "source": "CSIRO",
               "url": "https://www.csiro.au/en/news/All/News/2026/January/Antarctic-voyage-of-discovery",
               "date": "2026-01-23"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-04-12",
-      "regions": {
-        "Africa": {
-          "emoji": "🌍",
-          "color": "#FF6B35",
-          "tagline": "A continent rising with energy and hope",
-          "stories": [
-            {
-              "id": "af-1",
-              "title": "Elbas Shift Sierra Leone's Sherbro Island From Aid to Investment",
-              "summary": "Actor Idris Elba and wife Sabrina are transforming Sherbro Island in Sierra Leone, pairing ecological sustainability with economic growth. Their initiative shifts the narrative from aid to investment, building local enterprises and eco-infrastructure. National Geographic reports the couple's vision is already drawing international attention and long-term funding to this historically overlooked island community.",
-              "source": "National Geographic",
-              "url": "https://www.nationalgeographic.com/culture/nat-geo-33/article/sabrina-idris-elba-2026",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "af-2",
-              "title": "African Conservation Revives Gorillas and Restores Watersheds",
-              "summary": "African-led conservation is delivering real results: a women's group in Cameroon cut farmer-herder conflicts by 62%, Tanzania communities are restoring river ecosystems with indigenous tree planting, and mountain gorilla populations have grown meaningfully. Eco-lodges now earn millions for local communities, proving that conservation and economic prosperity can flourish together when communities lead.",
-              "source": "Top Africa News",
-              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
-              "date": "2026-04-09"
-            },
-            {
-              "id": "af-3",
-              "title": "UN: Africa Among the World's Fastest-Growing Economies in 2026",
-              "summary": "A new UN report projects Africa's economy will grow 4.0% in 2026 and 4.1% in 2027, with several African nations ranked among the world's fastest-growing. Capital is flowing in, the working-age population is expanding, and South-South trade is growing at 9% — nearly double the global average. Africa is consolidating its place at the center of the global development story.",
-              "source": "UN Office of the Special Adviser on Africa",
-              "url": "https://www.un.org/osaa/Africa-economy-2026",
-              "date": "2026-04-01"
-            }
-          ]
-        },
-        "Asia": {
-          "emoji": "🌏",
-          "color": "#FFB700",
-          "tagline": "Ancient wisdom, modern breakthroughs",
-          "stories": [
-            {
-              "id": "as-1",
-              "title": "China Turns Factory Ruins Into an Immersive Sound Museum",
-              "summary": "A decommissioned factory in China has been transformed into the 1Y Sound Museum, where walls of reclaimed materials broadcast oral histories from former workers and local residents. Designed by 1Y Architects, the space weaves acoustic storytelling with industrial memory, creating a living cultural institution that honors labor history while inspiring community connection and creative dialogue.",
-              "source": "Designboom",
-              "url": "https://www.designboom.com/architecture/1y-architects-museum-industrial-history-reclaimed-materials-sound-echo-ruins-china/",
-              "date": "2026-04-09"
-            },
-            {
-              "id": "as-2",
-              "title": "Uzbekistan and ZTE Partner to Build a 6G-Ready Digital Economy",
-              "summary": "Uzbekistan's Ministry of Digital Technologies signed a landmark MOU with ZTE Corporation to accelerate the country's digital transformation. The partnership will develop high-speed broadband, robust data centers, and next-generation technologies including 6G and Wi-Fi 8. The initiative positions Uzbekistan as a rising hub for Central Asian digital innovation and opens new economic pathways for the region.",
-              "source": "ZTE Corporation",
-              "url": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/Uzbekistan-and-ZTE-Forge-Strategic-Partnership-to-Accelerate-Digital-Transformation.html",
-              "date": "2026-04-08"
-            },
-            {
-              "id": "as-3",
-              "title": "Vietnam's Sports Economy Summit Charts Path to Billion-Dollar Growth",
-              "summary": "Vietnam hosted its inaugural Sports Economy Summit 2026, bringing together government officials, investors, and industry leaders to unlock the sector's potential. Discussions covered infrastructure, media rights, tourism tie-ins, and youth development, positioning Vietnam to build a vibrant, internationally competitive sports economy. Experts say the summit marks a turning point for how the country views sport as an economic engine.",
-              "source": "VietnamPlus",
-              "url": "https://en.vietnamplus.vn/vietnam-sports-economy-summit-2026-explores-pathways-to-new-sector-post340057.vnp",
-              "date": "2026-04-09"
-            }
-          ]
-        },
-        "Europe": {
-          "emoji": "🌍",
-          "color": "#44BBA4",
-          "tagline": "Green, resilient, and reaching for the future",
-          "stories": [
-            {
-              "id": "eu-1",
-              "title": "UK Renewables Top 52% for the Second Consecutive Year",
-              "summary": "Great Britain's renewables generated 52.5% of its electricity in 2025 — the second straight year above the 50% threshold. Wind power led the way, and in March 2026 alone, record combined wind and solar output saved the UK nearly £1 billion in gas imports. Clean power has stopped being the exception; it is now the country's dependable baseline.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
-              "date": "2026-04-11"
-            },
-            {
-              "id": "eu-2",
-              "title": "German Village Feldheim Runs Entirely on Its Own Renewable Energy",
-              "summary": "The small German village of Feldheim has achieved complete energy independence through three decades of investment in wind turbines, biogas, and its own local grid. Fully insulated from global energy price volatility, residents enjoy stable, affordable electricity year-round. Feldheim stands as living proof that community-scale energy sovereignty is achievable — and deeply worth it.",
-              "source": "Deutsche Welle",
-              "url": "https://www.dw.com/en/the-german-village-running-on-its-own-juice/a-76395682",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "eu-3",
-              "title": "UK Dad's Soccer Team for Bereaved Fathers Grows to 36 Members",
-              "summary": "After losing a child, one British father founded Forget-Me-Knot FC — a football club exclusively for grieving dads. Starting with six members, the team has grown to 36, united by shared loss and the healing power of sport. Each match is a tribute and a lifeline. Plans are underway to expand the club to communities across the United Kingdom.",
-              "source": "People",
-              "url": "https://people.com/dad-stars-soccer-team-for-grieving-fathers-baby-loss-exclusive-11927576",
-              "date": "2026-04-04"
-            }
-          ]
-        },
-        "North America": {
-          "emoji": "🌎",
-          "color": "#E94F8B",
-          "tagline": "Bold dreams, bigger firsts",
-          "stories": [
-            {
-              "id": "na-1",
-              "title": "US's Largest Offshore Wind Farm Generates Its First Clean Power",
-              "summary": "Dominion Energy's Coastal Virginia Offshore Wind project — the largest offshore wind farm in the United States — has begun generating electricity for the first time, even while 30% of turbines remain to be installed. Once complete, it will power 660,000 homes and is projected to save customers $3 billion in energy costs over its first decade of operation.",
-              "source": "Electrek",
-              "url": "https://electrek.co/2026/03/25/us-largest-wind-farm-just-produced-power-for-the-first-time/",
-              "date": "2026-03-25"
-            },
-            {
-              "id": "na-2",
-              "title": "PBS Kids' First Autistic Lead Character Wins Emmy for Public Service",
-              "summary": "Carl the Collector, PBS Kids' show starring its first autistic lead character, has earned an Emmy Award for Outstanding Public Service Initiative. The show offers a joyful, authentic portrayal of a collecting-obsessed kid who navigates the world on his own wonderful terms. Families and educators across the US report it has opened meaningful conversations about neurodiversity and belonging.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/pbs-kids-carl-the-collector-autism",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "na-3",
-              "title": "California's $15M Investment in Pet-Friendly Shelters Is Helping Families",
-              "summary": "California invested $15 million to make homeless shelters welcoming to pets, removing one of the biggest emotional barriers preventing people from leaving the streets — the fear of losing their animals. Early results show the program is successfully helping people transition off the streets, keeping human and animal family members together while rebuilding stability.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/pet-friendly-homeless-shelters-california",
-              "date": "2026-04-04"
-            }
-          ]
-        },
-        "South America": {
-          "emoji": "🌎",
-          "color": "#3B82F6",
-          "tagline": "Nature's guardian, culture's champion",
-          "stories": [
-            {
-              "id": "sa-1",
-              "title": "Chile Protects 337,000 km² in One of Earth's Largest Marine Reserves",
-              "summary": "Chilean President Boric signed a decree creating one of the world's largest no-take marine reserves around the Juan Fernández archipelago, protecting 337,000 square kilometers and placing over 50% of Chile's waters under conservation. The Juan Fernández fur seal — once near extinction — has rebounded to 200,000 individuals, proof that sustained protection can reverse even the steepest declines.",
-              "source": "The Portugal News",
-              "url": "https://www.theportugalnews.com/news/2026-04-04/ocean-sanctuary/998195",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "sa-2",
-              "title": "South America Named the World's Premier Travel Destination for 2026",
-              "summary": "Brazil, Argentina, Peru, and Colombia joined forces to promote South America as the planet's top travel destination for 2026, topping a global liveability ranking based on 24,000 resident surveys. A record international visitor wave is discovering the continent's extraordinary biodiversity, vibrant culture, and cuisine, injecting fresh momentum and investment into regional economies.",
-              "source": "Travel and Tour World",
-              "url": "https://www.travelandtourworld.com/news/article/peru-joins-argentina-brazil-and-colombia-to-transform-south-america-into-the-worlds-ultimate-travel-destination-for-2026-with-stunning-diversity-and-rich-heritage/",
-              "date": "2026-04-06"
-            },
-            {
-              "id": "sa-3",
-              "title": "Latin America Weathers Global Uncertainty With Resilient Growth",
-              "summary": "Despite global trade tensions, Latin America is experiencing renewed economic momentum in 2026. Capital that left the region is returning, aided by favorable interest rates and strong reform programs in Brazil, Argentina, Colombia, and Chile. A new wave of fiscal discipline is making the region an increasingly attractive destination for long-term international investment.",
-              "source": "Americas MI",
-              "url": "https://americasmi.com/insights/latin-america-2026-economic-outlook/",
-              "date": "2026-04-01"
-            }
-          ]
-        },
-        "Oceania": {
-          "emoji": "🌏",
-          "color": "#10B981",
-          "tagline": "Islands of partnership and discovery",
-          "stories": [
-            {
-              "id": "oc-1",
-              "title": "Tuvalu Launches Rat Eradication on Niulakita to Restore Ecosystems",
-              "summary": "Preparations are underway on Tuvalu's Niulakita Island for a landmark invasive rat eradication project, led by the national Department of Environment with regional support from SPREP. Strong community backing and ongoing baseline data collection are setting the stage for measurable ecological recovery — revitalizing native wildlife populations and restoring traditional food resources for islanders.",
-              "source": "Islands Business / SPREP",
-              "url": "https://islandsbusiness.com/pacnews/pacnews-two-10-april-2026/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "oc-2",
-              "title": "Pacific Islands Unite to Unlock Green Climate Finance Through Commonwealth Hub",
-              "summary": "Over 70 government representatives from 14 Pacific small island developing states gathered in Mauritius to strengthen climate finance access. The Commonwealth Climate Finance Access Hub is helping transform local climate priorities into investor-ready projects — bridging the gap between the Pacific's urgent needs and the global capital that can fund renewable energy and coastal resilience.",
-              "source": "Islands Business / Commonwealth Secretariat",
-              "url": "https://islandsbusiness.com/pacnews/pacnews-two-10-april-2026/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "oc-3",
-              "title": "Fiji Joins WTO Advisory Centre to Strengthen Its Global Trade Voice",
-              "summary": "Fiji's Cabinet approved accession to the Advisory Centre on WTO Law, equipping the island nation with improved legal capacity to navigate and defend its interests in international trade. The move is expected to expand Fiji's market participation, protect local industries, and open new economic opportunities — connecting this Pacific nation more confidently to the world trading system.",
-              "source": "Islands Business / PACNEWS",
-              "url": "https://islandsbusiness.com/pacnews/pacnews-one-2-april-2026/",
-              "date": "2026-04-02"
-            }
-          ]
-        },
-        "Antarctica": {
-          "emoji": "🧊",
-          "color": "#94A3B8",
-          "tagline": "The frozen frontier of human knowledge",
-          "stories": [
-            {
-              "id": "an-1",
-              "title": "Scientists Extract Record Sediment Core, Unlocking Antarctic Climate History",
-              "summary": "Australia's CSIRO research vessel RV Investigator completed a landmark Antarctic voyage, recovering a record 20.5-meter sediment core and over 10,000 samples from the Cook Ice Shelf region. Acting as geological time capsules, these cores preserve climate records stretching back hundreds of thousands of years — a trove that will help scientists better predict how Antarctica will respond to warming.",
-              "source": "Phys.org",
-              "url": "https://phys.org/news/2026-03-milestone-voyage-antarctic-science.html",
-              "date": "2026-03-16"
-            },
-            {
-              "id": "an-2",
-              "title": "New Study Reveals How Antarctic Winds Sculpted Earth's Ice Ages",
-              "summary": "A landmark study has revealed that Earth's most powerful ocean current — circling Antarctica, stronger than all rivers combined — formed through a complex interplay of shifting continents and ancient wind patterns. The discovery reshapes understanding of how past ice ages developed and how carbon was drawn from the atmosphere, offering vital new clues for building accurate climate models.",
-              "source": "ScienceDaily",
-              "url": "https://www.sciencedaily.com/releases/2026/04/260406192902.htm",
-              "date": "2026-04-06"
             }
           ]
         }

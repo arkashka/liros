@@ -1,6 +1,228 @@
 {
   "pulls": [
     {
+      "date": "2026-04-18",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "id": "eb-1",
+              "title": "Malaysia Becomes Southeast Asia's Fastest-Rising AI and Data Centre Hub",
+              "summary": "Capturing 32% of Southeast Asia's AI investment and drawing over US$15 billion in commitments, Malaysia raised its data centre capacity from 120 MW to 690 MW in a single year. Its first solar-powered sovereign AI data centre is now operational, and AI is projected to contribute US$115 billion to Malaysia's GDP by 2030.",
+              "source": "Citizens Journal",
+              "url": "https://cj.my/156461/malaysia-emerges-as-southeast-asias-fastest-rising-ai-and-data-centre-hub",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eb-2",
+              "title": "Canada Invests $127 Million in Life Sciences to Fuel Next-Gen Biomanufacturing",
+              "summary": "Canada's federal government announced a $127 million investment in Vancouver's Aspect Biosystems and Providence Health Care, supporting tissue bioprinting and life sciences innovation. The funding creates 400 permanent jobs and 268 student co-op positions, cementing Canada's ambition to lead the world in next-generation biomanufacturing.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/government-of-canada-announces-127-million-investment-in-aspect-biosystems-and-providence-health-care-to-bolster-the-canadian-biomanufacturing-and-.html",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "eb-3",
+              "title": "Argentina's Bold Reforms Win IMF Upgrade and Renewed Foreign Investor Confidence",
+              "summary": "After years of economic turbulence, Argentina's fiscal stabilization plan is delivering results: the IMF upgraded its 2026 outlook for the country in April, citing improved financial conditions, easing inflation, and rising investor confidence. For South America's second-largest economy, the turnaround signals a genuinely hopeful new chapter.",
+              "source": "AS/COA",
+              "url": "https://www.as-coa.org/articles/imf-and-world-banks-april-2026-update-latin-americas-economic-outlook",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "id": "st-1",
+              "title": "Canada Launches One of the World's Most Advanced AI Supercomputing Systems",
+              "summary": "Canada unveiled an ambitious national AI supercomputing initiative under its Sovereign AI Compute Strategy, giving researchers, universities, and innovators access to world-class computational infrastructure. The programme is designed to keep Canada at the frontier of AI discovery while protecting national data sovereignty and fuelling homegrown innovation.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/canada-launches-national-initiative-to-build-large-scale-ai-supercomputing-capacity.html",
+              "date": "2026-04-16"
+            },
+            {
+              "id": "st-2",
+              "title": "Scientists Create Antibodies That Fully Block Epstein-Barr Virus in Landmark Advance",
+              "summary": "Researchers at Fred Hutchinson Cancer Center have created powerful antibodies that completely prevent Epstein-Barr virus infection in human immune system models. EBV affects 95% of people worldwide and is linked to several cancers and multiple sclerosis. This breakthrough opens a realistic path to the first protective EBV vaccine, with major benefits for transplant patients.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260414075650.htm",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "st-3",
+              "title": "Cornell Scientists Achieve Breakthrough Toward Safe, Reversible Male Birth Control",
+              "summary": "Cornell researchers developed a compound that completely halts sperm production in mice — reversibly, without hormonal effects — with healthy offspring after treatment ended. Published in PNAS, the study is the most significant advance toward male contraception in decades and lays the scientific groundwork for future human clinical development.",
+              "source": "Cornell Chronicle",
+              "url": "https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "id": "ec-1",
+              "title": "World Adds Record 692 GW of Renewables in 2025 — The Biggest Clean Energy Year Ever",
+              "summary": "IRENA's April 2026 report confirms that global renewable capacity surged by a record 692 GW in 2025, bringing total capacity to 5,149 GW — the largest annual increase ever recorded. Solar led with 511 GW of new additions, and renewables now make up 49.4% of the world's total energy capacity, up from 46.3% in 2024.",
+              "source": "IRENA",
+              "url": "https://www.irena.org/News/pressreleases/2026/Apr/Near-700-GW-Surge-in-2025-Proves-Renewable-Energy-Resilience",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "ec-2",
+              "title": "Europe's Wild Bison Bounce Back From Near-Extinction to 9,000 Strong",
+              "summary": "A century ago, the European bison was hunted to fewer than 60 individuals in captivity. Today, rewilding programmes across Poland, Romania, Bulgaria, and Spain have helped the population recover to around 9,000. Researchers have also shown that bison herds sequester carbon at remarkable scale — one herd of 170 offsets the emissions of 84,000 petrol cars per year.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/08/from-biodiversity-to-carbon-capture-saving-bison-from-extinction-has-brought-big-benefits-",
+              "date": "2026-04-08"
+            },
+            {
+              "id": "ec-3",
+              "title": "Brazil's Electricity Grid Reaches 84.6% Renewable as Offshore Wind Pipeline Tops 189 GW",
+              "summary": "Brazil has crossed a landmark milestone: 84.6% of its electricity capacity is now renewable, with solar growing sixfold in five years and wind and solar jointly supplying nearly 25% of national generation. A 189 GW offshore wind pipeline — backed by a new Offshore Wind Law and World Bank financing — is set to extend Brazil's clean energy lead globally.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/brazil-renewable-energy-2026-guide/",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "id": "hw-1",
+              "title": "TMS Brain Stimulation Achieves 62% Complete Remission in Severe Depression",
+              "summary": "Real-world data from MUSC Health reveals that Transcranial Magnetic Stimulation achieves full remission of depression in 62% of patients — with an 83% response rate overall. Delivered in 20-minute non-invasive sessions over several weeks, TMS reactivates underactive brain regions and is transforming care for patients who haven't responded to antidepressant medication.",
+              "source": "MUSC Health",
+              "url": "https://www.musc.edu/content-hub/News/2026/04/14/tms-treatment",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "hw-2",
+              "title": "FDA Clears Brain Stimulation Therapy for Teen Depression in Historic Mental Health First",
+              "summary": "In a landmark move for adolescent mental health, the FDA has cleared TMS therapy for teenagers with depression — the first time a non-invasive brain stimulation treatment has been approved for young people. The clearance opens a safe, medication-free option for millions of teens struggling with treatment-resistant depression worldwide.",
+              "source": "Molecular Psychiatry",
+              "url": "https://www.nature.com/articles/s41380-026-03455-0",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "hw-3",
+              "title": "Scientists Create Antibodies That Fully Block Epstein-Barr Virus — A Major Cancer Cause",
+              "summary": "Fred Hutchinson Cancer Center researchers created antibodies that completely prevent EBV infection in lab models. The virus affects 95% of people globally, is linked to several cancers and multiple sclerosis, and is especially dangerous for immunocompromised patients. This advance puts a preventive EBV vaccine — with potentially enormous health benefits — within closer reach.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260414075650.htm",
+              "date": "2026-04-14"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "id": "sc-1",
+              "title": "Hungary's Historic Democratic Renewal as Magyar Wins With Record 77% Voter Turnout",
+              "summary": "In Hungary's most significant election in a generation, Peter Magyar's Tisza party ousted Viktor Orbán with a 53.6% landslide on a record 77% turnout. Tens of thousands lined the Danube as Magyar declared, 'Tonight, truth prevailed over lies,' marking the start of Hungary's democratic renewal and unlocking long-blocked EU aid for Ukraine.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "sc-2",
+              "title": "Bangladesh's PM Named to TIME 100 as Nation Rebuilds Its Democratic Spirit",
+              "summary": "Prime Minister Tarique Rahman — who won a sweeping electoral victory in February after 17 years in exile — has joined TIME's 100 Most Influential People of 2026. The recognition celebrates Bangladesh's democratic renewal and the country's determination to build a more open, transparent, and prosperous future for its 170 million citizens.",
+              "source": "TIME Magazine",
+              "url": "https://time.com/collection/100-most-influential-people/2026/tarique-rahman/",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "sc-3",
+              "title": "Australia Celebrates Indigenous Scientists Restoring Native Seeds and Food Systems",
+              "summary": "The Australian Academy of Science's 2026 Aboriginal and Torres Strait Islander Scientist Award honours Dr Cassandra Sedran-Price and Mr Jacob Birch for research rooted in traditional knowledge. Their work — establishing community seed banks and reviving drought-tolerant native grains — weaves scientific rigour with cultural wisdom to build climate-resilient food futures.",
+              "source": "Australian Academy of Science",
+              "url": "https://science.org.au/news-events/news-views/indigenous-scientists-recognised-climate-resilience-research",
+              "date": "2026-03-28"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "id": "ea-1",
+              "title": "V&A East Museum Opens With Landmark Exhibition on 125 Years of Black British Music",
+              "summary": "London's brand-new V&A East Museum opens on 18 April 2026 with 'The Music Is Black: A British Story' — a landmark free museum tracing 125 years of Black British musical culture through 200+ objects, fashion, film, and sound. Running until January 2027, the show is already heralded as one of the most significant cultural openings of the decade.",
+              "source": "Victoria and Albert Museum",
+              "url": "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story",
+              "date": "2026-04-18"
+            },
+            {
+              "id": "ea-2",
+              "title": "Euphoria Season 3 Premieres to Record 8.5 Million Viewers, Up 44% From Season 2",
+              "summary": "After a four-year wait, Euphoria returned on 12 April 2026 to its biggest audience ever — 8.5 million US viewers in just three days, a 44% jump over Season 2's debut. The show trended globally on social media with #Euphoria at No. 1 on X for six consecutive hours, cementing its place as the defining drama of its generation.",
+              "source": "Deadline",
+              "url": "https://deadline.com/2026/04/euphoria-season-3-premiere-ratings-hbo-1236863088/",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "ea-3",
+              "title": "New York's Grand Duchamp Retrospective Invites the World to Reimagine Art's Possibilities",
+              "summary": "A sweeping Marcel Duchamp retrospective has opened in New York City, drawing visitors from around the world to reconsider the boundaries of creativity and expression. The exhibition spans his entire career — from early paintings to the readymades that changed art history forever — offering a joyful, mind-bending celebration of artistic freedom and curiosity.",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-03-24/the-9-best-movies-tv-books-art-and-theater-arriving-in-april",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "id": "sl-1",
+              "title": "Rory McIlroy Defends Masters Title, Joins Tiger, Faldo, and Nicklaus in Elite History",
+              "summary": "Rory McIlroy claimed his second consecutive Masters title on April 12, 2026, becoming only the fourth player ever to successfully defend at Augusta — joining Nick Faldo, Tiger Woods, and Jack Nicklaus. Opening with record-breaking rounds of 67-65, the Northern Irishman held off Scottie Scheffler to claim his sixth major overall.",
+              "source": "The Masters",
+              "url": "https://www.masters.com/en_US/news/articles/2026-04-12/2026-04-12_2026-04-12_mcilroy_makes_history_once_again.html",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "sl-2",
+              "title": "Venezuela Wins World Baseball Classic for the First Time in History",
+              "summary": "In a heart-stopping final at Miami's loanDepot Park, Venezuela edged the United States 3-2 to capture the World Baseball Classic trophy for the very first time. Eugenio Suárez's ninth-inning clutch double settled the contest, igniting nationwide celebrations and making Venezuela the first South American country to win the sport's premier international prize.",
+              "source": "MLB",
+              "url": "https://www.mlb.com/news/venezuela-wins-world-baseball-classic-2026",
+              "date": "2026-03-17"
+            },
+            {
+              "id": "sl-3",
+              "title": "Corbin Carroll Makes MLB History in His 500th Game, Joining DiMaggio and Gehrig",
+              "summary": "Arizona Diamondbacks outfielder Corbin Carroll celebrated his 500th MLB game on April 8, 2026, with a 3-for-5 performance featuring two doubles and a triple. With 84 home runs, 124 stolen bases, and 46 triples across 500 games, Carroll became the only player in MLB history to achieve those numbers — joining an all-time legends list alongside DiMaggio and Gehrig.",
+              "source": "Sport Preferred",
+              "url": "https://www.sportpreferred.com/mlb/corbin-carroll-makes-mlb-history-in-500th-game-as-diamondbacks-beat-mets/12177",
+              "date": "2026-04-08"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-16",
       "topics": {
         "Economy & Business": {
@@ -439,228 +661,6 @@
               "source": "National Today",
               "url": "https://nationaltoday.com/us/in/indianapolis/news/2026/04/03/april-2026-packed-with-major-sports-events/",
               "date": "2026-04-03"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-04-12",
-      "topics": {
-        "Economy & Business": {
-          "emoji": "📈",
-          "color": "#FF6B35",
-          "tagline": "Innovation and growth fueling global prosperity",
-          "stories": [
-            {
-              "id": "eb-1",
-              "title": "Africa Set to Be Among the World's Fastest-Growing Economies in 2026",
-              "summary": "A new UN report projects Africa's economy will grow 4.0% in 2026 and 4.1% in 2027, with several nations ranking among the world's fastest-growing. Capital is flowing in, the working-age population is expanding, and South-South trade is growing at 9% — nearly double the global average. Africa is consolidating its place at the center of the global development story.",
-              "source": "UN Office of the Special Adviser on Africa",
-              "url": "https://www.un.org/osaa/Africa-economy-2026",
-              "date": "2026-04-01"
-            },
-            {
-              "id": "eb-2",
-              "title": "South America Crowned the World's Top Tourism Destination for 2026",
-              "summary": "Brazil, Argentina, Peru, and Colombia are promoting South America as the world's premier travel destination for 2026, topping a global liveability ranking drawn from 24,000 resident surveys. A record international visitor wave is discovering the continent's extraordinary biodiversity, vibrant culture, and cuisine — injecting fresh momentum and sustained investment into regional economies.",
-              "source": "Travel and Tour World",
-              "url": "https://www.travelandtourworld.com/news/article/peru-joins-argentina-brazil-and-colombia-to-transform-south-america-into-the-worlds-ultimate-travel-destination-for-2026-with-stunning-diversity-and-rich-heritage/",
-              "date": "2026-04-06"
-            },
-            {
-              "id": "eb-3",
-              "title": "Virginia's Giant Wind Farm to Save Customers $3 Billion Over a Decade",
-              "summary": "Dominion Energy's Coastal Virginia Offshore Wind project — the largest in the US — has started generating electricity while still 30% from completion. When fully built, it will power 660,000 homes and is projected to deliver $3 billion in customer savings over its first decade, demonstrating that large-scale offshore wind investment now pays economic dividends alongside its clean energy benefits.",
-              "source": "Electrek",
-              "url": "https://electrek.co/2026/03/25/us-largest-wind-farm-just-produced-power-for-the-first-time/",
-              "date": "2026-03-25"
-            }
-          ]
-        },
-        "Science & Technology": {
-          "emoji": "🚀",
-          "color": "#FFB700",
-          "tagline": "Pushing the boundaries of human ingenuity",
-          "stories": [
-            {
-              "id": "st-1",
-              "title": "Scientists Unlock a Million-Year Climate Archive From Antarctic Seafloor",
-              "summary": "CSIRO's RV Investigator completed a landmark Antarctic voyage, recovering a record 20.5-meter sediment core and over 10,000 samples from the Cook Ice Shelf. These geological time capsules encode climate data stretching back hundreds of thousands of years. The trove will help scientists build far more precise models of how Earth's frozen south responds to warming temperatures.",
-              "source": "Phys.org",
-              "url": "https://phys.org/news/2026-03-milestone-voyage-antarctic-science.html",
-              "date": "2026-03-16"
-            },
-            {
-              "id": "st-2",
-              "title": "iNaturalist Turns 6 Million Nature-Lovers Into Contributing Scientists",
-              "summary": "The iNaturalist app has transformed 6 million monthly users into citizen scientists, generating biodiversity records and habitat change data now cited in peer-reviewed research worldwide. From backyards to rainforests, smartphone-toting enthusiasts are documenting species in real time, filling critical gaps in scientific knowledge and showing that a love of nature can be a genuine contribution to global science.",
-              "source": "CBS News",
-              "url": "https://www.cbsnews.com/news/how-inaturalist-app-users-have-fun-while-aiding-science/",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "st-3",
-              "title": "Uzbekistan and ZTE Partner to Build a 6G-Ready Digital Economy",
-              "summary": "Uzbekistan's Ministry of Digital Technologies signed a landmark MOU with ZTE Corporation to accelerate digital transformation across the country. The agreement covers high-speed broadband, advanced data centers, and next-generation 6G and Wi-Fi 8 technologies. The partnership positions Uzbekistan as a growing digital hub in Central Asia and opens new economic pathways for the broader region.",
-              "source": "ZTE Corporation",
-              "url": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/Uzbekistan-and-ZTE-Forge-Strategic-Partnership-to-Accelerate-Digital-Transformation.html",
-              "date": "2026-04-08"
-            }
-          ]
-        },
-        "Environment & Climate": {
-          "emoji": "🌿",
-          "color": "#44BBA4",
-          "tagline": "Restoring the balance of our natural world",
-          "stories": [
-            {
-              "id": "ec-1",
-              "title": "Chile Creates 337,000 km² No-Take Marine Reserve Around Juan Fernández",
-              "summary": "Chile's President Boric signed a decree establishing one of the world's largest no-take marine reserves, protecting 337,000 square kilometers around the Juan Fernández archipelago and placing more than 50% of Chile's waters under conservation. The Juan Fernández fur seal — once near extinction — has rebounded to 200,000 individuals, proof that sustained protection can reverse even the steepest declines.",
-              "source": "The Portugal News",
-              "url": "https://www.theportugalnews.com/news/2026-04-04/ocean-sanctuary/998195",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "ec-2",
-              "title": "UK Renewable Energy Tops 52% for Second Straight Year — a New Normal",
-              "summary": "Great Britain's renewables generated 52.5% of its electricity in 2025 — a new record and the second consecutive year above 50%. Wind power was the dominant contributor. In March 2026, record renewable output saved the UK nearly £1 billion in gas imports. Clean energy has moved from aspiration to dependable baseline, redefining what is possible for an industrialized nation's grid.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
-              "date": "2026-04-11"
-            },
-            {
-              "id": "ec-3",
-              "title": "African Conservation Models Revive Gorillas and Restore Watersheds",
-              "summary": "Across Africa, community-led conservation is delivering measurable results. In Cameroon, a women's initiative cut farmer-herder conflicts by 62%. Tanzania communities are restoring river ecosystems through indigenous tree planting. Mountain gorilla populations have grown significantly, with eco-lodges now earning millions for local communities — proving that when communities lead conservation, both nature and prosperity follow.",
-              "source": "Top Africa News",
-              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
-              "date": "2026-04-09"
-            }
-          ]
-        },
-        "Health & Wellness": {
-          "emoji": "✨",
-          "color": "#E94F8B",
-          "tagline": "Nurturing the mind, body, and spirit",
-          "stories": [
-            {
-              "id": "hw-1",
-              "title": "WHO: Global Maternal Mortality Down 40%, Child Deaths Halved Since 2000",
-              "summary": "Marking World Health Day 2026, the WHO highlighted sweeping global health gains: maternal mortality has fallen by more than 40% since 2000, and deaths among children under five have been reduced by more than 50%. Nearly 800 scientific institutions from 80+ countries are now collaborating on health breakthroughs that are turning once-deadly conditions into manageable diseases.",
-              "source": "World Health Organization",
-              "url": "https://www.who.int/news/item/06-04-2026-who-calls-for-action---together-for-health.-stand-with-science.--to-mark-world-health-day",
-              "date": "2026-04-06"
-            },
-            {
-              "id": "hw-2",
-              "title": "Staying Optimistic Linked to 15% Lower Dementia Risk, Study Finds",
-              "summary": "A landmark 14-year study of over 9,000 cognitively healthy adults found that people with higher optimism scores had approximately 15% lower risk of developing dementia. Researchers believe optimism protects the aging brain through reduced stress hormones, healthier lifestyle habits, and stronger social connections — adding compelling evidence to the growing science of hope and long-term brain health.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/lifestyle/how-to-reduce-dementia-risk/",
-              "date": "2026-04-11"
-            },
-            {
-              "id": "hw-3",
-              "title": "Dogs Detect Parkinson's With 98% Accuracy Years Before Symptoms Appear",
-              "summary": "Dogs trained to detect Parkinson's disease through scent are achieving 98% accuracy — identifying the condition years before clinical symptoms emerge. The breakthrough could transform early diagnosis, enabling patients to begin protective treatment far sooner. Researchers believe this approach could meaningfully slow disease progression and improve quality of life for millions of people worldwide.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/parkinsons-trial-dog-detection",
-              "date": "2026-04-04"
-            }
-          ]
-        },
-        "Society & Culture": {
-          "emoji": "🤝",
-          "color": "#3B82F6",
-          "tagline": "The vibrant threads of human connection",
-          "stories": [
-            {
-              "id": "sc-1",
-              "title": "Elbas Transform Sierra Leone's Sherbro Island From Aid to Investment",
-              "summary": "Actor Idris Elba and wife Sabrina are reshaping the future of Sherbro Island, Sierra Leone, shifting the region's story from aid dependency to sustainable investment. Their initiative pairs ecological preservation with enterprise development, drawing international attention and funding. National Geographic reports the project is already opening new economic pathways for a community long overlooked by global markets.",
-              "source": "National Geographic",
-              "url": "https://www.nationalgeographic.com/culture/nat-geo-33/article/sabrina-idris-elba-2026",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "sc-2",
-              "title": "PBS Kids' First Autistic Lead Character Wins Emmy for Public Service",
-              "summary": "Carl the Collector, PBS Kids' groundbreaking show featuring its first autistic lead character, earned an Emmy Award for Outstanding Public Service Initiative. The joyful series portrays a child navigating the world on his own wonderful terms. Families and educators report it has sparked meaningful conversations about neurodiversity, belonging, and what it means to see yourself reflected on screen.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/pbs-kids-carl-the-collector-autism",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "sc-3",
-              "title": "California's Pet-Friendly Shelters Are Keeping Homeless Families Together",
-              "summary": "California's $15 million investment to make homeless shelters welcoming to pets is showing real results, removing the critical emotional barrier of having to leave animals behind. Early outcomes show more people successfully transitioning off the streets, keeping human and animal families intact, and rebuilding the stability needed for long-term housing security.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/pet-friendly-homeless-shelters-california",
-              "date": "2026-04-04"
-            }
-          ]
-        },
-        "Entertainment & Arts": {
-          "emoji": "🎨",
-          "color": "#10B981",
-          "tagline": "Stories and visions that move the soul",
-          "stories": [
-            {
-              "id": "ea-1",
-              "title": "China Opens Immersive Sound Museum in Reclaimed Industrial Ruins",
-              "summary": "An abandoned factory in China has been reborn as the 1Y Sound Museum, where walls of reclaimed materials broadcast oral histories from former workers and local residents. Designed by 1Y Architects, the space transforms industrial ruins into a living archive of human experience — where the sounds of the past create meaningful dialogue with the communities of today.",
-              "source": "Designboom",
-              "url": "https://www.designboom.com/architecture/1y-architects-museum-industrial-history-reclaimed-materials-sound-echo-ruins-china/",
-              "date": "2026-04-09"
-            },
-            {
-              "id": "ea-2",
-              "title": "Stephen Colbert Raises Over $1 Million for World Central Kitchen",
-              "summary": "Late Night host Stephen Colbert mobilized his audience to raise over $1 million for World Central Kitchen through a T-shirt campaign and live on-air auction. More than 33,000 fans purchased shirts, and auction proceeds added another $400,000. The campaign is a testament to how entertainment can turn laughter and loyalty into life-changing generosity for people in crisis.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/stephen-colbert-late-show-tshirt-fundraiser",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "ea-3",
-              "title": "The 'Slow Looking' Movement Is Changing How We Experience Art",
-              "summary": "The 'slow looking' movement — spending extended, meditative time with a single artwork — is gaining global momentum in galleries worldwide. Studies show the practice significantly boosts wellbeing and emotional depth, countering the typical three-second gallery glance. Advocates call it a gentle antidote to the culture of speed: staying with one piece reveals layers that rushed viewing can never uncover.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/lifestyle/for-the-love-of-appreciating-art-slowly/",
-              "date": "2026-04-11"
-            }
-          ]
-        },
-        "Sports & Leisure": {
-          "emoji": "🏆",
-          "color": "#94A3B8",
-          "tagline": "The joy of movement and the spirit of play",
-          "stories": [
-            {
-              "id": "sl-1",
-              "title": "UK Dad Founds Forget-Me-Knot FC: Football for Bereaved Fathers",
-              "summary": "After losing a child, one British father created Forget-Me-Knot FC — a football club exclusively for dads who have experienced child bereavement. Starting with just six members, the team has grown to 36, finding solidarity, healing, and joy through the beautiful game. Plans are underway to expand the club across the UK, turning personal grief into a nationwide community of support.",
-              "source": "People",
-              "url": "https://people.com/dad-stars-soccer-team-for-grieving-fathers-baby-loss-exclusive-11927576",
-              "date": "2026-04-04"
-            },
-            {
-              "id": "sl-2",
-              "title": "Women's Sports Revenues Are Surging at Double-Digit Rates Globally",
-              "summary": "Deloitte's 2026 Global Sports Industry Outlook reveals women's sports commercial revenues are growing at double-digit rates worldwide, with media rights, sponsorships, and fan engagement all reaching new heights. Alongside record franchise valuations and stadium development, women's sports are fundamentally reshaping global athletics — proving beyond any doubt that investing in women's games pays dividends in every sense.",
-              "source": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html",
-              "date": "2026-02-18"
-            },
-            {
-              "id": "sl-3",
-              "title": "Vietnam's First Sports Economy Summit Opens Billion-Dollar Conversations",
-              "summary": "Vietnam hosted its inaugural Sports Economy Summit 2026, gathering government officials, investors, and industry leaders to map the sector's economic potential. Discussions spanned infrastructure, media rights, tourism linkages, and youth development. Experts say the summit marks a pivotal moment in how Vietnam — and broader Southeast Asia — thinks about sport as a serious and scalable economic driver.",
-              "source": "VietnamPlus",
-              "url": "https://en.vietnamplus.vn/vietnam-sports-economy-summit-2026-explores-pathways-to-new-sector-post340057.vnp",
-              "date": "2026-04-09"
             }
           ]
         }
