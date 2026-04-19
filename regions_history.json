@@ -1093,6 +1093,220 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-14",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Africa's Solar Boom Hits Record 54% Growth in a Single Year",
+              "summary": "Solar installations across Africa surged 54% in 2025 — a record leap driven by both utility-scale plants and rooftop systems. The Global Solar Council says this momentum is reshaping the continent's energy future, delivering affordable power to millions who need it most. With costs falling and investment accelerating, Africa is rapidly becoming a global leader in renewable energy expansion.",
+              "source": "Renewables Now",
+              "url": "https://renewablesnow.com/regions/sub-saharan-africa/",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "af-2",
+              "title": "World Bank Mission 300 Brings Electricity to Millions Across Africa",
+              "summary": "A major new wave of World Bank funding through the Mission 300 initiative is transforming electricity access across Africa, reaching communities that have waited generations for reliable power. The initiative targets 300 million people across the continent, combining grid extensions, off-grid solar, and mini-grids to unlock economic opportunity and improve lives at unprecedented scale.",
+              "source": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/04/02/africa-electricity-access-world-bank-mission-300/9b7a0886-2e53-11f1-aac2-f56b5ccad184_story.html",
+              "date": "2026-04-02"
+            },
+            {
+              "id": "af-3",
+              "title": "Congo Basin Bioeconomy Could Pioneer Africa's Green Transition",
+              "summary": "A new Mongabay analysis finds the Congo Basin is uniquely positioned to lead Central Africa's green transition through a people-first bioeconomy. By valuing intact forests, medicinal plants, and wildlife sustainably, local communities could generate lasting prosperity while preserving one of Earth's most vital carbon sinks. Early models show the approach can outcompete extractive industries while protecting biodiversity.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/a-congo-basin-led-bioeconomy-could-boost-central-africas-green-transition-analysis/",
+              "date": "2026-04-08"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "Giant Panda Downgraded From Endangered to Vulnerable — A Conservation Win",
+              "summary": "Decades of habitat protection, captive breeding, and reforestation in China have paid off: the giant panda is no longer classified as Endangered, with its status officially downgraded to Vulnerable. Wild populations have grown steadily, and panda corridor projects now link fragmented forests across Sichuan. Scientists describe it as one of the clearest proof points that targeted conservation investment can reverse extinction trajectories.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "as-2",
+              "title": "India Welcomes 9th Cheetah Litter at Kuno, Bringing Total to 38",
+              "summary": "Three new cubs born to Gamini, a South African cheetah at Kuno National Park, mark India's ninth successful cheetah litter since the world's first intercontinental carnivore reintroduction began. The country's total cheetah population has now reached 38 — a remarkable milestone for Project Cheetah, which aims to restore a species absent from India for 70 years. Local communities are celebrating the births as a symbol of ecological renewal.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/03/12/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
+              "date": "2026-04-05"
+            },
+            {
+              "id": "as-3",
+              "title": "Japanese Scientists Push Solar Panel Efficiency Past 130%",
+              "summary": "Researchers in Japan have achieved what was once considered theoretically impossible: solar cell efficiency exceeding 100%, reaching 130% through a multi-junction approach that harvests energy across a broader light spectrum. The breakthrough, reported in Positive News, could dramatically cut the cost and land area needed for solar installations worldwide, supercharging the global clean energy transition.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "Portugal Generates Record 80.7% of Its Electricity From Renewables",
+              "summary": "Portugal produced a staggering 80.7% of its electricity from renewable sources in January 2026 — the country's best performance in nine months and a sign that its clean energy transition is firmly on track. Wind, hydro, and solar all contributed to the milestone, which places Portugal among Europe's greenest grids. Energy analysts say the record shows how quickly a medium-sized nation can transform its power system.",
+              "source": "Ecologi",
+              "url": "https://ecologi.com/resources/blog/latest-good-news",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "eu-2",
+              "title": "Paddington The Musical Sweeps Olivier Awards With Four Wins",
+              "summary": "London's West End celebrated a joyful sweep at the 2026 Olivier Awards as Paddington The Musical took home four prizes including Best New Musical, Best Director, Best Set Design, and Best Costume Design. The beloved Peruvian bear's theatrical debut delighted audiences and critics alike, proving that a story rooted in kindness, belonging, and wonder can translate beautifully from screen to stage.",
+              "source": "AP Entertainment",
+              "url": "https://www.rutlandherald.com/features/ap-entertainment/ap-entertainment-summarybrief-at-12-36-p-m-edt/article_96b4a83b-b3a3-5118-8133-75e83c87f022.html",
+              "date": "2026-04-13"
+            },
+            {
+              "id": "eu-3",
+              "title": "France Opens One of Its First LGBTQIA+-Inclusive Senior Living Residences",
+              "summary": "A pioneering LGBTQIA+-inclusive senior living residence has opened in Lyon, France — one of the first of its kind in the country. Designed as a space of safety, dignity, and community, the residence ensures that older LGBTQIA+ individuals can age with affirmation and belonging rather than fear of discrimination. Advocates say it marks a meaningful step forward in France's commitment to inclusive eldercare.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "Artemis II Crew Breaks Record for Farthest Humans From Earth — 252,757 Miles",
+              "summary": "The four-person Artemis II crew has shattered the record for the farthest any humans have ever traveled from Earth, reaching 252,757 miles (406,773 km) as they swept around the far side of the Moon. The milestone, more than 50,000 miles beyond the Apollo record, marks a defining moment in humanity's return to deep space and rekindles the spirit of exploration for a new generation.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "na-2",
+              "title": "US Adult Smoking Rate Falls to Historic Low of 9.9% — First Time in Single Digits",
+              "summary": "The proportion of US adults who smoke has dropped to just 9.9% — the lowest rate ever recorded, and the first time in history it has fallen below 10%. Decades of public health campaigns, policy interventions, and smoking-cessation support have produced this milestone. Researchers say the number translates to millions of lives extended and immeasurable suffering avoided.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-12-of-2026/",
+              "date": "2026-03-21"
+            },
+            {
+              "id": "na-3",
+              "title": "Monarch Butterfly Population Soars 64% in Mexican Wintering Grounds",
+              "summary": "Mexico's monarch butterfly overwintering population grew 64% this season compared to last year — the largest colony coverage since 2018. Butterflies now occupy 7.24 acres of forest, a recovery scientists attribute to milkweed restoration, reduced pesticide use, and cross-border conservation partnerships between the US, Canada, and Mexico. The monarch's comeback is a rare, joyful win for North America's most beloved migratory insect.",
+              "source": "Global Choices",
+              "url": "https://globalchoices.org/7-inspiring-climate-wins-in-early-2026/",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Chile Protects Over 50% of Its Waters With New Giant Marine Reserve",
+              "summary": "Chile's President signed a decree creating one of the world's largest marine reserves, protecting 337,000 square kilometers around the Juan Fernández archipelago. More than 50% of Chile's waters are now under conservation — far exceeding the global 30x30 target. The reserve's Juan Fernández fur seal population, once on the brink, has rebounded to 200,000 individuals, offering vivid proof that protection works.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-12-of-2026/",
+              "date": "2026-03-21"
+            },
+            {
+              "id": "sa-2",
+              "title": "Chile Becomes First Country in the Americas to Eliminate Leprosy",
+              "summary": "The World Health Organization has verified Chile as the first country in the Americas — and only the second in the world — to officially eliminate leprosy as a public health problem. Decades of sustained treatment programs, early detection, and community health investment produced this landmark result. Health officials say Chile's success offers a powerful, replicable blueprint for other nations still fighting the disease.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-15-of-2026/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "sa-3",
+              "title": "130+ Nations Sign Global Protections for Jaguars, Manta Rays, and Migratory Birds",
+              "summary": "More than 130 governments signed a landmark global accord at the COP15 migratory species conference held in Brazil, extending new protections to jaguars, manta rays, migratory birds, and dozens of other at-risk species. The agreement is the most expansive update to international wildlife protection in years, cementing South America's role as both the custodian and champion of the world's most extraordinary biodiversity.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-14-of-2026/",
+              "date": "2026-04-04"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Fiji Cave Holds the Largest South Pacific Bat Colony Ever Found",
+              "summary": "A Conservation International expedition exploring one of Fiji's least-visited islands discovered a cave harboring thousands of Pacific sheath-tailed bats — the largest roost of any species across the entire South Pacific. The critically endangered bats, vanishing across Oceania, have found a vital stronghold here. Scientists say the discovery is a rare beacon of hope and a call to protect the island's undisturbed habitat.",
+              "source": "Conservation International",
+              "url": "https://www.conservation.org/",
+              "date": "2026-04-08"
+            },
+            {
+              "id": "oc-2",
+              "title": "New Zealand's Stunning Te Kaha Stadium Opens in Christchurch",
+              "summary": "The One New Zealand Stadium at Te Kaha has officially opened in Christchurch with a 30,000-person capacity for sports and 37,500 for concerts. The NZ$683 million venue replaces the city's earthquake-damaged AMI Stadium and signals Christchurch's remarkable ongoing revival. Locals say the arena — already booking international acts and sporting fixtures — has transformed the city's cultural heart.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/",
+              "date": "2026-04-11"
+            },
+            {
+              "id": "oc-3",
+              "title": "Pacific Islands Celebrate a Week of Conservation Recovery Wins",
+              "summary": "A Pacific Islands news roundup for April 2–9 documented a wave of encouraging conservation milestones across Micronesia and beyond, including astounding recovery results on Ulong Island in Palau after just one year of active restoration work, and continued progress in the Marshall Islands boosting climate resilience and ocean health. Researchers say the gains confirm that targeted, community-backed conservation in the Pacific can move fast.",
+              "source": "Pacific Islands Report",
+              "url": "https://pireport.org/2026/04/09/pacific-islands-news-roundup-april-2-9-2026/",
+              "date": "2026-04-09"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "Pink Rocks Reveal Hidden Jurassic Granite Mass Beneath Pine Island Glacier",
+              "summary": "Mysterious pink granite boulders perched atop Antarctica's Hudson Mountains led scientists to a stunning find: a hidden granite mass nearly 100 km wide and 7 km thick buried beneath Pine Island Glacier. By dating the rocks to the Jurassic period and matching them to gravity anomalies detected from aircraft, researchers solved a decades-old puzzle — and gained new data to improve predictions of how Antarctica's ice will respond to warming.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/03/260318033126.htm",
+              "date": "2026-03-18"
+            },
+            {
+              "id": "an-2",
+              "title": "CSIRO Expedition Reaches Remote Cook Ice Shelf for Landmark Climate Research",
+              "summary": "A CSIRO research team sailed more than 3,000 km from Hobart to reach the poorly studied Cook Ice Shelf in East Antarctica, collecting seafloor sediment cores, ocean samples, and marine biodiversity data that stretches back hundreds of thousands of years. The expedition's haul — including a record 20.5-meter sediment core — will sharpen global climate models and deepen our understanding of how Earth's frozen south has changed over millennia.",
+              "source": "CSIRO",
+              "url": "https://www.csiro.au/en/news/All/News/2026/January/Antarctic-voyage-of-discovery",
+              "date": "2026-01-23"
+            }
+          ]
+        }
+      }
     }
   ]
 }
