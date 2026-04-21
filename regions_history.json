@@ -1307,6 +1307,220 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-16",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Rwanda's Mountain Gorilla Habitat Grows by 27 Hectares",
+              "summary": "The African Wildlife Foundation donated 27 hectares of restored forest land to Rwanda's Volcanoes National Park, directly expanding habitat for endangered mountain gorillas. Four years of collaborative bamboo restoration and native planting now provide new feeding grounds and safer corridors for gorilla families. It's a milestone born from patient, community-rooted conservation work.",
+              "source": "African Wildlife Foundation",
+              "url": "https://www.awf.org/pressroom/awf-hands-over-restored-land-expand-volcanoes-national-park-boosting-mountain-gorilla",
+              "date": "2026-04-09"
+            },
+            {
+              "id": "af-2",
+              "title": "Nine in Ten AWF-Managed Wildlife Populations Now Stable or Growing",
+              "summary": "The African Wildlife Foundation's 2025 annual report reveals that across 8.6 million hectares of active conservation management, 90% of monitored wildlife populations are stable or increasing. Women-led peace initiatives like TANGO in northern Cameroon have cut herder-farmer conflicts by 62%, showing how community empowerment drives lasting ecological and social gains.",
+              "source": "Top Africa News",
+              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
+              "date": "2026-04-09"
+            },
+            {
+              "id": "af-3",
+              "title": "Africa's Economic Growth Outpaces Asia for the First Time in 2026",
+              "summary": "For the first time in recent history, African GDP growth is forecast to exceed Asia's in 2026 at 4.4% versus 4.1%, driven by metals, commodities, and decades of sustained economic expansion. This milestone extends more than 25 consecutive years of continental growth and signals Africa's rising place in the global economy.",
+              "source": "CNBC Africa",
+              "url": "https://www.cnbcafrica.com/2026/the-11-trends-factors-that-will-shape-african-affairs-in-2026",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "India's First Fast Breeder Nuclear Reactor Reaches Criticality",
+              "summary": "India's 500 MWe Prototype Fast Breeder Reactor at Kalpakkam achieved first criticality on April 7, a pivotal milestone in the nation's three-stage nuclear energy programme. When fully operational, India will become only the second country after Russia with a commercial fast breeder reactor, unlocking a path to virtually unlimited clean energy through the thorium cycle.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/7/indias-nuclear-leap-why-its-fast-breeder-reactor-success-matters",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "as-2",
+              "title": "Giant Pandas Officially No Longer Endangered",
+              "summary": "After decades of dedicated effort, the IUCN upgraded the giant panda from Endangered to Vulnerable, reflecting a wild population now approaching 1,900 individuals. China's investment in habitat protection and breeding programmes — supported by conservationists worldwide — has delivered one of the most celebrated recoveries in conservation history.",
+              "source": "WWF",
+              "url": "https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered/",
+              "date": "2026-01-15"
+            },
+            {
+              "id": "as-3",
+              "title": "Indonesia Unlocks Vast Geothermal Energy Potential with ADB Support",
+              "summary": "The Asian Development Bank is backing Indonesia's push to develop its enormous untapped geothermal power reserves, among the largest in the world. This clean, reliable baseload energy source could transform Indonesia's power grid, reduce dependence on fossil fuels, and serve as a model for sustainable energy development across Southeast Asia.",
+              "source": "ThinkGeoEnergy / Renewable Energy Asia",
+              "url": "https://www.renewableenergyasia.org/2026/04/asian-development-on-developing-indonesias-geothermal-power-potential.html",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "UK Renewables Power a Record 52.5% of Electricity — Zero Coal Year Too",
+              "summary": "For the second consecutive year, renewables provided more than half of UK electricity, reaching a record 52.5% in 2025. The year also marked the first full calendar year without any coal-fired generation — closing more than 140 years of coal power in Britain and cementing the UK's status as a global clean energy leader.",
+              "source": "Renewables Now",
+              "url": "https://renewablesnow.com/news/renewables-provide-record-52-5-percent-of-uk-generation-in-2025-1292531/",
+              "date": "2026-04-03"
+            },
+            {
+              "id": "eu-2",
+              "title": "WHO Launches Open Database to Help Europe Build Better Health Policy",
+              "summary": "The World Health Organization's European office unveiled a new open-access database unifying nearly 70 health data indicators across member states. Designed for policymakers, researchers, and the public alike, the tool makes evidence-based health decision-making faster, more transparent, and more equitable across the diverse nations of the WHO European Region.",
+              "source": "WHO Europe",
+              "url": "https://www.who.int/europe/news/item/08-04-2026-new-who-database-helps-countries-turn-health-data-into-better-policy",
+              "date": "2026-04-08"
+            },
+            {
+              "id": "eu-3",
+              "title": "EU Launches Bold Health Innovation Package Including First 'Safe Hearts' Plan",
+              "summary": "The European Commission unveiled a sweeping pro-innovation health package featuring a proposed Biotech Act, simplified medical device regulations, and a landmark Safe Hearts Plan — the EU's first coordinated strategy targeting cardiovascular disease. The package positions Europe as a global leader in health innovation while aiming to make its health sector more resilient and competitive.",
+              "source": "Longevity Technology",
+              "url": "https://longevity.technology/news/eu-rolls-out-plan-to-address-bottlenecks-in-healthcare/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "Artemis II Crew Returns Safely After Historic Journey Around the Moon",
+              "summary": "NASA's Artemis II crew splashed down in the Pacific Ocean on April 10 after a nearly 10-day journey around the Moon — the first crewed lunar mission since Apollo 17 in 1972. The mission set a new distance record for human spaceflight and included the first woman, first person of color, and first non-American to fly beyond low Earth orbit.",
+              "source": "NASA",
+              "url": "https://www.nasa.gov/gallery/artemis-ii-splashdown-and-return/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "na-2",
+              "title": "Being Optimistic Linked to 15% Lower Dementia Risk, Harvard Finds",
+              "summary": "A landmark Harvard T.H. Chan School of Public Health study, published April 8 in the Journal of the American Geriatrics Society, found that higher optimism is associated with a 15% lower risk of developing dementia. The link held consistently across racial groups, health conditions, and depression levels across 14 years of follow-up data covering 9,000 participants.",
+              "source": "News Medical",
+              "url": "https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx",
+              "date": "2026-04-08"
+            },
+            {
+              "id": "na-3",
+              "title": "Oksana Masters Wins Four Golds at Milan-Cortina, Reaches 24 Career Medals",
+              "summary": "American Paralympic athlete Oksana Masters earned four gold medals and a bronze at the 2026 Winter Paralympics, bringing her all-time medal total to 24 — the most ever by a U.S. Winter Paralympian. From para biathlon to cross-country skiing, her performances in Milan-Cortina were a masterclass in resilience, joy, and the limitless potential of adaptive sport.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/03/17/nx-s1-5749163/oksana-masters-2026-winter-paralympics-medals",
+              "date": "2026-03-17"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "COP15 in Brazil Grants Protection to 40 New Migratory Species",
+              "summary": "The CMS COP15 conference in Campo Grande, Brazil extended protection to 40 species — including cheetah, giant otter, snowy owl, and manta ray — under the UN Convention on Migratory Species. Governments also formally recognised marine flyways for the first time, a decision scientists called one of the most significant advances in ocean conservation in a generation.",
+              "source": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-03/cop15-ends-40-additional-species-granted-protection",
+              "date": "2026-03-29"
+            },
+            {
+              "id": "sa-2",
+              "title": "Amazon Deforestation Hits Decade Low as Brazil Charts Bold Nature Course",
+              "summary": "Annual Amazon deforestation fell for the fifth consecutive year in 2025, reaching its lowest level in over a decade. Alongside this breakthrough, Brazil launched its national biodiversity strategy committing to protect 80% of the Amazon by 2030 — backed by improved enforcement, better-integrated data systems, and a $125 billion Tropical Forests Forever Facility.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/01/brazil-sets-out-its-strategy-for-nature/",
+              "date": "2026-01-15"
+            },
+            {
+              "id": "sa-3",
+              "title": "Argentina's Iberá Rewilding Dream Transforms Land and 100,000 Lives",
+              "summary": "Argentina's landmark Iberá rewilding programme has spent two decades restoring keystone species — from giant anteaters to jaguars — to the vast Corrientes wetlands. Today it supports a thriving ecotourism economy and has revitalised the cultural identity of 100,000 people living around the park, proving that restoring nature can rebuild communities too.",
+              "source": "Pew Charitable Trusts",
+              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
+              "date": "2026-01-15"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Papua New Guinea Makes History in Women's World Cup Qualifiers",
+              "summary": "Papua New Guinea's women's national football team secured a historic berth in the FIFA Women's World Cup 2027 Oceania Qualifiers final, defeating American Samoa 1-0 on April 13 in a resolute, disciplined performance. The result is a proud milestone for Pacific women's football, signalling the growing strength and ambition of the game across the islands.",
+              "source": "Islands Business / PACNEWS",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-sports-13-april-2026/",
+              "date": "2026-04-13"
+            },
+            {
+              "id": "oc-2",
+              "title": "New Zealand Books Women's World Cup Final with Commanding 5-0 Win",
+              "summary": "New Zealand's women's football team delivered a dominant 5-0 victory over Fiji at FMG Stadium in Hamilton to secure their place in the FIFA Women's World Cup 2027 Oceania Qualifiers final. The result underscores New Zealand's continued rise as a major force in women's international football ahead of the 2027 global tournament.",
+              "source": "Islands Business / PACNEWS",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-sports-14-april-2026/",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "oc-3",
+              "title": "IOC President Kirsty Coventry Makes Historic First Visit to Oceania",
+              "summary": "IOC President Kirsty Coventry made her inaugural visit to Oceania to address the ONOC Annual General Assembly, underscoring the international Olympic movement's renewed commitment to the Pacific region. Her presence signals Oceania's growing voice in global sport governance and the IOC's investment in developing Olympic sport across Pacific island nations.",
+              "source": "Islands Business / PACNEWS",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-sports-15-april-2026/",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "Pink Boulders Reveal Hidden 100km Giant Beneath Antarctic Ice",
+              "summary": "Mysterious pink granite boulders atop Antarctica's Hudson Mountains led scientists to a stunning discovery: a hidden granite mass stretching nearly 100km beneath Pine Island Glacier. Detected through sensitive airborne gravity measurements, the finding illuminates how the glacier behaved during the last ice age and will sharpen predictions of how Antarctic ice responds to future warming.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/03/260318033126.htm",
+              "date": "2026-03-18"
+            },
+            {
+              "id": "an-2",
+              "title": "Scientists Unveil Most Complete Map of Antarctica's Hidden Landscape",
+              "summary": "Researchers produced the most comprehensive map ever created of the terrain beneath Antarctica's ice sheet, revealing a rich world of mountains, canyons, valleys, and over 30,000 previously unknown hills. This bedrock atlas transforms scientists' ability to model how Antarctica's frozen mass will respond to climate change in the decades ahead.",
+              "source": "GB News / Science",
+              "url": "https://www.gbnews.com/science/antarctica-breakthrough-scientific-discovery-map-under-the-ice",
+              "date": "2026-01-15"
+            }
+          ]
+        }
+      }
     }
   ]
 }

@@ -1,6 +1,212 @@
 {
   "pulls": [
     {
+      "date": "2026-04-21",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "id": "af-1",
+              "title": "Nigerian Ecologist Wins 'Green Nobel' for Saving Endangered Bats",
+              "summary": "Conservation ecologist Iroro Tanshi received the 2026 Goldman Environmental Prize for her decade-long campaign protecting critically endangered short-tailed roundleaf bats at Nigeria's Afi Mountain Wildlife Sanctuary. Her organisation trained 50 forest guardians across 16 villages, contained 74 wildfires, and documented 14 previously unknown bat species. In a historic first for the 37-year-old prize, all six 2026 winners are women.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/nigerian-bat-specialist-wins-goldman-prize-for-community-conservation-work/",
+              "date": "2026-04-20"
+            },
+            {
+              "id": "af-2",
+              "title": "Africa's Tech Startups Raise Record $382M in Q1 2026, Up 35%",
+              "summary": "African technology startups secured $382 million in funding in Q1 2026 — a 35% jump from the same period in 2025 and the continent's strongest opening quarter on record. Egypt led with $190 million, followed by South Africa and Kenya. The milestone signals Africa's startup ecosystem entering a mature phase, with Japanese investors joining traditional US and European backers as confidence in the continent's innovation potential soars.",
+              "source": "Disrupt Africa",
+              "url": "https://disruptafrica.com/2026/04/13/african-tech-startups-raise-382m-in-q1-2026-up-35-on-same-period-last-year/",
+              "date": "2026-04-13"
+            },
+            {
+              "id": "af-3",
+              "title": "Rwanda Opens Visa-Free Travel to All 55 African Union Member States",
+              "summary": "Rwanda has extended full visa-free access to citizens of all 55 African Union member states, allowing 30-day stays without prior authorisation, joined by Ghana, Kenya, Tanzania, Seychelles, Benin, and The Gambia. The policy is already driving measurable growth in cross-border arrivals and hospitality investment. Analysts credit the initiative with accelerating AfCFTA economic integration and positioning East Africa as the continent's most open travel destination.",
+              "source": "Travel And Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/rwanda-alongside-ghana-kenya-seychelles-benin-the-gambia-and-tanzania-paves-the-path-for-africas-bold-new-era-of-visa-free-travel-transforming-regional-mobility-trade-and-tourism-acro/",
+              "date": "2026-04-14"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "id": "as-1",
+              "title": "India Crosses Historic 150 GW Solar Milestone With Record Annual Additions",
+              "summary": "India's cumulative solar capacity surpassed 150 gigawatts after adding a record 44.6 GW in fiscal year 2026 — an 87% year-on-year increase and the fastest any nation has ever bridged a 50 GW solar increment, achieved in just 14 months. PM Modi's Surya Ghar rooftop scheme benefited roughly 2.6 million homes, and India is now the world's third-largest solar market, on track to become the second-largest by end of 2026.",
+              "source": "pv magazine International",
+              "url": "https://www.pv-magazine.com/2026/04/10/india-hits-150-gw-solar-milestone/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "as-2",
+              "title": "Vietnam Welcomes Record 6.76 Million International Visitors in Q1 2026",
+              "summary": "Vietnam recorded its strongest-ever opening quarter for tourism, welcoming 6.76 million international visitors between January and March — a 12.4% year-on-year increase and the highest Q1 figure in the country's history. March alone exceeded 2.1 million arrivals for the third consecutive month above that threshold, with China and South Korea leading source markets and Russia posting a stunning 194.5% surge in visitor numbers.",
+              "source": "VietnamNet",
+              "url": "https://vietnamnet.vn/en/vietnam-sets-new-tourism-record-with-6-76-million-visitors-in-q1-2504148.html",
+              "date": "2026-04-20"
+            },
+            {
+              "id": "as-3",
+              "title": "China's Hainan Medical Zone Gives Patients Faster Access to Life-Changing Therapies",
+              "summary": "The Boao Lecheng International Medical Tourism Pilot Zone in Hainan has transformed healthcare access, making 182 internationally approved drugs — including stem cell therapies and brain-machine interface innovations — available without the usual 3–8 year domestic wait. By end of 2025, four drugs fast-tracked through Lecheng had entered China's national insurance scheme, making once-unaffordable treatments accessible to patients from across Asia.",
+              "source": "CGTN",
+              "url": "https://news.cgtn.com/news/2026-04-18/How-Hainan-is-pioneering-the-future-of-China-s-healthcare-1MrrdgiLmtW/share_amp.html",
+              "date": "2026-04-18"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "id": "eu-1",
+              "title": "UK Renewables Top 52% for Second Year — 2025 Was First Year With Zero Coal",
+              "summary": "Renewable energy generated a record 52.5% of UK electricity in 2025, the second consecutive year above 50%. Wind contributed 30% of total generation and solar hit a new high of 20 TWh. Most remarkably, 2025 was the first year in over 140 years with zero coal-fired electricity in Britain — a milestone RenewableUK called proof that renewables are now the backbone of the nation's power system.",
+              "source": "RenewableUK",
+              "url": "https://www.renewableuk.com/news-and-resources/press-releases/record-breaking-stats-show-renewables-generated-over-half-uk-s-electricity-for-the-second-year-running/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eu-2",
+              "title": "Scientists Map the Entire Nerve Network of the Clitoris for the First Time",
+              "summary": "Researchers at Amsterdam University Medical Center used synchrotron X-rays to create the world's first high-resolution 3D map of every nerve pathway in the human clitoris, overturning decades of incomplete anatomical understanding. The breakthrough provides a critical surgical roadmap for gender-affirming procedures and reconstructive surgery for the estimated 230 million survivors of female genital mutilation, marking a landmark advance in women's health science.",
+              "source": "Live Science",
+              "url": "https://www.livescience.com/health/anatomy/scientists-mapped-all-the-nerves-of-the-clitoris-for-the-first-time",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eu-3",
+              "title": "Robert Plant Honoured as Record Store Day Legend at World's Oldest Record Shop",
+              "summary": "Led Zeppelin frontman Robert Plant was named the third-ever Record Store Day Legend — after Elton John and Johnny Marr — in a ceremony at Spillers Records in Cardiff, the world's oldest record shop. On April 18, thousands of independent record stores worldwide celebrated Record Store Day's 19th year with exclusive vinyl releases and in-store performances, with Plant declaring that record shops have always been a part of his life.",
+              "source": "NME",
+              "url": "https://www.nme.com/news/music/robert-plant-honoured-as-record-store-legend-ahead-of-rsd-2026-record-stores-have-always-been-a-part-of-my-life-3939715",
+              "date": "2026-04-18"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "id": "na-1",
+              "title": "John Korir Shatters Boston Marathon Course Record With 2:01:52",
+              "summary": "Kenyan runner John Korir won his second consecutive Boston Marathon on April 20, obliterating the previous course record of 2:03:02 with a time of 2:01:52 — the fifth-fastest marathon ever run. Three finishers in the same race surpassed the old record, making it the fastest field in the event's 130-year history. Korir and his brother Wesley are now the only sibling duo to have both won the iconic race.",
+              "source": "ESPN",
+              "url": "https://www.espn.com/olympics/story/_/id/48542028/john-korir-wins-2nd-straight-boston-marathon-course-record",
+              "date": "2026-04-20"
+            },
+            {
+              "id": "na-2",
+              "title": "Breakthrough Prize Honours Scientists Who Restored Sight to Children Born Blind",
+              "summary": "Scientists Jean Bennett, Katherine High, and Albert Maguire received the $3 million Breakthrough Prize in Life Sciences for developing Luxturna — the first FDA-approved gene replacement therapy for inherited retinal disease. Children who previously could only perceive bright light can now attend regular schools and play outdoors at night. The ceremony also honoured the Muon g-2 physics collaboration for the most precise subatomic measurement in history.",
+              "source": "Breakthrough Prize Foundation",
+              "url": "https://breakthroughprize.org/News/98",
+              "date": "2026-04-18"
+            },
+            {
+              "id": "na-3",
+              "title": "US Traffic Deaths Drop 6.7% in 2025, Second-Lowest Rate in Over a Century",
+              "summary": "The US Department of Transportation announced that an estimated 36,640 people died in traffic crashes in 2025 — a 6.7% drop from 2024 and the second-lowest fatality rate (1.10 per 100 million miles) in over 104 years of recordkeeping. Deaths declined in 39 states, the District of Columbia, and Puerto Rico, reflecting years of investment in road safety technology, infrastructure, and evidence-based enforcement.",
+              "source": "US Department of Transportation",
+              "url": "https://www.transportation.gov/briefing-room/trumps-transportation-department-announces-record-low-traffic-deaths-fatality-rates",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "id": "sa-1",
+              "title": "Moringa Tree Removes 98% of Microplastics From Drinking Water",
+              "summary": "Researchers at São Paulo State University found that seed extract from the moringa tree removes over 98% of PVC microplastics from water, outperforming aluminum sulfate across a wider pH range. The plant-based solution is biodegradable, non-toxic, and carbon-sequestering — a quiet revolution in clean water access for communities worldwide. The study, published in ACS Omega, has drawn global attention for its elegant, nature-derived simplicity.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/21/miracle-tree-removes-98-of-microplastics-from-drinking-water-outperforming-chemical-altern",
+              "date": "2026-04-21"
+            },
+            {
+              "id": "sa-2",
+              "title": "Chile Becomes the First Country in the Americas to Eliminate Leprosy",
+              "summary": "The World Health Organization officially verified Chile as leprosy-free in March 2026 — the first nation in the Americas and only the second globally after Jordan to achieve this milestone. Chile has recorded no locally transmitted cases in over 30 years, the result of decades of sustained surveillance, early diagnosis, and political commitment. WHO and PAHO praised the achievement as a global model for disease elimination.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy",
+              "date": "2026-03-04"
+            },
+            {
+              "id": "sa-3",
+              "title": "Paraguay Posts South America's Fastest Economic Growth — 6.6% in 2025",
+              "summary": "Paraguay's GDP grew 6.6% in 2025, the fastest expansion in 12 years and the strongest performance in South America for the second consecutive year, driven by a 10.5% surge in agriculture and 10.9% growth in hydroelectric energy. The IMF upgraded the country's 2026 outlook and Moody's awarded Paraguay its first-ever investment-grade credit rating, placing this landlocked nation firmly on the map for global investors.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/paraguay-gdp-6-percent-fastest-south-america/",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "id": "oc-1",
+              "title": "Australia Sets Monthly Rooftop Solar Record — 341 MW Installed in March 2026",
+              "summary": "Australia installed a record 341.6 megawatts of rooftop solar in March 2026, surpassing the previous record set just three months earlier. The boom is driven by the federal Cheaper Home Batteries Programme, which has supported over 300,000 households since July 2025. On April 5, large-scale solar reached a record 30.6% share of the National Electricity Market — a vivid sign of the nation's accelerating clean-energy transition.",
+              "source": "Renew Economy",
+              "url": "https://reneweconomy.com.au/rebate-bonus-rooftop-solar-charts-sunning-new-installation-record-spurred-by-home-battery-boom/",
+              "date": "2026-04-02"
+            },
+            {
+              "id": "oc-2",
+              "title": "New Zealand Sweeps the Oceania Archery Target Championships on Home Soil",
+              "summary": "New Zealand archers dominated the 2026 World Archery Oceania Target Championships in Auckland, winning gold in every individual recurve and compound division. Ben McLean and Julia Harrison won the recurve events, while 54-year-old Lisa Walker claimed compound gold. The championships brought together 83 archers from 10 nations, with New Zealand topping the medal table as fans cheered through windy waterfront conditions.",
+              "source": "World Archery",
+              "url": "https://www.worldarchery.sport/news/202398/new-zealand-dominate-oceania-target-championships-2026-auckland",
+              "date": "2026-04-20"
+            },
+            {
+              "id": "oc-3",
+              "title": "Oceania Judo Championships Return to Melbourne After Eight-Year Hiatus",
+              "summary": "The Oceania Judo Championships returned to Melbourne on April 18–19 after an eight-year absence, with Australia dominant on home soil — claiming 13 gold medals and 18 total. Athletes from 10 nations competed, with six countries taking home medals, a sign of the sport's growing Pacific depth. The IJF celebrated the event as a springboard toward Brisbane 2032, with cadets and juniors competing alongside seniors for the first time.",
+              "source": "International Judo Federation",
+              "url": "https://www.ijf.org/news/show/oceania-rising-a-new-generation-steps-forward-in-melbourne",
+              "date": "2026-04-19"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "id": "an-1",
+              "title": "CSIRO Voyage Recovers Record 20.5-Metre Antarctic Sediment Core",
+              "summary": "Australia's research vessel RV Investigator completed a landmark 55-day expedition to East Antarctica's Cook Glacier marine region, recovering a record 20.5-metre sediment core that provides a climate time capsule spanning millions of years. The multinational team also documented roughly 400 deep-sea organisms. Scientists called it one of the most important voyages to one of the most important climate laboratories on the planet, marking a full year of CSIRO Antarctic science at sea.",
+              "source": "CSIRO",
+              "url": "https://www.csiro.au/en/news/All/Articles/2026/March/RV-Investigators-milestone-Antarctic-mission",
+              "date": "2026-03-16"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-19",
       "regions": {
         "Africa": {
@@ -415,220 +621,6 @@
               "source": "ETH Zurich",
               "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/02/record-breaking-sediment-core-may-help-predict-antarctic-ice-loss.html",
               "date": "2026-02-25"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-04-16",
-      "regions": {
-        "Africa": {
-          "emoji": "🌍",
-          "color": "#FF6B35",
-          "tagline": "A continent rising with energy and hope",
-          "stories": [
-            {
-              "id": "af-1",
-              "title": "Rwanda's Mountain Gorilla Habitat Grows by 27 Hectares",
-              "summary": "The African Wildlife Foundation donated 27 hectares of restored forest land to Rwanda's Volcanoes National Park, directly expanding habitat for endangered mountain gorillas. Four years of collaborative bamboo restoration and native planting now provide new feeding grounds and safer corridors for gorilla families. It's a milestone born from patient, community-rooted conservation work.",
-              "source": "African Wildlife Foundation",
-              "url": "https://www.awf.org/pressroom/awf-hands-over-restored-land-expand-volcanoes-national-park-boosting-mountain-gorilla",
-              "date": "2026-04-09"
-            },
-            {
-              "id": "af-2",
-              "title": "Nine in Ten AWF-Managed Wildlife Populations Now Stable or Growing",
-              "summary": "The African Wildlife Foundation's 2025 annual report reveals that across 8.6 million hectares of active conservation management, 90% of monitored wildlife populations are stable or increasing. Women-led peace initiatives like TANGO in northern Cameroon have cut herder-farmer conflicts by 62%, showing how community empowerment drives lasting ecological and social gains.",
-              "source": "Top Africa News",
-              "url": "https://www.topafricanews.com/2026/04/09/from-conservation-to-prosperity-how-african-led-solutions-are-redefining-wildlife-protection-and-economic-growth/",
-              "date": "2026-04-09"
-            },
-            {
-              "id": "af-3",
-              "title": "Africa's Economic Growth Outpaces Asia for the First Time in 2026",
-              "summary": "For the first time in recent history, African GDP growth is forecast to exceed Asia's in 2026 at 4.4% versus 4.1%, driven by metals, commodities, and decades of sustained economic expansion. This milestone extends more than 25 consecutive years of continental growth and signals Africa's rising place in the global economy.",
-              "source": "CNBC Africa",
-              "url": "https://www.cnbcafrica.com/2026/the-11-trends-factors-that-will-shape-african-affairs-in-2026",
-              "date": "2026-04-01"
-            }
-          ]
-        },
-        "Asia": {
-          "emoji": "🌏",
-          "color": "#FFB700",
-          "tagline": "Ancient wisdom, modern breakthroughs",
-          "stories": [
-            {
-              "id": "as-1",
-              "title": "India's First Fast Breeder Nuclear Reactor Reaches Criticality",
-              "summary": "India's 500 MWe Prototype Fast Breeder Reactor at Kalpakkam achieved first criticality on April 7, a pivotal milestone in the nation's three-stage nuclear energy programme. When fully operational, India will become only the second country after Russia with a commercial fast breeder reactor, unlocking a path to virtually unlimited clean energy through the thorium cycle.",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/4/7/indias-nuclear-leap-why-its-fast-breeder-reactor-success-matters",
-              "date": "2026-04-07"
-            },
-            {
-              "id": "as-2",
-              "title": "Giant Pandas Officially No Longer Endangered",
-              "summary": "After decades of dedicated effort, the IUCN upgraded the giant panda from Endangered to Vulnerable, reflecting a wild population now approaching 1,900 individuals. China's investment in habitat protection and breeding programmes — supported by conservationists worldwide — has delivered one of the most celebrated recoveries in conservation history.",
-              "source": "WWF",
-              "url": "https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered/",
-              "date": "2026-01-15"
-            },
-            {
-              "id": "as-3",
-              "title": "Indonesia Unlocks Vast Geothermal Energy Potential with ADB Support",
-              "summary": "The Asian Development Bank is backing Indonesia's push to develop its enormous untapped geothermal power reserves, among the largest in the world. This clean, reliable baseload energy source could transform Indonesia's power grid, reduce dependence on fossil fuels, and serve as a model for sustainable energy development across Southeast Asia.",
-              "source": "ThinkGeoEnergy / Renewable Energy Asia",
-              "url": "https://www.renewableenergyasia.org/2026/04/asian-development-on-developing-indonesias-geothermal-power-potential.html",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "Europe": {
-          "emoji": "🌍",
-          "color": "#44BBA4",
-          "tagline": "Green, resilient, and reaching for the future",
-          "stories": [
-            {
-              "id": "eu-1",
-              "title": "UK Renewables Power a Record 52.5% of Electricity — Zero Coal Year Too",
-              "summary": "For the second consecutive year, renewables provided more than half of UK electricity, reaching a record 52.5% in 2025. The year also marked the first full calendar year without any coal-fired generation — closing more than 140 years of coal power in Britain and cementing the UK's status as a global clean energy leader.",
-              "source": "Renewables Now",
-              "url": "https://renewablesnow.com/news/renewables-provide-record-52-5-percent-of-uk-generation-in-2025-1292531/",
-              "date": "2026-04-03"
-            },
-            {
-              "id": "eu-2",
-              "title": "WHO Launches Open Database to Help Europe Build Better Health Policy",
-              "summary": "The World Health Organization's European office unveiled a new open-access database unifying nearly 70 health data indicators across member states. Designed for policymakers, researchers, and the public alike, the tool makes evidence-based health decision-making faster, more transparent, and more equitable across the diverse nations of the WHO European Region.",
-              "source": "WHO Europe",
-              "url": "https://www.who.int/europe/news/item/08-04-2026-new-who-database-helps-countries-turn-health-data-into-better-policy",
-              "date": "2026-04-08"
-            },
-            {
-              "id": "eu-3",
-              "title": "EU Launches Bold Health Innovation Package Including First 'Safe Hearts' Plan",
-              "summary": "The European Commission unveiled a sweeping pro-innovation health package featuring a proposed Biotech Act, simplified medical device regulations, and a landmark Safe Hearts Plan — the EU's first coordinated strategy targeting cardiovascular disease. The package positions Europe as a global leader in health innovation while aiming to make its health sector more resilient and competitive.",
-              "source": "Longevity Technology",
-              "url": "https://longevity.technology/news/eu-rolls-out-plan-to-address-bottlenecks-in-healthcare/",
-              "date": "2026-04-10"
-            }
-          ]
-        },
-        "North America": {
-          "emoji": "🌎",
-          "color": "#E94F8B",
-          "tagline": "Bold dreams, bigger firsts",
-          "stories": [
-            {
-              "id": "na-1",
-              "title": "Artemis II Crew Returns Safely After Historic Journey Around the Moon",
-              "summary": "NASA's Artemis II crew splashed down in the Pacific Ocean on April 10 after a nearly 10-day journey around the Moon — the first crewed lunar mission since Apollo 17 in 1972. The mission set a new distance record for human spaceflight and included the first woman, first person of color, and first non-American to fly beyond low Earth orbit.",
-              "source": "NASA",
-              "url": "https://www.nasa.gov/gallery/artemis-ii-splashdown-and-return/",
-              "date": "2026-04-10"
-            },
-            {
-              "id": "na-2",
-              "title": "Being Optimistic Linked to 15% Lower Dementia Risk, Harvard Finds",
-              "summary": "A landmark Harvard T.H. Chan School of Public Health study, published April 8 in the Journal of the American Geriatrics Society, found that higher optimism is associated with a 15% lower risk of developing dementia. The link held consistently across racial groups, health conditions, and depression levels across 14 years of follow-up data covering 9,000 participants.",
-              "source": "News Medical",
-              "url": "https://www.news-medical.net/news/20260408/Higher-optimism-linked-to-lower-dementia-risk.aspx",
-              "date": "2026-04-08"
-            },
-            {
-              "id": "na-3",
-              "title": "Oksana Masters Wins Four Golds at Milan-Cortina, Reaches 24 Career Medals",
-              "summary": "American Paralympic athlete Oksana Masters earned four gold medals and a bronze at the 2026 Winter Paralympics, bringing her all-time medal total to 24 — the most ever by a U.S. Winter Paralympian. From para biathlon to cross-country skiing, her performances in Milan-Cortina were a masterclass in resilience, joy, and the limitless potential of adaptive sport.",
-              "source": "NPR",
-              "url": "https://www.npr.org/2026/03/17/nx-s1-5749163/oksana-masters-2026-winter-paralympics-medals",
-              "date": "2026-03-17"
-            }
-          ]
-        },
-        "South America": {
-          "emoji": "🌎",
-          "color": "#3B82F6",
-          "tagline": "Nature's guardian, culture's champion",
-          "stories": [
-            {
-              "id": "sa-1",
-              "title": "COP15 in Brazil Grants Protection to 40 New Migratory Species",
-              "summary": "The CMS COP15 conference in Campo Grande, Brazil extended protection to 40 species — including cheetah, giant otter, snowy owl, and manta ray — under the UN Convention on Migratory Species. Governments also formally recognised marine flyways for the first time, a decision scientists called one of the most significant advances in ocean conservation in a generation.",
-              "source": "Agência Brasil",
-              "url": "https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-03/cop15-ends-40-additional-species-granted-protection",
-              "date": "2026-03-29"
-            },
-            {
-              "id": "sa-2",
-              "title": "Amazon Deforestation Hits Decade Low as Brazil Charts Bold Nature Course",
-              "summary": "Annual Amazon deforestation fell for the fifth consecutive year in 2025, reaching its lowest level in over a decade. Alongside this breakthrough, Brazil launched its national biodiversity strategy committing to protect 80% of the Amazon by 2030 — backed by improved enforcement, better-integrated data systems, and a $125 billion Tropical Forests Forever Facility.",
-              "source": "Mongabay",
-              "url": "https://news.mongabay.com/2026/01/brazil-sets-out-its-strategy-for-nature/",
-              "date": "2026-01-15"
-            },
-            {
-              "id": "sa-3",
-              "title": "Argentina's Iberá Rewilding Dream Transforms Land and 100,000 Lives",
-              "summary": "Argentina's landmark Iberá rewilding programme has spent two decades restoring keystone species — from giant anteaters to jaguars — to the vast Corrientes wetlands. Today it supports a thriving ecotourism economy and has revitalised the cultural identity of 100,000 people living around the park, proving that restoring nature can rebuild communities too.",
-              "source": "Pew Charitable Trusts",
-              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
-              "date": "2026-01-15"
-            }
-          ]
-        },
-        "Oceania": {
-          "emoji": "🌏",
-          "color": "#10B981",
-          "tagline": "Islands of partnership and discovery",
-          "stories": [
-            {
-              "id": "oc-1",
-              "title": "Papua New Guinea Makes History in Women's World Cup Qualifiers",
-              "summary": "Papua New Guinea's women's national football team secured a historic berth in the FIFA Women's World Cup 2027 Oceania Qualifiers final, defeating American Samoa 1-0 on April 13 in a resolute, disciplined performance. The result is a proud milestone for Pacific women's football, signalling the growing strength and ambition of the game across the islands.",
-              "source": "Islands Business / PACNEWS",
-              "url": "https://islandsbusiness.com/pacnews/pacnews-sports-13-april-2026/",
-              "date": "2026-04-13"
-            },
-            {
-              "id": "oc-2",
-              "title": "New Zealand Books Women's World Cup Final with Commanding 5-0 Win",
-              "summary": "New Zealand's women's football team delivered a dominant 5-0 victory over Fiji at FMG Stadium in Hamilton to secure their place in the FIFA Women's World Cup 2027 Oceania Qualifiers final. The result underscores New Zealand's continued rise as a major force in women's international football ahead of the 2027 global tournament.",
-              "source": "Islands Business / PACNEWS",
-              "url": "https://islandsbusiness.com/pacnews/pacnews-sports-14-april-2026/",
-              "date": "2026-04-14"
-            },
-            {
-              "id": "oc-3",
-              "title": "IOC President Kirsty Coventry Makes Historic First Visit to Oceania",
-              "summary": "IOC President Kirsty Coventry made her inaugural visit to Oceania to address the ONOC Annual General Assembly, underscoring the international Olympic movement's renewed commitment to the Pacific region. Her presence signals Oceania's growing voice in global sport governance and the IOC's investment in developing Olympic sport across Pacific island nations.",
-              "source": "Islands Business / PACNEWS",
-              "url": "https://islandsbusiness.com/pacnews/pacnews-sports-15-april-2026/",
-              "date": "2026-04-15"
-            }
-          ]
-        },
-        "Antarctica": {
-          "emoji": "🧊",
-          "color": "#94A3B8",
-          "tagline": "The frozen frontier of human knowledge",
-          "stories": [
-            {
-              "id": "an-1",
-              "title": "Pink Boulders Reveal Hidden 100km Giant Beneath Antarctic Ice",
-              "summary": "Mysterious pink granite boulders atop Antarctica's Hudson Mountains led scientists to a stunning discovery: a hidden granite mass stretching nearly 100km beneath Pine Island Glacier. Detected through sensitive airborne gravity measurements, the finding illuminates how the glacier behaved during the last ice age and will sharpen predictions of how Antarctic ice responds to future warming.",
-              "source": "ScienceDaily",
-              "url": "https://www.sciencedaily.com/releases/2026/03/260318033126.htm",
-              "date": "2026-03-18"
-            },
-            {
-              "id": "an-2",
-              "title": "Scientists Unveil Most Complete Map of Antarctica's Hidden Landscape",
-              "summary": "Researchers produced the most comprehensive map ever created of the terrain beneath Antarctica's ice sheet, revealing a rich world of mountains, canyons, valleys, and over 30,000 previously unknown hills. This bedrock atlas transforms scientists' ability to model how Antarctica's frozen mass will respond to climate change in the decades ahead.",
-              "source": "GB News / Science",
-              "url": "https://www.gbnews.com/science/antarctica-breakthrough-scientific-discovery-map-under-the-ice",
-              "date": "2026-01-15"
             }
           ]
         }
