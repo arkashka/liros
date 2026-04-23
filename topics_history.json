@@ -665,6 +665,228 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-18",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "id": "eb-1",
+              "title": "Malaysia Becomes Southeast Asia's Fastest-Rising AI and Data Centre Hub",
+              "summary": "Capturing 32% of Southeast Asia's AI investment and drawing over US$15 billion in commitments, Malaysia raised its data centre capacity from 120 MW to 690 MW in a single year. Its first solar-powered sovereign AI data centre is now operational, and AI is projected to contribute US$115 billion to Malaysia's GDP by 2030.",
+              "source": "Citizens Journal",
+              "url": "https://cj.my/156461/malaysia-emerges-as-southeast-asias-fastest-rising-ai-and-data-centre-hub",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "eb-2",
+              "title": "Canada Invests $127 Million in Life Sciences to Fuel Next-Gen Biomanufacturing",
+              "summary": "Canada's federal government announced a $127 million investment in Vancouver's Aspect Biosystems and Providence Health Care, supporting tissue bioprinting and life sciences innovation. The funding creates 400 permanent jobs and 268 student co-op positions, cementing Canada's ambition to lead the world in next-generation biomanufacturing.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/government-of-canada-announces-127-million-investment-in-aspect-biosystems-and-providence-health-care-to-bolster-the-canadian-biomanufacturing-and-.html",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "eb-3",
+              "title": "Argentina's Bold Reforms Win IMF Upgrade and Renewed Foreign Investor Confidence",
+              "summary": "After years of economic turbulence, Argentina's fiscal stabilization plan is delivering results: the IMF upgraded its 2026 outlook for the country in April, citing improved financial conditions, easing inflation, and rising investor confidence. For South America's second-largest economy, the turnaround signals a genuinely hopeful new chapter.",
+              "source": "AS/COA",
+              "url": "https://www.as-coa.org/articles/imf-and-world-banks-april-2026-update-latin-americas-economic-outlook",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "id": "st-1",
+              "title": "Canada Launches One of the World's Most Advanced AI Supercomputing Systems",
+              "summary": "Canada unveiled an ambitious national AI supercomputing initiative under its Sovereign AI Compute Strategy, giving researchers, universities, and innovators access to world-class computational infrastructure. The programme is designed to keep Canada at the frontier of AI discovery while protecting national data sovereignty and fuelling homegrown innovation.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/canada-launches-national-initiative-to-build-large-scale-ai-supercomputing-capacity.html",
+              "date": "2026-04-16"
+            },
+            {
+              "id": "st-2",
+              "title": "Scientists Create Antibodies That Fully Block Epstein-Barr Virus in Landmark Advance",
+              "summary": "Researchers at Fred Hutchinson Cancer Center have created powerful antibodies that completely prevent Epstein-Barr virus infection in human immune system models. EBV affects 95% of people worldwide and is linked to several cancers and multiple sclerosis. This breakthrough opens a realistic path to the first protective EBV vaccine, with major benefits for transplant patients.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260414075650.htm",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "st-3",
+              "title": "Cornell Scientists Achieve Breakthrough Toward Safe, Reversible Male Birth Control",
+              "summary": "Cornell researchers developed a compound that completely halts sperm production in mice — reversibly, without hormonal effects — with healthy offspring after treatment ended. Published in PNAS, the study is the most significant advance toward male contraception in decades and lays the scientific groundwork for future human clinical development.",
+              "source": "Cornell Chronicle",
+              "url": "https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "id": "ec-1",
+              "title": "World Adds Record 692 GW of Renewables in 2025 — The Biggest Clean Energy Year Ever",
+              "summary": "IRENA's April 2026 report confirms that global renewable capacity surged by a record 692 GW in 2025, bringing total capacity to 5,149 GW — the largest annual increase ever recorded. Solar led with 511 GW of new additions, and renewables now make up 49.4% of the world's total energy capacity, up from 46.3% in 2024.",
+              "source": "IRENA",
+              "url": "https://www.irena.org/News/pressreleases/2026/Apr/Near-700-GW-Surge-in-2025-Proves-Renewable-Energy-Resilience",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "ec-2",
+              "title": "Europe's Wild Bison Bounce Back From Near-Extinction to 9,000 Strong",
+              "summary": "A century ago, the European bison was hunted to fewer than 60 individuals in captivity. Today, rewilding programmes across Poland, Romania, Bulgaria, and Spain have helped the population recover to around 9,000. Researchers have also shown that bison herds sequester carbon at remarkable scale — one herd of 170 offsets the emissions of 84,000 petrol cars per year.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/08/from-biodiversity-to-carbon-capture-saving-bison-from-extinction-has-brought-big-benefits-",
+              "date": "2026-04-08"
+            },
+            {
+              "id": "ec-3",
+              "title": "Brazil's Electricity Grid Reaches 84.6% Renewable as Offshore Wind Pipeline Tops 189 GW",
+              "summary": "Brazil has crossed a landmark milestone: 84.6% of its electricity capacity is now renewable, with solar growing sixfold in five years and wind and solar jointly supplying nearly 25% of national generation. A 189 GW offshore wind pipeline — backed by a new Offshore Wind Law and World Bank financing — is set to extend Brazil's clean energy lead globally.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/brazil-renewable-energy-2026-guide/",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "id": "hw-1",
+              "title": "TMS Brain Stimulation Achieves 62% Complete Remission in Severe Depression",
+              "summary": "Real-world data from MUSC Health reveals that Transcranial Magnetic Stimulation achieves full remission of depression in 62% of patients — with an 83% response rate overall. Delivered in 20-minute non-invasive sessions over several weeks, TMS reactivates underactive brain regions and is transforming care for patients who haven't responded to antidepressant medication.",
+              "source": "MUSC Health",
+              "url": "https://www.musc.edu/content-hub/News/2026/04/14/tms-treatment",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "hw-2",
+              "title": "FDA Clears Brain Stimulation Therapy for Teen Depression in Historic Mental Health First",
+              "summary": "In a landmark move for adolescent mental health, the FDA has cleared TMS therapy for teenagers with depression — the first time a non-invasive brain stimulation treatment has been approved for young people. The clearance opens a safe, medication-free option for millions of teens struggling with treatment-resistant depression worldwide.",
+              "source": "Molecular Psychiatry",
+              "url": "https://www.nature.com/articles/s41380-026-03455-0",
+              "date": "2026-04-07"
+            },
+            {
+              "id": "hw-3",
+              "title": "Scientists Create Antibodies That Fully Block Epstein-Barr Virus — A Major Cancer Cause",
+              "summary": "Fred Hutchinson Cancer Center researchers created antibodies that completely prevent EBV infection in lab models. The virus affects 95% of people globally, is linked to several cancers and multiple sclerosis, and is especially dangerous for immunocompromised patients. This advance puts a preventive EBV vaccine — with potentially enormous health benefits — within closer reach.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260414075650.htm",
+              "date": "2026-04-14"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "id": "sc-1",
+              "title": "Hungary's Historic Democratic Renewal as Magyar Wins With Record 77% Voter Turnout",
+              "summary": "In Hungary's most significant election in a generation, Peter Magyar's Tisza party ousted Viktor Orbán with a 53.6% landslide on a record 77% turnout. Tens of thousands lined the Danube as Magyar declared, 'Tonight, truth prevailed over lies,' marking the start of Hungary's democratic renewal and unlocking long-blocked EU aid for Ukraine.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "sc-2",
+              "title": "Bangladesh's PM Named to TIME 100 as Nation Rebuilds Its Democratic Spirit",
+              "summary": "Prime Minister Tarique Rahman — who won a sweeping electoral victory in February after 17 years in exile — has joined TIME's 100 Most Influential People of 2026. The recognition celebrates Bangladesh's democratic renewal and the country's determination to build a more open, transparent, and prosperous future for its 170 million citizens.",
+              "source": "TIME Magazine",
+              "url": "https://time.com/collection/100-most-influential-people/2026/tarique-rahman/",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "sc-3",
+              "title": "Australia Celebrates Indigenous Scientists Restoring Native Seeds and Food Systems",
+              "summary": "The Australian Academy of Science's 2026 Aboriginal and Torres Strait Islander Scientist Award honours Dr Cassandra Sedran-Price and Mr Jacob Birch for research rooted in traditional knowledge. Their work — establishing community seed banks and reviving drought-tolerant native grains — weaves scientific rigour with cultural wisdom to build climate-resilient food futures.",
+              "source": "Australian Academy of Science",
+              "url": "https://science.org.au/news-events/news-views/indigenous-scientists-recognised-climate-resilience-research",
+              "date": "2026-03-28"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "id": "ea-1",
+              "title": "V&A East Museum Opens With Landmark Exhibition on 125 Years of Black British Music",
+              "summary": "London's brand-new V&A East Museum opens on 18 April 2026 with 'The Music Is Black: A British Story' — a landmark free museum tracing 125 years of Black British musical culture through 200+ objects, fashion, film, and sound. Running until January 2027, the show is already heralded as one of the most significant cultural openings of the decade.",
+              "source": "Victoria and Albert Museum",
+              "url": "https://www.vam.ac.uk/exhibitions/the-music-is-black-a-british-story",
+              "date": "2026-04-18"
+            },
+            {
+              "id": "ea-2",
+              "title": "Euphoria Season 3 Premieres to Record 8.5 Million Viewers, Up 44% From Season 2",
+              "summary": "After a four-year wait, Euphoria returned on 12 April 2026 to its biggest audience ever — 8.5 million US viewers in just three days, a 44% jump over Season 2's debut. The show trended globally on social media with #Euphoria at No. 1 on X for six consecutive hours, cementing its place as the defining drama of its generation.",
+              "source": "Deadline",
+              "url": "https://deadline.com/2026/04/euphoria-season-3-premiere-ratings-hbo-1236863088/",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "ea-3",
+              "title": "New York's Grand Duchamp Retrospective Invites the World to Reimagine Art's Possibilities",
+              "summary": "A sweeping Marcel Duchamp retrospective has opened in New York City, drawing visitors from around the world to reconsider the boundaries of creativity and expression. The exhibition spans his entire career — from early paintings to the readymades that changed art history forever — offering a joyful, mind-bending celebration of artistic freedom and curiosity.",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-03-24/the-9-best-movies-tv-books-art-and-theater-arriving-in-april",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "id": "sl-1",
+              "title": "Rory McIlroy Defends Masters Title, Joins Tiger, Faldo, and Nicklaus in Elite History",
+              "summary": "Rory McIlroy claimed his second consecutive Masters title on April 12, 2026, becoming only the fourth player ever to successfully defend at Augusta — joining Nick Faldo, Tiger Woods, and Jack Nicklaus. Opening with record-breaking rounds of 67-65, the Northern Irishman held off Scottie Scheffler to claim his sixth major overall.",
+              "source": "The Masters",
+              "url": "https://www.masters.com/en_US/news/articles/2026-04-12/2026-04-12_2026-04-12_mcilroy_makes_history_once_again.html",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "sl-2",
+              "title": "Venezuela Wins World Baseball Classic for the First Time in History",
+              "summary": "In a heart-stopping final at Miami's loanDepot Park, Venezuela edged the United States 3-2 to capture the World Baseball Classic trophy for the very first time. Eugenio Suárez's ninth-inning clutch double settled the contest, igniting nationwide celebrations and making Venezuela the first South American country to win the sport's premier international prize.",
+              "source": "MLB",
+              "url": "https://www.mlb.com/news/venezuela-wins-world-baseball-classic-2026",
+              "date": "2026-03-17"
+            },
+            {
+              "id": "sl-3",
+              "title": "Corbin Carroll Makes MLB History in His 500th Game, Joining DiMaggio and Gehrig",
+              "summary": "Arizona Diamondbacks outfielder Corbin Carroll celebrated his 500th MLB game on April 8, 2026, with a 3-for-5 performance featuring two doubles and a triple. With 84 home runs, 124 stolen bases, and 46 triples across 500 games, Carroll became the only player in MLB history to achieve those numbers — joining an all-time legends list alongside DiMaggio and Gehrig.",
+              "source": "Sport Preferred",
+              "url": "https://www.sportpreferred.com/mlb/corbin-carroll-makes-mlb-history-in-500th-game-as-diamondbacks-beat-mets/12177",
+              "date": "2026-04-08"
+            }
+          ]
+        }
+      }
     }
   ]
 }
