@@ -887,6 +887,228 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-19",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "id": "eb-1",
+              "title": "Europe's Pact for Skills Reaches 10 Million Workers Trained",
+              "summary": "Since its 2020 launch, the EU's Pact for Skills has upskilled 10 million workers — 3.9 million in 2025 alone — through 4,000 partner organisations and more than €1 billion in collective investment. With 25 million people targeted by 2030, it is reshaping how Europe builds the green and digital workforce it needs.",
+              "source": "European Commission",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_829",
+              "date": "2026-03-05"
+            },
+            {
+              "id": "eb-2",
+              "title": "Africa's Solar Sector Installs More in One Quarter Than in All of Last Year",
+              "summary": "Africa added nearly 1 GW of utility-scale solar in Q1 2026 — more than any previous full year — led by South Africa and Egypt. The milestone is drawing fresh international investment and accelerating a clean energy boom that is creating jobs and powering communities across the continent.",
+              "source": "Green Building Africa",
+              "url": "https://www.greenbuildingafrica.co.za/africa-utility-scale-solar-surges-as-q1-2026-installations-outpace-full-year-2025/",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "eb-3",
+              "title": "South Korea Tourism Hits Record High With 4.76 Million Arrivals in Q1 2026",
+              "summary": "International visitors to South Korea surged 23% year-on-year in the first quarter of 2026, reaching a record 4.76 million. Fuelled by the global K-pop wave, new long-haul routes and cultural events across Seoul, Busan and Jeju, the boom is generating billions for local businesses and communities.",
+              "source": "MICE Travel Advisor",
+              "url": "https://www.micetraveladvisor.com/news/article/seoul-busan-and-jeju-lead-south-korea-tourism-surge-as-china-japan-taiwan-united-states-and-europe-drive-record-growth-in-2026/",
+              "date": "2026-04-10"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "id": "st-1",
+              "title": "Northwestern Engineers Print Artificial Neurons That Communicate With Real Brain Cells",
+              "summary": "Northwestern University researchers built flexible, printable artificial neurons from nanoscale graphene and molybdenum disulfide that successfully triggered responses in living mouse brain tissue. The study, published in Nature Nanotechnology, marks a leap toward neuroprosthetics, brain-machine interfaces and AI that is orders of magnitude more energy-efficient.",
+              "source": "Northwestern Now",
+              "url": "https://news.northwestern.edu/stories/2026/4/printed-neurons-communicate-with-living-brain-cells",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "st-2",
+              "title": "Graphene Electrons Flow Like a Frictionless Liquid, Defying a Core Law of Physics",
+              "summary": "IISc scientists and collaborators in Japan observed electrons in graphene behaving as a \"Dirac fluid\" near a special quantum boundary, deviating from the Wiedemann-Franz law by more than 200-fold. The Nature Physics finding opens entirely new avenues in quantum sensing and hints at ultracold computing paradigms inspired by the brain.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260415042152.htm",
+              "date": "2026-04-15"
+            },
+            {
+              "id": "st-3",
+              "title": "AI Gut-Bacteria Test Detects 90% of Colorectal Cancers Without a Colonoscopy",
+              "summary": "Scientists built the world's first comprehensive subspecies catalogue of gut bacteria and used it to train an AI model that identified colorectal cancer from simple stool samples with 90% accuracy — nearly matching colonoscopy. A clinical trial with Geneva University Hospitals is now being prepared to bring this non-invasive screen to patients.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260409221823.htm",
+              "date": "2026-04-09"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "id": "ec-1",
+              "title": "Monarch Butterfly Population Bounces Back 64% in Mexico — Best Since 2018",
+              "summary": "Eastern monarchs overwintered across 7.24 acres of Mexican forest this season — a 64% jump from the prior year and the largest area since 2018. Stricter enforcement against illegal logging, community-led habitat care and expanding federal protections are all credited with the most encouraging rebound in years.",
+              "source": "World Wildlife Fund",
+              "url": "https://www.worldwildlife.org/news/stories/monarch-butterfly-population-increases-64-percent/",
+              "date": "2026-03-25"
+            },
+            {
+              "id": "ec-2",
+              "title": "UK Government Backs £1M Plan to Return Golden Eagles to English Skies",
+              "summary": "Absent from England for 150 years, the golden eagle may return as early as 2027 after £1 million in government funding was approved to explore reintroduction across eight northern recovery zones. Satellite data shows Scottish birds are already venturing over the border, raising hopes for a swift and natural comeback.",
+              "source": "GOV.UK",
+              "url": "https://www.gov.uk/government/news/iconic-golden-eagles-to-make-comeback-in-england",
+              "date": "2026-04-12"
+            },
+            {
+              "id": "ec-3",
+              "title": "Chile Signs Decree Protecting 50% of Its Ocean — Third-Largest Marine Reserve on Earth",
+              "summary": "President Boric signed landmark protections on March 10 for 386,000 square miles of ocean around the Juan Fernández and Nazca-Desventuradas archipelagos — creating the world's third-largest conserved seascape. The reserve shields whales, turtles and the Juan Fernández fur seal, once feared extinct, and advances the global 30x30 ocean target.",
+              "source": "EnviroLink",
+              "url": "https://www.envirolink.org/2026/03/24/chile-creates-new-marine-park-to-protect-rare-fur-seals-once-thought-extinct/",
+              "date": "2026-03-24"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "id": "hw-1",
+              "title": "AI Stool Test Catches 90% of Colorectal Cancers — No Colonoscopy Required",
+              "summary": "Researchers mapped gut bacteria at subspecies resolution for the first time and used AI to identify colorectal cancer from stool samples with 90% accuracy, rivalling invasive colonoscopy. In practice, the test could screen millions cheaply and comfortably, reserving colonoscopy only for positive cases. A clinical trial is now being prepared.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260409221823.htm",
+              "date": "2026-04-09"
+            },
+            {
+              "id": "hw-2",
+              "title": "Natural Hormone FGF21 Reverses Obesity by Targeting a Brain Circuit",
+              "summary": "University of Oklahoma scientists discovered that the hormone FGF21 reverses obesity in mice by activating a specific hindbrain neuron pathway — boosting metabolism rather than suppressing appetite like GLP-1 drugs. Published in Cell Reports, the finding could lead to more targeted obesity therapies with fewer side effects.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260416071954.htm",
+              "date": "2026-04-16"
+            },
+            {
+              "id": "hw-3",
+              "title": "Starting Hormone Therapy in Perimenopause Cuts Cardiovascular and Cancer Risk",
+              "summary": "A 2026 review in Frontiers in Reproductive Health found that women who begin hormone replacement therapy near the onset of menopause — rather than years later — enjoy significantly lower risks of cardiovascular disease and certain cancers. The findings are prompting clinicians to reconsider the optimal timing of a widely used treatment.",
+              "source": "Frontiers in Reproductive Health",
+              "url": "https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2026.1745210/full",
+              "date": "2026-03-10"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "id": "sc-1",
+              "title": "Karol G Makes History as First Latina Artist to Headline Coachella",
+              "summary": "Colombian superstar Karol G headlined Coachella 2026 alongside Justin Bieber and Sabrina Carpenter, becoming the first Latina artist ever to top the bill at the iconic California festival. Both sold-out weekends were streamed globally on YouTube, bringing the barrier-breaking performance to millions who couldn't be there in person.",
+              "source": "IBTimes Australia",
+              "url": "https://www.ibtimes.com.au/coachella-2026-full-lineup-schedule-revealed-sabrina-carpenter-justin-bieber-karol-g-headline-1866140",
+              "date": "2026-04-17"
+            },
+            {
+              "id": "sc-2",
+              "title": "Thai Wildlife Comeback Transforms 320 Villagers Into Conservation Entrepreneurs",
+              "summary": "After the banteng population at Huai Kha Khaeng doubled to 1,400, residents of 19 surrounding villages built a community ecotourism enterprise around wildlife watching, boat tours and cultural experiences. Tourist numbers have grown from dozens to thousands per month, proving that nature recovery and community prosperity can rise together.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/how-wild-cattle-recovery-is-transforming-local-livelihoods-near-key-thai-reserve/",
+              "date": "2026-04-02"
+            },
+            {
+              "id": "sc-3",
+              "title": "UNESCO Programme Reaches 23.4 Million Young Learners Across Africa",
+              "summary": "UNESCO's O3 Programme has secured political commitment to adolescents' health education in nearly 190,000 schools across Eastern, Southern, West and Central Africa — reaching 23.4 million young learners. The initiative equips the next generation with knowledge and agency, making a quiet but profound difference in millions of young lives.",
+              "source": "UNESCO",
+              "url": "https://www.unesco.org/en/articles/education-health-and-agency-young-people-are-leading-change-they-need-across-africa",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "id": "ea-1",
+              "title": "Michael Jackson Biopic 'Michael' Eyes Record-Breaking $55M+ Opening Weekend",
+              "summary": "Directed by Antoine Fuqua and starring Jaafar Jackson as his uncle, the long-awaited biopic 'Michael' opens in US theatres on April 24 and is tracking for the biggest opening in music biopic history — topping 'Bohemian Rhapsody'. Its Berlin premiere drew rave reactions for Jaafar's extraordinary performance in his film debut.",
+              "source": "Deadline",
+              "url": "https://deadline.com/2026/04/michael-box-office-projection-1236771788/",
+              "date": "2026-04-18"
+            },
+            {
+              "id": "ea-2",
+              "title": "Coachella 2026 Sells Out Both Weekends as Justin Bieber Returns and Karol G Makes History",
+              "summary": "Coachella 2026 sold out in days, with both weekends (April 10–12 and 17–19) drawing fans to the desert for headliners Justin Bieber, Sabrina Carpenter and Karol G. Bieber reportedly earned a record $10 million for his two headline sets, while Karol G became the first Latina artist to top the festival's bill.",
+              "source": "The Wrap",
+              "url": "https://www.thewrap.com/coachella-2026-sells-out-both-weekends/",
+              "date": "2026-04-10"
+            },
+            {
+              "id": "ea-3",
+              "title": "Super Mario Galaxy Movie Opens to Massive Anticipation on April 1",
+              "summary": "Nintendo's second animated feature, The Super Mario Galaxy Movie, hit theatres April 1 to enormous fanfare, eyeing one of the biggest animated openings of the decade. Featuring the returning cast and original music by Brian Tyler, the film continues the franchise's Hollywood winning streak and brings the beloved space adventure to life.",
+              "source": "Good Morning America",
+              "url": "https://abcnews.com/GMA/Culture/year-ahead-entertainment-forward-2026/story?id=128811047",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "id": "sl-1",
+              "title": "UCLA Shatters WNBA Draft Record With Five First-Round Picks in a Single Draft",
+              "summary": "UCLA became the first university in history to land five players in the first round of a WNBA draft, with Lauren Betts, Gabriela Jaquez, Kiki Rice, Angela Dugalic and Gianna Kneepkens all selected on April 14. The historic night came just days after the Bruins won their first-ever NCAA women's basketball championship.",
+              "source": "ESPN",
+              "url": "https://www.espn.com/wnba/story/_/id/48479767/ucla-sets-record-five-first-round-picks-wnba-draft",
+              "date": "2026-04-14"
+            },
+            {
+              "id": "sl-2",
+              "title": "Ghana's Nations FC Reach Their First-Ever FA Cup Final in Historic Semi-Final Win",
+              "summary": "Nations FC defeated Aduana FC 1-0 on April 17 to book a first-ever place in the MTN FA Cup final, where they will face Dreams FC. The Accra club's maiden cup final appearance is a milestone moment for the club, its supporters and the growth of club football across Ghana.",
+              "source": "Foot Africa",
+              "url": "https://foot-africa.com/en/news/ghana-fa-cup-nations-fc-advance-to-the-final-1170398/",
+              "date": "2026-04-17"
+            },
+            {
+              "id": "sl-3",
+              "title": "2026 Laureus Sport for Good Awards Shine a Light on Sport's Transformative Power",
+              "summary": "The 2026 Laureus Sport for Good Award shortlist celebrates organisations harnessing sport to tackle climate change, biodiversity loss and social inequality. From youth programmes in conflict zones to community sports clubs restoring ecosystems, the shortlist is a testament to the extraordinary good that movement and play can inspire.",
+              "source": "Laureus",
+              "url": "https://www.laureus.com/news/here-s-to-the-game-changers-2026-laureus-sport-for-good-award-shortlist",
+              "date": "2026-04-08"
+            }
+          ]
+        }
+      }
     }
   ]
 }
