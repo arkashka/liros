@@ -1331,6 +1331,207 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-23",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "Renewables Overtake Coal in Global Power Mix for First Time Since 1919",
+              "summary": "Ember's Global Electricity Review 2026 confirmed a landmark: renewable energy — powered by a record 30% surge in solar — overtook coal to supply more than a third of global electricity in 2025, for the first time in over a century. Solar alone met 75% of global electricity demand growth and, together with wind, met almost all new demand. It marked the first year this century that total fossil fuel generation did not rise — falling by 38 TWh.",
+              "source": "Ember / Global Electricity Review 2026",
+              "url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "Japan Backs Homegrown AI Chip Pioneer Rapidus as Microsoft Pledges $10B",
+              "summary": "Japan approved ¥631.5 billion in additional subsidies for domestic AI chipmaker Rapidus after inspectors signed off on the startup's technical progress at its Hokkaido foundry. The boost arrives alongside Microsoft's commitment to invest $10 billion in Japanese AI infrastructure and workforce training between 2026 and 2029. Together these investments are propelling Japan's ambition to hold a 30% global share of the physical AI market by 2040.",
+              "source": "Bloomberg / Microsoft Source Asia",
+              "url": "https://news.microsoft.com/source/asia/2026/04/03/microsoft-deepens-its-commitment-to-japan-with-10-billion-investment-in-ai-infrastructure-cybersecurity-workforce/",
+              "date": "2026-04-11"
+            },
+            {
+              "title": "Vietnam Leads ASEAN With a 7.83% Economic Surge in Early 2026",
+              "summary": "Vietnam's economy grew 7.83% year-on-year in Q1 2026 — the fastest rate in Southeast Asia and well above government targets. Strong manufacturing exports and rising domestic consumption drove the expansion, with the National Statistics Office calling it one of the best first-quarter performances in the country's recent history. The result cements Vietnam's standing as one of the Asia-Pacific's most dynamic emerging economies.",
+              "source": "National Statistics Office of Vietnam",
+              "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/04/press-release-socio-economic-situation-in-the-first-quarter-of-2026/",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Bowel Cancer Trial Reports Zero Relapses After Nearly Three Years",
+              "summary": "The NEOPRISM-CRC trial, which gave 32 high-risk bowel cancer patients pembrolizumab immunotherapy before surgery, recorded zero relapses after 33 months of follow-up — a result that astonished oncologists. Initially 59% of patients showed no signs of disease after treatment; even those with residual cancer saw no growth or spread during the monitoring period. UCL researchers also developed personalised blood tests to predict each patient's response, pointing the way toward truly tailored cancer therapy.",
+              "source": "Good News Network / UCL Hospital",
+              "url": "https://www.goodnewsnetwork.org/groundbreaking-bowel-cancer-trial-had-zero-relapses-for-patients-after-33-months/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Pink Antarctic Boulders Lead Scientists to a Hidden Giant Beneath a Glacier",
+              "summary": "Geologists solved a long-standing Antarctic puzzle when they traced mysterious Jurassic-age pink granite boulders in the Hudson Mountains back to their source: a massive subglacial rock formation buried beneath Pine Island Glacier, nearly 100 km wide and 7 km thick. By matching the boulders' age with gravity anomalies detected from aircraft, researchers confirmed the previously unknown feature. The discovery reshapes understanding of how bedrock geology influences the stability of one of Antarctica's fastest-retreating glaciers.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/03/260318033126.htm",
+              "date": "2026-03-18"
+            },
+            {
+              "title": "Scientists Drill Record 228-Metre Core From Beneath Antarctica's Ice Sheet",
+              "summary": "A team co-led by Imperial College London extracted the longest sediment core ever drilled from beneath an Antarctic ice sheet — a 228-metre column of ancient mud and rock spanning 23 million years of climate history. Researchers bored through 523 metres of ice at the remote Crary Ice Rise site to reach the sediment, finding the first in-situ evidence of open-ocean conditions in West Antarctica's interior. The core will help scientists understand how past warming reshaped the ice sheet and predict future sea-level rise.",
+              "source": "Imperial College London",
+              "url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/imperial-researchers-help-unlock-antarcticas-deep-past-with-record-breaking-drill-into-the-ice/",
+              "date": "2026-02-17"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Amazon Deforestation Drops 35%, Placing Brazil on Track for Historic Low",
+              "summary": "Satellite data shows Amazon deforestation fell 35% between August 2025 and January 2026 compared to the prior year, reaching its lowest level since 2014. If the trend holds through the year, Environment Minister Marina Silva says 2026 could mark the lowest annual deforestation rate since records began in 1988. Stronger enforcement and the participation of 70 high-deforestation municipalities in federal prevention programmes are credited with driving the change.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/02/amazon-deforestation-on-pace-to-be-the-lowest-on-record-says-brazil/",
+              "date": "2026-02-20"
+            },
+            {
+              "title": "Kenya Opens World's Largest Black Rhino Sanctuary at Tsavo West",
+              "summary": "Kenya unveiled the expanded Tsavo West Rhino Sanctuary in December 2025, stretching across 3,200 square kilometres — the largest rhino sanctuary on Earth. The site now shelters 200 black rhinos, the biggest single population in Kenya, and positions the country as guardian of 78% of the world's Eastern black rhinos. By 2030, the sanctuary is expected to generate over $45 million a year in conservation tourism.",
+              "source": "Kenya Wildlife Service",
+              "url": "https://www.kws.go.ke/press-release/kenya-opens-worlds-largest-rhino-sanctuary-tsavo-west-national-park",
+              "date": "2025-12-09"
+            },
+            {
+              "title": "Europe's Electric Vehicle Sales Surge 29% in Q1 — 51% in March Alone",
+              "summary": "Sales of electric vehicles across Europe rose 29.4% in Q1 2026 compared with the same period last year, with growth accelerating to 51.3% in March — the fastest monthly increase on record. New affordable models and expanded charging infrastructure are fuelling the boom, with multiple markets hitting historic market-share highs. Europe's EV momentum is seen as a major tailwind for the continent's climate and clean air targets.",
+              "source": "Impakter / Earth Day 2026 Climate Wins Report",
+              "url": "https://impakter.com/earth-day-2026-the-good-news-climate-wins/",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Bowel Cancer Trial Reports Zero Relapses After Nearly Three Years",
+              "summary": "The NEOPRISM-CRC trial, which gave 32 high-risk bowel cancer patients pembrolizumab immunotherapy before surgery, recorded zero relapses after 33 months of follow-up — a result that astonished oncologists. Initially 59% of patients showed no signs of disease after treatment; even those with residual cancer saw no growth or spread during the monitoring period. UCL researchers also developed personalised blood tests to predict each patient's response, pointing the way toward truly tailored cancer therapy.",
+              "source": "Good News Network / UCL Hospital",
+              "url": "https://www.goodnewsnetwork.org/groundbreaking-bowel-cancer-trial-had-zero-relapses-for-patients-after-33-months/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Two to Three Cups of Coffee a Day Linked to Better Mental Health, Major Study Finds",
+              "summary": "A large UK study of 460,000 participants found that drinking two to three cups of coffee a day was associated with improved mental health outcomes, especially in men, likely due to caffeine's anti-inflammatory effects on the brain. Published in the Journal of Affective Disorders, the findings add to growing evidence linking moderate coffee consumption to reduced risk of depression. Researchers noted the benefit appeared with both caffeinated and, to a lesser extent, decaffeinated coffee.",
+              "source": "Journal of Affective Disorders / Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-16-of-2026/",
+              "date": "2026-04-17"
+            },
+            {
+              "title": "WHO: 567 Million More People Now Covered by Essential Health Services",
+              "summary": "The World Health Organization's latest Results Report found that 567 million additional people gained access to essential health services without facing catastrophic out-of-pocket costs in 2025 — an increase of 136 million in a single year. The figure spans maternal care, vaccines, disease treatment, and primary care across low- and middle-income countries. Director-General Dr. Tedros called it proof that coordinated global health investment delivers real, measurable results for real people.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/philippines/news/detail-global/23-04-2026-who-reports-measurable-health-impact-in-2025-amid-transition-to-new-strategy",
+              "date": "2026-04-23"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "6,500 Volunteers Build 10,000 Beds in 24 Hours for Kids Without One",
+              "summary": "In Charlotte, North Carolina, 6,500 volunteers from Lowe's, Bank of America, and the Charlotte Hornets assembled 10,027 wooden beds in a single 24-hour blitz — using 200 miles of lumber and nearly 730,000 screws. The beds, built for Sleep in Heavenly Peace charity, will be distributed across 36 states to children who currently sleep on the floor. More than 140,000 children in the US remain on the charity's waiting list for a bed of their own.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/6500-volunteers-build-10k-beds-in-24-hours-in-north-carolina/",
+              "date": "2026-04-19"
+            },
+            {
+              "title": "Book Fairies Are Giving 25,000 Free Books to New York City's Children",
+              "summary": "ThriftBooks partnered with literacy nonprofit Book Fairies to donate 25,000 children's books to under-resourced communities across New York City and Long Island, matching titles to reading levels and subjects. The books will flow through a network of Title I schools, community organisations, and educators serving children in the city's most under-served neighbourhoods. Since 2012, Book Fairies has now surpassed 6 million books distributed, reaching its next milestone one donation at a time.",
+              "source": "Good News Network / Globe Newswire",
+              "url": "https://www.goodnewsnetwork.org/the-book-fairies-are-giving-away-25000-books-to-new-york-city-children-thanks-to-big-donation/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "England's School Menus Will Ditch Daily Treats and Deep-Fried Food by 2027",
+              "summary": "England's Department for Education announced new school food standards eliminating daily sugary treats, banning deep-fried options, and limiting grab-and-go meals from September 2027. Hailed as the most significant school nutrition update in a generation, the standards aim to reverse childhood obesity rates and improve concentration and learning. Over 3.5 million children eat school meals every day in England — meaning the change will reshape how millions of young people fuel their bodies and minds.",
+              "source": "UK Department for Education / Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-16-of-2026/",
+              "date": "2026-04-17"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "London's Long-Awaited V&A East Museum Opens in Stratford",
+              "summary": "The Victoria & Albert Museum's eagerly awaited East London branch opened on April 18, bringing world-class design, art, and culture to the Queen Elizabeth Olympic Park in Stratford. Its inaugural exhibition, 'The Music Is Black: A British Story,' traces 125 years of Black music-making in Britain through instruments, fashion, and photography. Two free permanent galleries showcase over 500 objects spanning global art, architecture, and fashion — free to all visitors.",
+              "source": "Time Out London",
+              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "UNESCO Names Morocco's Rabat World Book Capital on World Book Day",
+              "summary": "On April 23 — UNESCO's World Book and Copyright Day — the organisation celebrated Rabat, Morocco as World Book Capital 2026, honouring the city's rich literary heritage and vibrant publishing culture. The designation, the 26th in UNESCO's history, kicks off a year-long programme spotlighting African and Arabic literary traditions and promoting reading for all. Rabat joins a global lineage of book capitals, from Madrid in 2001 to Guadalajara and Athens, that have used the title to deepen public engagement with books.",
+              "source": "UNESCO",
+              "url": "https://www.unesco.org/en/days/world-book-and-copyright",
+              "date": "2026-04-23"
+            },
+            {
+              "title": "The 'Granborghini Project' Takes Lonely Elderly People on Supercar Joyrides",
+              "summary": "Mark Cody launched the Granborghini Project in the UK after his grandmother died from loneliness, teaming up with Ferrari and McLaren owners to give elderly residents the thrill of a lifetime. Participants like 82-year-old Betty Tynan, who runs social lunches for isolated seniors, say the rides have 'made our lives' — with many stepping out of the car feeling 'like a rock star' or '20 years younger.' The project tackles what Cody calls a 'widespread epidemic of loneliness among retirees,' one joyful drive at a time.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/his-granborghini-project-gives-elderly-people-joyrides-in-supercars-watch/",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Dodgers Smash Franchise Record With 42 Home Runs in First 22 Games",
+              "summary": "The Los Angeles Dodgers set a new franchise record by hitting 42 home runs in their first 22 games of the 2026 season, rocketing to a 16-6 record — the best in baseball. The defending back-to-back World Series champions lead the league in home runs, batting average, on-base percentage, and opponent average. Analysts are calling it one of the most dominant early-season starts in MLB history.",
+              "source": "Dodger Blue / FOX Sports",
+              "url": "https://dodgerblue.com/dodgers-franchise-record-early-home-run-surge/2026/04/21/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Wembanyama Scores 35 in Playoff Debut, Lighting Up a New Era for the Spurs",
+              "summary": "Victor Wembanyama announced himself on the playoff stage in spectacular fashion, scoring 35 points on 13-of-21 shooting in the San Antonio Spurs' 111-98 Game 1 win over Portland — the most points by any Spur in a playoff debut, surpassing Tim Duncan's 32. He also set the record for first-half scoring in an NBA playoff debut going back to 1997. For a franchise that went seven years without the postseason, the victory felt like the dawn of an extraordinary new chapter.",
+              "source": "ESPN / Al Jazeera Sports",
+              "url": "https://www.espn.com/nba/story/_/id/48538210/victor-wembanyama-scores-35-playoff-debut-spurs-win-game-1-vs-trail-blazers",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "Edmonton Oilers Open Their Playoff Run With a Dramatic 4-3 Home Victory",
+              "summary": "The Edmonton Oilers launched their quest for a third consecutive Stanley Cup Final appearance with a 4-3 home win over the Anaheim Ducks in Game 1 of the NHL playoffs, igniting a packed arena and rekindling some of hockey's most passionate fandom. The win highlighted the Oilers' continued emergence as one of the NHL's premier playoff franchises, built around Connor McDavid and a deep, battle-tested roster. For fans in Edmonton, the night was a reminder that something special is happening in oil country.",
+              "source": "Bleacher Report",
+              "url": "https://bleacherreport.com/articles/25420388-updated-2026-nhl-stanley-cup-playoffs-bracket-schedule-and-top-highlights-april-20",
+              "date": "2026-04-20"
+            }
+          ]
+        }
+      }
     }
   ]
 }

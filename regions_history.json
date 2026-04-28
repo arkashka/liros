@@ -2147,6 +2147,193 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-23",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "title": "Africa's First Binding Road Safety Charter Enters Into Force",
+              "summary": "After Mozambique became the 15th nation to ratify it, Africa's continental Road Safety Charter officially entered into force on March 26 — legally binding signatories to halve road deaths and injuries by 2030. The WHO called it a milestone for a continent where 250,000 people die on roads every year. Fifteen countries now share enforceable commitments to safer streets across Africa.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-03-26"
+            },
+            {
+              "title": "Kenya Opens World's Largest Black Rhino Sanctuary at Tsavo West",
+              "summary": "Kenya unveiled the expanded Tsavo West Rhino Sanctuary in December 2025, stretching across 3,200 square kilometres — the largest rhino sanctuary on Earth. The site now shelters 200 black rhinos, the biggest single population in Kenya, and positions the country as guardian of 78% of the world's Eastern black rhinos. By 2030, the sanctuary is expected to generate over $45 million a year in conservation tourism.",
+              "source": "Kenya Wildlife Service",
+              "url": "https://www.kws.go.ke/press-release/kenya-opens-worlds-largest-rhino-sanctuary-tsavo-west-national-park",
+              "date": "2025-12-09"
+            },
+            {
+              "title": "Off-Grid Solar Lights Up 11,000 Women-Owned Businesses in Nigeria",
+              "summary": "A World Bank-backed initiative connecting distributed solar energy to underserved Nigerian communities has electrified more than 11,000 women-owned enterprises, transforming subsistence work into profitable businesses. Women who joined solar assembly plants as entry-level workers have advanced to certified installers and sales agents earning stable incomes while electrifying their neighbours. Rice miller Rashida, for example, now processes up to 100 bags at a time — compared with hand-to-mouth survival before the solar connection.",
+              "source": "World Bank",
+              "url": "https://www.worldbank.org/en/news/feature/2026/03/06/power-beyond-the-grid-creates-jobs-for-women",
+              "date": "2026-03-06"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "title": "Vietnam Leads ASEAN With a 7.83% Economic Surge in Early 2026",
+              "summary": "Vietnam's economy grew 7.83% year-on-year in Q1 2026 — the fastest rate in Southeast Asia and well above government targets. Strong manufacturing exports and rising domestic consumption drove the expansion, with the National Statistics Office calling it one of the best first-quarter performances in the country's recent history. The result cements Vietnam's standing as one of the Asia-Pacific's most dynamic emerging economies.",
+              "source": "National Statistics Office of Vietnam",
+              "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/04/press-release-socio-economic-situation-in-the-first-quarter-of-2026/",
+              "date": "2026-04-07"
+            },
+            {
+              "title": "India Commissions a Record 64,895 MW of New Power Capacity in a Single Year",
+              "summary": "India added 64,895 megawatts of new power generation capacity across all sources in fiscal year 2025–26, the highest annual total in the country's history and roughly double the pace of just five years ago. The surge — led by solar and wind — pushed India to third place globally in renewable installed capacity and helped the country meet its 50% non-fossil capacity target five years ahead of the 2030 deadline. Officials say the milestone marks a turning point in India's energy transformation.",
+              "source": "Press Information Bureau, Government of India",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209478",
+              "date": "2026-04-14"
+            },
+            {
+              "title": "Japan's Nikkei 225 Closes at All-Time High as AI Stocks Soar",
+              "summary": "Japan's benchmark Nikkei 225 closed at a record 59,585 on April 22, lifted by surging AI and technology stocks as investor confidence in Japan's semiconductor ambitions reached new heights. The milestone came weeks after Japan approved ¥631.5 billion in subsidies for domestic AI chipmaker Rapidus and Microsoft announced a $10 billion commitment to Japanese AI infrastructure. Analysts say the rally reflects a broad global recognition of Japan's technology renaissance.",
+              "source": "BBN Times",
+              "url": "https://www.bbntimes.com/companies/nikkei-225-tokyo-index-hits-new-record-as-ceasefire-boosts-ai-optimism",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "title": "London's Long-Awaited V&A East Museum Opens in Stratford",
+              "summary": "The Victoria & Albert Museum's eagerly awaited East London branch opened on April 18, bringing world-class design, art, and culture to the Queen Elizabeth Olympic Park in Stratford. Its inaugural exhibition, 'The Music Is Black: A British Story,' traces 125 years of Black music-making in Britain through instruments, fashion, and photography. Two free permanent galleries showcase over 500 objects spanning global art, architecture, and fashion — free to all visitors.",
+              "source": "Time Out London",
+              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "Europe's Electric Vehicle Sales Surge 29% in Q1 — 51% in March Alone",
+              "summary": "Sales of electric vehicles across Europe rose 29.4% in Q1 2026 compared with the same period last year, with growth accelerating to 51.3% in March — the fastest monthly increase on record. New affordable models and expanded charging infrastructure are fuelling the boom, with multiple markets hitting historic market-share highs. Europe's EV momentum is seen as a major tailwind for the continent's climate and clean air targets.",
+              "source": "Impakter / Earth Day 2026 Climate Wins Report",
+              "url": "https://impakter.com/earth-day-2026-the-good-news-climate-wins/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "UK Households Can Now Earn Free Electricity When the Grid Has Too Much",
+              "summary": "Britain's National Energy System Operator launched a scheme this spring allowing households to earn free or heavily discounted electricity during periods when renewable generation outpaces demand. The programme gives consumers a direct financial stake in the clean-energy transition and prevents surplus wind and solar power from going to waste. It is the first initiative of its kind at national scale in the UK and is expected to benefit millions of smart-meter households.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-16-of-2026/",
+              "date": "2026-04-17"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "title": "6,500 Volunteers Build 10,000 Beds in 24 Hours for Kids Without One",
+              "summary": "In Charlotte, North Carolina, 6,500 volunteers from Lowe's, Bank of America, and the Charlotte Hornets assembled 10,027 wooden beds in a single 24-hour blitz — using 200 miles of lumber and nearly 730,000 screws. The beds, built for Sleep in Heavenly Peace charity, will be distributed across 36 states to children who currently sleep on the floor. More than 140,000 children in the US remain on the charity's waiting list for a bed of their own.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/6500-volunteers-build-10k-beds-in-24-hours-in-north-carolina/",
+              "date": "2026-04-19"
+            },
+            {
+              "title": "30,000 Endangered Coho Salmon Return to California River — Double the Record",
+              "summary": "More than 30,000 endangered Central California coast coho salmon returned to the Russian River during the 2024–2025 spawning season, doubling the previous record of 15,000 and signalling a stunning river restoration success. NOAA Fisheries credited decades of habitat work, egg protection programmes, and reduced fishing pressure for the turnaround. Scientists say the coho's return is transforming the entire river ecosystem as a cascade of life follows them home.",
+              "source": "NOAA Fisheries / ABC News Earth Day 2026",
+              "url": "https://abcnews.com/US/earth-day-2026-planet-experienced-environmental-wins-recent/story?id=132069519",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "North America's Largest Wildlife Overpass Opens in Colorado, Linking 39,000 Acres",
+              "summary": "The I-25 Greenland wildlife overpass near Larkspur, Colorado opened in December 2025, spanning six lanes of interstate highway to connect 39,000 acres of critical habitat. Elk, pronghorn, mule deer, black bears, and mountain lions are already using the crossing, according to early camera-trap monitoring. The overpass is North America's largest and follows decades of advocacy by wildlife biologists who documented thousands of animal deaths on the highway.",
+              "source": "Impakter / Earth Day 2026",
+              "url": "https://impakter.com/earth-day-2026-the-good-news-climate-wins/",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "title": "Amazon Deforestation Drops 35%, Placing Brazil on Track for Historic Low",
+              "summary": "Satellite data shows Amazon deforestation fell 35% between August 2025 and January 2026 compared to the prior year, reaching its lowest level since 2014. If the trend holds through the year, Environment Minister Marina Silva says 2026 could mark the lowest annual deforestation rate since records began in 1988. Stronger enforcement and the participation of 70 high-deforestation municipalities in federal prevention programmes are credited with driving the change.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/02/amazon-deforestation-on-pace-to-be-the-lowest-on-record-says-brazil/",
+              "date": "2026-02-20"
+            },
+            {
+              "title": "Brazil Awards Its First Amazon Reforestation Concession to a Green Startup",
+              "summary": "Brazil granted its first-ever long-term public land concession specifically for Amazon reforestation to startup Re.green in March 2026, giving the company rights to restore 59,000 hectares of degraded land in the Bom Futuro National Forest over 40 years. The deal is backed by carbon finance and is seen as a landmark test case for scaling private investment in tropical forest recovery. Experts say it opens a potential $10–20 billion revenue window for Amazon conservation this decade.",
+              "source": "Energy News OE Digital",
+              "url": "https://energynews.oedigital.com/climate-change/2026/03/26/brazil-awards-first-amazon-reforestation-concession-to-startup-regreen",
+              "date": "2026-03-26"
+            },
+            {
+              "title": "Colombia Protects Nearly Half Its Ocean, Hitting 30x30 Target Five Years Early",
+              "summary": "Colombia has placed 47% of its exclusive economic zone under marine conservation, surpassing the global 30x30 goal five years ahead of the 2030 deadline. The OECD's 2026 Environmental Performance Review celebrated the achievement as one of Latin America's most significant conservation milestones. Colombia's payments for ecosystem services and community-led biodiversity offsets are now being studied as a replicable model for other tropical nations.",
+              "source": "OECD Environmental Performance Reviews: Colombia 2026",
+              "url": "https://www.oecd.org/en/publications/oecd-environmental-performance-reviews-colombia-2026_968398f7-en.html",
+              "date": "2026-01-28"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "title": "Cook Islands and New Zealand Sign Security Pact, Unlocking $29.8M for Pacific Stability",
+              "summary": "New Zealand and the Cook Islands formalised a landmark defence and security agreement in April 2026, with New Zealand resuming $29.8 million in support for Cook Islands' long-term sovereignty and resilience. The deal deepens ties between the two closely connected nations at a time of growing strategic interest in the Pacific. Officials said the pact reflects a shared commitment to a peaceful, self-determined, and climate-resilient Pacific future.",
+              "source": "Islands Business / PACNEWS",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-one-22-april-2026/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "Australia's Beloved Bilby Records One of Its Biggest Population Boosts Ever",
+              "summary": "The Greater Bilby — Australia's endangered 'Easter bunny of the outback' — recorded one of its largest-ever population increases, with thriving numbers confirmed at protected sites across Central Australia as of April 2026. The Australian Wildlife Conservancy celebrated by releasing a healthy, recovered bilby back onto Ngalia Walpiri and Luritja Country on April 16. Conservation fencing, predator controls, and community ranger programmes are credited with turning the tide for this beloved marsupial.",
+              "source": "Australian Wildlife Conservancy",
+              "url": "https://www.australianwildlife.org/",
+              "date": "2026-04-07"
+            },
+            {
+              "title": "New Zealand Pledges $20 Million to Help Tuvalu Prepare for Rising Seas",
+              "summary": "New Zealand committed $20 million to strengthen Tuvalu's resilience against flooding and sea-level rise, announced alongside a broader bilateral security partnership in April 2026. The funding will support coastal infrastructure, early-warning systems, and community climate adaptation for one of the Pacific's most vulnerable nations. The commitment deepens New Zealand's role as a leading partner in Pacific climate security.",
+              "source": "Islands Business / PACNEWS",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-one-22-april-2026/",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "title": "Scientists Drill Record 228-Metre Core From Beneath Antarctica's Ice Sheet",
+              "summary": "A team co-led by Imperial College London extracted the longest sediment core ever drilled from beneath an Antarctic ice sheet — a 228-metre column of ancient mud and rock spanning 23 million years of climate history. Researchers bored through 523 metres of ice at the remote Crary Ice Rise site to reach the sediment, finding the first in-situ evidence of open-ocean conditions in West Antarctica's interior. The core will help scientists understand how past warming reshaped the ice sheet and predict future sea-level rise.",
+              "source": "Imperial College London",
+              "url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/imperial-researchers-help-unlock-antarcticas-deep-past-with-record-breaking-drill-into-the-ice/",
+              "date": "2026-02-17"
+            }
+          ]
+        }
+      }
     }
   ]
 }
