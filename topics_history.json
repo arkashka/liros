@@ -1532,6 +1532,207 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-25",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "UK Electric Cars Undercut Petrol Prices for the Very First Time",
+              "summary": "The average new electric vehicle in Britain now costs £42,620 — £785 less than the average new petrol car — marking a historic milestone driven by sustained manufacturer discounts and government grants. Electric vehicles accounted for 22% of new car registrations in Q1 2026, up 14.5% year-on-year.",
+              "source": "Electrek",
+              "url": "https://electrek.co/2026/04/18/in-the-uk-evs-are-cheaper-than-petrol-cars-thanks-to-chinese-competition/",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "Laos–China Railway Clocks 800,000 Cross-Border Journeys on Its Third Anniversary",
+              "summary": "Three years after its cross-border passenger launch, the Laos–China Railway has carried more than 800,000 international travelers between Vientiane and Kunming — a journey now completed in under 10 hours instead of several days. Tourism corridors have widened and freight has surged, reshaping Southeast Asian connectivity.",
+              "source": "RaillyNews",
+              "url": "https://raillynews.com/2026/04/china-laos-railway-exceeds-800000-cross-border-passengers/",
+              "date": "2026-04-12"
+            },
+            {
+              "title": "African Startups Raise a Record $705 Million in Q1 2026, Up 27%",
+              "summary": "Across 59 deals in the first quarter, African tech startups pulled in $705 million — a 26.5% jump year-on-year — with Egypt, South Africa and Kenya leading the charge. Google’s 10th Africa Accelerator cohort, chosen from 2,600 applicants, spotlights AI-first founders tackling local challenges.",
+              "source": "Business Tech Africa",
+              "url": "https://www.businesstechafrica.co.za/entrepreneurship/start-ups/2026/04/24/your-african-startup-wrap-up-april-17-23-2026/",
+              "date": "2026-04-24"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Printed Artificial Neurons Successfully Communicate With Living Brain Cells",
+              "summary": "Northwestern University engineers used aerosol jet printing to create flexible, ink-based artificial neurons that generate lifelike electrical signals and trigger real responses in mouse brain tissue. Published in Nature Nanotechnology, the breakthrough opens a path toward brain-machine interfaces that could restore hearing, vision and movement.",
+              "source": "Northwestern University",
+              "url": "https://news.northwestern.edu/stories/2026/4/printed-neurons-communicate-with-living-brain-cells",
+              "date": "2026-04-15"
+            },
+            {
+              "title": "New AI Architecture Slashes Energy Use 100-Fold While Boosting Accuracy",
+              "summary": "Researchers unveiled a hybrid AI design combining neural networks with symbolic reasoning — mirroring how humans break problems into steps — achieving a 100-fold reduction in energy consumption alongside improved accuracy. The approach could dramatically shrink the carbon footprint of large-scale AI systems.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
+              "date": "2026-04-05"
+            },
+            {
+              "title": "Scientists Stumble Upon an Uncharted Island in Antarctica’s Weddell Sea",
+              "summary": "While sheltering from a storm in the Weddell Sea, 93 scientists aboard Germany’s Polarstern icebreaker discovered a previously unmapped island — 130 metres long and 16 metres above sea level — whose ice-covered surface had fooled satellites for decades. The expedition team will officially name the new island.",
+              "source": "Phys.org",
+              "url": "https://phys.org/news/2026-04-uncharted-island-nautical.html",
+              "date": "2026-04-16"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Golden Eagles Set to Soar Over England Again After 150 Years Away",
+              "summary": "The UK government has committed £1 million to explore reintroducing golden eagles to England, where Victorian-era persecution wiped them out entirely. Eight potential recovery zones across northern England have been identified, and satellite-tagged birds from Scotland have already begun scouting the border regions.",
+              "source": "UK Government (GOV.UK)",
+              "url": "https://www.gov.uk/government/news/iconic-golden-eagles-to-make-comeback-in-england",
+              "date": "2026-04-12"
+            },
+            {
+              "title": "European Bison Rebounds From Near-Extinction to Over 9,000 Animals",
+              "summary": "A century after just 60 individuals survived in captivity, the European bison population has climbed above 9,000 free-roaming animals — a tenfold increase in a decade. A new study confirms the herds now sequester carbon equivalent to offsetting 84,000 petrol cars each year.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/08/from-biodiversity-to-carbon-capture-saving-bison-from-extinction-has-brought-big-benefits-",
+              "date": "2026-04-08"
+            },
+            {
+              "title": "New Zealand Launches Bold ‘Action for Nature’ Plan to Restore Wildlife",
+              "summary": "Conservation Minister Tama Potaka unveiled the ‘Action for Nature’ implementation plan on April 23, setting a clear framework for smarter investment, stronger community partnerships and targeted protection of the species and habitats that need help most. The plan aims to maximise every conservation dollar’s impact.",
+              "source": "New Zealand Department of Conservation",
+              "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/new-biodiversity-plan-focuses-on-turning-the-tide/",
+              "date": "2026-04-23"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Algeria Becomes the 29th Country to Eradicate Infectious Blindness",
+              "summary": "The World Health Organization has validated Algeria as the 29th nation to eliminate trachoma as a public health problem — the world’s leading cause of infectious blindness. The achievement caps decades of community health work reaching millions with antibiotics and hygiene education.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "Cornell Scientists Take a Giant Step Toward Reversible Male Birth Control",
+              "summary": "A Cornell University study shows a small molecule targeting a checkpoint in sperm-cell division completely halts sperm production in mice, with full fertility restored within six weeks of stopping treatment. The nonhormonal approach sidesteps the side effects that stalled every previous male contraceptive effort.",
+              "source": "Cornell Chronicle",
+              "url": "https://news.cornell.edu/stories/2026/04/breakthrough-takes-big-step-toward-safe-reversible-male-contraception",
+              "date": "2026-04-07"
+            },
+            {
+              "title": "Accelerated TMS Therapy Puts Severe Depression Into Rapid Remission",
+              "summary": "A study from the Medical University of South Carolina shows the accelerated SAINT transcranial magnetic stimulation protocol achieves remission rates for severe depression far higher than conventional treatments, with patients recovering quickly enough to reengage with work and daily life within days of completing therapy.",
+              "source": "Medical University of South Carolina",
+              "url": "https://www.musc.edu/content-hub/News/2026/04/14/tms-treatment",
+              "date": "2026-04-14"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Zambia Ends Bail for Sexual Offence Suspects to Protect Survivors",
+              "summary": "Zambia’s Criminal Procedure Code Amendment Act now makes sexual offences including rape and child abuse non-bailable, requiring suspects to remain in custody until trial. Justice Minister Princess Kasune Zulu, a child-marriage survivor turned activist, championed the reform as a landmark step toward justice.",
+              "source": "allAfrica",
+              "url": "https://allafrica.com/stories/202604200254.html",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "Chile on Track to Protect Over Half Its Waters, Surpassing Global Target",
+              "summary": "Chile is set to bring more than 50% of its territorial waters under formal protection — nearly double the 30-by-2030 global target that 190 nations pledged to pursue. The commitment safeguards extraordinary marine biodiversity across some of the most pristine ocean in the Southern Hemisphere.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "Pacific Island Nations Unite Around 100% Renewable Vision in Tassiriki Call",
+              "summary": "Pacific Island states have issued the Tassiriki Call — a landmark unified declaration backing 100% renewable energy and an urgent fossil fuel phase-out ahead of a major international conference in Colombia. The declaration amplifies the Pacific’s moral authority as the world’s most climate-frontline communities.",
+              "source": "Islands Business (PACNEWS)",
+              "url": "https://islandsbusiness.com/pacnews/pacnews-one-22-april-2026/",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Peabody Awards Honor Films on Musical Geniuses Sly Stone and Fela Kuti",
+              "summary": "The 86th Peabody Awards recognised two powerful arts programs celebrating Black musical pioneers: Questlove’s documentary ‘Sly Lives! (aka The Burden of Black Genius)’ and Jad Abumrad’s podcast ‘Fela Kuti: Fear No Man’. Both explore the personal costs and enduring cultural legacies of transformative innovators.",
+              "source": "Billboard",
+              "url": "https://www.billboard.com/lists/2026-peabody-awards-full-winners-list/",
+              "date": "2026-04-23"
+            },
+            {
+              "title": "Coachella 2026 Sells Out in Days as Latin Megastar Karol G Headlines",
+              "summary": "Passes for both Coachella 2026 weekends sold out in just two days, driven by headliners including Colombian reggaeton superstar and Grammy winner Karol G alongside Justin Bieber and Sabrina Carpenter. Dazzling new art installations cemented this edition as a landmark global celebration of music and culture.",
+              "source": "LA Magazine",
+              "url": "https://lamag.com/arts-and-entertainment/coachella-valley-music-and-arts-festival-april-2026-l/",
+              "date": "2026-04-10"
+            },
+            {
+              "title": "Indigenous Filmmaker Gail Maurice Wins imagineNATIVE’s Prestigious Augie Award",
+              "summary": "The imagineNATIVE Film + Media Arts Festival presented Métis director, actor and writer Gail Maurice with the 2026 August Schellenberg ‘Augie’ Award for Excellence — honouring her career-long contributions to Indigenous storytelling and deep commitment to mentoring emerging voices across Turtle Island.",
+              "source": "imagineNATIVE",
+              "url": "https://imaginenative.org/2026-auggie-award-winner/",
+              "date": "2026-04-08"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Michigan Wolverines Win 2026 NCAA Title, Ending a 37-Year Championship Drought",
+              "summary": "The University of Michigan men’s basketball team defeated UConn 69–63 to claim the 2026 national championship — the program’s first title since 1989. They posted the highest net rating of any champion in KenPom history, ending a 37-year wait for jubilant fans.",
+              "source": "News9",
+              "url": "https://www.news9.com/sports/michigan-defeats-uconn-to-win-2026-national-championship-captures-first-title-since-1989",
+              "date": "2026-04-07"
+            },
+            {
+              "title": "Zhao Xintong Opens World Title Defence With Stunning Form After Comeback",
+              "summary": "Defending snooker world champion Zhao Xintong opened the 2026 World Championship at the Crucible with a 10–7 first-round win, continuing an electrifying season in which he swept three ranking titles. His return from a 20-month match-fixing suspension has become one of sport’s most compelling comebacks.",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/more-sports/snooker/news/12243/13529588/world-snooker-championship-2026-schedule-and-results-with-ronnie-osullivan-judd-trump-zhao-xintong-in-crucible-action",
+              "date": "2026-04-19"
+            },
+            {
+              "title": "Denver Pioneers Claim Their Record 11th NCAA Men’s Ice Hockey Crown",
+              "summary": "The University of Denver Pioneers defeated Wisconsin 2–1 on April 12 to claim the 2026 NCAA Division I Men’s Ice Hockey championship — their record 11th title. The win reaffirmed Denver’s status as the undisputed gold standard of college hockey.",
+              "source": "National Collegiate Hockey Conference",
+              "url": "https://nchchockey.com/news/2026/4/12/mens-ice-hockey-denver-wins-2026-ncaa-national-championship.aspx",
+              "date": "2026-04-12"
+            }
+          ]
+        }
+      }
     }
   ]
 }
