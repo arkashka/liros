@@ -2,3 +2,5 @@
 *.log
 node_modules/
 liros-claude-code-prompt.md
+fonts/
+.env
