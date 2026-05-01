@@ -1,6 +1,235 @@
 {
   "pulls": [
     {
+      "date": "2026-05-01",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "New Electric Vehicles Are Now Cheaper Than Petrol Cars in the UK",
+              "summary": "The average price of a new EV in the UK has fallen below that of a new petrol car — £42,620 vs £43,405 — driven by government grants and manufacturer discounts. The price crossover marks a tipping point for mainstream adoption and signals that the economics of clean transport have fundamentally shifted.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "93% of Small Businesses Expect Growth in 2026, Fuelled by AI Adoption",
+              "summary": "A March 2026 survey found 93% of small business owners anticipate growth this year, with 58% already using AI and reporting positive impacts. Small businesses — accounting for 43.5% of US GDP and nearly half of all private-sector jobs — are investing in product innovation and profitability, signalling resilient economic foundations.",
+              "source": "Small Business & Entrepreneurship Council",
+              "url": "https://sbecouncil.org/2026/04/28/national-small-business-week-small-business-by-the-numbers/",
+              "date": "2026-04-28"
+            },
+            {
+              "title": "Australia's Electric Vehicle Fleet Surpasses Half a Million With Record March Sales",
+              "summary": "Australia passed 500,000 registered electric vehicles in March 2026, with that month setting a new national sales record. Batteries now shape electricity prices in 32% of dispatch intervals — the most frequent price-setting technology on the grid — showing the EV transition is simultaneously reshaping roads and energy markets.",
+              "source": "CSIRO",
+              "url": "https://www.csiro.au/en/news/all/articles/2026/april/energy-resilience-der",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "2026 Breakthrough Prize Awards $18 Million to Gene Therapy, ALS, and Physics Pioneers",
+              "summary": "The 2026 Breakthrough Prize — the 'Oscars of Science' — distributed more than $18 million across six mainstage prizes honouring gene therapy for inherited blindness, the genetic link between ALS and frontotemporal dementia, and advances in particle physics and mathematics. The awards celebrate science's most transformative recent breakthroughs.",
+              "source": "Space.com",
+              "url": "https://www.space.com/technology/the-oscars-of-science-breakthrough-prize-2026-awards-over-usd18-million-for-discoveries-across-space-physics-and-more",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "One-Time Gene Therapy Saves Six-Year-Old Saffie from Inherited Blindness",
+              "summary": "Six-year-old Saffie Sandford received the Luxturna gene therapy at Great Ormond Street Hospital in London, reversing a rare inherited condition that causes progressive blindness. The single treatment corrects a faulty retinal gene and has already transformed Saffie's vision — offering hope to children worldwide with the same diagnosis.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/6-year-old-saffie-has-her-vision-saved-from-rare-form-of-blindness-thanks-to-one-time-gene-therapy/",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "Antarctic Ice Unlocks a 3-Million-Year Climate Mystery That Challenges Scientific Models",
+              "summary": "Scientists studying ancient Antarctic ice cores found that while the planet cooled dramatically over 3 million years, CO₂ and methane levels changed surprisingly little — suggesting ice sheets, ocean circulation, and Earth's reflectivity drove far more of long-term climate change than previously understood. The findings will reshape climate models.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260423031552.htm",
+              "date": "2026-04-23"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "US Renewables Beat Natural Gas for the First Time in History",
+              "summary": "In March 2026, US wind, solar, hydropower, and biomass combined generated 35% of the country's electricity — surpassing natural gas at 34% for the first time ever. By end of 2026, renewable installed capacity is projected to exceed gas capacity entirely, driven by record solar and battery additions.",
+              "source": "Canary Media",
+              "url": "https://www.canarymedia.com/articles/clean-energy/renewables-beat-natural-gas-us-grid-march-2026",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "Renewables Met Every Gigawatt of New Global Electricity Demand in 2025",
+              "summary": "In a landmark milestone, renewable sources covered all new global electricity demand in 2025 for the first time, pushing fossil fuels into structural decline. Solar led the surge, with China and India recording their steepest-ever drops in fossil fuel generation — a turning point analysts say cannot be reversed.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "COP30 in Belém Secures Historic $1.3 Trillion Annual Climate Finance Commitment",
+              "summary": "The COP30 climate summit, hosted by Brazil in Belém, concluded with nations adopting the Belém Political Package — committing to mobilise at least $1.3 trillion per year by 2035. The deal tripled adaptation finance pledges and operationalised the loss and damage fund, marking the most significant climate finance breakthrough since Paris.",
+              "source": "Carbon Brief",
+              "url": "https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem/",
+              "date": "2025-11-22"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "One-Time Gene Therapy Saves Six-Year-Old Saffie from Inherited Blindness",
+              "summary": "Six-year-old Saffie Sandford received the Luxturna gene therapy at Great Ormond Street Hospital in London, reversing a rare inherited condition that causes progressive blindness. The single treatment corrects a faulty retinal gene and has already transformed Saffie's vision — offering hope to children worldwide with the same diagnosis.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/6-year-old-saffie-has-her-vision-saved-from-rare-form-of-blindness-thanks-to-one-time-gene-therapy/",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "2026 Breakthrough Prize Awards $18 Million to Gene Therapy, ALS, and Physics Pioneers",
+              "summary": "The 2026 Breakthrough Prize — the 'Oscars of Science' — distributed more than $18 million across six mainstage prizes honouring gene therapy for inherited blindness, the genetic link between ALS and frontotemporal dementia, and advances in particle physics and mathematics. The awards celebrate science's most transformative recent breakthroughs.",
+              "source": "Space.com",
+              "url": "https://www.space.com/technology/the-oscars-of-science-breakthrough-prize-2026-awards-over-usd18-million-for-discoveries-across-space-physics-and-more",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "Five Students Jump Into Action and Save Their Unconscious School Bus Driver",
+              "summary": "When their school bus driver suddenly lost consciousness at the wheel, five students worked together to steer the bus safely to a stop and call for help, preventing a catastrophic accident. Their calm, decisive teamwork is being celebrated as an extraordinary example of courage and community.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/not-1-not-2-but-5-students-jumped-into-lifesaving-action-after-their-bus-driver-loses-consciousness/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Phone-Free Social Events Surged 567% in One Year as Offline Connection Makes a Comeback",
+              "summary": "Phone-free concerts, dates, and gatherings grew 567% globally between 2024 and 2025, with attendance rising 121% and the movement expanding from 5 to 12 countries. Millennials and Gen Z — the generations who popularised smartphones — are now leading the cultural shift back to undistracted, fully present human connection.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/phone-free-events-grew-567-globally-led-by-the-generations-responsible-for-smartphone-adoption/",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "History Made: All Six 2026 Goldman Environmental Prize Winners Are Women",
+              "summary": "For the first time in the Goldman Prize's 37-year history, all six recipients are women — including Nigeria's Iroro Tanshi, who protected an endangered bat's habitat through community action, and South Korea's Borim Kim, who won Asia's first youth-led climate lawsuit. The all-female class spans six continents and six landmark victories.",
+              "source": "Goldman Environmental Prize",
+              "url": "https://www.goldmanprize.org/current-winners/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Five Students Jump Into Action and Save Their Unconscious School Bus Driver",
+              "summary": "When their school bus driver suddenly lost consciousness at the wheel, five students worked together to steer the bus safely to a stop and call for help, preventing a catastrophic accident. Their calm, decisive teamwork is being celebrated as an extraordinary example of courage and community.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/not-1-not-2-but-5-students-jumped-into-lifesaving-action-after-their-bus-driver-loses-consciousness/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Michael Jackson's Nephew Stars in Long-Awaited Biopic 'Michael', Opening to Acclaim",
+              "summary": "The Michael Jackson biopic 'Michael' opened on April 24 with Jaafar Jackson — the King of Pop's nephew — in the lead role. The film invites a new generation to experience the artistry and cultural impact of one of history's most influential entertainers, and marks a landmark moment in music biography cinema.",
+              "source": "Good Morning America",
+              "url": "https://www.goodmorningamerica.com/culture/story/year-ahead-entertainment-forward-2026-128811047",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "The Libraro Prize Puts Readers in Charge of Discovering Six Debut Novelists",
+              "summary": "The newly launched Libraro Prize has shortlisted six unpublished novels, with winners chosen by the public rather than a literary panel — and awarded a £50,000 prize plus a publishing deal. The prize hands power to readers and opens a new route to publication for writers who might otherwise never be found.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Metal Detectorists Unearth Norway's Largest-Ever Viking Age Coin Hoard",
+              "summary": "Hobbyist metal detector enthusiasts in Norway have discovered the country's largest collection of Viking-age coins, a find historians are calling historic. The trove sheds new light on Norse trade networks and medieval Scandinavian wealth, with the detectorists praised for responsibly reporting the discovery to archaeological authorities.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/norways-largest-ever-trove-of-viking-age-coins-is-historic-find-by-metal-detectors/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Cooper Flagg, 19, Becomes Youngest Player in NBA History to Score 50 Points",
+              "summary": "Dallas Mavericks rookie Cooper Flagg scored 51 points on April 3 to become the first teenager in NBA history to reach 50 in a single game. The 19-year-old's dazzling fourth-quarter display — 24 points after his coach was ejected — announced the arrival of a once-in-a-generation talent.",
+              "source": "NBA.com",
+              "url": "https://www.nba.com/news/mavs-rookie-cooper-flagg-scores-51-points-to-become-1st-teen-to-reach-50-in-an-nba-game",
+              "date": "2026-04-03"
+            },
+            {
+              "title": "Sinner Joins Federer and Nadal by Reaching Masters 1000 Semi-Finals at First Four Events",
+              "summary": "Jannik Sinner became only the third man in history — after Roger Federer and Rafael Nadal — to reach the semi-finals at all of the first four Masters 1000 tournaments of a season. The world No.1's consistency across hard courts and clay announces a dominance that is reshaping the modern game.",
+              "source": "ATP Tour",
+              "url": "https://www.atptour.com/en/news/sinner-masters-1000-sf-record-2026",
+              "date": "2026-04-28"
+            },
+            {
+              "title": "Arthur Fils Wins Barcelona Open, Announcing France's New Tennis Generation",
+              "summary": "Nineteen-year-old Arthur Fils claimed the 2026 Barcelona Open title, defeating Andrey Rublev 6-2, 7-6 in a controlled, mature performance. Fils joins a resurgent French generation reshaping tennis after the Federer-Nadal-Djokovic era, and signals that the next chapter of the sport is already well underway.",
+              "source": "ATP Tour",
+              "url": "https://www.atptour.com/en/scores/archive/barcelona/429/2026/results",
+              "date": "2026-04-27"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "900 Przewalski's Wild Horses Roam Free in China After 40 Years of Rewilding",
+              "summary": "China's conservation programme has restored 900 Przewalski's horses — the last truly wild equine species — to steppes across Xinjiang, Inner Mongolia, and Gansu. From extinction in the wild in 1985, this 40-year effort now sustains one-third of the global population, inspiring the mascot for China's 2026 Year of the Horse celebrations.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/40-years-work-returning-900-wild-horses-to-chinese-steppes-celebrated-on-year-of-the-horse-2026/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Photographers Document Record 304-Whale Humpback Supergroup Off South Africa",
+              "summary": "Wildlife photographers documented 304 individual humpback whales in a single feeding supergroup off South Africa — a world record for baleen whales observed together. The encounter reflects the remarkable population recovery of humpbacks from near-extinction during the whaling era, with scientists now estimating 125,000 worldwide.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/record-number-of-humpbacks-observed-feeding-in-supergroup-near-south-africa/",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "US Budget Blocks Attempts to Strip Wolves and Grizzly Bears of Federal Protection",
+              "summary": "The passed US federal funding package rejected riders that would have delisted gray wolves and grizzly bears from Endangered Species Act protections. Wildlife advocates celebrated the victory, which keeps federal safeguards in place for two of North America's most iconic apex predators as their populations continue recovering.",
+              "source": "Humane World for Animals",
+              "url": "https://www.humaneworld.org/en/blog/us-funding-package-animal-wins",
+              "date": "2026-04-15"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-04-30",
       "topics": {
         "Economy & Business": {
@@ -397,207 +626,6 @@
               "source": "Travel and Tour World",
               "url": "https://www.travelandtourworld.com/news/article/south-pacific-cruise-boom-australia-new-zealand-alliance-boosts-ports-routes-and-global-traveller-experience/",
               "date": "2026-04-18"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-04-26",
-      "topics": {
-        "Economy & Business": {
-          "emoji": "📈",
-          "color": "#FF6B35",
-          "tagline": "Innovation and growth fueling global prosperity",
-          "stories": [
-            {
-              "title": "US Independent Bookshops Surge 31%, With 422 New Stores in 2025",
-              "summary": "Independent bookshops are booming across the United States, with 422 new stores opening in 2025 alone — a 31% jump year-on-year. Driven by readers hungry for community and expert curation, the resurgence is revitalising main streets and creating neighbourhood gathering places where screens cannot compete.",
-              "source": "The Guardian via Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "US Employers Add 178,000 Jobs in March, Tripling Forecasts",
-              "summary": "The US economy added 178,000 jobs in March 2026, nearly tripling economist forecasts of 60,000 and signalling robust economic resilience. The broad-based gains spanned multiple industries, giving millions of American families greater financial security and confidence heading into the second quarter.",
-              "source": "Fox Business",
-              "url": "https://www.foxbusiness.com/economy/us-jobs-report-march-2026",
-              "date": "2026-04-03"
-            },
-            {
-              "title": "South America's Adventure Tourism Boom to Reach $40 Billion by 2031",
-              "summary": "South America's adventure tourism market — already worth $14 billion — is on track to reach nearly $40 billion by 2031, growing at 15% annually. Nations from Peru to Brazil are investing in sustainable trails, lodges, and guides, turning the continent's extraordinary landscapes into an economic engine for local communities.",
-              "source": "Travel And Tour World",
-              "url": "https://www.travelandtourworld.com/news/article/mexico-joins-brazil-us-argentina-chile-colombia-peru-and-more-in-pioneering-south-americas-nearly-forty-billion-dollar-adventure-tourism-boom/",
-              "date": "2026-04-20"
-            }
-          ]
-        },
-        "Science & Technology": {
-          "emoji": "🚀",
-          "color": "#FFB700",
-          "tagline": "Pushing the boundaries of human ingenuity",
-          "stories": [
-            {
-              "title": "Ecuador Study: Rainforest Biodiversity Bounces Back 90% in 30 Years",
-              "summary": "Scientists analysing over 8,500 species in Ecuadorian secondary forests found that tropical biodiversity rebounds to more than 90% of its original richness within just 30 years once land is left to recover. Birds and mammals, by dispersing seeds and pollinating plants, are the powerful engines driving this remarkable regeneration.",
-              "source": "Phys.org via Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Sperm Whale Clicks Mirror the Building Blocks of Human Language",
-              "summary": "Scientists studying sperm whale vocalisations have found that their click patterns mirror structural features of human language, including elements analogous to a combinatorial alphabet — suggesting complex communication is not a uniquely human trait. The discovery opens a breathtaking new chapter in our understanding of animal cognition and intelligence.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Personalised mRNA Cancer Vaccine Shows Lasting Results for Pancreatic Cancer",
-              "summary": "An early-stage mRNA vaccine tailored to each patient's individual pancreatic tumour has shown lasting results in a clinical trial, with no recurrences recorded in the follow-up period. The breakthrough offers fresh hope for one of the deadliest cancers, for which fewer than 13% of patients typically survive five years.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            }
-          ]
-        },
-        "Environment & Climate": {
-          "emoji": "🌿",
-          "color": "#44BBA4",
-          "tagline": "Restoring the balance of our natural world",
-          "stories": [
-            {
-              "title": "US Renewables Beat Natural Gas for an Entire Month — a First",
-              "summary": "In March 2026, wind, solar, hydro, and biomass generated more electricity across the United States than natural gas for a full calendar month for the very first time. Emissions-free sources provided over half of the nation's electricity, reaching that milestone for only the third time in history.",
-              "source": "Canary Media via Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Germany's Coal Scars Become Europe's Largest Lake Landscape",
-              "summary": "Germany has completed its transformation of the Lusatian coal-mining region into 23 human-made lakes covering 14,000 hectares — Europe's largest artificial lake landscape. The final lake opened for swimming and boating this month, turning a post-industrial wound in the earth into a thriving recreational paradise.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Medellín Neighbourhood's Flood Fixes Adopted for Entire City",
-              "summary": "The Golondrinas neighbourhood in Medellín designed eight low-cost climate adaptations — from rainwater management to eco-gardens — to protect its hillside streets from flooding and landslides. City officials were so impressed they are scaling the solutions to serve all four million of Medellín's residents.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            }
-          ]
-        },
-        "Health & Wellness": {
-          "emoji": "✨",
-          "color": "#E94F8B",
-          "tagline": "Nurturing the mind, body, and spirit",
-          "stories": [
-            {
-              "title": "Gene Therapy Gives UK 6-Year-Old the Gift of Sight",
-              "summary": "Six-year-old Saffie Sandford received pioneering Luxturna gene therapy at London's Great Ormond Street Hospital for a rare inherited form of blindness. Her family described the moment she ran outside and saw sunlight clearly for the first time as utterly life-changing — a triumph for both science and the NHS.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
-              "date": "2026-04-24"
-            },
-            {
-              "title": "Personalised mRNA Cancer Vaccine Shows Lasting Results for Pancreatic Cancer",
-              "summary": "An early-stage mRNA vaccine tailored to each patient's individual pancreatic tumour has shown lasting results in a clinical trial, with no recurrences recorded in the follow-up period. The breakthrough offers fresh hope for one of the deadliest cancers, for which fewer than 13% of patients typically survive five years.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "US Road Deaths Hit Lowest Level Since 2019",
-              "summary": "Traffic fatalities in the United States fell to 36,640 in 2025 — a 6.7% decline and the fourth consecutive annual drop. The fatality rate per mile driven reached its second-lowest level in recorded history, reflecting gains in vehicle safety technology, road design improvements, and better enforcement.",
-              "source": "Reuters via Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            }
-          ]
-        },
-        "Society & Culture": {
-          "emoji": "🤝",
-          "color": "#3B82F6",
-          "tagline": "The vibrant threads of human connection",
-          "stories": [
-            {
-              "title": "EU Offers 40,000 Free Rail Passes to Young Europeans",
-              "summary": "The European Union's Discover EU scheme is providing 40,000 free rail travel passes to 18- and 19-year-olds, inviting a new generation to explore the continent by train. The initiative is designed to build cross-cultural friendships and give young people a lived sense of their shared European identity.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Sudan Orphanage Turns 180 War Orphans Into Future Peacemakers",
-              "summary": "A Sudanese orphanage is educating more than 180 children who lost parents to conflict, giving them shelter, schooling, and a sense of purpose: to become peacemakers. Staff report that graduates are already returning to their communities to mediate disputes and model reconciliation for younger children.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Colorado Opens $43 Million Nature Library With Free Outdoor Gear",
-              "summary": "A spectacular new 33,000-square-foot library in Adams County, Colorado houses 35,000 books on ecology and the outdoors, plus free TryIt Kits stuffed with fishing poles, tents, and backpacks. The Anythink Libraries branch is designed to ensure that access to nature is never a matter of wealth.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            }
-          ]
-        },
-        "Entertainment & Arts": {
-          "emoji": "🎨",
-          "color": "#10B981",
-          "tagline": "Stories and visions that move the soul",
-          "stories": [
-            {
-              "title": "Disney Re-Animates Beloved Songs in American Sign Language",
-              "summary": "Disney has re-animated iconic songs from Frozen 2, Encanto, and Moana 2 featuring performers from Deaf West Theatre signing in American Sign Language. Over 20 animators collaborated to ensure cultural accuracy, making Disney magic fully accessible to millions of Deaf and hard-of-hearing viewers for the first time.",
-              "source": "Animation Magazine via Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "New Libraro Prize Puts Readers in Charge of Literary Awards",
-              "summary": "The Libraro Prize hands readers real power, letting the public champion shortlisted books for a £50,000 award and a Hachette UK publishing deal. It is the first major literary prize to place reader discovery — rather than industry gatekeeping — at the centre of the process, with the winner announced in May.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
-              "date": "2026-04-24"
-            },
-            {
-              "title": "NPR Receives Record $113 Million in Public Donations",
-              "summary": "NPR received $113 million in charitable gifts in a landmark fundraising campaign, a record outpouring of public support for independent journalism. Tens of thousands of individual donors contributed, underscoring a deep and growing appetite for trusted, commercial-free news from communities across the United States.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            }
-          ]
-        },
-        "Sports & Leisure": {
-          "emoji": "🏆",
-          "color": "#94A3B8",
-          "tagline": "The joy of movement and the spirit of play",
-          "stories": [
-            {
-              "title": "KL Rahul's Unbeaten 152 Shatters All-Time IPL Batting Record",
-              "summary": "KL Rahul hit an extraordinary unbeaten 152 — the highest individual score by an Indian in IPL history — sending 28,000 fans into raptures at Arun Jaitley Stadium. The innings headlined a week of record-breaking batting in IPL 2026 that has captivated cricket fans across Asia.",
-              "source": "ESPNcricinfo",
-              "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-punjab-kings-35th-match-1529278/match-report",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Angel Reese Launches STEM Programme for Student Athletes in Baltimore",
-              "summary": "WNBA star Angel Reese brought together local middle-schoolers and university mentors for a hands-on STEM enrichment programme in Baltimore, channelling her platform into inspiring young women in underserved communities. The event paired sport and science, sending a clear message that athletes can lead in the lab as well as on the court.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
-            },
-            {
-              "title": "Florida Volunteers Rescue 4,000 Sea Turtle Eggs From the Bulldozer",
-              "summary": "Dedicated Florida volunteers carefully relocated nearly 4,000 sea turtle eggs from 44 leatherback and loggerhead nests threatened by coastal construction, giving each hatchling a fighting chance at reaching the ocean. The community-led effort highlights how ordinary people can make an extraordinary difference for ocean wildlife.",
-              "source": "Good Good Good",
-              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
-              "date": "2026-04-25"
             }
           ]
         }
