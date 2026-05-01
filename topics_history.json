@@ -1733,6 +1733,207 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-26",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "US Independent Bookshops Surge 31%, With 422 New Stores in 2025",
+              "summary": "Independent bookshops are booming across the United States, with 422 new stores opening in 2025 alone — a 31% jump year-on-year. Driven by readers hungry for community and expert curation, the resurgence is revitalising main streets and creating neighbourhood gathering places where screens cannot compete.",
+              "source": "The Guardian via Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "US Employers Add 178,000 Jobs in March, Tripling Forecasts",
+              "summary": "The US economy added 178,000 jobs in March 2026, nearly tripling economist forecasts of 60,000 and signalling robust economic resilience. The broad-based gains spanned multiple industries, giving millions of American families greater financial security and confidence heading into the second quarter.",
+              "source": "Fox Business",
+              "url": "https://www.foxbusiness.com/economy/us-jobs-report-march-2026",
+              "date": "2026-04-03"
+            },
+            {
+              "title": "South America's Adventure Tourism Boom to Reach $40 Billion by 2031",
+              "summary": "South America's adventure tourism market — already worth $14 billion — is on track to reach nearly $40 billion by 2031, growing at 15% annually. Nations from Peru to Brazil are investing in sustainable trails, lodges, and guides, turning the continent's extraordinary landscapes into an economic engine for local communities.",
+              "source": "Travel And Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/mexico-joins-brazil-us-argentina-chile-colombia-peru-and-more-in-pioneering-south-americas-nearly-forty-billion-dollar-adventure-tourism-boom/",
+              "date": "2026-04-20"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Ecuador Study: Rainforest Biodiversity Bounces Back 90% in 30 Years",
+              "summary": "Scientists analysing over 8,500 species in Ecuadorian secondary forests found that tropical biodiversity rebounds to more than 90% of its original richness within just 30 years once land is left to recover. Birds and mammals, by dispersing seeds and pollinating plants, are the powerful engines driving this remarkable regeneration.",
+              "source": "Phys.org via Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Sperm Whale Clicks Mirror the Building Blocks of Human Language",
+              "summary": "Scientists studying sperm whale vocalisations have found that their click patterns mirror structural features of human language, including elements analogous to a combinatorial alphabet — suggesting complex communication is not a uniquely human trait. The discovery opens a breathtaking new chapter in our understanding of animal cognition and intelligence.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Personalised mRNA Cancer Vaccine Shows Lasting Results for Pancreatic Cancer",
+              "summary": "An early-stage mRNA vaccine tailored to each patient's individual pancreatic tumour has shown lasting results in a clinical trial, with no recurrences recorded in the follow-up period. The breakthrough offers fresh hope for one of the deadliest cancers, for which fewer than 13% of patients typically survive five years.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "US Renewables Beat Natural Gas for an Entire Month — a First",
+              "summary": "In March 2026, wind, solar, hydro, and biomass generated more electricity across the United States than natural gas for a full calendar month for the very first time. Emissions-free sources provided over half of the nation's electricity, reaching that milestone for only the third time in history.",
+              "source": "Canary Media via Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Germany's Coal Scars Become Europe's Largest Lake Landscape",
+              "summary": "Germany has completed its transformation of the Lusatian coal-mining region into 23 human-made lakes covering 14,000 hectares — Europe's largest artificial lake landscape. The final lake opened for swimming and boating this month, turning a post-industrial wound in the earth into a thriving recreational paradise.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Medellín Neighbourhood's Flood Fixes Adopted for Entire City",
+              "summary": "The Golondrinas neighbourhood in Medellín designed eight low-cost climate adaptations — from rainwater management to eco-gardens — to protect its hillside streets from flooding and landslides. City officials were so impressed they are scaling the solutions to serve all four million of Medellín's residents.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Gene Therapy Gives UK 6-Year-Old the Gift of Sight",
+              "summary": "Six-year-old Saffie Sandford received pioneering Luxturna gene therapy at London's Great Ormond Street Hospital for a rare inherited form of blindness. Her family described the moment she ran outside and saw sunlight clearly for the first time as utterly life-changing — a triumph for both science and the NHS.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Personalised mRNA Cancer Vaccine Shows Lasting Results for Pancreatic Cancer",
+              "summary": "An early-stage mRNA vaccine tailored to each patient's individual pancreatic tumour has shown lasting results in a clinical trial, with no recurrences recorded in the follow-up period. The breakthrough offers fresh hope for one of the deadliest cancers, for which fewer than 13% of patients typically survive five years.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "US Road Deaths Hit Lowest Level Since 2019",
+              "summary": "Traffic fatalities in the United States fell to 36,640 in 2025 — a 6.7% decline and the fourth consecutive annual drop. The fatality rate per mile driven reached its second-lowest level in recorded history, reflecting gains in vehicle safety technology, road design improvements, and better enforcement.",
+              "source": "Reuters via Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "EU Offers 40,000 Free Rail Passes to Young Europeans",
+              "summary": "The European Union's Discover EU scheme is providing 40,000 free rail travel passes to 18- and 19-year-olds, inviting a new generation to explore the continent by train. The initiative is designed to build cross-cultural friendships and give young people a lived sense of their shared European identity.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Sudan Orphanage Turns 180 War Orphans Into Future Peacemakers",
+              "summary": "A Sudanese orphanage is educating more than 180 children who lost parents to conflict, giving them shelter, schooling, and a sense of purpose: to become peacemakers. Staff report that graduates are already returning to their communities to mediate disputes and model reconciliation for younger children.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Colorado Opens $43 Million Nature Library With Free Outdoor Gear",
+              "summary": "A spectacular new 33,000-square-foot library in Adams County, Colorado houses 35,000 books on ecology and the outdoors, plus free TryIt Kits stuffed with fishing poles, tents, and backpacks. The Anythink Libraries branch is designed to ensure that access to nature is never a matter of wealth.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Disney Re-Animates Beloved Songs in American Sign Language",
+              "summary": "Disney has re-animated iconic songs from Frozen 2, Encanto, and Moana 2 featuring performers from Deaf West Theatre signing in American Sign Language. Over 20 animators collaborated to ensure cultural accuracy, making Disney magic fully accessible to millions of Deaf and hard-of-hearing viewers for the first time.",
+              "source": "Animation Magazine via Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "New Libraro Prize Puts Readers in Charge of Literary Awards",
+              "summary": "The Libraro Prize hands readers real power, letting the public champion shortlisted books for a £50,000 award and a Hachette UK publishing deal. It is the first major literary prize to place reader discovery — rather than industry gatekeeping — at the centre of the process, with the winner announced in May.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-17-of-2026/",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "NPR Receives Record $113 Million in Public Donations",
+              "summary": "NPR received $113 million in charitable gifts in a landmark fundraising campaign, a record outpouring of public support for independent journalism. Tens of thousands of individual donors contributed, underscoring a deep and growing appetite for trusted, commercial-free news from communities across the United States.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "KL Rahul's Unbeaten 152 Shatters All-Time IPL Batting Record",
+              "summary": "KL Rahul hit an extraordinary unbeaten 152 — the highest individual score by an Indian in IPL history — sending 28,000 fans into raptures at Arun Jaitley Stadium. The innings headlined a week of record-breaking batting in IPL 2026 that has captivated cricket fans across Asia.",
+              "source": "ESPNcricinfo",
+              "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-punjab-kings-35th-match-1529278/match-report",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Angel Reese Launches STEM Programme for Student Athletes in Baltimore",
+              "summary": "WNBA star Angel Reese brought together local middle-schoolers and university mentors for a hands-on STEM enrichment programme in Baltimore, channelling her platform into inspiring young women in underserved communities. The event paired sport and science, sending a clear message that athletes can lead in the lab as well as on the court.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            },
+            {
+              "title": "Florida Volunteers Rescue 4,000 Sea Turtle Eggs From the Bulldozer",
+              "summary": "Dedicated Florida volunteers carefully relocated nearly 4,000 sea turtle eggs from 44 leatherback and loggerhead nests threatened by coastal construction, giving each hatchling a fighting chance at reaching the ocean. The community-led effort highlights how ordinary people can make an extraordinary difference for ocean wildlife.",
+              "source": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-april-25-2026",
+              "date": "2026-04-25"
+            }
+          ]
+        }
+      }
     }
   ]
 }
