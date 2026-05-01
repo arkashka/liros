@@ -53,6 +53,7 @@ TOPIC_META = {
     "Society & Culture":     {"emoji": "🤝", "color": "#3B82F6", "tagline": "The vibrant threads of human connection"},
     "Entertainment & Arts":  {"emoji": "🎨", "color": "#10B981", "tagline": "Stories and visions that move the soul"},
     "Sports & Leisure":      {"emoji": "🏆", "color": "#94A3B8", "tagline": "The joy of movement and the spirit of play"},
+    "Pets & Wildlife":       {"emoji": "🐾", "color": "#8B5CF6", "tagline": "Every creature, wild and close to home"},
 }
 
 
