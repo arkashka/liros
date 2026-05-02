@@ -1934,6 +1934,207 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-28",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "India and New Zealand Sign Historic Free Trade Agreement",
+              "summary": "Negotiated in just 16 months, the landmark India–New Zealand FTA grants duty-free access to 8,284 Indian export products and pledges USD 20 billion of New Zealand investment over 15 years. A dedicated quota of 5,000 three-year work visas adds a powerful human-mobility dimension to one of the region's fastest-concluded bilateral trade deals.",
+              "source": "WION",
+              "url": "https://www.wionews.com/world/india-new-zealand-sign-historic-fta-20-bn-investment-trade-and-mobility-to-expand-1777293232649",
+              "date": "2026-04-27"
+            },
+            {
+              "title": "Brazil Posts Record $14.2 Billion Trade Surplus in First Quarter of 2026",
+              "summary": "Brazil's trade surplus surged 47.6% year-on-year in Q1 2026, reaching a record $14.2 billion on the back of strong commodity exports and growing industrial diversification. The Ministry of Trade projects a $72 billion full-year surplus, cementing Brazil's position as one of the world's most resilient emerging economies.",
+              "source": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Brazils-Trade-Surplus-Surges-To-A-Record-142-Billion-Amid-High-Oil-Prices.html",
+              "date": "2026-04-10"
+            },
+            {
+              "title": "Six East African Nations Open Borders for Easier Shared Travel",
+              "summary": "Kenya has joined Nigeria, Ethiopia, Rwanda, Ghana and South Africa in a coordinated push to expand visa-free travel across the continent. The initiative is expected to turbo-charge tourism, deepen regional trade, and make pan-African movement increasingly seamless for citizens and businesses alike.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/kenya-joins-nigeria-ethiopia-rwanda-ghana-and-south-africa-expanding-visa-free-travel-across-nairobi-mombasa-and-east-africa-boosting-tourism-and-business-in-2026-click-to-know-more-about-it-now/",
+              "date": "2026-04-20"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Indian-Japanese Team Makes Electrons Flow Like a Perfect Liquid",
+              "summary": "Scientists from India's IISc and Japan's NIMS observed electrons in graphene flowing as a nearly frictionless quantum fluid, shattering a century-old physics law by 200-fold at low temperatures. The breakthrough opens the door to ultra-sensitive quantum sensors capable of detecting extraordinarily faint electrical and magnetic signals.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260415042152.htm",
+              "date": "2026-04-15"
+            },
+            {
+              "title": "Tokyo Tech Festival Draws 60,000 Innovators to Reimagine the World",
+              "summary": "SusHi Tech Tokyo 2026 opened on 27 April with 60,000 attendees from around the globe, featuring 750 startups, 10,000 pre-booked business meetings and 151 sessions spanning AI, robotics, climate resilience and entertainment. Organisers called it a deal room rather than a conference — a live experiment in solving humanity's biggest challenges.",
+              "source": "WebProNews",
+              "url": "https://www.webpronews.com/tokyos-2026-tech-surge-sushi-tech-event-signals-global-power-shift-to-japan/",
+              "date": "2026-04-27"
+            },
+            {
+              "title": "Scientists Drill Record Core Beneath Antarctic Ice, Unlocking 23 Million Years",
+              "summary": "The international SWAIS2C project recovered the longest sediment core ever extracted from beneath an ice sheet — 228 metres of ancient rock and mud from under 523 metres of ice at Crary Ice Rise. The sample spans 23 million years and will provide the most comprehensive picture yet of future sea level rise risks.",
+              "source": "phys.org",
+              "url": "https://phys.org/news/2026-02-antarctic-drill-reveals-million-years.html",
+              "date": "2026-02-10"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "World Reaches Historic Milestone: 10% of the Ocean Now Protected",
+              "summary": "For the first time ever, 10.01% of the world's ocean is officially designated as protected or conserved — six years after the original 2020 deadline. More than 5 million square kilometres of ocean, an area larger than the European Union, were added to protected areas in just the past two years alone.",
+              "source": "IUCN",
+              "url": "https://iucn.org/press-release/202604/world-reaches-milestone-nature-10-ocean-now-officially-protected",
+              "date": "2026-04-01"
+            },
+            {
+              "title": "Record 30,000 Endangered Coho Salmon Return to California Rivers",
+              "summary": "More than 30,000 endangered Central California coast coho salmon returned to Mendocino County rivers in the 2024–25 spawning season — double the previous record. Decades of stream reconnection and habitat restoration are paying off, with juvenile coho spotted in the Russian River's upper basin for the first time since 1991.",
+              "source": "Outdoor Hub",
+              "url": "https://www.outdoorhub.com/news/2026/04/07/central-california-coho-record-run/",
+              "date": "2026-04-07"
+            },
+            {
+              "title": "Colombia's Deforestation Hits Lowest Level Since the Year 2000",
+              "summary": "Colombia's deforestation rate fell to its lowest point since 2000, beating its own 2025 national climate target ahead of schedule. Strengthened protections for páramos and Amazonian watersheds, combined with community-led conservation, are reversing decades of forest loss across some of the planet's most biodiverse terrain.",
+              "source": "OECD",
+              "url": "https://www.oecd.org/en/publications/oecd-environmental-performance-reviews-colombia-2026_968398f7-en/full-report/biodiversity-conservation-and-sustainable-use_2099ac2c.html",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Bowel Cancer Immunotherapy Trial Shows Zero Relapses After 33 Months",
+              "summary": "A UK clinical trial gave 32 patients with a specific type of bowel cancer pembrolizumab immunotherapy before surgery instead of post-operative chemotherapy — and after 33 months, not one patient has relapsed. Researchers called the results extraordinary, suggesting a short pre-surgery course could replace months of debilitating chemotherapy.",
+              "source": "UCL News",
+              "url": "https://www.ucl.ac.uk/news/2026/apr/groundbreaking-bowel-cancer-trial-follow-shows-zero-relapses",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Daily Pill for Pancreatic Cancer Nearly Doubles Survival in Major Trial",
+              "summary": "Revolution Medicines' daraxonrasib pill gave metastatic pancreatic cancer patients a median survival of 13.2 months — compared with 6.7 months on chemotherapy. Pancreatic cancer is among the hardest to treat, making this once-daily oral drug one of the most significant clinical advances against the disease in a generation.",
+              "source": "STAT News",
+              "url": "https://www.statnews.com/2026/04/13/revolution-medicines-successful-treatment-pancreatic-cancer-daily-pill/",
+              "date": "2026-04-13"
+            },
+            {
+              "title": "Two Common Drugs Combined Can Reverse Fatty Liver Disease",
+              "summary": "University of Barcelona researchers found that combining pemafibrate and telmisartan — two drugs already on pharmacy shelves — reversed liver fat buildup as effectively as a full dose of either drug alone. The combination also lowered blood pressure and cholesterol, offering a powerful one-two punch against one of the world's fastest-growing metabolic diseases.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260422003024.htm",
+              "date": "2026-04-22"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "V&A East Museum Opens Free to All in London's Olympic Park",
+              "summary": "The long-awaited Victoria and Albert Museum East threw open its doors in Stratford on 18 April, offering free permanent galleries spanning global art, architecture, design and fashion. Its inaugural exhibition celebrates how Black British music shaped culture, setting a vibrant, community-first tone for one of London's most exciting new civic spaces.",
+              "source": "Time Out London",
+              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
+              "date": "2026-04-15"
+            },
+            {
+              "title": "Norwegian Village Gives Spiders and Spruces a Seat at the Council Table",
+              "summary": "In Oppdal, Norway, residents now sit as formal representatives of spiders, bats, cloudberries and Norwegian spruces in the world's first interspecies council. The pioneering initiative dissolves the boundary between human decision-making and the natural world, embedding non-human perspectives directly into land-use and local development debates.",
+              "source": "Brit Brief",
+              "url": "https://britbrief.co.uk/environment/policy/norways-interspecies-council-natures-voice-in-governance.html",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "Solar Pumps Bring Year-Round Harvests to 85,000 Ethiopians",
+              "summary": "A WFP-backed solar irrigation scheme in Ethiopia's Somali Region now draws water from the Shebelle River 365 days a year, allowing pastoral families to grow food, fodder and cash crops year-round. The IFTIIN project supports around 17,000 families — roughly 85,000 people — transforming food insecurity into sustainable agricultural livelihoods.",
+              "source": "fundsforNGOs",
+              "url": "https://news.fundsforngos.org/2026/04/27/wfp-supports-ethiopias-somali-region-with-solar-irrigation-scheme/",
+              "date": "2026-04-27"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "V&A East Museum Opens Free to All in London's Olympic Park",
+              "summary": "The long-awaited Victoria and Albert Museum East threw open its doors in Stratford on 18 April, offering free permanent galleries spanning global art, architecture, design and fashion. Its inaugural exhibition celebrates how Black British music shaped culture, setting a vibrant, community-first tone for one of London's most exciting new civic spaces.",
+              "source": "Time Out London",
+              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
+              "date": "2026-04-15"
+            },
+            {
+              "title": "Atlanta Film Festival Celebrates 50 Years With Landmark Honorees",
+              "summary": "The 50th Atlanta Film Festival announced special award recipients including producer Will Packer and actors Josh Brolin and Carrie Preston at its landmark anniversary celebration. The milestone edition spotlights Georgia's thriving film industry and five decades of championing independent, diverse storytelling from the American South.",
+              "source": "Georgia Entertainment News",
+              "url": "https://www.georgiaentertainment.com/2026/04/atlanta-film-festival-unveils-2026-award-honorees-for-landmark-50th-anniversary/",
+              "date": "2026-04-23"
+            },
+            {
+              "title": "Queen Latifah to Host the 52nd American Music Awards in Las Vegas",
+              "summary": "Music icon and Grammy winner Queen Latifah will host the 52nd American Music Awards, airing live on Memorial Day from the MGM Grand Garden Arena in Las Vegas on 25 May 2026. The announcement has fans buzzing with anticipation for one of the biggest nights on the music calendar.",
+              "source": "American Music Awards",
+              "url": "https://www.theamas.com/2026/04/queen-latifah-to-host-the-52nd-american-music-awards/",
+              "date": "2026-04-06"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Sabastian Sawe Shatters the Two-Hour Marathon Barrier in London",
+              "summary": "Kenya's Sabastian Sawe made history at the 2026 TCS London Marathon, crossing the line in 1:59:30 to become the first athlete ever to break the two-hour barrier in a legal, record-eligible race. Ethiopia's Yomif Kejelcha also finished sub-two-hours, while nearly 60,000 runners collectively raised tens of millions for charity.",
+              "source": "ESPN",
+              "url": "https://www.espn.com.au/olympics/trackandfield/story/_/id/48598786/sabastian-sawe-wins-london-marathon-record-1st-finish-2-hours",
+              "date": "2026-04-26"
+            },
+            {
+              "title": "New Zealand Sweeps Oceania Archery Championships on Home Soil",
+              "summary": "New Zealand's archers delivered a commanding performance at the 2026 World Archery Oceania Target Championships in Auckland, topping the medal standings across multiple disciplines and team events. Home-crowd energy and extraordinary precision combined to make it a landmark celebration for the sport across the Pacific region.",
+              "source": "World Archery",
+              "url": "https://www.worldarchery.sport/news/202398/new-zealand-dominates-oceania-championships-2026-auckland",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "South Pacific Cruise Boom Opens Fresh Routes and Jobs Across the Region",
+              "summary": "A renewed Australia–New Zealand cruise alliance is launching fresh South Pacific itineraries and boosting port infrastructure across the region. The partnership is expected to generate thousands of tourism jobs while enabling travellers to explore remote Pacific island communities in more sustainable, community-connected ways.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/south-pacific-cruise-boom-australia-new-zealand-alliance-boosts-ports-routes-and-global-traveller-experience/",
+              "date": "2026-04-18"
+            }
+          ]
+        }
+      }
     }
   ]
 }

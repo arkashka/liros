@@ -1,6 +1,193 @@
 {
   "pulls": [
     {
+      "date": "2026-05-02",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "title": "Kenya's Sawe Makes Marathon History With First Legal Sub-Two-Hour Run",
+              "summary": "On April 26 at the London Marathon, Sabastian Sawe crossed the line in 1:59:30—the first sub-two-hour marathon ever run in an official, record-eligible race. Ethiopia's Yomif Kejelcha finished in 1:59:41, making them the only two humans to officially beat the two-hour mark.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/26/nx-s1-5800057/kenya-sabastian-sawe-first-person-2-hour-marathon-london",
+              "date": "2026-04-26"
+            },
+            {
+              "title": "China Opens Its Markets to 53 African Nations With Historic Zero-Tariff Deal",
+              "summary": "From May 1, China extended zero-tariff access on 100% of product categories to goods from 53 African countries. For Kenya, Ethiopia, and Zanzibar's spice farmers, the policy unlocks the world's biggest consumer market for tea, coffee, cut flowers, and avocados—a seismic shift for African exporters.",
+              "source": "Capital Business FM",
+              "url": "https://www.capitalfm.co.ke/business/2026/05/china-scraps-tariffs-for-all-but-one-african-nation/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Congo Basin Communities Win a Seat at the Heart of Africa's Green Economy",
+              "summary": "A new bioeconomy framework for the Congo Basin—the world's second-largest rainforest—puts Indigenous and rural communities in charge of sustainable harvesting, carbon credits, and green industry funding. Analysts say the model could unlock billions in conservation investment while finally distributing the benefits to those who protect the forest.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/a-congo-basin-led-bioeconomy-could-boost-central-africas-green-transition-analysis/",
+              "date": "2026-04-28"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "title": "Japan and Vietnam Deepen Partnership Into AI, Green Energy, and Chip Supply Chains",
+              "summary": "Prime Minister Takaichi's May 1-3 visit to Hanoi formalised new cooperation spanning semiconductor supply chains, AI development, green-energy transition, and skills exchange. Both governments called it the most substantial upgrade to their strategic partnership in a decade, with immediate joint projects planned in renewables and advanced manufacturing.",
+              "source": "The Asia Cable",
+              "url": "https://www.theasiacable.com/p/asia-daily-may-1-2026",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "India and South Korea Sign 25-Point 'Futuristic Partnership' in Chips, AI, and Shipbuilding",
+              "summary": "Prime Ministers Modi and Lee signed 25 new agreements covering semiconductor supply chains, AI governance, advanced shipbuilding, and an India-Korea Digital Bridge for data cooperation. The partnership targets $50 billion in bilateral trade by 2030 and establishes direct research links between both nations' technology sectors.",
+              "source": "DD News India",
+              "url": "https://ddnews.gov.in/en/india-south-korea-announce-25-key-outcomes-elevate-ties-to-futuristic-partnership/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Japan's Nikkei Soars to All-Time High as Asian Markets Signal Economic Optimism",
+              "summary": "Japan's Nikkei 225 closed at a record 60,537 on April 27 while South Korea's Kospi surged 2.15% to its own all-time high of 6,615. Investors cited strong AI-sector growth, easing inflation, and rising consumer confidence across the region as Asia's economy continues to outperform global forecasts.",
+              "source": "CNBC",
+              "url": "https://www.cnbc.com/2026/04/27/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html",
+              "date": "2026-04-27"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "title": "V&A East Opens in London as a Free Museum Shaped by Its Own Neighbourhood",
+              "summary": "The Victoria and Albert Museum's new Olympic Park home opened April 18 with free permanent galleries spanning global fashion, architecture, and performance. Local young people helped shape its vision, and its first major exhibition, 'The Music is Black: A British Story,' celebrates 125 years of Black music-making in Britain.",
+              "source": "Timeout London",
+              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "EU-Mercosur Free Trade Zone Begins, Linking 700 Million People Across Two Continents",
+              "summary": "The EU-Mercosur trade agreement took provisional effect on May 1, eliminating or slashing tariffs on cars, pharmaceuticals, and agricultural goods between Europe and Brazil, Argentina, Paraguay, and Uruguay. It is the EU's largest ever trade deal by population, and protects 344 European Geographical Indications—from Champagne to Feta—in South American markets.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/1/eu-trade-deal-with-south-americas-mercosur-bloc-takes-provisional-effect",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "England's Renters' Rights Act Ends No-Fault Evictions After a Decade of Campaigning",
+              "summary": "A landmark law effective May 1 abolishes no-fault evictions, extends notice periods from two to four months, and lets tenants challenge unreasonable rent hikes. Grassroots renters' union Acorn, which spent years organising for the change, said the victory was 'won from below—not handed to us from above.'",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-18-of-2026/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "title": "The Devil Wears Prada 2 Opens With Full Original Cast and a New Lady Gaga Song",
+              "summary": "Nearly 20 years after the original, Meryl Streep, Anne Hathaway, Emily Blunt, and Stanley Tucci reunited for a sequel that debuted in theatres on May 1. Lady Gaga and Doechii released 'Runway,' an original track for the film, and early audiences praised the cast's chemistry, sharp writing, and Italian filming locations.",
+              "source": "Hollywood Reporter",
+              "url": "https://www.hollywoodreporter.com/movies/movie-reviews/the-devil-wears-prada-2-review-meryl-streep-anne-hathaway-1236579649/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Toy Story Character Signs ASL With a Deaf Girl at Disney World in Viral Moment",
+              "summary": "A video of a Toy Story cast member at Walt Disney World communicating fluently in American Sign Language with a young deaf visitor spread across social media, moved to tears by parents and disability advocates worldwide. The moment highlighted Disney's accessibility training programme and sparked widespread appreciation for inclusive guest experiences.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/toy-story-character-talks-with-deaf-girl-in-heartwarming-asl-moment-that-went-viral/",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "Always a Runner Wins the Kentucky Oaks After Beating a Summer Pneumonia Diagnosis",
+              "summary": "The filly Always a Runner and jockey Jose Ortiz claimed the $1.5 million Kentucky Oaks at Churchill Downs on May 1, completing a remarkable comeback after the horse nearly lost her racing career to a serious pneumonia diagnosis the previous summer. Her victory in 1:48 was met with a standing ovation from the crowd.",
+              "source": "Louisville Public Media",
+              "url": "https://www.lpm.org/news/2026-05-01/always-a-runner-wins-kentucky-oaks-2026",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "title": "EU-Mercosur Free Trade Zone Begins, Linking 700 Million People Across Two Continents",
+              "summary": "The EU-Mercosur trade agreement took provisional effect on May 1, eliminating or slashing tariffs on cars, pharmaceuticals, and agricultural goods between Europe and Brazil, Argentina, Paraguay, and Uruguay. It is the EU's largest ever trade deal by population, and protects 344 European Geographical Indications—from Champagne to Feta—in South American markets.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/1/eu-trade-deal-with-south-americas-mercosur-bloc-takes-provisional-effect",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "US-Venezuela Direct Flights Resume for the First Time in Seven Years",
+              "summary": "On April 30, American Airlines operated the first nonstop Miami-to-Caracas service since 2019, reconnecting families separated by years of diplomatic suspension. Daily flights will follow, and both governments described the resumption as a step toward broader people-to-people reconnection following Venezuela's January 2026 political transition.",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/04/30/americas/us-commercial-flights-venezuela-american-airlines-latam-intl",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "Peru Welcomes Record 823,000 International Visitors in Q1 2026 as Tourism Booms",
+              "summary": "Peru recorded 823,863 international arrivals in the first quarter of 2026—a 3.5% rise on the previous year—as travellers from Chile, Brazil, and Colombia pour into Andean routes, the Amazon, and Lima's celebrated food scene. Revenue is being reinvested in eco-routes, improved Indigenous community services, and sustainable trail infrastructure.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/bolivia-joins-united-states-chile-ecuador-brazil-and-colombia-in-propelling-perus-tourism-industry-to-new-heights-achieving-a-remarkable-three-point-five-percent-surge-in-international-v/",
+              "date": "2026-04-28"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "title": "Australia Becomes the 30th Country to Eliminate Trachoma as a Public Health Problem",
+              "summary": "The WHO validated Australia's elimination of trachoma on April 29, marking the first time an NTD has been officially eradicated in Australia. Prevalence in at-risk Aboriginal and Torres Strait Islander children fell from 14.9% in 2009 to 1.5% in 2024—a victory built on decades of community-led health work.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "Capital Kiwi Project Achieves 90% Chick Survival—Three Times Its Own Ambitious Target",
+              "summary": "New Zealand's Capital Kiwi Project reported that 90% of released kiwi chicks are thriving in Wellington's outer hills, tripling the 30% target set at the project's 2022 launch. With 250 birds now established close to a major city, the initiative is rewriting assumptions about what urban rewilding can achieve.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-18-of-2026/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "New Zealand Archers Sweep the 2026 Oceania Championships on Auckland Home Soil",
+              "summary": "Hosting the World Archery Oceania Target Championships for the first time, New Zealand's team topped the medal standings across recurve, compound, and team categories. A record 12 nations competed, and organisers highlighted the event as a launchpad for Pacific archer development ahead of the 2028 Los Angeles Olympics.",
+              "source": "World Archery",
+              "url": "https://www.worldarchery.sport/news/202398/new-zealand-dominates-oceania-championships-2026-auckland",
+              "date": "2026-04-26"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "title": "Antarctic Iceberg Breaks Away and Reveals a Thriving Secret World on the Seafloor",
+              "summary": "When iceberg A-84 calved from the George VI Ice Shelf, scientists from the Schmidt Ocean Institute sent a robot to the 510-sq-km patch of newly exposed seafloor—and discovered giant corals, metre-wide sponges, vast sea-spider colonies, icefish, and octopus. The rich ecosystems, hidden for millennia beneath ice, astounded researchers expecting barren rock.",
+              "source": "Schmidt Ocean Institute",
+              "url": "https://schmidtocean.org/thriving-antarctic-ecosystems-found-in-wake-of-recently-detached-iceberg/",
+              "date": "2026-04-28"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-05-01",
       "regions": {
         "Africa": {
@@ -369,193 +556,6 @@
               "source": "Time / British Antarctic Survey",
               "url": "https://time.com/article/2026/04/28/antarctica-deep-ocean-warming-study/",
               "date": "2026-04-28"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-04-28",
-      "regions": {
-        "Africa": {
-          "emoji": "🌍",
-          "color": "#FF6B35",
-          "tagline": "A continent rising with energy and hope",
-          "stories": [
-            {
-              "title": "Africa's First Road Safety Law Comes Into Force",
-              "summary": "Fifteen African Union nations ratified the African Road Safety Charter, making it the continent's first legally-binding road safety framework. Coming into effect on 12 March 2026, the charter commits signatories to halving road fatalities and serious injuries by 2030, potentially saving hundreds of thousands of lives annually.",
-              "source": "World Health Organization",
-              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
-              "date": "2026-03-26"
-            },
-            {
-              "title": "Solar Pumps Bring Year-Round Harvests to 85,000 Ethiopians",
-              "summary": "A WFP-backed solar irrigation scheme in Ethiopia's Somali Region now draws water from the Shebelle River 365 days a year, allowing pastoral families to grow food, fodder and cash crops year-round. The IFTIIN project supports around 17,000 families — roughly 85,000 people — transforming food insecurity into sustainable agricultural livelihoods.",
-              "source": "fundsforNGOs",
-              "url": "https://news.fundsforngos.org/2026/04/27/wfp-supports-ethiopias-somali-region-with-solar-irrigation-scheme/",
-              "date": "2026-04-27"
-            },
-            {
-              "title": "Six East African Nations Open Borders for Easier Shared Travel",
-              "summary": "Kenya has joined Nigeria, Ethiopia, Rwanda, Ghana and South Africa in a coordinated push to expand visa-free travel across the continent. The initiative is expected to turbo-charge tourism, deepen regional trade, and make pan-African movement increasingly seamless for citizens and businesses alike.",
-              "source": "Travel and Tour World",
-              "url": "https://www.travelandtourworld.com/news/article/kenya-joins-nigeria-ethiopia-rwanda-ghana-and-south-africa-expanding-visa-free-travel-across-nairobi-mombasa-and-east-africa-boosting-tourism-and-business-in-2026-click-to-know-more-about-it-now/",
-              "date": "2026-04-20"
-            }
-          ]
-        },
-        "Asia": {
-          "emoji": "🌏",
-          "color": "#FFB700",
-          "tagline": "Ancient wisdom, modern breakthroughs",
-          "stories": [
-            {
-              "title": "Indian-Japanese Team Makes Electrons Flow Like a Perfect Liquid",
-              "summary": "Scientists from India's IISc and Japan's NIMS observed electrons in graphene flowing as a nearly frictionless quantum fluid, shattering a century-old physics law by 200-fold at low temperatures. The breakthrough opens the door to ultra-sensitive quantum sensors capable of detecting extraordinarily faint electrical and magnetic signals.",
-              "source": "ScienceDaily",
-              "url": "https://www.sciencedaily.com/releases/2026/04/260415042152.htm",
-              "date": "2026-04-15"
-            },
-            {
-              "title": "Tokyo Tech Festival Draws 60,000 Innovators to Reimagine the World",
-              "summary": "SusHi Tech Tokyo 2026 opened on 27 April with 60,000 attendees from around the globe, featuring 750 startups, 10,000 pre-booked business meetings and 151 sessions spanning AI, robotics, climate resilience and entertainment. Organisers called it a deal room rather than a conference — a live experiment in solving humanity's biggest challenges.",
-              "source": "WebProNews",
-              "url": "https://www.webpronews.com/tokyos-2026-tech-surge-sushi-tech-event-signals-global-power-shift-to-japan/",
-              "date": "2026-04-27"
-            },
-            {
-              "title": "India and New Zealand Sign Historic Free Trade Agreement",
-              "summary": "Negotiated in just 16 months, the landmark India–New Zealand FTA grants duty-free access to 8,284 Indian export products and pledges USD 20 billion of New Zealand investment over 15 years. A dedicated quota of 5,000 three-year work visas adds a powerful human-mobility dimension to one of the region's fastest-concluded bilateral trade deals.",
-              "source": "WION",
-              "url": "https://www.wionews.com/world/india-new-zealand-sign-historic-fta-20-bn-investment-trade-and-mobility-to-expand-1777293232649",
-              "date": "2026-04-27"
-            }
-          ]
-        },
-        "Europe": {
-          "emoji": "🌍",
-          "color": "#44BBA4",
-          "tagline": "Green, resilient, and reaching for the future",
-          "stories": [
-            {
-              "title": "V&A East Museum Opens Free to All in London's Olympic Park",
-              "summary": "The long-awaited Victoria and Albert Museum East threw open its doors in Stratford on 18 April, offering free permanent galleries spanning global art, architecture, design and fashion. Its inaugural exhibition celebrates how Black British music shaped culture, setting a vibrant, community-first tone for one of London's most exciting new civic spaces.",
-              "source": "Time Out London",
-              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
-              "date": "2026-04-15"
-            },
-            {
-              "title": "Norwegian Village Gives Spiders and Spruces a Seat at the Council Table",
-              "summary": "In Oppdal, Norway, residents now sit as formal representatives of spiders, bats, cloudberries and Norwegian spruces in the world's first interspecies council. The pioneering initiative dissolves the boundary between human decision-making and the natural world, embedding non-human perspectives directly into land-use and local development debates.",
-              "source": "Brit Brief",
-              "url": "https://britbrief.co.uk/environment/policy/norways-interspecies-council-natures-voice-in-governance.html",
-              "date": "2026-04-20"
-            },
-            {
-              "title": "Bowel Cancer Immunotherapy Trial Shows Zero Relapses After 33 Months",
-              "summary": "A UK clinical trial gave 32 patients with a specific type of bowel cancer pembrolizumab immunotherapy before surgery instead of post-operative chemotherapy — and after 33 months, not one patient has relapsed. Researchers called the results extraordinary, suggesting a short pre-surgery course could replace months of debilitating chemotherapy.",
-              "source": "UCL News",
-              "url": "https://www.ucl.ac.uk/news/2026/apr/groundbreaking-bowel-cancer-trial-follow-shows-zero-relapses",
-              "date": "2026-04-24"
-            }
-          ]
-        },
-        "North America": {
-          "emoji": "🌎",
-          "color": "#E94F8B",
-          "tagline": "Bold dreams, bigger firsts",
-          "stories": [
-            {
-              "title": "Record 30,000 Endangered Coho Salmon Return to California Rivers",
-              "summary": "More than 30,000 endangered Central California coast coho salmon returned to Mendocino County rivers in the 2024–25 spawning season — double the previous record. Decades of stream reconnection and habitat restoration are paying off, with juvenile coho spotted in the Russian River's upper basin for the first time since 1991.",
-              "source": "Outdoor Hub",
-              "url": "https://www.outdoorhub.com/news/2026/04/07/central-california-coho-record-run/",
-              "date": "2026-04-07"
-            },
-            {
-              "title": "North America's Largest Wildlife Bridge Opens Over Colorado Interstate",
-              "summary": "The I-25 Greenland wildlife overpass near Larkspur — the largest of its kind on the continent — now lets elk, pronghorn, mule deer, mountain lions and bears safely cross a busy interstate highway. The crossing reunites long-severed migration corridors and is already used by hundreds of animals every week.",
-              "source": "Good Morning America",
-              "url": "https://www.goodmorningamerica.com/news/story/earth-day-2026-planet-experienced-environmental-wins-recent-132069519",
-              "date": "2026-04-22"
-            },
-            {
-              "title": "Daily Pill for Pancreatic Cancer Nearly Doubles Survival in Major Trial",
-              "summary": "Revolution Medicines' daraxonrasib pill gave metastatic pancreatic cancer patients a median survival of 13.2 months — compared with 6.7 months on chemotherapy. Pancreatic cancer is among the hardest to treat, making this once-daily oral drug one of the most significant clinical advances against the disease in a generation.",
-              "source": "STAT News",
-              "url": "https://www.statnews.com/2026/04/13/revolution-medicines-successful-treatment-pancreatic-cancer-daily-pill/",
-              "date": "2026-04-13"
-            }
-          ]
-        },
-        "South America": {
-          "emoji": "🌎",
-          "color": "#3B82F6",
-          "tagline": "Nature's guardian, culture's champion",
-          "stories": [
-            {
-              "title": "Brazil Posts Record $14.2 Billion Trade Surplus in First Quarter of 2026",
-              "summary": "Brazil's trade surplus surged 47.6% year-on-year in Q1 2026, reaching a record $14.2 billion on the back of strong commodity exports and growing industrial diversification. The Ministry of Trade projects a $72 billion full-year surplus, cementing Brazil's position as one of the world's most resilient emerging economies.",
-              "source": "OilPrice.com",
-              "url": "https://oilprice.com/Latest-Energy-News/World-News/Brazils-Trade-Surplus-Surges-To-A-Record-142-Billion-Amid-High-Oil-Prices.html",
-              "date": "2026-04-10"
-            },
-            {
-              "title": "Uruguay Hits 98% Clean Electricity and Earns Region's Top Credit Rating",
-              "summary": "Uruguay generates 98% of its electricity from renewable sources and holds investment-grade ratings from all three major credit agencies — the highest sovereign standing in South America. The combination of clean energy leadership and rock-solid finances is attracting ESG capital and positioning Uruguay as Latin America's green economy standard-bearer.",
-              "source": "The Rio Times",
-              "url": "https://www.riotimesonline.com/uruguay-economy-2026-outlook/",
-              "date": "2026-04-15"
-            },
-            {
-              "title": "Colombia's Deforestation Hits Lowest Level Since the Year 2000",
-              "summary": "Colombia's deforestation rate fell to its lowest point since 2000, beating its own 2025 national climate target ahead of schedule. Strengthened protections for páramos and Amazonian watersheds, combined with community-led conservation, are reversing decades of forest loss across some of the planet's most biodiverse terrain.",
-              "source": "OECD",
-              "url": "https://www.oecd.org/en/publications/oecd-environmental-performance-reviews-colombia-2026_968398f7-en/full-report/biodiversity-conservation-and-sustainable-use_2099ac2c.html",
-              "date": "2026-04-01"
-            }
-          ]
-        },
-        "Oceania": {
-          "emoji": "🌏",
-          "color": "#10B981",
-          "tagline": "Islands of partnership and discovery",
-          "stories": [
-            {
-              "title": "New Zealand Sweeps Oceania Archery Championships on Home Soil",
-              "summary": "New Zealand's archers delivered a commanding performance at the 2026 World Archery Oceania Target Championships in Auckland, topping the medal standings across multiple disciplines and team events. Home-crowd energy and extraordinary precision combined to make it a landmark celebration for the sport across the Pacific region.",
-              "source": "World Archery",
-              "url": "https://www.worldarchery.sport/news/202398/new-zealand-dominates-oceania-championships-2026-auckland",
-              "date": "2026-04-20"
-            },
-            {
-              "title": "South Pacific Cruise Boom Opens Fresh Routes and Jobs Across the Region",
-              "summary": "A renewed Australia–New Zealand cruise alliance is launching fresh South Pacific itineraries and boosting port infrastructure across the region. The partnership is expected to generate thousands of tourism jobs while enabling travellers to explore remote Pacific island communities in more sustainable, community-connected ways.",
-              "source": "Travel and Tour World",
-              "url": "https://www.travelandtourworld.com/news/article/south-pacific-cruise-boom-australia-new-zealand-alliance-boosts-ports-routes-and-global-traveller-experience/",
-              "date": "2026-04-18"
-            },
-            {
-              "title": "World Reaches Historic Milestone: 10% of the Ocean Now Protected",
-              "summary": "For the first time ever, 10.01% of the world's ocean is officially designated as protected or conserved — six years after the original 2020 deadline. More than 5 million square kilometres of ocean, an area larger than the European Union, were added to protected areas in just the past two years alone.",
-              "source": "IUCN",
-              "url": "https://iucn.org/press-release/202604/world-reaches-milestone-nature-10-ocean-now-officially-protected",
-              "date": "2026-04-01"
-            }
-          ]
-        },
-        "Antarctica": {
-          "emoji": "🧊",
-          "color": "#94A3B8",
-          "tagline": "The frozen frontier of human knowledge",
-          "stories": [
-            {
-              "title": "Scientists Drill Record Core Beneath Antarctic Ice, Unlocking 23 Million Years",
-              "summary": "The international SWAIS2C project recovered the longest sediment core ever extracted from beneath an ice sheet — 228 metres of ancient rock and mud from under 523 metres of ice at Crary Ice Rise. The sample spans 23 million years and will provide the most comprehensive picture yet of future sea level rise risks.",
-              "source": "phys.org",
-              "url": "https://phys.org/news/2026-02-antarctic-drill-reveals-million-years.html",
-              "date": "2026-02-10"
             }
           ]
         }
