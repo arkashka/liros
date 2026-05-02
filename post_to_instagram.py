@@ -291,20 +291,32 @@ def post_carousel(image_urls: list[str], caption: str) -> str:
             "is_carousel_item": True,
         })
         media_id = result["id"]
+        print(f"    Media ID: {media_id}, waiting for processing…")
         wait_for_media_ready(media_id)
         child_ids.append(media_id)
-        time.sleep(2)
+        time.sleep(10)
 
-    # Give Instagram a moment to fully prepare all media before assembling carousel
+    # Give Instagram significant time to finalize all media before carousel assembly
     print("  Finalizing media …")
-    time.sleep(5)
+    time.sleep(15)
 
     print("  Assembling carousel …")
-    carousel = ig_post(f"{IG_BIZ_ID}/media", {
-        "media_type": "CAROUSEL",
-        "children": ",".join(child_ids),
-        "caption": caption,
-    })
+    # Retry carousel assembly if it fails (media might still be processing)
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            carousel = ig_post(f"{IG_BIZ_ID}/media", {
+                "media_type": "CAROUSEL",
+                "children": ",".join(child_ids),
+                "caption": caption,
+            })
+            break
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"    Carousel assembly failed (attempt {attempt + 1}/{max_retries}), retrying in 10s…")
+                time.sleep(10)
+            else:
+                raise
 
     print("  Publishing …")
     published = ig_post(f"{IG_BIZ_ID}/media_publish", {
