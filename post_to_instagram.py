@@ -318,11 +318,25 @@ def post_carousel(image_urls: list[str], caption: str) -> str:
             else:
                 raise
 
+    # Wait for carousel to be ready for publishing
+    print("  Preparing for publishing …")
+    time.sleep(10)
+
     print("  Publishing …")
-    published = ig_post(f"{IG_BIZ_ID}/media_publish", {
-        "creation_id": carousel["id"],
-    })
-    return published["id"]
+    # Retry publishing if it fails (carousel might still be processing)
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            published = ig_post(f"{IG_BIZ_ID}/media_publish", {
+                "creation_id": carousel["id"],
+            })
+            return published["id"]
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"    Publishing failed (attempt {attempt + 1}/{max_retries}), retrying in 10s…")
+                time.sleep(10)
+            else:
+                raise
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
