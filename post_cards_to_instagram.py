@@ -3,7 +3,7 @@
 post_cards_to_instagram.py
 
 Posts pre-generated carousel images from the ig/ folder to Instagram.
-Finds all carousel*.jpg images, uploads them, and assembles them into a carousel.
+Finds all carousel*.{jpg,jpeg,png} images, uploads them, and assembles them into a carousel.
 
 Setup
 -----
@@ -165,8 +165,12 @@ def main() -> None:
             "  export IG_BUSINESS_ID='your_business_id'"
         )
 
-    # Find carousel images
-    img_files = sorted(IG_IMG_DIR.glob("carousel*.jpg"))
+    # Find carousel images (jpg, jpeg, png)
+    img_files = sorted(
+        list(IG_IMG_DIR.glob("carousel*.jpg")) +
+        list(IG_IMG_DIR.glob("carousel*.jpeg")) +
+        list(IG_IMG_DIR.glob("carousel*.png"))
+    )
     if not img_files:
         sys.exit(f"No carousel*.jpg images found in {IG_IMG_DIR}")
 
