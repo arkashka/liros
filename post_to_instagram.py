@@ -259,20 +259,25 @@ def ig_post(path: str, payload: dict) -> dict:
     return r.json()
 
 
-def wait_for_media_ready(media_id: str, timeout: int = 120) -> None:
+def wait_for_media_ready(media_id: str, timeout: int = 300) -> None:
     """Instagram needs time to process uploaded images before carousel assembly."""
     deadline = time.time() + timeout
     while time.time() < deadline:
-        r = requests.get(
-            f"{IG_API}/{media_id}",
-            params={"fields": "status_code", "access_token": IG_TOKEN},
-            timeout=10,
-        )
-        status = r.json().get("status_code", "")
-        if status == "FINISHED":
-            return
-        if status == "ERROR":
-            raise RuntimeError(f"Instagram media {media_id} failed processing")
+        try:
+            r = requests.get(
+                f"{IG_API}/{media_id}",
+                params={"fields": "status_code", "access_token": IG_TOKEN},
+                timeout=10,
+            )
+            data = r.json()
+            status = data.get("status_code", "")
+            if status == "FINISHED":
+                return
+            if status == "ERROR":
+                raise RuntimeError(f"Instagram media {media_id} failed processing: {data}")
+        except Exception as e:
+            # Status endpoint might not be immediately available; keep polling
+            pass
         time.sleep(5)
     raise TimeoutError(f"Media {media_id} not ready after {timeout}s")
 
@@ -289,6 +294,10 @@ def post_carousel(image_urls: list[str], caption: str) -> str:
         wait_for_media_ready(media_id)
         child_ids.append(media_id)
         time.sleep(2)
+
+    # Give Instagram a moment to fully prepare all media before assembling carousel
+    print("  Finalizing media …")
+    time.sleep(5)
 
     print("  Assembling carousel …")
     carousel = ig_post(f"{IG_BIZ_ID}/media", {
