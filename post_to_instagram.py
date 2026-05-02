@@ -220,14 +220,19 @@ def push_images(paths: list[Path], date: str) -> None:
     print("  Pushed to GitHub Pages")
 
 
-def delete_images(paths: list[Path], date: str) -> None:
-    for p in paths:
-        p.unlink(missing_ok=True)
-    # Stage deletions (git add -A handles removals in the ig/ dir)
+def cleanup_github_pages(date: str) -> None:
+    """Remove images from GitHub Pages (always do this)."""
     git("add", str(IG_IMG_DIR))
     git("commit", "-m", f"temp: remove instagram images {date}")
     git("push", "origin", "main")
     print("  Cleaned up images from GitHub Pages")
+
+
+def delete_local_images(paths: list[Path]) -> None:
+    """Delete local image files (only if not KEEP_IMAGES)."""
+    for p in paths:
+        p.unlink(missing_ok=True)
+    print("  Deleted local image files")
 
 
 def wait_for_url(url: str, timeout: int = 600, interval: int = 15) -> None:
@@ -394,12 +399,15 @@ def main() -> None:
         print(f"\n✅  Posted! Instagram media ID: {post_id}")
 
     finally:
-        if KEEP_IMAGES:
-            print("\n📦  Keeping images in ig/ folder (KEEP_IMAGES=1)")
+        # Always clean up GitHub Pages
+        print("\n🧹  Removing images from GitHub Pages …")
+        cleanup_github_pages(date)
+
+        # Only delete local images if KEEP_IMAGES is not set
+        if not KEEP_IMAGES:
+            delete_local_images(img_paths)
         else:
-            # Clean up unless KEEP_IMAGES is set
-            print("\n🧹  Removing images from GitHub Pages …")
-            delete_images(img_paths, date)
+            print("  Keeping local images in ig/ folder (KEEP_IMAGES=1)")
 
     print("\nDone.\n")
 
