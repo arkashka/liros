@@ -23,7 +23,7 @@ Usage
 
 import json, os, sys, time, random, subprocess, requests
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BASE          = Path("/Users/areznik/Documents/Claude/Projects/LiRoS")
@@ -39,8 +39,8 @@ IG_TOKEN      = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_BIZ_ID     = os.environ.get("IG_BUSINESS_ID", "")
 DEFAULT_TOPIC = os.environ.get("DEFAULT_IG_TOPIC", "Health & Wellness")
 
-IMG_SIZE      = (1080, 1080)
-IG_API        = "https://graph.instagram.com/v20.0"
+IMG_SIZE      = (1080, 1350)   # 4:5 portrait — optimal for Instagram feed
+IG_API        = "https://graph.facebook.com/v20.0"
 
 _font_cache: dict = {}
 
@@ -91,98 +91,115 @@ def wrap_text(draw: ImageDraw.Draw, text: str, font: ImageFont.FreeTypeFont,
     return lines
 
 
-def make_card(story: dict, topic_color: str,
-              card_index: int, total_cards: int,
-              out_path: Path) -> None:
-    W, H    = IMG_SIZE
-    color   = hex_to_rgb(topic_color)
-    dark_bg = darken(color, 0.88)
-    mid_bg  = darken(color, 0.62)
-    light   = lighten(color, 0.30)
+def fit_text_to_zone(draw: ImageDraw.Draw, text: str, max_width: int,
+                      zone_height: int, size_start: int, size_min: int = 24,
+                      step: int = 4, line_spacing: float = 1.3) -> tuple:
+    """Scale font down until wrapped text fits within zone_height. Returns (font, lines, line_h)."""
+    size = size_start
+    while size >= size_min:
+        font   = get_font(size)
+        lines  = wrap_text(draw, text, font, max_width)
+        sample = draw.textbbox((0, 0), "Ag", font=font)
+        line_h = int((sample[3] - sample[1]) * line_spacing)
+        if len(lines) * line_h <= zone_height:
+            return font, lines, line_h
+        size -= step
+    font   = get_font(size_min)
+    lines  = wrap_text(draw, text, font, max_width)
+    sample = draw.textbbox((0, 0), "Ag", font=font)
+    line_h = int((sample[3] - sample[1]) * line_spacing)
+    return font, lines, line_h
 
-    # ── Base canvas ───────────────────────────────────────────────────────────
-    img = Image.new("RGBA", (W, H), (*dark_bg, 255))
 
-    # Vertical gradient (dark top → mid bottom)
-    draw = ImageDraw.Draw(img)
-    for y in range(H):
-        c = blend(dark_bg, mid_bg, y / H)
-        draw.line([(0, y), (W, y)], fill=(*c, 255))
+def draw_zone(draw: ImageDraw.Draw, lines: list, font: ImageFont.FreeTypeFont,
+              line_h: int, cx: int, zone_top: int, zone_h: int, fill: tuple) -> None:
+    """Draw wrapped lines centred horizontally and vertically within a zone."""
+    total_h = len(lines) * line_h
+    y       = zone_top + (zone_h - total_h) // 2
+    for line in lines:
+        bbox = draw.textbbox((0, 0), line, font=font)
+        lw   = bbox[2] - bbox[0]
+        draw.text((cx - lw // 2, y), line, font=font, fill=fill)
+        y += line_h
 
-    # ── Abstract decorative circles ───────────────────────────────────────────
-    rng = random.Random(hash(story["title"]) + card_index * 9973)
-    for _ in range(14):
-        cx     = rng.randint(-180, W + 180)
-        cy     = rng.randint(-180, int(H * 0.72))
-        radius = rng.randint(50, 290)
-        alpha  = rng.randint(20, 58)
-        bright = rng.randint(15, 58)
-        fill   = tuple(min(255, c + bright) for c in color)
-        layer  = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        ImageDraw.Draw(layer).ellipse(
-            [cx - radius, cy - radius, cx + radius, cy + radius],
-            fill=(*fill, alpha)
-        )
-        img = Image.alpha_composite(img, layer)
 
-    # Subtle diagonal light streak
-    streak = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(streak).polygon(
-        [(W * 0.55, 0), (W * 0.76, 0), (W * 0.46, H * 0.58), (W * 0.25, H * 0.58)],
-        fill=(*light, 14)
-    )
-    img = Image.alpha_composite(img, streak)
+def make_card(story: dict, base_color: str,
+              index: int, total: int,
+              output_path: Path) -> None:
+    width, height = IMG_SIZE   # 1080 × 1350 (4:5)
 
-    # ── Bottom text panel ─────────────────────────────────────────────────────
-    panel_h = 390
-    panel_y = H - panel_h
-    panel   = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(panel).rectangle([0, panel_y, W, H], fill=(8, 8, 20, 218))
-    img  = Image.alpha_composite(img, panel)
-    draw = ImageDraw.Draw(img)
+    # Seeded RNG — same story always produces the same card
+    rng = random.Random(hash(story["title"]) + index * 9973)
 
-    # ── Progress dots (top-right) ─────────────────────────────────────────────
-    dot_r       = 9
-    dot_y       = 50
-    dot_spacing = 30
-    total_dots_w = (total_cards - 1) * dot_spacing
-    dot_start_x  = W - 48 - total_dots_w
-    for i in range(total_cards):
-        x = dot_start_x + i * dot_spacing
-        a = 255 if i == card_index else 90
-        draw.ellipse([x - dot_r, dot_y - dot_r, x + dot_r, dot_y + dot_r],
-                     fill=(*light, a))
+    # ── Pastel background ─────────────────────────────────────────────────────
+    bg_options = ["#E0F2F1", "#F3E5F5", "#FFF9C4", "#FCE4EC"]
+    canvas     = Image.new("RGB", (width, height), rng.choice(bg_options))
 
-    # ── Title text ────────────────────────────────────────────────────────────
-    title_font  = get_font(54)
-    source_font = get_font(30)
-    padding     = 60
-    max_w       = W - padding * 2
+    # ── Soft blurred organic bubbles ──────────────────────────────────────────
+    bubble_palette = [
+        (255, 182, 193),  # blush
+        (173, 216, 230),  # baby blue
+        (255, 253, 208),  # butter
+        (200, 230, 201),  # mint
+        (225, 190, 231),  # lavender
+    ]
+    for _ in range(8):
+        overlay = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+        r       = rng.randint(300, 800)
+        x       = rng.randint(-200, width)
+        y       = rng.randint(-200, height)
+        bc      = rng.choice(bubble_palette)
+        ImageDraw.Draw(overlay).ellipse([x, y, x + r, y + r], fill=(*bc, 80))
+        overlay = overlay.filter(ImageFilter.GaussianBlur(radius=60))
+        canvas.paste(overlay, (0, 0), overlay)
 
-    lines    = wrap_text(draw, story["title"], title_font, max_w)
-    line_h   = 72
-    total_th = len(lines) * line_h
-    text_y   = panel_y + (panel_h - total_th - 55) // 2
+    # ── Subtle grain (editorial tactile feel) ─────────────────────────────────
+    noise = Image.effect_noise((width, height), 15).convert("RGBA")
+    noise.putalpha(13)   # ~5% opacity
+    canvas.paste(noise, (0, 0), noise)
 
-    for ln in lines:
-        bbox   = draw.textbbox((0, 0), ln, font=title_font)
-        text_w = bbox[2] - bbox[0]
-        x      = (W - text_w) // 2
-        # drop shadow
-        draw.text((x + 2, text_y + 2), ln, font=title_font, fill=(0, 0, 0, 110))
-        draw.text((x, text_y),         ln, font=title_font, fill=(255, 255, 255, 255))
-        text_y += line_h
+    # ── Layout zones ──────────────────────────────────────────────────────────
+    # Fixed zones prevent title/summary from ever overlapping:
+    #   [80px top pad] [TITLE zone 460px] [60px gap] [SUMMARY zone 540px] [counter 80px]
+    margin     = 100
+    text_w     = width - margin * 2
+    cx         = width // 2
+    text_color = (55, 55, 55)
+    muted      = (145, 145, 145)
 
-    # ── Source line ───────────────────────────────────────────────────────────
-    src       = story["source"]
-    src_bbox  = draw.textbbox((0, 0), src, font=source_font)
-    src_w     = src_bbox[2] - src_bbox[0]
-    draw.text(((W - src_w) // 2, H - 50), src,
-              font=source_font, fill=(175, 175, 200, 210))
+    title_top  = 80;   title_h  = 460
+    gap        = 60
+    summ_top   = title_top + title_h + gap
+    summ_h     = 540
+    counter_y  = summ_top + summ_h + 20
 
-    # ── Save as JPEG ──────────────────────────────────────────────────────────
-    img.convert("RGB").save(out_path, "JPEG", quality=95)
-    print(f"  ✓ {out_path.name}")
+    draw = ImageDraw.Draw(canvas)
+
+    # Title — uppercase, scaled to fit zone
+    t_font, t_lines, t_lh = fit_text_to_zone(
+        draw, story["title"].upper(), text_w,
+        zone_height=title_h, size_start=72, step=6)
+    draw_zone(draw, t_lines, t_font, t_lh, cx, title_top, title_h, text_color)
+
+    # Divider line between zones
+    div_y = title_top + title_h + gap // 2
+    draw.line([(cx - 60, div_y), (cx + 60, div_y)], fill=(*muted, 160), width=2)
+
+    # Summary — sentence case, scaled to fit zone
+    s_font, s_lines, s_lh = fit_text_to_zone(
+        draw, story["summary"], text_w,
+        zone_height=summ_h, size_start=42, step=4)
+    draw_zone(draw, s_lines, s_font, s_lh, cx, summ_top, summ_h, text_color)
+
+    # Progress counter (e.g. "1 / 3")
+    counter      = f"{index + 1} / {total}"
+    counter_bbox = draw.textbbox((0, 0), counter, font=get_font(30))
+    cw           = counter_bbox[2] - counter_bbox[0]
+    draw.text((cx - cw // 2, counter_y), counter, font=get_font(30), fill=muted)
+
+    # ── Save ──────────────────────────────────────────────────────────────────
+    canvas.save(output_path, "JPEG", quality=95)
+    print(f"  ✓ {output_path.name}")
 
 
 # ── GitHub Pages hosting ──────────────────────────────────────────────────────
