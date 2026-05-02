@@ -13,12 +13,15 @@ Export these env vars (or put them in a .env file and source it):
   IG_BUSINESS_ID    — Instagram Business Account ID
   DEFAULT_IG_TOPIC  — (optional) topic to post when none is given on CLI
                        defaults to "Health & Wellness"
+  KEEP_IMAGES       — (optional) set to 1/true/yes to skip cleanup and keep
+                       images in ig/ folder for later reposting
 
 Usage
 -----
   python3 post_to_instagram.py                        # uses DEFAULT_IG_TOPIC
   python3 post_to_instagram.py "Health & Wellness"
   python3 post_to_instagram.py "Pets & Wildlife"
+  KEEP_IMAGES=1 python3 post_to_instagram.py          # keep images for reposting
 """
 
 import json, os, sys, time, random, subprocess, requests
@@ -38,6 +41,7 @@ FONT_URL      = "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/
 IG_TOKEN      = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_BIZ_ID     = os.environ.get("IG_BUSINESS_ID", "")
 DEFAULT_TOPIC = os.environ.get("DEFAULT_IG_TOPIC", "Health & Wellness")
+KEEP_IMAGES   = os.environ.get("KEEP_IMAGES", "").lower() in ("1", "true", "yes")
 
 IMG_SIZE      = (1080, 1350)   # 4:5 portrait — optimal for Instagram feed
 IG_API        = "https://graph.facebook.com/v20.0"
@@ -390,9 +394,12 @@ def main() -> None:
         print(f"\n✅  Posted! Instagram media ID: {post_id}")
 
     finally:
-        # Always clean up, even if posting failed
-        print("\n🧹  Removing images from GitHub Pages …")
-        delete_images(img_paths, date)
+        if KEEP_IMAGES:
+            print("\n📦  Keeping images in ig/ folder (KEEP_IMAGES=1)")
+        else:
+            # Clean up unless KEEP_IMAGES is set
+            print("\n🧹  Removing images from GitHub Pages …")
+            delete_images(img_paths, date)
 
     print("\nDone.\n")
 
