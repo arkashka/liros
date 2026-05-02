@@ -165,12 +165,15 @@ def main() -> None:
             "  export IG_BUSINESS_ID='your_business_id'"
         )
 
-    # Find carousel images (jpg, jpeg, png)
-    img_files = sorted(
-        list(IG_IMG_DIR.glob("carousel*.jpg")) +
-        list(IG_IMG_DIR.glob("carousel*.jpeg")) +
-        list(IG_IMG_DIR.glob("carousel*.png"))
-    )
+    # Find carousel images (case-insensitive, any format)
+    # Look for files matching *arousel* (catches carousel/Carousel/CAROUSEL etc)
+    all_files = list(IG_IMG_DIR.glob("*arousel*.jpg"))
+    all_files += list(IG_IMG_DIR.glob("*arousel*.jpeg"))
+    all_files += list(IG_IMG_DIR.glob("*arousel*.png"))
+    all_files += list(IG_IMG_DIR.glob("*AROUSEL*.jpg"))
+    all_files += list(IG_IMG_DIR.glob("*AROUSEL*.jpeg"))
+    all_files += list(IG_IMG_DIR.glob("*AROUSEL*.png"))
+    img_files = sorted(set(all_files))  # Remove duplicates and sort
     if not img_files:
         sys.exit(f"No carousel*.jpg images found in {IG_IMG_DIR}")
 
