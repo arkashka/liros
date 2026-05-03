@@ -37,8 +37,68 @@ IG_API        = "https://graph.facebook.com/v20.0"
 
 # ── GitHub Pages hosting ──────────────────────────────────────────────────────
 def git(*args: str) -> None:
-    subprocess.run(["git", "-C", str(BASE), *args], check=True,
-                   capture_output=True, text=True)
+    result = subprocess.run(
+        ["git", "-C", str(BASE), *args],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        if result.stdout:
+            print(result.stdout, end="")
+        if result.stderr:
+            print(result.stderr, end="", file=sys.stderr)
+        raise subprocess.CalledProcessError(
+            result.returncode, result.args, result.stdout, result.stderr,
+        )
+
+
+def git_commit_if_changes(message: str) -> bool:
+    """Commit staged changes; return False (and don't fail) if nothing is staged."""
+    result = subprocess.run(
+        ["git", "-C", str(BASE), "diff", "--cached", "--quiet"],
+    )
+    if result.returncode == 0:
+        print(f"  Nothing to commit ({message!r}) — skipping")
+        return False
+    git("commit", "-m", message)
+    return True
+
+
+def list_tracked_in_ig() -> list[str]:
+    """Return repo-relative paths of files currently tracked under ig/ at HEAD."""
+    result = subprocess.run(
+        ["git", "-C", str(BASE), "ls-tree", "-r", "--name-only", "HEAD", "--", IG_IMG_SUBDIR],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        return []
+    return [line for line in result.stdout.splitlines() if line]
+
+
+def git_push(branch: str = "main") -> None:
+    """Push to origin/<branch>; if rejected due to non-fast-forward, rebase and retry once."""
+    try:
+        git("push", "origin", branch)
+    except subprocess.CalledProcessError as e:
+        stderr = (e.stderr or "")
+        if any(s in stderr for s in ("rejected", "fetch first", "non-fast-forward")):
+            print("  Remote has new commits — rebasing local commit on top …")
+            git("pull", "--rebase", "origin", branch)
+            git("push", "origin", branch)
+        else:
+            raise
+
+
+def clear_ig_on_github(keep=None) -> int:
+    """git-rm every tracked file under ig/, optionally keeping certain filenames.
+    Returns the number of files staged for deletion."""
+    keep = keep or set()
+    tracked = list_tracked_in_ig()
+    stale = [t for t in tracked if Path(t).name not in keep]
+    if stale:
+        # --ignore-unmatch keeps us from failing if a path is already gone from the
+        # working tree (we still want the deletion staged in the index).
+        git("rm", "-f", "--ignore-unmatch", "--", *stale)
+    return len(stale)
 
 
 def wait_for_url(url: str, timeout: int = 600, interval: int = 15) -> None:
@@ -179,12 +239,26 @@ def main() -> None:
 
     print(f"\n📸  Posting {len(img_files)} carousel images to Instagram\n")
 
-    # Ensure images are committed and pushed
-    print("🌐  Ensuring images are on GitHub Pages …")
+    # Ensure ig/ exists locally — it will be created on GitHub once we add files into it
+    IG_IMG_DIR.mkdir(parents=True, exist_ok=True)
+
+    # If ig/ on GitHub has anything that isn't part of this upload, wipe it first
+    print("🌐  Preparing ig/ on GitHub …")
+    new_filenames = {p.name for p in img_files}
+    removed = clear_ig_on_github(keep=new_filenames)
+    if removed:
+        print(f"  Removed {removed} stale file(s) from ig/")
+
+    # Stage the new carousel images
     git("add", *[str(p) for p in img_files])
-    git("commit", "-m", f"temp: carousel images for posting")
-    git("push", "origin", "main")
-    print("  Pushed to GitHub Pages")
+
+    committed = git_commit_if_changes("temp: refresh ig/ for carousel posting")
+    if committed:
+        print("  New images committed — pushing to GitHub Pages …")
+    else:
+        print("  No new commit needed — pushing any unpushed local commits …")
+    git_push("main")
+    print("  Pushed to GitHub Pages ✓")
 
     try:
         # Wait for GitHub Pages to propagate
@@ -199,14 +273,24 @@ def main() -> None:
         print(f"\n✅  Posted! Instagram media ID: {post_id}")
 
     finally:
-        # Always clean up, even if posting failed
-        print("\n🧹  Removing images from GitHub Pages …")
-        for p in img_files:
-            p.unlink(missing_ok=True)
-        git("add", str(IG_IMG_DIR))
-        git("commit", "-m", f"temp: remove carousel images")
-        git("push", "origin", "main")
-        print("  Cleaned up images from GitHub Pages")
+        # Remove images from GitHub and locally, but keep the ig/ folder via .gitkeep
+        print("\n🧹  Removing carousel images from ig/ …")
+        removed = clear_ig_on_github(keep={".gitkeep"})
+        # Delete local image files
+        if IG_IMG_DIR.exists():
+            for p in IG_IMG_DIR.iterdir():
+                if p.is_file() and p.name != ".gitkeep":
+                    p.unlink(missing_ok=True)
+        # Ensure ig/ exists locally and add .gitkeep so the empty folder persists on GitHub
+        IG_IMG_DIR.mkdir(parents=True, exist_ok=True)
+        gitkeep = IG_IMG_DIR / ".gitkeep"
+        gitkeep.touch(exist_ok=True)
+        git("add", "--", str(IG_IMG_DIR))
+        if git_commit_if_changes("temp: remove carousel images"):
+            git_push("main")
+            print(f"  Removed {removed} image(s); ig/ folder kept on GitHub Pages")
+        else:
+            print("  Nothing to clean up")
 
     print("\nDone.\n")
 

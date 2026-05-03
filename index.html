@@ -235,21 +235,21 @@
 
   <!-- Subtle view switcher — focus stays on the map -->
   <div class="view-tabs">
-    <button class="view-tab active" id="tab-regions" onclick="switchTab('regions')">🗺 Regions</button>
-    <button class="view-tab" id="tab-topics" onclick="switchTab('topics')">💡 Topics</button>
+    <button class="view-tab" id="tab-regions" onclick="switchTab('regions')">🗺 Regions</button>
+    <button class="view-tab active" id="tab-topics" onclick="switchTab('topics')">💡 Topics</button>
     <span class="view-tabs-spacer"></span>
-    <a id="rss-btn-regions" class="rss-btn" href="./feed-regions.xml" target="_blank" rel="noopener" title="Subscribe to Regions RSS feed">
+    <a id="rss-btn-regions" class="rss-btn" href="./feed-regions.xml" target="_blank" rel="noopener" title="Subscribe to Regions RSS feed" style="display:none">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
       RSS
     </a>
-    <a id="rss-btn-topics" class="rss-btn" href="./feed-topics.xml" target="_blank" rel="noopener" title="Subscribe to Topics RSS feed" style="display:none">
+    <a id="rss-btn-topics" class="rss-btn" href="./feed-topics.xml" target="_blank" rel="noopener" title="Subscribe to Topics RSS feed">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
       RSS
     </a>
   </div>
 
-  <!-- ── Regions view (default) ── -->
-  <div id="view-regions">
+  <!-- ── Regions view ── -->
+  <div id="view-regions" style="display:none">
     <div class="content-layout" id="content-layout">
       <section class="map-section" id="map-section">
         <div class="map-prompt" id="map-prompt">
@@ -262,8 +262,8 @@
     </div>
   </div>
 
-  <!-- ── Topics view ── -->
-  <div id="view-topics" style="display:none">
+  <!-- ── Topics view (default) ── -->
+  <div id="view-topics">
     <div class="content-layout" id="topics-layout">
       <div class="topics-grid" id="topics-grid"></div>
       <aside id="topic-panel-section" style="display:none"></aside>
@@ -710,7 +710,7 @@ function switchTopicPull(index) {
 /* ═══════════════════════════════════════════════════════════
    TAB SWITCHING
    ═══════════════════════════════════════════════════════════ */
-function switchTab(tab) {
+function switchTab(tab, { pushState = true } = {}) {
   const isRegions = tab === 'regions';
   document.getElementById('view-regions').style.display = isRegions ? '' : 'none';
   document.getElementById('view-topics').style.display  = isRegions ? 'none' : '';
@@ -718,7 +718,28 @@ function switchTab(tab) {
   document.getElementById('tab-topics').classList.toggle('active', !isRegions);
   document.getElementById('rss-btn-regions').style.display = isRegions ? '' : 'none';
   document.getElementById('rss-btn-topics').style.display  = isRegions ? 'none' : '';
+  if (pushState) {
+    const url = new URL(window.location);
+    if (isRegions) {
+      url.searchParams.set('view', 'regions');
+    } else {
+      url.searchParams.delete('view'); // topics is default — clean URL
+    }
+    history.pushState({ view: tab }, '', url);
+  }
 }
+
+// Read ?view= on load; default to topics
+(function initView() {
+  const param = new URLSearchParams(window.location.search).get('view');
+  const tab = param === 'regions' ? 'regions' : 'topics';
+  switchTab(tab, { pushState: false });
+})();
+
+window.addEventListener('popstate', (e) => {
+  const tab = (e.state && e.state.view) || 'topics';
+  switchTab(tab, { pushState: false });
+});
 
 /* ═══════════════════════════════════════════════════════════
    TOPICS RENDERING

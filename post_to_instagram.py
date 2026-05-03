@@ -40,7 +40,7 @@ FONT_URL      = "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/
 
 IG_TOKEN      = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_BIZ_ID     = os.environ.get("IG_BUSINESS_ID", "")
-DEFAULT_TOPIC = os.environ.get("DEFAULT_IG_TOPIC", "Health & Wellness")
+DEFAULT_TOPIC = os.environ.get("DEFAULT_IG_TOPIC", "Hapi News")
 KEEP_IMAGES   = os.environ.get("KEEP_IMAGES", "").lower() in ("1", "true", "yes")
 
 IMG_SIZE      = (1080, 1350)   # 4:5 portrait — optimal for Instagram feed
