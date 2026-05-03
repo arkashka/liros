@@ -2135,6 +2135,207 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-04-30",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "South Korea Posts Fastest Economic Growth in Five Years",
+              "summary": "South Korea's GDP expanded 1.7% in Q1 2026 — nearly double forecasts — driven by a 5.1% surge in semiconductor exports and strong business investment. Analysts raised the full-year 2026 growth outlook to 2.8%, signalling renewed economic confidence across the region.",
+              "source": "UPI",
+              "url": "https://www.upi.com/Top_News/World-News/2026/04/23/korea-South-Korea-GDP-growth-17-percent-Q1-semiconductor-exports-BOK/2241776929696/",
+              "date": "2026-04-23"
+            },
+            {
+              "title": "India Decriminalises 1,000+ Minor Offences to Ease Everyday Life",
+              "summary": "India's Parliament passed the Jan Vishwas Bill 2026, reclassifying more than 1,000 previously criminal offences across 79 laws as civil matters subject to fines rather than jail time. Up to 50 million pending cases could benefit, dramatically clearing court backlogs and boosting the ease of doing business.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/judicial-overhaul-in-india-decriminalizes-hundreds-of-offenses-that-previously-landed-you-in-prison/",
+              "date": "2026-04-28"
+            },
+            {
+              "title": "Kazakhstan and UAE Seal .64 Billion Clean Energy Partnership",
+              "summary": "Kazakhstan and the UAE deepened their cooperation with a .64 billion partnership centred on a 1 GW Masdar wind project in the Zhambyl Region — one of Central Asia's largest clean energy investments. The deal places the UAE among Kazakhstan's top five investors and signals a major pivot toward green infrastructure.",
+              "source": "The Astana Times",
+              "url": "https://astanatimes.com/2026/04/uae-investment-in-kazakhstan-hits-1-6-billion-as-renewables-take-focus/",
+              "date": "2026-04-27"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "India's Fast Breeder Reactor Achieves Historic First Criticality",
+              "summary": "India's 500 MW Prototype Fast Breeder Reactor at Kalpakkam reached its first self-sustaining nuclear reaction — a landmark in the country's three-stage programme toward thorium-based energy independence. The reactor is designed to breed more fuel than it consumes, potentially powering India for centuries.",
+              "source": "World Nuclear News",
+              "url": "https://www.world-nuclear-news.org/articles/first-criticality-for-indian-fast-breeder-reactor",
+              "date": "2026-04-07"
+            },
+            {
+              "title": "World's First Offshore Ocean Thermal Power Platform Switched On",
+              "summary": "UK company Global OTEC successfully installed the world's first purpose-built offshore platform generating electricity from ocean temperature differences, tested at Spain's Canary Islands. The breakthrough cuts the required pipe length by 80%, with potential to replace over 25 GW of fossil fuel power on tropical islands worldwide.",
+              "source": "Engineering & Technology Magazine",
+              "url": "https://eandt.theiet.org/2026/04/24/world-first-offshore-platform-turns-ocean-temperature-differences-electricity",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Falcon Heavy Completes Global Broadband Constellation With Flawless Launch",
+              "summary": "SpaceX's Falcon Heavy successfully launched the 6.6-tonne ViaSat-3 F3 satellite, completing a three-satellite global broadband constellation delivering over 1 terabit per second of new internet capacity to the Asia-Pacific. Both side boosters landed perfectly, marking the rocket's triumphant return after an 18-month gap.",
+              "source": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/04/29/spacex-launches-6-ton-viasat-3-f3-satellite-on-falcon-heavy-rocket/",
+              "date": "2026-04-29"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Wild Pangolins Bounce Back in Southern China After Six Years of Protection",
+              "summary": "Six years after China elevated the Chinese pangolin to its highest conservation tier, a new survey counts 1,778 individuals in Guangdong Province — a marked recovery for a species that had lost over 80% of its population. A dedicated national breeding centre has now been established to secure the species' future.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/chinese-pangolins-growing-steadily-in-the-wilds-of-southern-china-for-the-first-time-this-century/",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "Orkney's Stoat Eradication Brings Native Wildlife Roaring Back",
+              "summary": "Scotland's Orkney Native Wildlife Project has removed over 8,500 invasive stoats since 2019, and the results are extraordinary: Orkney vole activity is at its highest ever recorded spring level, hen harrier breeding is at a decade high, and short-eared owls have returned in force. Full eradication is expected by end of 2027.",
+              "source": "RSPB",
+              "url": "https://www.rspb.org.uk/whats-happening/news/orkney-conservation-sees-hen-harriers-double-and-orkney-voles-triple",
+              "date": "2026-04-10"
+            },
+            {
+              "title": "Tropical Forest Loss Fell by Over a Third in 2025",
+              "summary": "After hitting a record high in 2024, loss of primary tropical forest dropped by more than a third in 2025, driven largely by Brazil's sharp reduction in deforestation. Scientists called it one of the most encouraging environmental trends in years, offering real hope that the 2030 deforestation halt goal remains reachable.",
+              "source": "Climate and Economy",
+              "url": "https://climateandeconomy.com/2026/04/28/28th-april-2026-todays-round-up-of-climate-news/",
+              "date": "2026-04-28"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Algeria Becomes 29th Nation to Eradicate Trachoma",
+              "summary": "The World Health Organization officially validated Algeria's elimination of trachoma — the world's leading infectious cause of blindness — making it the 10th African nation and 29th globally to achieve this milestone. Decades of surgery, antibiotics, and sanitation improvements freed millions from this entirely preventable disease.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/23-04-2026-algeria-eliminates-trachoma-as-a-public-health-problem",
+              "date": "2026-04-23"
+            },
+            {
+              "title": "US Fast-Tracks Psychedelic Therapies to Help Veterans Heal",
+              "summary": "A new executive order directed the FDA to prioritise review of three psychedelic drugs showing breakthrough potential for PTSD and depression, backed by  million in research funding. Called the most significant federal action on psychedelics in US history, it opens a promising new frontier for mental health care.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/18/nx-s1-5789859/psychedelic-treatments-mental-health",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "WHO Approves World's First Malaria Treatment Designed for Newborns",
+              "summary": "The World Health Organization prequalified Coartem Baby, the first antimalarial ever developed specifically for infants weighing just 2–5 kg, closing a dangerous treatment gap that forced doctors to use adult-strength formulations on the smallest patients. The cherry-flavoured dispersible tablet is now available for global public procurement.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests",
+              "date": "2026-04-24"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Boston Marathon Runners Stop to Carry Collapsed Competitor to Finish",
+              "summary": "When Northwestern student Ajay Haridasse's legs gave out at mile 26, British runner Aaron Beggs and Brazil's Robson De Oliveira locked arms with him and carried him across the finish line, sacrificing their own times. The moment went globally viral as a celebration of sport at its most human.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/boston-marathon-runners-praised-for-stopping-to-help-injured-competitor-cross-finish-line-watch/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "3.8 Million US Students Compete in Poetry's National Championship",
+              "summary": "The 2026 Poetry Out Loud National Finals concluded in Washington, D.C., with Pennsylvania student Isavel Mendoza crowned National Champion. The program, which reaches 3.8 million students across all 50 states, gives young people the transformative experience of finding their voice through the power of spoken word.",
+              "source": "National Endowment for the Arts",
+              "url": "https://www.arts.gov/news/events/2026-poetry-out-loud-national-finals",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "Fela Kuti Is Africa's First Artist in the Rock Hall of Fame",
+              "summary": "Nigerian Afrobeat pioneer Fela Kuti was named to the Rock & Roll Hall of Fame Class of 2026, making him the first African artist ever to receive this honour. His politically charged, joyful music inspired generations — a long-overdue recognition crossing continents and decades.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/15/g-s1-117406/rock-roll-hall-of-fame-africa-fela-kuti",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Fela Kuti Is Africa's First Artist in the Rock Hall of Fame",
+              "summary": "Nigerian Afrobeat pioneer Fela Kuti was named to the Rock & Roll Hall of Fame Class of 2026, making him the first African artist ever to receive this honour. His politically charged, joyful music inspired generations — a long-overdue recognition crossing continents and decades.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/15/g-s1-117406/rock-roll-hall-of-fame-africa-fela-kuti",
+              "date": "2026-04-15"
+            },
+            {
+              "title": "3.8 Million US Students Compete in Poetry's National Championship",
+              "summary": "The 2026 Poetry Out Loud National Finals concluded in Washington, D.C., with Pennsylvania student Isavel Mendoza crowned National Champion. The program, which reaches 3.8 million students across all 50 states, gives young people the transformative experience of finding their voice through the power of spoken word.",
+              "source": "National Endowment for the Arts",
+              "url": "https://www.arts.gov/news/events/2026-poetry-out-loud-national-finals",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "PSG's 5–4 Champions League Thriller Is Called Soccer's Greatest Match",
+              "summary": "Paris Saint-Germain's stunning 5–4 victory over Bayern Munich set new goalscoring records for European club competition and sparked a global conversation about football's thrilling appeal. Commentators worldwide called it one of the greatest Champions League matches ever played — the kind of game that wins lifelong fans.",
+              "source": "U.S. News & World Report",
+              "url": "https://www.usnews.com/news/sports/articles/2026-04-29/psgs-high-scoring-win-over-bayern-could-be-the-game-that-changes-americas-attitude-to-soccer",
+              "date": "2026-04-29"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Boston Marathon Runners Stop to Carry Collapsed Competitor to Finish",
+              "summary": "When Northwestern student Ajay Haridasse's legs gave out at mile 26, British runner Aaron Beggs and Brazil's Robson De Oliveira locked arms with him and carried him across the finish line, sacrificing their own times. The moment went globally viral as a celebration of sport at its most human.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/boston-marathon-runners-praised-for-stopping-to-help-injured-competitor-cross-finish-line-watch/",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "India's Young Weightlifters Win Four Gold Medals at Pacific Championships",
+              "summary": "India's youth weightlifting team claimed four gold medals at the Commonwealth Youth Weightlifting Championships in Samoa, with Sunil Singh lifting 271 kg to take gold in the men's 65 kg category. The performance marks a shining chapter for South Asian youth athletes on a Pacific stage.",
+              "source": "Saachi Baat",
+              "url": "https://saachibaat.com/sports/trending-sports-news-29-april-2026/",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "Tigst Assefa Shatters Women's Marathon World Record Again in London",
+              "summary": "Ethiopian runner Tigst Assefa defended her London Marathon title and broke the women's-only world record with a time of 2:15:41. In the same race, three women broke 2:16 for the first time in history — a watershed moment for women's distance running celebrated around the world.",
+              "source": "London Marathon Events",
+              "url": "https://www.londonmarathonevents.co.uk/london-marathon/article/tigst-assefa-smashes-women-only-world-record-historic-tcs-london-marathon",
+              "date": "2026-04-26"
+            }
+          ]
+        }
+      }
     }
   ]
 }
