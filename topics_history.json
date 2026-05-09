@@ -2794,6 +2794,235 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-05-03",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "East Africa Hits 6% Growth, Fastest of Any African Sub-Region",
+              "summary": "East Africa is on track to grow at nearly 6% in 2026 — the fastest of any sub-region on the continent — led by Ethiopia and Kenya. Stable governance, green energy investment, and growing global confidence have made the region one of the world's most compelling economic stories.",
+              "source": "Cap Mada",
+              "url": "https://www.capmad.com/economy-en/record-growth-in-east-africa-6-in-2026-thanks-to-ethiopia-and-kenya/",
+              "date": "2026-02-15"
+            },
+            {
+              "title": "AI Chip Boom Lifts Taiwan and South Korea to Historic Market Highs",
+              "summary": "The global surge in AI infrastructure spending sent Taiwan and South Korea equities to record highs, with both nations capturing roughly 30% of all global AI capital expenditure. For these export-driven economies, the AI revolution is translating directly into record jobs, revenue, and innovation capacity.",
+              "source": "The Star",
+              "url": "https://www.thestar.com.my/business/business-news/2026/05/02/ai-chips-lift-taiwan-korea-equities",
+              "date": "2026-05-02"
+            },
+            {
+              "title": "Global Startup Funding Hits Record $297 Billion in Q1 2026",
+              "summary": "Global venture capital investment reached $297 billion in Q1 2026 — a 2.5x increase over the previous quarter and the highest first-quarter total ever recorded. The surge was powered by AI-native startups and deeptech breakthroughs, with strong momentum across the US, Europe, and Asia-Pacific.",
+              "source": "TechCrunch",
+              "url": "https://techcrunch.com/2026/04/01/startup-funding-shatters-all-records-in-q1/",
+              "date": "2026-04-01"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Artemis II Crew Sets Record as Farthest Humans From Earth in 55 Years",
+              "summary": "NASA's Artemis II crew of four — three Americans and one Canadian — flew 252,756 miles from Earth on April 6, surpassing the Apollo 13 distance record that had stood for 55 years. After a dramatic lunar flyby, all four crew members safely splashed down in the Pacific Ocean on April 10.",
+              "source": "NASA",
+              "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-eclipses-record-for-farthest-human-spaceflight/",
+              "date": "2026-04-10"
+            },
+            {
+              "title": "Brazilian Researchers Find Moringa Seeds Remove 98% of Microplastics",
+              "summary": "Scientists at UNESP in Brazil found that extract from moringa seeds — from a fast-growing, drought-resistant tree — removes 98.5% of microplastics from drinking water, outperforming standard chemical treatments. The biodegradable solution produces minimal sludge and could transform affordable water treatment in communities worldwide.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/21/miracle-tree-removes-98-of-microplastics-from-drinking-water-outperforming-chemical-altern",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Scientists Drill 523 Metres Into Antarctic Ice, Unlock 23 Million Years",
+              "summary": "A multinational team drilled the deepest-ever sediment core from beneath an Antarctic ice sheet, recovering 228 metres of ancient mud, rock, and marine fossils spanning 23 million years. The unprecedented record includes the first in-situ evidence of open-ocean conditions near the centre of West Antarctica, sharpening predictions of future sea level rise.",
+              "source": "Phys.org",
+              "url": "https://phys.org/news/2026-02-antarctic-drill-reveals-million-years.html",
+              "date": "2026-02-19"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Amsterdam Bans Fossil Fuel and Meat Ads — a World Capital First",
+              "summary": "From May 1, Amsterdam prohibited advertising for flights, petrol cars, gas heating, and meat products across all public spaces, becoming the first capital city in the world to enact such a sweeping climate advertising ban. Companies face fines of up to €100,000 for violations.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/02/06/amsterdam-to-enact-landmark-ban-on-fossil-fuel-and-meat-advertising-in-public-spaces",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Global Tropical Rainforest Loss Drops 36%, Brazil Leads the Way",
+              "summary": "A major World Resources Institute report published April 29 found that global tropical primary forest loss fell 36% in 2025, with Brazil hitting its lowest deforestation rate on record and Colombia achieving its second-best year since 2016. The data marks the most encouraging progress in a decade for the planet's most biodiverse places.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/29/tropical-forest-loss-slows-in-2025-after-record-year-report",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "New Zealand Hits Record 96% Clean Electricity in a Single Quarter",
+              "summary": "New Zealand generated 96.4% of its electricity from renewable sources in Q4 2025 — a record high — driven by strong hydro inflows and a 70% surge in solar output. Quarterly electricity emissions simultaneously fell to their lowest level on record, a powerful signal for other small nations eyeing a clean grid.",
+              "source": "New Zealand Ministry of Business, Innovation & Employment",
+              "url": "https://www.mbie.govt.nz/about/news/favourable-hydro-conditions-see-record-high-share-of-electricity-generation-from-renewables",
+              "date": "2026-03-15"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "UK Passes Law Banning Tobacco Sales for Anyone Born After 2008",
+              "summary": "The Tobacco and Vapes Act became law on April 22, making the UK the second country in the world to enact a generational smoking ban. Anyone born on or after January 1, 2009 will never legally be able to buy tobacco, with the government projecting 1.7 million fewer smokers by 2075.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/health/2026/04/22/uk-passes-landmark-anti-tobacco-bill-to-create-a-smoke-free-generation",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "988 Crisis Hotline Linked to 11% Drop in Teen Suicide Rates",
+              "summary": "A landmark JAMA study found that US teen and young adult suicides fell 11% in the two years after the 988 Suicide and Crisis Lifeline launched, representing over 4,300 lives saved. States with the highest call volumes saw an 18% reduction, underscoring the power of accessible, easy-to-remember mental health support.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/24/nx-s1-5797766/suicide-rates-have-declined-since-the-launch-of-988-suicide-hotline-study-finds",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Australia's 30-Year Women's Health Study Cracks the Endometriosis Puzzle",
+              "summary": "The Australian Longitudinal Study on Women's Health celebrated its 30th year with a breakthrough: researchers used three decades of data to create a simple 5-minute questionnaire that can detect endometriosis years earlier than current methods. The tool could transform care for the estimated 1 in 9 Australian women living with the condition.",
+              "source": "University of Queensland",
+              "url": "https://news.uq.edu.au/2026-04-australias-longest-running-womens-health-study-achieves-30-year-milestone",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Africa's First Binding Road Safety Law Enters Into Force",
+              "summary": "The African Road Safety Charter became legally binding on March 12 after Mozambique became the 15th nation to ratify it — the threshold needed for the charter to take effect. Adopted by African heads of state in 2016, the landmark law commits member nations to halving road fatalities and serious injuries by 2030.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-03-26"
+            },
+            {
+              "title": "Latin America Ends Nine Straight Years of Democracy Decline",
+              "summary": "The 2025 Economist Intelligence Unit Democracy Index found Latin America was the only region in the world to improve its overall democracy score last year, ending nine consecutive years of decline. More than half of the region's countries raised their scores, with youth-led political participation cited as a key driver.",
+              "source": "Christian Science Monitor",
+              "url": "https://www.csmonitor.com/Editorials/the-monitors-view/2026/0501/Latin-America-s-grip-on-democracy",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Global Terrorism Deaths Fall 28% to Lowest Level in Nearly 20 Years",
+              "summary": "The 2026 Global Terrorism Index found that terrorism-related deaths worldwide fell 28% in 2025, reaching the lowest level since 2007, with 81 countries recording improvements. The Sahel saw especially sharp declines, with Burkina Faso recording a 45% drop and Niger a 26% reduction in deaths.",
+              "source": "Vision of Humanity",
+              "url": "https://www.visionofhumanity.org/global-terrorism-falls-to-a-decade-low-but-western-fatalities-surge/",
+              "date": "2026-03-24"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Marina Abramović Makes History as First Living Woman at Venice's Accademia",
+              "summary": "Opening May 6 during the Venice Biennale, 'Transforming Energy' gives Marina Abramović the first major solo exhibition by a living woman artist at Venice's Gallerie dell'Accademia. Marking her 80th birthday, the show weaves iconic performance art into direct dialogue with the Renaissance masterworks already hanging in the museum.",
+              "source": "Domus Web",
+              "url": "https://www.domusweb.it/en/news/2026/04/28/abramovic-venice-biennale-2026-gallerie-accademia.html",
+              "date": "2026-04-28"
+            },
+            {
+              "title": "South Korea's Park Chan-wook to Lead Cannes 2026 Jury — a First",
+              "summary": "South Korean auteur Park Chan-wook has been named president of the main competition jury at the 2026 Cannes Film Festival, the first Asian filmmaker to hold the role in the festival's history. The 79th edition runs May 12–23, with a diverse official selection spanning fifteen countries.",
+              "source": "Screen Daily",
+              "url": "https://www.screendaily.com/news/cannes-unveils-2026-official-selection/5215494.article",
+              "date": "2026-04-14"
+            },
+            {
+              "title": "Eddie Murphy Receives Legendary 51st AFI Life Achievement Award",
+              "summary": "Eddie Murphy was honored with the 51st American Film Institute Life Achievement Award at a star-studded Hollywood gala, celebrating five decades of comedy, film, and performance. The event raised $2.5 million for AFI's nonprofit arts education programs, with a Netflix tribute special scheduled for May 31.",
+              "source": "The Source",
+              "url": "https://thesource.com/2026/04/21/eddie-murphy-afi-life-achievement-award-gala-2026/",
+              "date": "2026-04-21"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "World Athletics Relays Arrives in Africa for Historic First",
+              "summary": "Botswana's Gaborone hosted the World Athletics Relays for the first time on African soil, drawing 700 athletes from 40 nations to the Botswana National Stadium. Jamaica set a world record in the mixed 4×100m relay at the event, making it a landmark weekend for global athletics — and for the continent.",
+              "source": "World Athletics",
+              "url": "https://worldathletics.org/competitions/world-athletics-relays/gaborone26/news/press-releases/world-relays-milestone-global-celebration-africa",
+              "date": "2026-05-02"
+            },
+            {
+              "title": "Jamaica Breaks World Record in Mixed Relay at World Athletics Relays",
+              "summary": "Jamaica's mixed 4×100m team clocked 39.99 seconds at the World Athletics Relays in Gaborone, Botswana — the first team in history to crack 40 seconds and a new world record by 0.31 seconds. The achievement came on the same weekend Africa hosted the global relay championships for the very first time.",
+              "source": "Olympics.com",
+              "url": "https://www.olympics.com/en/news/jamaica-world-record-mixed-4x100m-relay-2026-world-athletics-relays-botswana",
+              "date": "2026-05-02"
+            },
+            {
+              "title": "New Zealand Qualify for 2027 Women's World Cup in Oceania Final",
+              "summary": "The Football Ferns secured their place at the 2027 FIFA Women's World Cup with a 1-0 win over Papua New Guinea in the Oceania qualifying final on April 15. PNG's impressive campaign — including a 1-0 win over American Samoa — earns them a path to the inter-continental playoff, keeping their World Cup hopes alive.",
+              "source": "Football Oceania",
+              "url": "https://footballoceania.com/2026/04/15/new-zealand-qualify-for-womens-world-cup/",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "Sumatran Orangutan Crosses Canopy Bridge in World Conservation First",
+              "summary": "After two years of waiting, conservationists in Indonesia finally captured footage of a Sumatran orangutan using a purpose-built canopy bridge to cross a road that had split its forest habitat in two. The crossing is a world first, offering real hope for the 350-strong population that had been split into two isolated groups.",
+              "source": "CBS News",
+              "url": "https://www.cbsnews.com/news/sumatra-orangutan-canopy-bridge-cross-road-indonesia-world-first/",
+              "date": "2026-04-27"
+            },
+            {
+              "title": "1,500 Beagles Rescued From Research Facility Head to New Homes",
+              "summary": "Animal welfare groups purchased 1,500 beagles from Ridglan Farms — a Wisconsin facility that bred dogs for scientific research — and launched a 10-day operation to transport them to rescue partners across the US. All 1,500 received medical checks and vaccinations before being matched with adoptive families.",
+              "source": "Live 5 News",
+              "url": "https://www.live5news.com/2026/05/01/1500-beagles-rescued-veterinary-research-facility-after-reaching-deal-with-animal-rescues/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Molly the Sea Turtle Returns to the Ocean After 22 Years in Ireland",
+              "summary": "After 22 years of patient rehabilitation at Dingle Oceanworld Aquarium, an endangered loggerhead sea turtle named Molly flew to Portugal on April 23 to be released into the warm Atlantic. Weighing a healthy 440 pounds and carrying eggs, her return gives hope for her endangered species — and for the science of marine veterinary care.",
+              "source": "RTÉ News",
+              "url": "https://www.rte.ie/news/regional/2026/0421/1569417-kerry-turtle/",
+              "date": "2026-04-21"
+            }
+          ]
+        }
+      }
     }
   ]
 }
