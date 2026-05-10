@@ -3023,6 +3023,235 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-05-05",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "Spiro Raises  Million to Bring Electric Motorcycles to Millions Across Africa",
+              "summary": "African e-mobility company Spiro secured  million to scale its battery-swapping network for electric motorcycles across Kenya, Uganda, Rwanda, Nigeria, and West Africa. With 80,000 bikes already on the road and 2,500 swap stations operating, Spiro is making clean affordable transport a daily reality for the motorcycle taxi drivers who power Africa's urban economies.",
+              "source": "CleanTechnica",
+              "url": "https://cleantechnica.com/2026/02/24/spiro-raises-50-million-as-demand-for-its-battery-swapping-infrastructure-evs-surges-across-africa/",
+              "date": "2026-02-24"
+            },
+            {
+              "title": "Brazil Tourism Hits Record 9.3 Million Visitors, With 11 Million Expected in 2026",
+              "summary": "Brazil welcomed 9.3 million international visitors in 2025, a 37% surge, and with 2.6 million arrivals in just the first two months of 2026 is on track to break 11 million this year. New air routes, relaxed visa policies, and the global pull of Carnival are transforming Brazil into one of the world's most exciting destinations.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/brazil-tourism-hits-record-9-3-million-visitors-why-safety-and-connectivity-drove-a-37-surge-in-2026/",
+              "date": "2026-04-01"
+            },
+            {
+              "title": "UK Reaches EV Tipping Point: New Electric Cars Now Cheaper Than Petrol on Average",
+              "summary": "For the first time in UK history, the average new electric car (42,620 GBP) costs less than the average new petrol car (43,405 GBP), per April 2026 Autotrader data. Sustained manufacturer discounts and competitive imports have driven this historic price crossover, making clean driving the economically rational choice for most buyers.",
+              "source": "Autotrader",
+              "url": "https://plc.autotrader.co.uk/news-views/press-releases/new-electric-cars-now-cheaper-than-petrol-on-average-for-the-first-time-says-autotrader/",
+              "date": "2026-04-20"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Novo Nordisk and OpenAI Partner to Fast-Track New Drugs for Obesity and Diabetes",
+              "summary": "Danish pharmaceutical giant Novo Nordisk has teamed up with OpenAI to embed AI across its entire drug discovery and manufacturing pipeline, aiming to dramatically shorten the time it takes to bring new obesity and diabetes treatments to patients. Full integration across all research and operations is planned by end of 2026.",
+              "source": "CNBC",
+              "url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+              "date": "2026-04-14"
+            },
+            {
+              "title": "Scientists Film Hydrothermal Chimneys at Antarctic Ocean Depths for the First Time",
+              "summary": "Researchers have captured the first direct footage of massive hydrothermal chimney structures, smokestack-like vents releasing super-hot mineral-rich water, more than 4,000 feet below the Antarctic ocean surface. The world-first recordings open a new chapter in understanding the extreme deep-sea ecosystems that thrive in permanent darkness at Earth's coldest frontier.",
+              "source": "Tech Science Today",
+              "url": "https://www.techsciencetoday.com/science/researchers-in-antarctica-observe-massive-structures-at-depths-of-over-4000-feet-challenging/21097",
+              "date": "2026-04-28"
+            },
+            {
+              "title": "Ancient Antarctic Ice Unlocks a 3-Million-Year Climate Mystery",
+              "summary": "Scientists analyzing 3-million-year-old Antarctic ice cores found that while Earth cooled dramatically in that era, greenhouse gas levels changed only modestly, suggesting ice sheet dynamics and ocean circulation were the dominant climate drivers. The discovery rewrites key assumptions about what shapes Earth's long-term climate and will sharpen future climate models.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/04/260423031552.htm",
+              "date": "2026-04-23"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Colombia Hosts World's First Conference Dedicated to Phasing Out Fossil Fuels",
+              "summary": "More than 50 countries gathered in Santa Marta, Colombia on April 28-29 for the world's first dedicated high-level conference on transitioning away from oil, gas, and coal. Co-hosted by Colombia and the Netherlands, the summit shifted the global climate conversation from debate to concrete phaseout planning for the first time.",
+              "source": "Foreign Policy",
+              "url": "https://foreignpolicy.com/2026/05/01/santa-marta-climate-conference-fossil-fuels-colombia-netherlands-un-cop/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Portugal Generates 80.7% of Its Electricity From Renewables, Tops the EU",
+              "summary": "Portugal generated over 80% of its electricity from hydro, wind, and solar in January 2026, placing first in the EU and saving an estimated 703 million euros compared to relying on natural gas. The country is now on a clear path to near-complete grid decarbonisation and is one of Europe's great clean energy success stories.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/02/12/portugal-tops-eu-leaderboard-as-over-80-of-electricity-in-january-came-from-renewables",
+              "date": "2026-02-12"
+            },
+            {
+              "title": "South Korea's Borim Kim Wins Green Nobel for Asia's First Youth Climate Court Victory",
+              "summary": "Borim Kim, 31, received the 2026 Goldman Environmental Prize for organizing Asia's first successful constitutional climate case, forcing South Korea's government to set legally binding emissions targets — a ruling expected to prevent up to 2,100 million tonnes of CO2. She is the first Goldman winner from a victorious youth climate litigation case in Asia.",
+              "source": "Goldman Environmental Prize",
+              "url": "https://www.goldmanprize.org/recipient/borim-kim/",
+              "date": "2026-04-21"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Algeria Eliminates Trachoma — the World's Leading Infectious Cause of Blindness",
+              "summary": "The World Health Organization has certified Algeria as having eliminated trachoma as a public health problem, making it the 29th country globally and 10th in Africa to reach this milestone. Years of targeted surgery, mass antibiotic treatment, and improved access to clean water have freed millions from the threat of preventable blindness.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/23-04-2026-algeria-eliminates-trachoma-as-a-public-health-problem",
+              "date": "2026-04-23"
+            },
+            {
+              "title": "Three EU Countries Hit 90% HPV Vaccination Rate, Making Cervical Cancer Elimination Achievable",
+              "summary": "During European Immunization Week 2026, the ECDC announced Iceland, Portugal, and Norway have achieved 90% HPV vaccination coverage among girls by age 15, meeting the EU's ambitious target. Health experts say eliminating cervical cancer across Europe, a disease affecting 35,000 women a year, is now a genuinely achievable goal within a generation.",
+              "source": "ECDC",
+              "url": "https://www.ecdc.europa.eu/en/news-events/every-generation-vaccines-work-three-countries-reach-90-hpv-vaccination-target-europe",
+              "date": "2026-04-27"
+            },
+            {
+              "title": "Novo Nordisk and OpenAI Partner to Fast-Track New Drugs for Obesity and Diabetes",
+              "summary": "Danish pharmaceutical giant Novo Nordisk has teamed up with OpenAI to embed AI across its entire drug discovery and manufacturing pipeline, aiming to dramatically shorten the time it takes to bring new obesity and diabetes treatments to patients. Full integration across all research and operations is planned by end of 2026.",
+              "source": "CNBC",
+              "url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+              "date": "2026-04-14"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Philadelphia History Teacher Leon Smith Named 2026 National Teacher of the Year",
+              "summary": "Leon Smith, who has spent 25 years teaching AP US History and African American Studies at Haverford High School, was named America's National Teacher of the Year. Known as a warm demander who combines high expectations with deep student care, he brought the first-ever AP African American Studies course to his school district.",
+              "source": "CCSSO",
+              "url": "https://ccsso.org/press-releases/pennsylvania-history-teacher-named-2026-national-teacher-year",
+              "date": "2026-04-21"
+            },
+            {
+              "title": "Pacific Island Nations Secure  Million From US Fishing Agreement",
+              "summary": "Pacific Island nations confirmed the distribution of US million from the US government and fishing industry under their multilateral fisheries treaty, providing vital income for island communities. The deal reaffirms the Pacific nations' sovereignty over some of the world's most productive tuna fishing grounds, confirmed at a special meeting in Wellington on May 4.",
+              "source": "Pacific Islands Forum Fisheries Agency",
+              "url": "https://www.ffa.int/2026/05/pacific-island-parties-confirm-distribution-of-the-second-us60-million-2025-payment-and-us-fishing-industry-first-payment-for-2026/",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "Colombia Hosts World's First Conference Dedicated to Phasing Out Fossil Fuels",
+              "summary": "More than 50 countries gathered in Santa Marta, Colombia on April 28-29 for the world's first dedicated high-level conference on transitioning away from oil, gas, and coal. Co-hosted by Colombia and the Netherlands, the summit shifted the global climate conversation from debate to concrete phaseout planning for the first time.",
+              "source": "Foreign Policy",
+              "url": "https://foreignpolicy.com/2026/05/01/santa-marta-climate-conference-fossil-fuels-colombia-netherlands-un-cop/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Wu Yize Wins World Snooker Title in Epic Final-Frame Thriller",
+              "summary": "China's 22-year-old prodigy Wu Yize came from behind to beat Shaun Murphy 18-17 in one of the Crucible's most thrilling finals, producing a brilliant 85-point break under pressure in the decider. He is the first world snooker champion born in the 2000s and only the second Chinese player ever to lift the sport's biggest prize.",
+              "source": "SnookerHQ",
+              "url": "https://snookerhq.com/2026/05/05/wu-yize-world-snooker-champion-2026/",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "Cannes Film Festival Opens With Record 2,541 Films From 141 Countries",
+              "summary": "The 79th Cannes Film Festival received a record 2,541 feature submissions from 141 nations, the most global lineup in the festival's history and approaching Olympic-level international participation. New films by Pedro Almodovar, Hirokazu Kore-eda, and Asghar Farhadi lead a competition presided over by Korean auteur Park Chan-wook.",
+              "source": "Variety",
+              "url": "https://variety.com/2026/film/festivals/cannes-film-festival-2026-lineup-1236711319/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "Cherie DeVaux Makes History as First Woman to Train a Kentucky Derby Winner",
+              "summary": "Golden Tempo stormed from 18th to first in the final furlong at Churchill Downs on May 2, making trainer Cherie DeVaux the first woman in the 152-year history of the Kentucky Derby to claim the roses. The 23-1 outsider's dramatic late surge capped one of the race's most emotional and inspiring finishes.",
+              "source": "NBC News",
+              "url": "https://www.nbcnews.com/sports/horse-racing/kentucky-derby-results-golden-tempo-cherie-devaux-rcna343273",
+              "date": "2026-05-02"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Botswana Wins Historic 4x400m on Home Soil at World Athletics Relays",
+              "summary": "Host nation Botswana thrilled their Gaborone crowd by clocking the third-fastest men's 4x400m relay in history (2:54.47), with Olympic champion Letsile Tebogo anchoring the squad to victory. South Africa's Lythe Pillay ran the fastest individual relay split ever recorded (42.66 seconds), making it a landmark day for African athletics.",
+              "source": "World Athletics",
+              "url": "https://worldathletics.org/competitions/world-athletics-relays/gaborone26/news/report/gaborone-26-report-men-4x400m-final",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "South Korea Stuns Defending Champions China at World Table Tennis Championships",
+              "summary": "In one of the sport's biggest upsets, South Korea's men's team defeated reigning world champions China 3-1 at the ITTF World Team Table Tennis Championships in London. The shock result came the same day Sweden also defeated China, sending the defending champions into an extraordinary double defeat at Wembley Arena.",
+              "source": "ITTF",
+              "url": "https://www.ittf.com/2026/05/03/london-2026-moves-to-wembley-as-korea-republic-stun-china-on-day-5/",
+              "date": "2026-05-03"
+            },
+            {
+              "title": "Cherie DeVaux Makes History as First Woman to Train a Kentucky Derby Winner",
+              "summary": "Golden Tempo stormed from 18th to first in the final furlong at Churchill Downs on May 2, making trainer Cherie DeVaux the first woman in the 152-year history of the Kentucky Derby to claim the roses. The 23-1 outsider's dramatic late surge capped one of the race's most emotional and inspiring finishes.",
+              "source": "NBC News",
+              "url": "https://www.nbcnews.com/sports/horse-racing/kentucky-derby-results-golden-tempo-cherie-devaux-rcna343273",
+              "date": "2026-05-02"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "North Atlantic Right Whales Have Best Calving Season in 17 Years",
+              "summary": "Scientists recorded 23 mother-and-calf pairs during the 2025-26 calving season, the fourth-highest total ever and the highest since 2009 for this critically endangered species of roughly 380 individuals. Researchers at the New England Aquarium report encouraging signs of improving reproductive health, with females calving more frequently than in recent years.",
+              "source": "NOAA Fisheries",
+              "url": "https://www.fisheries.noaa.gov/feature-story/numbers-2026-north-atlantic-right-whale-calving-season",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "Galapagos Rail Bird Reappears on Floreana Island After Nearly 200 Years",
+              "summary": "The Galapagos rail, a bird Charles Darwin observed on Floreana Island in 1835 but absent from records for nearly two centuries, has been rediscovered following the successful removal of invasive predators. Six acoustic recordings and a photograph confirm the species has returned on its own, marking a thrilling moment for island restoration science.",
+              "source": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/missing-for-200-years-the-galapagos-rail-reappears-following-floreana-island-restoration/",
+              "date": "2026-02-15"
+            },
+            {
+              "title": "UK Government Pledges 1 Million Pounds to Bring Golden Eagles Back to England",
+              "summary": "For the first time in over 150 years, golden eagles could soar over English skies again: the UK government committed 1 million pounds to fund a reintroduction feasibility programme across eight identified recovery zones in northern England. Scottish eagles are already naturally crossing the border, suggesting the land may be ready to welcome them home.",
+              "source": "GOV.UK",
+              "url": "https://www.gov.uk/government/news/iconic-golden-eagles-to-make-comeback-in-england",
+              "date": "2026-04-12"
+            }
+          ]
+        }
+      }
     }
   ]
 }
