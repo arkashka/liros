@@ -1,6 +1,193 @@
 {
   "pulls": [
     {
+      "date": "2026-05-12",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "title": "Kenya and France Seal 11 Landmark Deals on Rail, Energy, and Digital",
+              "summary": "Presidents Ruto and Macron signed 11 sweeping agreements including a KSh 12.5 billion modernisation of Nairobi commuter rail and a KSh 104 billion joint logistics venture. The deals also span renewable energy, cybersecurity, and blue economy cooperation.",
+              "source": "Capital FM Kenya",
+              "url": "https://www.capitalfm.co.ke/business/2026/05/kenya-france-sign-11-deals-on-rail-ports-energy-and-digital-economy/",
+              "date": "2026-05-11"
+            },
+            {
+              "title": "Africa's First-Ever Road Safety Charter Enters Into Force",
+              "summary": "After 15 African Union nations ratified it, the continent's historic Road Safety Charter came into force, committing member states to halve road fatalities by 2030. Nigeria has already recorded a 12% drop in road deaths in Q1 2026.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-03-26"
+            },
+            {
+              "title": "Africa's Economy Set to Outpace Asia's for First Time Ever",
+              "summary": "The IMF projects Sub-Saharan Africa will grow 4.4% in 2026, edging past Asia's 4.1% for the first time in modern history. The surge is driven by a booming youth population, strong commodity prices, and a wave of youth-led tech startups attracting global investment.",
+              "source": "Spotlight in Africa",
+              "url": "https://www.spotlightinafrica.com/post/africa-s-economy-to-expand-by-4-4-ahead-of-asia-s-4-1-imf-says",
+              "date": "2026-02-23"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "title": "Asian Development Bank Pledges $70 Billion for Clean Energy and Digital Access",
+              "summary": "ADB's bold new initiative will connect 200 million people to clean power through cross-border renewable grids, and build AI-ready digital highways across Asia-Pacific by 2035 — creating 840,000 jobs and cutting regional power emissions by 15%.",
+              "source": "Asian Development Bank",
+              "url": "https://www.adb.org/news/adb-launches-70-billion-push-connect-asia-power-grids-digital-networks",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "India and Japan Unite on Quantum Technology and Health Research",
+              "summary": "Ministers from both nations signed cooperation agreements in quantum computing, AI, and medical devices in New Delhi, combining Japan's robotics expertise with India's data science capabilities in a frontier-tech partnership set to shape the next wave of innovation.",
+              "source": "The Tribune India",
+              "url": "https://www.tribuneindia.com/news/business/india-japan-sign-agreements-in-quantum-technology-health-research-cooperation/",
+              "date": "2026-05-09"
+            },
+            {
+              "title": "36th Macao Arts Festival Opens Celebrating East-West Cultural Dialogue",
+              "summary": "The beloved Macao Arts Festival launched its 36th edition on May 8, gathering artists from across Asia and the world for performances, exhibitions, and cross-cultural collaborations that transform the historic UNESCO-listed city into a living stage.",
+              "source": "Guangming Online",
+              "url": "https://en.gmw.cn/2026-05/09/content_38754599.htm",
+              "date": "2026-05-09"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "title": "Prague and Copenhagen Reunited by Direct Train After a Decade Apart",
+              "summary": "Czech Railways launched daily ComfortJet services connecting Prague to Copenhagen via Berlin and Hamburg on May 1, restoring a link missing for over ten years. The 230 kph trains make the journey in 13 hours and feature restaurant cars, Wi-Fi, and a children's cinema.",
+              "source": "České dráhy",
+              "url": "https://ceskedrahy.cz/en/press-center/press-releases/comfortjet-trains-prague-copenhagen-ceske-drahy-launch-direct-train",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "European Bison Released in Spain's Iberian Highlands for the First Time",
+              "summary": "Nine European bison were released into Spain's Iberian Highlands, marking a historic first for the species in Iberia. Europe's bison population has surged from just 2,500 to around 9,000 over the past decade, a stunning conservation comeback across the continent.",
+              "source": "Rewilding Europe",
+              "url": "https://rewildingeurope.com/news/european-bison-arrive-in-the-iberian-highlands-for-the-first-time/",
+              "date": "2026-03-20"
+            },
+            {
+              "title": "PSG Reach Champions League Final Against Arsenal After Beating Bayern",
+              "summary": "Defending champions Paris Saint-Germain defeated Bayern Munich to set up a glamour Champions League final against Arsenal at Budapest's Puskás Aréna on May 30. The all-or-nothing clash promises one of the most captivating finals in years.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/2026/5/6/holders-psg-beat-bayern-munich-to-reach-champions-league-final-with-arsenal",
+              "date": "2026-05-06"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "title": "Georgia Invests $70 Million to Put Literacy Coaches in Every Elementary School",
+              "summary": "Governor Kemp signed the Georgia Early Literacy Act of 2026, deploying 1,300 dedicated literacy coaches to all K-3 public schools statewide. The $70 million investment also expands kindergarten access and creates a task force to strengthen early reading outcomes.",
+              "source": "Governor Brian P. Kemp's Office",
+              "url": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "Canada and Mexico Forge Stronger Ties With 10+ New Trade Agreements",
+              "summary": "A Mexican trade mission to Toronto and Montréal resulted in over 10 MOUs spanning life sciences, agrifood, education, and creative industries. Highlights include Grupo Bimbo's CA$200 million investment to modernise its Canadian bakeries, deepening North American resilience.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/global-affairs/news/2026/05/joint-statement-following-the-conclusion-of-mexicos-trade-mission-to-canada-toronto-and-montreal--may-6-8-2026.html",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Blight-Resistant American Chestnut Trees Planted at the White House",
+              "summary": "On Arbor Day, the National Park Service planted blight-tolerant American chestnut trees at the White House — a landmark in efforts to restore a species nearly wiped from 200 million acres of eastern forest by an imported Asian blight a century ago.",
+              "source": "University of New England",
+              "url": "https://www.une.edu/news/2026/une-researchers-chestnut-trees-planted-presidents-park-conservation-milestone",
+              "date": "2026-04-24"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "title": "Colombia's Amazon Deforestation Falls 25% for Second Consecutive Year",
+              "summary": "Colombia logged one of its lowest deforestation totals since 2016, with primary forest loss dropping 25% in 2025 thanks to Indigenous-led land governance, the Conservar Paga payment program supporting 5,500+ families, and expanded Amazon ecotourism.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/01/colombia-poised-for-another-drop-in-deforestation-in-2025-data-show/",
+              "date": "2026-01-15"
+            },
+            {
+              "title": "Argentina's Economy Rebounds 4.4% as Reforms Tame Decades-High Inflation",
+              "summary": "After a sharp 2024 contraction, Argentina grew 4.4% in 2025, driven by a 16% investment surge and rising exports. Inflation has fallen from a peak of 290% to around 33%, restoring household purchasing power and drawing renewed global investor interest.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/argentina-economy-2026-guide/",
+              "date": "2026-04-01"
+            },
+            {
+              "title": "28 New Deep-Sea Species Found Alongside World's Largest Cold-Water Coral Reef Off Argentina",
+              "summary": "Scientists aboard the R/V Falkor discovered 28 potential new species — including worms, urchins, and anemones — plus the world's largest known Bathelia candida coral reef, roughly the size of Vatican City, in Argentina's remote deep Atlantic waters.",
+              "source": "Schmidt Ocean Institute",
+              "url": "https://schmidtocean.org/argentinas-deep-sea-is-more-biodiverse-than-scientists-thought/",
+              "date": "2026-02-10"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "title": "WHO Validates Australia as First High-Income Nation to Eliminate Trachoma",
+              "summary": "Australia has officially eradicated trachoma — the world's leading infectious cause of blindness — becoming the 30th country globally and first wealthy nation to earn WHO validation. Decades of partnership with Aboriginal and Torres Strait Islander communities made it possible.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "New Zealand Launches Most Significant Conservation Overhaul in 40 Years",
+              "summary": "New Zealand's Conservation Amendment Bill — the biggest reform to conservation law since 1987 — will streamline decisions, support economic growth, and give communities stronger tools to protect native species, habitats, and the natural heritage Kiwis cherish.",
+              "source": "Community Scoop NZ",
+              "url": "https://community.scoop.co.nz/2026/05/landmark-conservation-reform-bill-will-boost-economy-and-protect-nature/",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "Marshall Islands New Aircraft Opens a Lifeline to Remote Island Communities",
+              "summary": "The Marshall Islands welcomed its first Cessna SkyCourier, carrying 5,000 lbs more cargo than the aging Dornier it replaces. President Heine called it a new chapter — ensuring outer-island families can reach medical care, students can travel for education, and essential goods flow.",
+              "source": "Pacific Scoop",
+              "url": "https://pacific.scoop.co.nz/2026/05/marshall-islands-welcomes-first-of-2-new-us-made-planes/",
+              "date": "2026-05-08"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "title": "NASA Confirms Southern Ocean Is a More Powerful Carbon Sink Than We Thought",
+              "summary": "New aircraft measurements confirm the frigid Southern Ocean absorbs significantly more atmospheric CO₂ than climate models previously estimated, revealing a vital natural buffer against global warming that scientists are now working to better protect and monitor.",
+              "source": "NASA Earth Observatory",
+              "url": "https://earthobservatory.nasa.gov/images/149274/study-confirms-southern-ocean-is-absorbing-carbon",
+              "date": "2026-01-20"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-05-10",
       "regions": {
         "Africa": {
@@ -369,193 +556,6 @@
               "source": "Oregon State University",
               "url": "https://news.oregonstate.edu/news/six-million-year-old-ice-discovered-antarctica-offers-unprecedented-window-warmer-earth",
               "date": "2026-04-15"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-05-07",
-      "regions": {
-        "Africa": {
-          "emoji": "🌍",
-          "color": "#FF6B35",
-          "tagline": "A continent rising with energy and hope",
-          "stories": [
-            {
-              "title": "South Africa Set for Record Clean Energy Investment in 2026",
-              "summary": "South Africa is on track for a record 5,252 MW of renewable energy and battery storage investment closures in 2026 — the highest single-year total in its history. Eight projects worth 1,932 MW had already closed by April 30 with 26 more in the pipeline. The milestone also coincides with over 300 consecutive days without power blackouts.",
-              "source": "SolarQuarter / Engineering News",
-              "url": "https://solarquarter.com/2026/05/05/south-africa-set-for-record-renewable-energy-and-battery-storage-growth-in-2026/",
-              "date": "2026-05-05"
-            },
-            {
-              "title": "Artscape Theatre Cape Town Marks 55 Years as a Place for All",
-              "summary": "Cape Town's Artscape Theatre is celebrating 55 years with the theme 'A Place for All,' honouring its transformation from a racially segregated apartheid venue to one of Africa's most inclusive performing arts centres. Free school concerts and a community photograph on May 19 open a year-long celebration, closing with a gala in November.",
-              "source": "IOL / Weekend Argus",
-              "url": "https://iol.co.za/weekend-argus/entertainment/2026-05-02-celebrating-55-years-of-artscape-a-journey-from-exclusion-to-inclusion/",
-              "date": "2026-05-02"
-            },
-            {
-              "title": "Cape Vultures Return to South Africa's Eastern Cape After 30 Years",
-              "summary": "Eighty-five Cape Vultures were spotted on an Eastern Cape farm — the first confirmed sighting in over 30 years — the result of Vulpro's decades of captive breeding and veterinary care with a 75% survival rate. The species has been downlisted from Endangered to Vulnerable, and conservation safe zones are being standardised across Southern Africa.",
-              "source": "Good Things Guy / Vulpro",
-              "url": "https://www.goodthingsguy.com/environment/breaking-news-first-wild-cape-vulture-sighting-in-over-30-years-a-hopeful-sign-for-conservation/",
-              "date": "2026-05-01"
-            }
-          ]
-        },
-        "Asia": {
-          "emoji": "🌏",
-          "color": "#FFB700",
-          "tagline": "Ancient wisdom, modern breakthroughs",
-          "stories": [
-            {
-              "title": "India and Japan Sign Landmark Quantum Science and Health Pacts",
-              "summary": "India and Japan signed a Letter of Intent on Quantum Science and Technology cooperation and a health and medical devices memorandum, linking India's National Quantum Mission with Japan's world-leading research institutions. The agreements include expanded researcher exchange programmes and joint innovation platforms, deepening ties between Asia's two technology powerhouses.",
-              "source": "ANI News / Business Standard",
-              "url": "https://aninews.in/news/world/asia/india-japan-deepen-tech-ties-sign-pact-on-medical-devices-quantum-science-cooperation20260507051748/",
-              "date": "2026-05-07"
-            },
-            {
-              "title": "Another Vietnamese Province Becomes Free of Bear Bile Farming",
-              "summary": "Animals Asia announced that another Vietnamese province has become free of bear bile farming after the rescue of Misa, a moon bear held captive for over 25 years. Vietnam's commitment to end bile farming by 2026 has driven bear numbers in captivity from 4,300 in 2005 to around 200 today — a 95% reduction.",
-              "source": "Animals Asia",
-              "url": "https://www.animalsasia.org/another-vietnamese-province-becomes-bear-bile-farming-free/",
-              "date": "2026-03-15"
-            },
-            {
-              "title": "Malaysia Sets Southeast Asia Record with 10 Million Q1 Tourists",
-              "summary": "Malaysia welcomed over 10 million international visitors in Q1 2026 — a record-breaking first and the highest quarterly total in Southeast Asia. Chinese arrivals rose 22.7% year-on-year, fuelled by Malaysia's expanded visa-free policies and improved air connectivity, placing it ahead of Thailand and Vietnam as the region's most-visited country for the quarter.",
-              "source": "Travel and Tour World",
-              "url": "https://www.travelandtourworld.com/news/article/malaysia-overtakes-thailand-vietnam-south-korea-singapore-china-india-and-more-as-it-welcomed-over-ten-million-tourists-in-q1-2026-setting-a-new-record-for-arrivals-in-southeast-asia/",
-              "date": "2026-05-03"
-            }
-          ]
-        },
-        "Europe": {
-          "emoji": "🌍",
-          "color": "#44BBA4",
-          "tagline": "Green, resilient, and reaching for the future",
-          "stories": [
-            {
-              "title": "UK Bowel Cancer Trial Shows Zero Relapses in Three Years With Immunotherapy",
-              "summary": "All 32 patients in the NEOPRISM-CRC trial who received nine weeks of pembrolizumab immunotherapy for bowel cancer before surgery have remained cancer-free for nearly three years — zero relapses. Presented at AACR 2026, the results challenge the standard surgery-first model and could transform treatment for one of the world's most common cancers.",
-              "source": "ScienceDaily / UCL",
-              "url": "https://www.sciencedaily.com/releases/2026/05/260505234618.htm",
-              "date": "2026-05-05"
-            },
-            {
-              "title": "Scotland's Wildcats Are Thriving in Cairngorms With Wild Litters Confirmed",
-              "summary": "Scotland's wildcat reintroduction programme has reached a historic milestone, with at least nine litters confirmed born in Cairngorms National Park since releases began in 2023. Once considered functionally extinct for decades, breeding pairs are firmly established — and four kittens bred in 2025 are ready for 2026 release.",
-              "source": "Rewilding Europe / Saving Wildcats",
-              "url": "https://rewildingeurope.com/news/released-wildcats-thriving-in-the-scottish-highlands/",
-              "date": "2026-05-01"
-            },
-            {
-              "title": "V&A East Museum Opens in London's Olympic Park — Free for All",
-              "summary": "The V&A East Museum opened in London's Queen Elizabeth Olympic Park, bringing 500+ objects from the Victoria & Albert collection to East London through free permanent galleries. Its inaugural exhibition, 'The Music is Black: A British Story,' traces 125 years of Black British music, anchoring a major cultural regeneration of the 2012 Olympic site.",
-              "source": "Time Out London / V&A",
-              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
-              "date": "2026-04-18"
-            }
-          ]
-        },
-        "North America": {
-          "emoji": "🌎",
-          "color": "#E94F8B",
-          "tagline": "Bold dreams, bigger firsts",
-          "stories": [
-            {
-              "title": "Pancreatic Cancer Drug Daraxonrasib Nearly Doubles Survival in NEJM Trial",
-              "summary": "Revolution Medicines published NEJM data showing daraxonrasib nearly doubled median survival for metastatic pancreatic cancer patients — 15.6 months versus 6.7 months on chemotherapy. Since 90% of pancreatic cancers carry RAS mutations, this targeted therapy could benefit the vast majority of the 60,000 Americans diagnosed each year, with an FDA fast-track application already filed.",
-              "source": "GlobeNewswire / New England Journal of Medicine",
-              "url": "https://www.globenewswire.com/news-release/2026/05/06/3289496/0/en/Revolution-Medicines-Announces-Publication-in-New-England-Journal-of-Medicine-of-Phase-1-2-Clinical-Data-on-Daraxonrasib-in-Pancreatic-Cancer.html",
-              "date": "2026-05-06"
-            },
-            {
-              "title": "Injectable Biomaterial Heals Heart Attack Tissue Through the Bloodstream",
-              "summary": "UC San Diego engineers developed an injectable biomaterial that travels through the bloodstream to repair heart attack damage from within — no surgery, just an IV. Tested successfully in both rodents and large animals, it reduces inflammation and jumpstarts tissue repair. Human trials are expected to begin within two years.",
-              "source": "ScienceDaily / UC San Diego",
-              "url": "https://www.sciencedaily.com/releases/2026/05/260504211842.htm",
-              "date": "2026-05-04"
-            },
-            {
-              "title": "Green Sea Turtle Upgraded From Endangered to Least Concern by IUCN",
-              "summary": "The green sea turtle has been reclassified from Endangered to Least Concern on the IUCN Red List, following a 28% rebound in global nesting populations. Decades of protected beaches, turtle excluder devices in fishing nets, and reduced poaching drove the recovery — with Florida nesting sites up 134% since 1984.",
-              "source": "WUNC / NPR",
-              "url": "https://www.wunc.org/2026-05-04/green-sea-turtle-conservation-success-story-making-waves-across-the-globe-and-along-the-north-carolina-coast",
-              "date": "2026-05-04"
-            }
-          ]
-        },
-        "South America": {
-          "emoji": "🌎",
-          "color": "#3B82F6",
-          "tagline": "Nature's guardian, culture's champion",
-          "stories": [
-            {
-              "title": "Peru's Indigenous-Led Amazon Reserve Protects Two-Thirds of Its Freshwater Fish",
-              "summary": "Peru's 397,000-acre Bajo Putumayo Yaguas Communal Reserve — co-managed by six Indigenous peoples including the Bora, Yagua, and Ticuna — is being consolidated in 2026, sheltering 65% of Peru's freshwater fish and a third of its mammal species. The result of decades of Indigenous-led advocacy, it anchors a biocultural corridor linking Peru, Ecuador, Colombia, and Brazil.",
-              "source": "Conservation International",
-              "url": "https://www.conservation.org/press/new-amazon-protected-area-safeguards-iconic-species-and-indigenous-stewardship-in-peru",
-              "date": "2026-05-01"
-            },
-            {
-              "title": "Colombia's Deforestation Falls to Second-Lowest Level Since 2016",
-              "summary": "Colombia's primary forest loss fell 17% from 2024 to 2025, hitting its second-lowest level since 2016 and beating national targets ahead of schedule. Stronger enforcement, ministerial coordination, and community conservation agreements under the Peace Agreement all contributed — offering real hope for the country's long-embattled forests.",
-              "source": "Carbon Brief / Mongabay",
-              "url": "https://www.carbonbrief.org/cropped-6-may-2026-forest-loss-falls-deforestation-regulations-saving-indias-galapagos/",
-              "date": "2026-05-06"
-            },
-            {
-              "title": "Peru Tourism Grows 3.5% in Q1 2026, Chile Becomes Top Source Market",
-              "summary": "Peru welcomed 823,863 international visitors in Q1 2026 — a 3.5% year-on-year rise — with Chile overtaking the United States as Peru's top tourist source market for the first time. South American regional arrivals now account for 53% of inbound tourism, reflecting surging intra-continental travel and a sustained post-pandemic recovery.",
-              "source": "The Rio Times / Travel and Tour World",
-              "url": "https://riotimesonline.com/peru-tourism-grows-3-6-in-first-quarter-as-recovery-continues",
-              "date": "2026-05-03"
-            }
-          ]
-        },
-        "Oceania": {
-          "emoji": "🌏",
-          "color": "#10B981",
-          "tagline": "Islands of partnership and discovery",
-          "stories": [
-            {
-              "title": "Sunlight Turns Plastic Waste Into Clean Hydrogen in Adelaide Lab Breakthrough",
-              "summary": "University of Adelaide researchers developed a solar-driven process that converts waste plastic into clean hydrogen fuel and industrial chemicals using only sunlight and photocatalysts, running continuously for over 100 hours. More energy-efficient than standard water-splitting, the technique addresses the plastic pollution crisis and the clean energy transition in one elegant step.",
-              "source": "ScienceDaily / University of Adelaide",
-              "url": "https://www.sciencedaily.com/releases/2026/05/260504023841.htm",
-              "date": "2026-05-04"
-            },
-            {
-              "title": "Australia Wins Its First-Ever World Curling Championship in Geneva",
-              "summary": "Tahli Gill and Dean Hewitt made history by winning Australia's first-ever World Curling Championship, defeating Sweden 8–4 in the Mixed Doubles final in Geneva. Going 8–1 in round-robin play and beating defending champions Italy in the semis, they brought home gold in a sport where Australia had never before reached the top of the podium.",
-              "source": "World Curling / Olympics.com",
-              "url": "https://worldcurling.org/2026/05/wmdcc2026-final/",
-              "date": "2026-05-03"
-            },
-            {
-              "title": "New Zealand Kiwi Returns to Wellington After More Than a Century Away",
-              "summary": "The Capital Kiwi Project translocated its 250th kiwi to the hills surrounding Wellington — the first time New Zealand's national bird has been established in the capital for over a century. Seven birds were ceremonially carried through Parliament before their release, and the project reports a remarkable 90% chick survival rate.",
-              "source": "NBC News / phys.org",
-              "url": "https://www.nbcnews.com/world/asia/kibird-returned-wi-endangered-return-new-zealand-capital-rcna343036",
-              "date": "2026-05-01"
-            }
-          ]
-        },
-        "Antarctica": {
-          "emoji": "🧊",
-          "color": "#94A3B8",
-          "tagline": "The frozen frontier of human knowledge",
-          "stories": [
-            {
-              "title": "Antarctic Cruises Become Live Science Missions in WHOI-Ponant Partnership",
-              "summary": "Woods Hole Oceanographic Institution and cruise line Ponant have partnered to embed scientists aboard Antarctic expedition voyages, collecting glacier laser measurements and high-resolution imagery that satellites cannot reach. The three-year programme turns expedition cruises into live research platforms — with passengers joining onboard lectures and lab tours as the science unfolds.",
-              "source": "US Harbors / WHOI Oceanus",
-              "url": "https://www.usharbors.com/2026/05/luxury-antarctic-cruises-double-as-climate-research-platforms-through-whoi-ponant-partnership",
-              "date": "2026-05-04"
             }
           ]
         }

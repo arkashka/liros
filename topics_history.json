@@ -3252,6 +3252,235 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-05-07",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "Malaysia Sets Southeast Asia Record with 10 Million Q1 Tourists",
+              "summary": "Malaysia welcomed over 10 million international visitors in Q1 2026 — a record-breaking first and the highest quarterly total in Southeast Asia. Chinese arrivals rose 22.7% year-on-year, fuelled by Malaysia's expanded visa-free policies and improved air connectivity, placing it ahead of Thailand and Vietnam as the region's most-visited country for the quarter.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/malaysia-overtakes-thailand-vietnam-south-korea-singapore-china-india-and-more-as-it-welcomed-over-ten-million-tourists-in-q1-2026-setting-a-new-record-for-arrivals-in-southeast-asia/",
+              "date": "2026-05-03"
+            },
+            {
+              "title": "Peru Tourism Grows 3.5% in Q1 2026, Chile Becomes Top Source Market",
+              "summary": "Peru welcomed 823,863 international visitors in Q1 2026 — a 3.5% year-on-year rise — with Chile overtaking the United States as Peru's top tourist source market for the first time. South American regional arrivals now account for 53% of inbound tourism, reflecting surging intra-continental travel and a sustained post-pandemic recovery.",
+              "source": "The Rio Times / Travel and Tour World",
+              "url": "https://riotimesonline.com/peru-tourism-grows-3-6-in-first-quarter-as-recovery-continues",
+              "date": "2026-05-03"
+            },
+            {
+              "title": "South Africa Set for Record Clean Energy Investment in 2026",
+              "summary": "South Africa is on track for a record 5,252 MW of renewable energy and battery storage investment closures in 2026 — the highest single-year total in its history. Eight projects worth 1,932 MW had already closed by April 30 with 26 more in the pipeline. The milestone also coincides with over 300 consecutive days without power blackouts.",
+              "source": "SolarQuarter / Engineering News",
+              "url": "https://solarquarter.com/2026/05/05/south-africa-set-for-record-renewable-energy-and-battery-storage-growth-in-2026/",
+              "date": "2026-05-05"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "India and Japan Sign Landmark Quantum Science and Health Pacts",
+              "summary": "India and Japan signed a Letter of Intent on Quantum Science and Technology cooperation and a health and medical devices memorandum, linking India's National Quantum Mission with Japan's world-leading research institutions. The agreements include expanded researcher exchange programmes and joint innovation platforms, deepening ties between Asia's two technology powerhouses.",
+              "source": "ANI News / Business Standard",
+              "url": "https://aninews.in/news/world/asia/india-japan-deepen-tech-ties-sign-pact-on-medical-devices-quantum-science-cooperation20260507051748/",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "Injectable Biomaterial Heals Heart Attack Tissue Through the Bloodstream",
+              "summary": "UC San Diego engineers developed an injectable biomaterial that travels through the bloodstream to repair heart attack damage from within — no surgery, just an IV. Tested successfully in both rodents and large animals, it reduces inflammation and jumpstarts tissue repair. Human trials are expected to begin within two years.",
+              "source": "ScienceDaily / UC San Diego",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260504211842.htm",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "Antarctic Cruises Become Live Science Missions in WHOI-Ponant Partnership",
+              "summary": "Woods Hole Oceanographic Institution and cruise line Ponant have partnered to embed scientists aboard Antarctic expedition voyages, collecting glacier laser measurements and high-resolution imagery that satellites cannot reach. The three-year programme turns expedition cruises into live research platforms — with passengers joining onboard lectures and lab tours as the science unfolds.",
+              "source": "US Harbors / WHOI Oceanus",
+              "url": "https://www.usharbors.com/2026/05/luxury-antarctic-cruises-double-as-climate-research-platforms-through-whoi-ponant-partnership",
+              "date": "2026-05-04"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Sunlight Turns Plastic Waste Into Clean Hydrogen in Adelaide Lab Breakthrough",
+              "summary": "University of Adelaide researchers developed a solar-driven process that converts waste plastic into clean hydrogen fuel and industrial chemicals using only sunlight and photocatalysts, running continuously for over 100 hours. More energy-efficient than standard water-splitting, the technique addresses the plastic pollution crisis and the clean energy transition in one elegant step.",
+              "source": "ScienceDaily / University of Adelaide",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260504023841.htm",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "Peru's Indigenous-Led Amazon Reserve Protects Two-Thirds of Its Freshwater Fish",
+              "summary": "Peru's 397,000-acre Bajo Putumayo Yaguas Communal Reserve — co-managed by six Indigenous peoples including the Bora, Yagua, and Ticuna — is being consolidated in 2026, sheltering 65% of Peru's freshwater fish and a third of its mammal species. The result of decades of Indigenous-led advocacy, it anchors a biocultural corridor linking Peru, Ecuador, Colombia, and Brazil.",
+              "source": "Conservation International",
+              "url": "https://www.conservation.org/press/new-amazon-protected-area-safeguards-iconic-species-and-indigenous-stewardship-in-peru",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Green Sea Turtle Upgraded From Endangered to Least Concern by IUCN",
+              "summary": "The green sea turtle has been reclassified from Endangered to Least Concern on the IUCN Red List, following a 28% rebound in global nesting populations. Decades of protected beaches, turtle excluder devices in fishing nets, and reduced poaching drove the recovery — with Florida nesting sites up 134% since 1984.",
+              "source": "WUNC / NPR",
+              "url": "https://www.wunc.org/2026-05-04/green-sea-turtle-conservation-success-story-making-waves-across-the-globe-and-along-the-north-carolina-coast",
+              "date": "2026-05-04"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "UK Bowel Cancer Trial Shows Zero Relapses in Three Years With Immunotherapy",
+              "summary": "All 32 patients in the NEOPRISM-CRC trial who received nine weeks of pembrolizumab immunotherapy for bowel cancer before surgery have remained cancer-free for nearly three years — zero relapses. Presented at AACR 2026, the results challenge the standard surgery-first model and could transform treatment for one of the world's most common cancers.",
+              "source": "ScienceDaily / UCL",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260505234618.htm",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "Pancreatic Cancer Drug Daraxonrasib Nearly Doubles Survival in NEJM Trial",
+              "summary": "Revolution Medicines published NEJM data showing daraxonrasib nearly doubled median survival for metastatic pancreatic cancer patients — 15.6 months versus 6.7 months on chemotherapy. Since 90% of pancreatic cancers carry RAS mutations, this targeted therapy could benefit the vast majority of the 60,000 Americans diagnosed each year, with an FDA fast-track application already filed.",
+              "source": "GlobeNewswire / New England Journal of Medicine",
+              "url": "https://www.globenewswire.com/news-release/2026/05/06/3289496/0/en/Revolution-Medicines-Announces-Publication-in-New-England-Journal-of-Medicine-of-Phase-1-2-Clinical-Data-on-Daraxonrasib-in-Pancreatic-Cancer.html",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "WHO Validates Australia as 30th Country to Eliminate Blinding Trachoma",
+              "summary": "The World Health Organization validated Australia as the 30th country to eliminate trachoma as a public health problem — and the first high-income nation to reach this milestone. Prevalence in at-risk Indigenous children fell from 14.9% in 2009 to 1.5% in 2024 through decades of sustained, community-led public health work.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
+              "date": "2026-04-29"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "England's Renters' Rights Act Abolishes No-Fault Evictions From May 1",
+              "summary": "England's landmark Renters' Rights Act came into force on May 1, abolishing 'Section 21' no-fault evictions after more than a decade of campaigning by housing advocates. Landlords can now only end tenancies for specified legal reasons, and rent increases are limited to once per year — a landmark shift in housing security for millions of renters.",
+              "source": "GOV.UK / BritBrief",
+              "url": "https://www.gov.uk/government/news/historic-protections-for-renters-in-action-across-england",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Southern University Becomes First HBCU to Win National Esports Title",
+              "summary": "Southern University's Coby Robinson won the ECAC EA Sports College Football 26 Division II Championship, making Southern the first Historically Black College or University ever to claim a major national esports title. Defeating No. 1 seed Bellarmine University 3–2, his victory spotlights the growing power of HBCUs in competitive gaming.",
+              "source": "ClutchPoints / WAFB",
+              "url": "https://clutchpoints.com/hbcu/hbcu-student-makes-history-in-esports-championship",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "Riley's Way Foundation Names 50 Youth Kindness Fellows for 2026",
+              "summary": "Riley's Way Foundation selected up to 50 young changemakers — ages 13 to 23 — as 2026 Call for Kindness Fellows, each receiving $5,000 and a year of mentorship to run community impact projects. Focus areas include food insecurity, animal well-being, civil discourse, and performing arts, empowering the next generation of community builders.",
+              "source": "Riley's Way Foundation",
+              "url": "https://www.goodgoodgood.co/articles/good-news-this-week-may-2-2026",
+              "date": "2026-05-06"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "Artscape Theatre Cape Town Marks 55 Years as a Place for All",
+              "summary": "Cape Town's Artscape Theatre is celebrating 55 years with the theme 'A Place for All,' honouring its transformation from a racially segregated apartheid venue to one of Africa's most inclusive performing arts centres. Free school concerts and a community photograph on May 19 open a year-long celebration, closing with a gala in November.",
+              "source": "IOL / Weekend Argus",
+              "url": "https://iol.co.za/weekend-argus/entertainment/2026-05-02-celebrating-55-years-of-artscape-a-journey-from-exclusion-to-inclusion/",
+              "date": "2026-05-02"
+            },
+            {
+              "title": "V&A East Museum Opens in London's Olympic Park — Free for All",
+              "summary": "The V&A East Museum opened in London's Queen Elizabeth Olympic Park, bringing 500+ objects from the Victoria & Albert collection to East London through free permanent galleries. Its inaugural exhibition, 'The Music is Black: A British Story,' traces 125 years of Black British music, anchoring a major cultural regeneration of the 2012 Olympic site.",
+              "source": "Time Out London / V&A",
+              "url": "https://www.timeout.com/london/news/the-v-a-east-will-open-this-weekend-heres-everything-you-need-to-know-about-the-major-new-london-museum-041526",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "Filipino Debut Film 'Filipiñana' Wins New Directors Prize at SF Film Fest",
+              "summary": "Filipino debut feature 'Filipiñana' (dir. Rafael Manuel) won the New Directors Award at the 69th San Francisco International Film Festival, earning international acclaim for a first-time director. The Golden Gate Awards also honoured Latin American cinema, documentary filmmaking, and animation — a joyful showcase of global storytelling at one of cinema's longest-running festivals.",
+              "source": "IndieWire / SFFILM",
+              "url": "https://www.indiewire.com/news/festivals/sf-film-festival-2026-award-winners-1235192579/",
+              "date": "2026-05-06"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Australia Wins Its First-Ever World Curling Championship in Geneva",
+              "summary": "Tahli Gill and Dean Hewitt made history by winning Australia's first-ever World Curling Championship, defeating Sweden 8–4 in the Mixed Doubles final in Geneva. Going 8–1 in round-robin play and beating defending champions Italy in the semis, they brought home gold in a sport where Australia had never before reached the top of the podium.",
+              "source": "World Curling / Olympics.com",
+              "url": "https://worldcurling.org/2026/05/wmdcc2026-final/",
+              "date": "2026-05-03"
+            },
+            {
+              "title": "Nelly Korda Claims 18th LPGA Title, Youngest American Since Nancy Lopez",
+              "summary": "Nelly Korda won the Riviera Maya Open at Mayakoba for her 18th LPGA title — her third win of 2026 and second in consecutive weeks after The Chevron Championship major. At 27, she is the youngest American to reach 18 LPGA victories since Nancy Lopez in 1980, and sits just four points from the Hall of Fame.",
+              "source": "LPGA / Golf Digest",
+              "url": "https://www.lpga.com/news/2026/nelly-korda-wins-riviera-maya-open-at-mayakoba-for-18th-career-title-back-to-back-victories",
+              "date": "2026-05-03"
+            },
+            {
+              "title": "Cameron Young Wins Cadillac Championship Wire-to-Wire at Doral",
+              "summary": "Cameron Young won the Cadillac Championship at Doral's Blue Monster wire-to-wire, becoming the first player since Tiger Woods to win both The Players Championship and Doral in the same season. He shot 19 under par for his second 2026 PGA Tour win — and called a penalty on himself for a moved ball mid-round.",
+              "source": "PGA Tour / CBS Sports",
+              "url": "https://www.pgatour.com/article/news/daily-wrapup/2026/05/03/cameron-young-wins-cadillac-championship-wire-to-wire-trump-national-doral-blue-monster-scottie-scheffler-wrap-leaderboard",
+              "date": "2026-05-03"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "Cape Vultures Return to South Africa's Eastern Cape After 30 Years",
+              "summary": "Eighty-five Cape Vultures were spotted on an Eastern Cape farm — the first confirmed sighting in over 30 years — the result of Vulpro's decades of captive breeding and veterinary care with a 75% survival rate. The species has been downlisted from Endangered to Vulnerable, and conservation safe zones are being standardised across Southern Africa.",
+              "source": "Good Things Guy / Vulpro",
+              "url": "https://www.goodthingsguy.com/environment/breaking-news-first-wild-cape-vulture-sighting-in-over-30-years-a-hopeful-sign-for-conservation/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "New Zealand Kiwi Returns to Wellington After More Than a Century Away",
+              "summary": "The Capital Kiwi Project translocated its 250th kiwi to the hills surrounding Wellington — the first time New Zealand's national bird has been established in the capital for over a century. Seven birds were ceremonially carried through Parliament before their release, and the project reports a remarkable 90% chick survival rate.",
+              "source": "NBC News / phys.org",
+              "url": "https://www.nbcnews.com/world/asia/kibird-returned-wi-endangered-return-new-zealand-capital-rcna343036",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Scotland's Wildcats Are Thriving in Cairngorms With Wild Litters Confirmed",
+              "summary": "Scotland's wildcat reintroduction programme has reached a historic milestone, with at least nine litters confirmed born in Cairngorms National Park since releases began in 2023. Once considered functionally extinct for decades, breeding pairs are firmly established — and four kittens bred in 2025 are ready for 2026 release.",
+              "source": "Rewilding Europe / Saving Wildcats",
+              "url": "https://rewildingeurope.com/news/released-wildcats-thriving-in-the-scottish-highlands/",
+              "date": "2026-05-01"
+            }
+          ]
+        }
+      }
     }
   ]
 }
