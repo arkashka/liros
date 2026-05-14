@@ -1,6 +1,235 @@
 {
   "pulls": [
     {
+      "date": "2026-05-14",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "Garden River First Nation Becomes 50% Co-Owner of Ontario's Largest Solar Farm",
+              "summary": "Garden River First Nation has secured an equal equity stake in Ontario's 253-megawatt planned solar farm — a  billion project expected to generate  million in annual revenue for the community. Chief Karen Bell called it a landmark step for Indigenous economic sovereignty in Canada's clean energy future.",
+              "source": "Anishinabek News",
+              "url": "https://anishinabeknews.ca/2026/05/garden-river-first-nation-enters-partnership-for-major-solar-project/",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "Brazil Approves Critical Minerals Strategy With  Billion in Tax Incentives",
+              "summary": "Brazil's Chamber of Deputies passed the National Policy for Critical Minerals 343-97, unlocking a  billion guarantor fund and  billion in tax credits to transform the country's vast lithium, nickel, and rare-earth deposits into a pillar of the global clean energy transition.",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-05-07/brazil-house-backs-critical-minerals-bill-as-lula-meets-trump",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "Ethiopia Breaks Ground on Africa's Largest Airport, a .5 Billion Vision",
+              "summary": "Led by Ethiopian Airlines and designed by Zaha Hadid Architects, construction has begun on the Bishoftu International Airport — a solar-powered, 110-million-passenger hub poised to make Ethiopia the gateway to the world for the entire continent. Phase I is set to open in 2030.",
+              "source": "TheGrio",
+              "url": "https://thegrio.com/2026/04/24/ethiopia-africa-largest-airport-12-5-billion-bishoftu/",
+              "date": "2026-04-24"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "Japan Scientists Crack the Code for Instantly Detecting Quantum W States",
+              "summary": "Researchers in Japan have built a stable photonic circuit that instantly identifies elusive quantum W states — configurations critical for teleportation and ultra-secure communication. The system runs without manual adjustment, clearing a major bottleneck on the road to practical quantum networks.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
+              "date": "2026-05-13"
+            },
+            {
+              "title": "China Achieves a Perfect 10th Space Station Supply Mission With Tianzhou-10",
+              "summary": "Tianzhou-10 docked flawlessly with China's Tiangong space station on May 11, delivering over six tons of supplies including new extravehicular spacesuits and six scientific payloads. The milestone marks ten consecutive successful Tianzhou missions — the Chinese ideal of shiquan shimei, perfection in ten.",
+              "source": "CGTN",
+              "url": "https://news.cgtn.com/news/2026-05-11/China-says-it-successfully-launches-Tianzhou-10-cargo-spacecraft-1N3cLeSCySQ/p.html",
+              "date": "2026-05-11"
+            },
+            {
+              "title": "Quantum Encryption Successfully Sent Across 120 Kilometres of Optical Fibre",
+              "summary": "An international research team has demonstrated stable quantum key distribution over 120 km of standard fibre using semiconductor quantum dots — maintaining ultra-low error rates continuously for six hours without manual tuning. The result brings truly unhackable, real-world quantum communication a decisive step closer.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260508003129.htm",
+              "date": "2026-05-08"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Cuba Is Pulling Off One of the Fastest Solar Revolutions on Earth",
+              "summary": "Cuba has tripled its renewable electricity capacity to over 20% in just one year, with 49 solar parks now feeding the national grid and Chinese investment accelerating dozens more. Targeting 100% renewables by 2050, the island's green leap offers an inspiring example of rapid solar transformation.",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/05/13/climate/cuba-solar-us-oil-blockade-trump-china",
+              "date": "2026-05-13"
+            },
+            {
+              "title": "Colombia Already Surpasses Its Marine 30x30 Conservation Goal",
+              "summary": "Colombia has protected 47% of its marine territory — far exceeding the global 30x30 target — while conserving 26% of its land and expanding its bio-economy to create half a million jobs. The country's record offers a powerful proof of concept for biodiversity-led, job-rich sustainable development.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/04/as-global-30x30-goal-lags-colombia-shows-how-progress-can-be-made/",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Australia's Solar Generation Breaks Q1 Records as Renewables Hit 46.5%",
+              "summary": "Australia set an all-time high of 2,706 MW in grid-scale solar generation during Q1 2026, while renewables supplied 46.5% of electricity — the highest first-quarter share ever. Rooftop solar also hit a record 4,090 MW, putting Australia ahead of schedule to beat its 2030 targets.",
+              "source": "PV Magazine",
+              "url": "https://www.pv-magazine.com/2026/04/30/solar-break-quarterly-generation-records-in-australia-in-q1/",
+              "date": "2026-04-30"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "Africa Saves 20 Million Lives From Measles Through Rising Vaccination",
+              "summary": "A landmark WHO and Gavi report confirms that expanding immunisation programmes across Africa have averted nearly 20 million measles deaths since 2000, halving mortality on the continent. Over 500 million children were protected through routine campaigns, and three island nations achieved full measles elimination.",
+              "source": "WHO Africa",
+              "url": "https://www.afro.who.int/news/nearly-20-million-lives-saved-africa-through-measles-vaccinations",
+              "date": "2026-04-16"
+            },
+            {
+              "title": "NHS Rolls Out a One-Minute Cancer Immunotherapy Jab for 14,000 Patients",
+              "summary": "England's NHS has begun offering pembrolizumab — a powerful immunotherapy for 14 cancer types — as a 60-second injection instead of a two-hour intravenous infusion. The shift saves over 100,000 NHS staff hours annually and gives patients back hours of their lives each treatment cycle.",
+              "source": "NHS England",
+              "url": "https://www.england.nhs.uk/2026/05/1-minute-immunotherapy-jab-rolled-out-on-nhs-for-tens-of-thousands-with-cancer/",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "Western Africa Pledges Health Investment Roadmap Linking Doctors to Economic Growth",
+              "summary": "Health and finance ministers from 12 Western and Central African nations met in Accra to launch the World Bank's 'Fit to Prosper' strategy, pledging to tie health infrastructure spending directly to job creation and economic development. The plan charts a new model where healthy populations and thriving economies build each other up.",
+              "source": "World Bank",
+              "url": "https://www.worldbank.org/en/news/press-release/2026/05/05/western-and-central-african-leaders-launch-a-roadmap-to-tackle-health-crisis-in-the-region",
+              "date": "2026-05-05"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Vietnam Removes Park Fences, Opening Hanoi's Green Spaces to Everyone",
+              "summary": "Hanoi has taken down the iron fences surrounding its major parks, letting residents freely stroll, exercise, and gather on the grass. The city is also building six new parks as part of a compact-green urban model that prioritises public space, water features, and tree canopy for all.",
+              "source": "The Star",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/27/hanoi-opens-its-parks-welcoming-a-greener-future",
+              "date": "2026-04-27"
+            },
+            {
+              "title": "England's Renters' Rights Act Gives 11 Million Tenants Historic New Powers",
+              "summary": "England's landmark Renters' Rights Act has come into force, abolishing no-fault evictions and giving 11 million renters the strongest tenancy protections in a generation. Tenants can now challenge unfair rent increases and enjoy greater security — the biggest shake-up of renting law in over 30 years.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-18-of-2026/",
+              "date": "2026-05-04"
+            },
+            {
+              "title": "Peru Welcomes Record 823,000 Visitors in Q1 as South American Tourism Booms",
+              "summary": "Peru's tourism sector welcomed 823,863 international visitors in Q1 2026 — up 3.5% year-on-year — with Chile, the US, Ecuador, and Bolivia among the leading sources. The surge reflects growing cross-border travel enthusiasm and deepening cultural connections across the South American neighbourhood.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/bolivia-joins-united-states-chile-ecuador-brazil-and-colombia-in-propelling-perus-tourism-industry-to-new-heights-achieving-a-remarkable-three-point-five-percent-surge-in-international-v/",
+              "date": "2026-05-08"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "V&A East Opens a Joyful New Cultural Home in London's Olympic Park",
+              "summary": "A decade in the making, the V&A East Museum welcomed visitors to Stratford with free permanent galleries spanning global art, fashion, architecture, and design. Its inaugural exhibition explores 125 years of Black music-making in Britain — a vibrant start for the East Bank cultural quarter.",
+              "source": "Artnet News",
+              "url": "https://news.artnet.com/art-world/va-east-opening-2766616",
+              "date": "2026-04-18"
+            },
+            {
+              "title": "Vin Diesel's Emotional Paul Walker Tribute Moves Cannes to Its Feet",
+              "summary": "At the Cannes Film Festival's 25th anniversary screening of The Fast and the Furious, Vin Diesel broke down honouring his late co-star Paul Walker, moving audiences worldwide. The moment captured the unique power of cinema to sustain friendship, love, and memory long after the credits roll.",
+              "source": "Variety",
+              "url": "https://variety.com/2026/film/news/vin-diesel-fast-and-furious-paul-walker-cannes-screening-1236739204/",
+              "date": "2026-05-13"
+            },
+            {
+              "title": "KATSEYE Announces Landmark Arena Tour Spanning UK, Europe and North America",
+              "summary": "Pop group KATSEYE — the K-pop-meets-global-pop ensemble — has announced a major 2026 arena tour across the UK, Europe, and North America, marking a cultural milestone for a group that has joyfully bridged Asian and Western music scenes. The tour reflects a new era of genre-crossing, cross-continental pop.",
+              "source": "Live Nation",
+              "url": "https://newsroom.livenation.com/news/katseye-announces-2026-headline-arena-tour-of-uk-eu-and-north-america/",
+              "date": "2026-05-02"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "Toronto Tempo Makes History as WNBA's First-Ever Team Outside the USA",
+              "summary": "Canada's Toronto Tempo took the court on May 8 before a sold-out Coca-Cola Coliseum crowd, marking the WNBA's first international expansion in the league's history. The arrival of women's professional basketball in Canada opens a new chapter for the sport across North America.",
+              "source": "CP24",
+              "url": "https://www.cp24.com/news/sports/2026/05/12/tempo-turn-the-page-from-wnba-debut-look-ahead-to-improve-through-experience/",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "18-Year-Old Gout Gout Runs Faster Than Usain Bolt Did at the Same Age",
+              "summary": "Australian sprinter Gout Gout clocked a blazing 19.67 seconds in the 200m — breaking Usain Bolt's under-20 world record by 0.26 seconds and becoming the first Australian to go sub-20. At 18, the South Sudanese-born athlete is the brightest new star in global sprinting, with Bolt himself offering warm encouragement.",
+              "source": "The Brighter Side of News",
+              "url": "https://www.thebrighterside.news/post/australian-sprinter-gout-gout-breaks-usain-bolts-under-20-200m-mark/",
+              "date": "2026-04-12"
+            },
+            {
+              "title": "Wu Yize Wins World Snooker Championship in a Breathtaking 18-17 Final",
+              "summary": "China's Wu Yize captured the 2026 World Snooker Championship at Sheffield's Crucible Theatre, edging Shaun Murphy 18-17 in one of the most dramatic finals in recent memory. The victory marks a thrilling new chapter for snooker and a landmark achievement for the young Chinese champion.",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/more-sports/snooker/news/12243/13529588/world-snooker-championship-2026-schedule-and-results-with-ronnie-osullivan-judd-trump-zhao-xintong-in-crucible-action",
+              "date": "2026-05-04"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "New Zealand's Kākāpō Breaks All Records With Over 100 Chicks in One Season",
+              "summary": "The critically endangered kākāpō — the world's heaviest and only flightless parrot — has hatched over 100 chicks in 2026, its best breeding season ever and a near-doubling of the wild population. Decades of work by DOC rangers and Ngāi Tahu have turned what seemed impossible into a conservation triumph.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/news/environment/590633/over-100-kakapo-chicks-hatch-in-record-breaking-breeding-season",
+              "date": "2026-04-15"
+            },
+            {
+              "title": "Mountain Gorilla Census Documents Hopeful Recovery in Uganda's Bwindi Forest",
+              "summary": "Scientists in Uganda's Bwindi Impenetrable National Park are conducting a meticulous gorilla headcount using camera traps and field photography. The census captures a population slowly climbing back from the brink — a tribute to decades of dedicated international conservation effort.",
+              "source": "EnviroLink Network",
+              "url": "https://www.envirolink.org/2026/05/10/mountain-gorilla-census-captures-endangered-species-recovery-in-ugandas-bwindi-forest/",
+              "date": "2026-05-10"
+            },
+            {
+              "title": "Humpback Whale Recovery Is So Strong It's Changing Who Fathers the Calves",
+              "summary": "A landmark study finds that humpback whale populations have rebounded so powerfully that the social dynamics of which males father calves are measurably shifting — a sign of a thriving, complex wild community. Eastern Australia's humpback population has returned to pre-whaling levels, growing at 10-11% annually.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/03/260305182700.htm",
+              "date": "2026-03-05"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-05-12",
       "topics": {
         "Economy & Business": {
@@ -452,235 +681,6 @@
               "summary": "Scientists documented 23 North Atlantic right whale calves this season—double last year’s count and the highest tally in 17 years for one of the world’s most endangered marine mammals. The baby boom brings cautious hope for a species with only around 380 individuals remaining.",
               "source": "WUSF Public Media",
               "url": "https://www.wusf.org/environment/2026-05-07/numbers-endangered-right-whale-calves-rebound-but-threats-remain",
-              "date": "2026-05-07"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-05-09",
-      "topics": {
-        "Economy & Business": {
-          "emoji": "📈",
-          "color": "#FF6B35",
-          "tagline": "Innovation and growth fueling global prosperity",
-          "stories": [
-            {
-              "title": "US Job Growth Nearly Doubles Forecasts With 115,000 April Additions",
-              "summary": "The US economy added 115,000 jobs in April 2026, nearly double the analyst forecast of 65,000, while unemployment held steady at 4.3%. The stronger-than-expected result signals continued labor-market resilience despite global trade uncertainty, offering a lift to workers and businesses across North America.",
-              "source": "Maersk",
-              "url": "https://www.maersk.com/news/articles/2026/05/08/north-america-market-update-may",
-              "date": "2026-05-08"
-            },
-            {
-              "title": "Brazil Positions Itself as Critical Minerals Leader With New Strategy",
-              "summary": "Brazil's lower chamber voted to create a National Critical Minerals Strategy, establishing incentives for extraction and processing of the country's vast reserves of lithium, cobalt, and rare earths. The move positions Brazil as a cornerstone supplier for the global clean-energy transition, turning natural wealth into long-term economic opportunity.",
-              "source": "Rio Times Online",
-              "url": "https://www.riotimesonline.com/usa-canada-intelligence-brief-for-friday-may-8-2026/",
-              "date": "2026-05-06"
-            },
-            {
-              "title": "Latin America's Economy Set to Grow 2.1% in 2026 Despite Headwinds",
-              "summary": "Despite global trade disruptions, Latin America is on course for 2.1% GDP growth in 2026, building on a resilient prior year. Analysts credit diversified export markets and deepening regional trade links for sustaining momentum — a signal of growing economic strength across the continent.",
-              "source": "Americas Market Intelligence",
-              "url": "https://americasmi.com/insights/latin-america-2026-economic-outlook/",
-              "date": "2026-05-01"
-            }
-          ]
-        },
-        "Science & Technology": {
-          "emoji": "🚀",
-          "color": "#FFB700",
-          "tagline": "Pushing the boundaries of human ingenuity",
-          "stories": [
-            {
-              "title": "BOE and UNESCO Launch Asia-Pacific Science Club Network",
-              "summary": "BOE Technology and UNESCO unveiled a new Asia-Pacific Science Club Network and 2026 Science Challenge, uniting 40 Chinese teachers with 15 educators from 12 Asia-Pacific countries. Launched under the UN's International Decade of Sciences for Sustainable Development, it will connect young scientists across the region for collaborative hands-on projects.",
-              "source": "The Manila Times",
-              "url": "https://www.manilatimes.net/2026/05/08/tmt-newswire/pr-newswire/boe-unesco-introduce-asia-pacific-science-club-network-2026-science-challenge/2339206",
-              "date": "2026-05-08"
-            },
-            {
-              "title": "Inside Coral Reefs: 645 New Microbial Species Mapped in Pacific Survey",
-              "summary": "Researchers from the University of Galway reconstructed genomes of 645 microbial species from 99 Pacific coral reefs, finding over 99% had never been genetically described. Published in Nature on May 8, the study reveals a vast pharmaceutical library hidden inside coral ecosystems — one that could yield future life-saving medicines.",
-              "source": "ScienceDaily",
-              "url": "https://www.sciencedaily.com/releases/2026/05/260506225229.htm",
-              "date": "2026-05-08"
-            },
-            {
-              "title": "Scientists Find Earth's Oldest Air in 6-Million-Year-Old Antarctic Ice",
-              "summary": "Researchers from the Center for Oldest Ice Exploration discovered 6-million-year-old ice in East Antarctica's Allan Hills, more than doubling the previous record for the oldest dated ice. Tiny air bubbles sealed within offer a direct window into Earth's ancient atmosphere, yielding the first direct measurements of how much Antarctica has cooled over millions of years.",
-              "source": "Oregon State University",
-              "url": "https://news.oregonstate.edu/news/six-million-year-old-ice-discovered-antarctica-offers-unprecedented-window-warmer-earth",
-              "date": "2026-04-15"
-            }
-          ]
-        },
-        "Environment & Climate": {
-          "emoji": "🌿",
-          "color": "#44BBA4",
-          "tagline": "Restoring the balance of our natural world",
-          "stories": [
-            {
-              "title": "Canon and Oceans Alive Restore Coral Reefs Along Kenya's Coast",
-              "summary": "Canon Central and North Africa has partnered with Kenya's Oceans Alive Foundation to scale up coral nursery propagation and women-led reef rehabilitation along the country's northern coastline. The initiative builds on a decade of work that already recorded a 300% rise in fish biomass within protected zones.",
-              "source": "Oceanographic Magazine",
-              "url": "https://oceanographicmagazine.com/news/new-east-africa-initiative-targets-coral-reef-restoration-in-kenya/",
-              "date": "2026-01-20"
-            },
-            {
-              "title": "Thames Reborn: River Now Supports 115 Fish Species After Decades of Recovery",
-              "summary": "The tidal Thames now hosts over 115 fish species, 92 bird species, and nearly 600 hectares of saltmarsh — a stunning turnaround for a river declared biologically dead in 1957. The Zoological Society of London's annual health check confirms that seals, seahorses, and even sharks are now regular residents.",
-              "source": "Zoological Society of London",
-              "url": "https://www.zsl.org/news-and-events/news/thames-health-check-celebrates-rebirth-famous-river",
-              "date": "2026-01-19"
-            },
-            {
-              "title": "Brazil's Cattle Ranchers Become Unexpected Heroes of Pantanal Conservation",
-              "summary": "Ranchers in Brazil's Pantanal — the world's largest tropical wetland — are partnering with Pew Charitable Trusts conservationists to protect biodiversity alongside their herds. The unlikely alliance is showing that sustainable ranching and thriving wildlife can coexist, offering a replicable model for conservation across agricultural landscapes.",
-              "source": "Pew Charitable Trusts",
-              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
-              "date": "2026-02-01"
-            }
-          ]
-        },
-        "Health & Wellness": {
-          "emoji": "✨",
-          "color": "#E94F8B",
-          "tagline": "Nurturing the mind, body, and spirit",
-          "stories": [
-            {
-              "title": "West Africa Launches Bold Roadmap for Universal Health Coverage",
-              "summary": "Ministers of health and finance from 24 Western and Central African countries gathered in Accra to adopt the World Bank's Fit to Prosper health strategy. The initiative targets universal health coverage for 200 million people by 2030, backed by sustained regional investment and strengthened community health systems.",
-              "source": "World Bank",
-              "url": "https://www.worldbank.org/en/news/press-release/2026/05/05/western-and-central-african-leaders-launch-a-roadmap-to-tackle-health-crisis-in-the-region",
-              "date": "2026-05-05"
-            },
-            {
-              "title": "France Bans Forever Chemicals From Cosmetics and Clothing",
-              "summary": "France became the world's first country to ban PFAS from cosmetics, clothing, and ski wax where alternatives exist, with restrictions now fully in force. The law also mandates drinking-water testing for PFAS contamination and fines industrial polluters — setting a bold new global standard for protecting human health.",
-              "source": "Euronews",
-              "url": "https://www.euronews.com/green/2026/01/01/frances-ban-on-forever-chemicals-comes-into-force-tomorrow-heres-what-will-change",
-              "date": "2026-01-01"
-            },
-            {
-              "title": "Inside Coral Reefs: 645 New Microbial Species Mapped in Pacific Survey",
-              "summary": "Researchers from the University of Galway reconstructed genomes of 645 microbial species from 99 Pacific coral reefs, finding over 99% had never been genetically described. Published in Nature on May 8, the study reveals a vast pharmaceutical library hidden inside coral ecosystems — one that could yield future life-saving medicines.",
-              "source": "ScienceDaily",
-              "url": "https://www.sciencedaily.com/releases/2026/05/260506225229.htm",
-              "date": "2026-05-08"
-            }
-          ]
-        },
-        "Society & Culture": {
-          "emoji": "🤝",
-          "color": "#3B82F6",
-          "tagline": "The vibrant threads of human connection",
-          "stories": [
-            {
-              "title": "Japan Becomes First G7 Nation to Allow Joint Child Custody",
-              "summary": "Japan's revised Civil Code took effect April 1, allowing divorced parents to negotiate shared parental authority for the first time in the country's history. The landmark reform ends Japan's status as the only G7 nation with mandatory sole custody, and introduces a statutory minimum child-support system.",
-              "source": "The Japan Times",
-              "url": "https://www.japantimes.co.jp/news/2026/03/31/japan/society/joint-custody-starts-april/",
-              "date": "2026-04-01"
-            },
-            {
-              "title": "NBA Pioneer Jason Collins Wins Inaugural Bill Walton Champion Award",
-              "summary": "Jason Collins — who made history in 2014 as the first openly gay active athlete in any major US professional sports league — received the inaugural Bill Walton Global Champion Award at the Green Sports Alliance Summit on May 6. The award honors athletes who use their platform to drive positive social and environmental change.",
-              "source": "PR Newswire",
-              "url": "https://www.prnewswire.com/news-releases/the-green-sports-alliance-honors-jason-collins-as-the-inaugural-winner-of-the-bill-walton-global-champion-award-302764836.html",
-              "date": "2026-05-06"
-            },
-            {
-              "title": "Brazil's Cattle Ranchers Become Unexpected Heroes of Pantanal Conservation",
-              "summary": "Ranchers in Brazil's Pantanal — the world's largest tropical wetland — are partnering with Pew Charitable Trusts conservationists to protect biodiversity alongside their herds. The unlikely alliance is showing that sustainable ranching and thriving wildlife can coexist, offering a replicable model for conservation across agricultural landscapes.",
-              "source": "Pew Charitable Trusts",
-              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
-              "date": "2026-02-01"
-            }
-          ]
-        },
-        "Entertainment & Arts": {
-          "emoji": "🎨",
-          "color": "#10B981",
-          "tagline": "Stories and visions that move the soul",
-          "stories": [
-            {
-              "title": "The World Celebrates David Attenborough's Remarkable 100th Birthday",
-              "summary": "Sir David Attenborough turned 100 on May 8, drawing tributes from King Charles III, Leonardo DiCaprio, and scientists who named a new wasp genus in his honor. LEGO updated its age range to 4-100+, post boxes across the UK were adorned with crocheted wildlife, and the Royal Albert Hall hosted a centenary concert.",
-              "source": "NPR",
-              "url": "https://www.npr.org/2026/05/08/nx-s1-5802305/david-attenborough-celebrates-his-100th-birthday",
-              "date": "2026-05-08"
-            },
-            {
-              "title": "South Korea's Baeksang Awards Break Ground With New Musical Division",
-              "summary": "The 62nd Baeksang Arts Awards made history on May 8 by establishing a new Musical Division in partnership with the Korea Musical Theatre Association, marking 60 years of Korean musical theatre. Hyun Bin and Park Bo Young took top honors, while the ceremony drew global audiences celebrating the depth of Korean storytelling.",
-              "source": "Allkpop",
-              "url": "https://www.allkpop.com/article/2026/05/62nd-baeksang-arts-awards-2026-winners-list-featuring-hyun-bin-park-bo-young-park-jeong-min-and-more-major-award-winners",
-              "date": "2026-05-08"
-            },
-            {
-              "title": "Peabody Awards Honor Documentaries on Sly Stone and Fela Kuti",
-              "summary": "The 86th Peabody Awards celebrated outstanding storytelling, with programs about music legends Sly Stone and Fela Kuti among the honored works. Special awards recognized Amy Poehler's career achievement, screenwriter Sterlin Harjo as a trailblazer, and PBS KIDS as a historic institution — honoring media that uplifts and connects communities.",
-              "source": "Peabody Awards",
-              "url": "https://peabodyawards.com/stories/86th-peabody-winners-announced/",
-              "date": "2026-05-07"
-            }
-          ]
-        },
-        "Sports & Leisure": {
-          "emoji": "🏆",
-          "color": "#94A3B8",
-          "tagline": "The joy of movement and the spirit of play",
-          "stories": [
-            {
-              "title": "NBA Pioneer Jason Collins Wins Inaugural Bill Walton Champion Award",
-              "summary": "Jason Collins — who made history in 2014 as the first openly gay active athlete in any major US professional sports league — received the inaugural Bill Walton Global Champion Award at the Green Sports Alliance Summit on May 6. The award honors athletes who use their platform to drive positive social and environmental change.",
-              "source": "PR Newswire",
-              "url": "https://www.prnewswire.com/news-releases/the-green-sports-alliance-honors-jason-collins-as-the-inaugural-winner-of-the-bill-walton-global-champion-award-302764836.html",
-              "date": "2026-05-06"
-            },
-            {
-              "title": "New Zealand Archers Sweep All Medals at Home Oceania Championships",
-              "summary": "New Zealand's archers delivered a dominant performance on home soil at the 2026 World Archery Oceania Target Championships in Auckland, sweeping the recurve individual podiums in both the men's and women's events. The clean-sweep victory lit up home crowds and reflected years of sustained investment in the sport.",
-              "source": "World Archery",
-              "url": "https://www.worldarchery.sport/news/202398/new-zealand-dominates-oceania-championships-2026-auckland",
-              "date": "2026-05-01"
-            },
-            {
-              "title": "Alcaraz, Sabalenka and McIlroy Among 2026 Laureus World Sports Award Winners",
-              "summary": "The 2026 Laureus World Sports Awards in Madrid celebrated a year of extraordinary sporting achievement, honoring global champions including Carlos Alcaraz, Aryna Sabalenka, and Rory McIlroy. The ceremony also spotlighted Laureus Sport for Good programs using athletics to transform the lives of young people in underserved communities worldwide.",
-              "source": "Laureus",
-              "url": "https://www.laureus.com/news/alcaraz-sabalenka-norris-mcilroy-kroos-yamal-among-winners-at-laureus-world-sports-awards",
-              "date": "2026-04-07"
-            }
-          ]
-        },
-        "Pets & Wildlife": {
-          "emoji": "🐾",
-          "color": "#8B5CF6",
-          "tagline": "Every creature, wild and close to home",
-          "stories": [
-            {
-              "title": "Second Set of Rare Gorilla Twins Born at Virunga in 2026",
-              "summary": "For the second time in three months, twin mountain gorillas were born at DRC's Virunga National Park — among the rarest births in the primate world. The Baraka family now numbers 19 individuals, and 9 new gorilla babies have arrived at Virunga in the first three months of 2026 alone.",
-              "source": "Mongabay",
-              "url": "https://news.mongabay.com/short-article/2026/03/extraordinary-second-set-of-rare-mountain-gorilla-twins-born-in-drcs-virunga/",
-              "date": "2026-03-10"
-            },
-            {
-              "title": "New Zealand's Kākāpō Parrots Hatch 100+ Chicks in Record Breeding Year",
-              "summary": "New Zealand's critically endangered kākāpō parrots have had their best breeding season on record, with more than 100 chicks hatching across three island sanctuaries. The flightless parrots only breed when rimu trees mass-fruit every few years, making 2026's bumper result a genuine conservation triumph for this beloved species.",
-              "source": "Mongabay",
-              "url": "https://news.mongabay.com/short-article/2026/04/record-kakapo-breeding-season-with-95-rare-parrot-hatchlings-photo-of-the-week/",
-              "date": "2026-04-10"
-            },
-            {
-              "title": "Kiwi Birds Enter New Zealand Parliament in Historic Conservation Celebration",
-              "summary": "Kiwi birds were brought into New Zealand's Parliament Banquet Hall in a moving ceremony celebrating the species' remarkable recovery. Rangers described the moment as proof of what's possible when communities work together, with kiwi populations rising steadily thanks to a decade of predator control and community-led protection.",
-              "source": "Positive News",
-              "url": "https://www.positive.news/society/good-news-stories-from-week-18-of-2026/",
               "date": "2026-05-07"
             }
           ]

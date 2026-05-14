@@ -3481,6 +3481,235 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-05-09",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "US Job Growth Nearly Doubles Forecasts With 115,000 April Additions",
+              "summary": "The US economy added 115,000 jobs in April 2026, nearly double the analyst forecast of 65,000, while unemployment held steady at 4.3%. The stronger-than-expected result signals continued labor-market resilience despite global trade uncertainty, offering a lift to workers and businesses across North America.",
+              "source": "Maersk",
+              "url": "https://www.maersk.com/news/articles/2026/05/08/north-america-market-update-may",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Brazil Positions Itself as Critical Minerals Leader With New Strategy",
+              "summary": "Brazil's lower chamber voted to create a National Critical Minerals Strategy, establishing incentives for extraction and processing of the country's vast reserves of lithium, cobalt, and rare earths. The move positions Brazil as a cornerstone supplier for the global clean-energy transition, turning natural wealth into long-term economic opportunity.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/usa-canada-intelligence-brief-for-friday-may-8-2026/",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "Latin America's Economy Set to Grow 2.1% in 2026 Despite Headwinds",
+              "summary": "Despite global trade disruptions, Latin America is on course for 2.1% GDP growth in 2026, building on a resilient prior year. Analysts credit diversified export markets and deepening regional trade links for sustaining momentum — a signal of growing economic strength across the continent.",
+              "source": "Americas Market Intelligence",
+              "url": "https://americasmi.com/insights/latin-america-2026-economic-outlook/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "BOE and UNESCO Launch Asia-Pacific Science Club Network",
+              "summary": "BOE Technology and UNESCO unveiled a new Asia-Pacific Science Club Network and 2026 Science Challenge, uniting 40 Chinese teachers with 15 educators from 12 Asia-Pacific countries. Launched under the UN's International Decade of Sciences for Sustainable Development, it will connect young scientists across the region for collaborative hands-on projects.",
+              "source": "The Manila Times",
+              "url": "https://www.manilatimes.net/2026/05/08/tmt-newswire/pr-newswire/boe-unesco-introduce-asia-pacific-science-club-network-2026-science-challenge/2339206",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Inside Coral Reefs: 645 New Microbial Species Mapped in Pacific Survey",
+              "summary": "Researchers from the University of Galway reconstructed genomes of 645 microbial species from 99 Pacific coral reefs, finding over 99% had never been genetically described. Published in Nature on May 8, the study reveals a vast pharmaceutical library hidden inside coral ecosystems — one that could yield future life-saving medicines.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260506225229.htm",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Scientists Find Earth's Oldest Air in 6-Million-Year-Old Antarctic Ice",
+              "summary": "Researchers from the Center for Oldest Ice Exploration discovered 6-million-year-old ice in East Antarctica's Allan Hills, more than doubling the previous record for the oldest dated ice. Tiny air bubbles sealed within offer a direct window into Earth's ancient atmosphere, yielding the first direct measurements of how much Antarctica has cooled over millions of years.",
+              "source": "Oregon State University",
+              "url": "https://news.oregonstate.edu/news/six-million-year-old-ice-discovered-antarctica-offers-unprecedented-window-warmer-earth",
+              "date": "2026-04-15"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Canon and Oceans Alive Restore Coral Reefs Along Kenya's Coast",
+              "summary": "Canon Central and North Africa has partnered with Kenya's Oceans Alive Foundation to scale up coral nursery propagation and women-led reef rehabilitation along the country's northern coastline. The initiative builds on a decade of work that already recorded a 300% rise in fish biomass within protected zones.",
+              "source": "Oceanographic Magazine",
+              "url": "https://oceanographicmagazine.com/news/new-east-africa-initiative-targets-coral-reef-restoration-in-kenya/",
+              "date": "2026-01-20"
+            },
+            {
+              "title": "Thames Reborn: River Now Supports 115 Fish Species After Decades of Recovery",
+              "summary": "The tidal Thames now hosts over 115 fish species, 92 bird species, and nearly 600 hectares of saltmarsh — a stunning turnaround for a river declared biologically dead in 1957. The Zoological Society of London's annual health check confirms that seals, seahorses, and even sharks are now regular residents.",
+              "source": "Zoological Society of London",
+              "url": "https://www.zsl.org/news-and-events/news/thames-health-check-celebrates-rebirth-famous-river",
+              "date": "2026-01-19"
+            },
+            {
+              "title": "Brazil's Cattle Ranchers Become Unexpected Heroes of Pantanal Conservation",
+              "summary": "Ranchers in Brazil's Pantanal — the world's largest tropical wetland — are partnering with Pew Charitable Trusts conservationists to protect biodiversity alongside their herds. The unlikely alliance is showing that sustainable ranching and thriving wildlife can coexist, offering a replicable model for conservation across agricultural landscapes.",
+              "source": "Pew Charitable Trusts",
+              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
+              "date": "2026-02-01"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "West Africa Launches Bold Roadmap for Universal Health Coverage",
+              "summary": "Ministers of health and finance from 24 Western and Central African countries gathered in Accra to adopt the World Bank's Fit to Prosper health strategy. The initiative targets universal health coverage for 200 million people by 2030, backed by sustained regional investment and strengthened community health systems.",
+              "source": "World Bank",
+              "url": "https://www.worldbank.org/en/news/press-release/2026/05/05/western-and-central-african-leaders-launch-a-roadmap-to-tackle-health-crisis-in-the-region",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "France Bans Forever Chemicals From Cosmetics and Clothing",
+              "summary": "France became the world's first country to ban PFAS from cosmetics, clothing, and ski wax where alternatives exist, with restrictions now fully in force. The law also mandates drinking-water testing for PFAS contamination and fines industrial polluters — setting a bold new global standard for protecting human health.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/green/2026/01/01/frances-ban-on-forever-chemicals-comes-into-force-tomorrow-heres-what-will-change",
+              "date": "2026-01-01"
+            },
+            {
+              "title": "Inside Coral Reefs: 645 New Microbial Species Mapped in Pacific Survey",
+              "summary": "Researchers from the University of Galway reconstructed genomes of 645 microbial species from 99 Pacific coral reefs, finding over 99% had never been genetically described. Published in Nature on May 8, the study reveals a vast pharmaceutical library hidden inside coral ecosystems — one that could yield future life-saving medicines.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260506225229.htm",
+              "date": "2026-05-08"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Japan Becomes First G7 Nation to Allow Joint Child Custody",
+              "summary": "Japan's revised Civil Code took effect April 1, allowing divorced parents to negotiate shared parental authority for the first time in the country's history. The landmark reform ends Japan's status as the only G7 nation with mandatory sole custody, and introduces a statutory minimum child-support system.",
+              "source": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/03/31/japan/society/joint-custody-starts-april/",
+              "date": "2026-04-01"
+            },
+            {
+              "title": "NBA Pioneer Jason Collins Wins Inaugural Bill Walton Champion Award",
+              "summary": "Jason Collins — who made history in 2014 as the first openly gay active athlete in any major US professional sports league — received the inaugural Bill Walton Global Champion Award at the Green Sports Alliance Summit on May 6. The award honors athletes who use their platform to drive positive social and environmental change.",
+              "source": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/the-green-sports-alliance-honors-jason-collins-as-the-inaugural-winner-of-the-bill-walton-global-champion-award-302764836.html",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "Brazil's Cattle Ranchers Become Unexpected Heroes of Pantanal Conservation",
+              "summary": "Ranchers in Brazil's Pantanal — the world's largest tropical wetland — are partnering with Pew Charitable Trusts conservationists to protect biodiversity alongside their herds. The unlikely alliance is showing that sustainable ranching and thriving wildlife can coexist, offering a replicable model for conservation across agricultural landscapes.",
+              "source": "Pew Charitable Trusts",
+              "url": "https://www.pew.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
+              "date": "2026-02-01"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "The World Celebrates David Attenborough's Remarkable 100th Birthday",
+              "summary": "Sir David Attenborough turned 100 on May 8, drawing tributes from King Charles III, Leonardo DiCaprio, and scientists who named a new wasp genus in his honor. LEGO updated its age range to 4-100+, post boxes across the UK were adorned with crocheted wildlife, and the Royal Albert Hall hosted a centenary concert.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/05/08/nx-s1-5802305/david-attenborough-celebrates-his-100th-birthday",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "South Korea's Baeksang Awards Break Ground With New Musical Division",
+              "summary": "The 62nd Baeksang Arts Awards made history on May 8 by establishing a new Musical Division in partnership with the Korea Musical Theatre Association, marking 60 years of Korean musical theatre. Hyun Bin and Park Bo Young took top honors, while the ceremony drew global audiences celebrating the depth of Korean storytelling.",
+              "source": "Allkpop",
+              "url": "https://www.allkpop.com/article/2026/05/62nd-baeksang-arts-awards-2026-winners-list-featuring-hyun-bin-park-bo-young-park-jeong-min-and-more-major-award-winners",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Peabody Awards Honor Documentaries on Sly Stone and Fela Kuti",
+              "summary": "The 86th Peabody Awards celebrated outstanding storytelling, with programs about music legends Sly Stone and Fela Kuti among the honored works. Special awards recognized Amy Poehler's career achievement, screenwriter Sterlin Harjo as a trailblazer, and PBS KIDS as a historic institution — honoring media that uplifts and connects communities.",
+              "source": "Peabody Awards",
+              "url": "https://peabodyawards.com/stories/86th-peabody-winners-announced/",
+              "date": "2026-05-07"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "NBA Pioneer Jason Collins Wins Inaugural Bill Walton Champion Award",
+              "summary": "Jason Collins — who made history in 2014 as the first openly gay active athlete in any major US professional sports league — received the inaugural Bill Walton Global Champion Award at the Green Sports Alliance Summit on May 6. The award honors athletes who use their platform to drive positive social and environmental change.",
+              "source": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/the-green-sports-alliance-honors-jason-collins-as-the-inaugural-winner-of-the-bill-walton-global-champion-award-302764836.html",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "New Zealand Archers Sweep All Medals at Home Oceania Championships",
+              "summary": "New Zealand's archers delivered a dominant performance on home soil at the 2026 World Archery Oceania Target Championships in Auckland, sweeping the recurve individual podiums in both the men's and women's events. The clean-sweep victory lit up home crowds and reflected years of sustained investment in the sport.",
+              "source": "World Archery",
+              "url": "https://www.worldarchery.sport/news/202398/new-zealand-dominates-oceania-championships-2026-auckland",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Alcaraz, Sabalenka and McIlroy Among 2026 Laureus World Sports Award Winners",
+              "summary": "The 2026 Laureus World Sports Awards in Madrid celebrated a year of extraordinary sporting achievement, honoring global champions including Carlos Alcaraz, Aryna Sabalenka, and Rory McIlroy. The ceremony also spotlighted Laureus Sport for Good programs using athletics to transform the lives of young people in underserved communities worldwide.",
+              "source": "Laureus",
+              "url": "https://www.laureus.com/news/alcaraz-sabalenka-norris-mcilroy-kroos-yamal-among-winners-at-laureus-world-sports-awards",
+              "date": "2026-04-07"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "Second Set of Rare Gorilla Twins Born at Virunga in 2026",
+              "summary": "For the second time in three months, twin mountain gorillas were born at DRC's Virunga National Park — among the rarest births in the primate world. The Baraka family now numbers 19 individuals, and 9 new gorilla babies have arrived at Virunga in the first three months of 2026 alone.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/short-article/2026/03/extraordinary-second-set-of-rare-mountain-gorilla-twins-born-in-drcs-virunga/",
+              "date": "2026-03-10"
+            },
+            {
+              "title": "New Zealand's Kākāpō Parrots Hatch 100+ Chicks in Record Breeding Year",
+              "summary": "New Zealand's critically endangered kākāpō parrots have had their best breeding season on record, with more than 100 chicks hatching across three island sanctuaries. The flightless parrots only breed when rimu trees mass-fruit every few years, making 2026's bumper result a genuine conservation triumph for this beloved species.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/short-article/2026/04/record-kakapo-breeding-season-with-95-rare-parrot-hatchlings-photo-of-the-week/",
+              "date": "2026-04-10"
+            },
+            {
+              "title": "Kiwi Birds Enter New Zealand Parliament in Historic Conservation Celebration",
+              "summary": "Kiwi birds were brought into New Zealand's Parliament Banquet Hall in a moving ceremony celebrating the species' remarkable recovery. Rangers described the moment as proof of what's possible when communities work together, with kiwi populations rising steadily thanks to a decade of predator control and community-led protection.",
+              "source": "Positive News",
+              "url": "https://www.positive.news/society/good-news-stories-from-week-18-of-2026/",
+              "date": "2026-05-07"
+            }
+          ]
+        }
+      }
     }
   ]
 }
