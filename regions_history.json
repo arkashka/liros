@@ -4204,6 +4204,193 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-05-10",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "title": "Africa Launches Decade-Long Health Workforce Agenda in Accra",
+              "summary": "Health ministers and heads of state gathered in Accra for the 2nd Africa Health Workforce Investment Forum, adopting the 2026–2035 \"Plan. Train. Retain.\" roadmap. Backed by a $4.4 billion World Bank portfolio, the agenda targets creating over 2 million healthcare jobs and closing critical staffing gaps across the continent.",
+              "source": "WHO Africa",
+              "url": "https://www.afro.who.int/media-centre/events/2nd-africa-health-workforce-investment-forum-6-8-may-2026-accra-ghana",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "Ghana’s Cedi Ranks Among Africa’s Best-Performing Currencies",
+              "summary": "Ghana’s cedi emerged as one of Africa’s top-performing currencies in April 2026, cementing the country’s economic recovery following years of IMF-backed fiscal reform. Renewed investor confidence and improved macroeconomic stability are driving the turnaround for one of West Africa’s leading economies.",
+              "source": "YEN.com.gh",
+              "url": "https://yen.com.gh/ghana/304065-ghana-cedi-ranked-top-performing-africa-full-ranking-emerges/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Kenya Opens World’s Largest Black Rhino Sanctuary in Tsavo West",
+              "summary": "Kenya officially opened a 3,200 square kilometre sanctuary in Tsavo West National Park, protecting 200 black rhinos in the largest concentration of the species in the country. President Ruto called the milestone a symbol of Kenya’s commitment to doubling its national rhino population by 2037.",
+              "source": "Kenya Wildlife Service",
+              "url": "https://www.kws.go.ke/press-release/kenya-opens-worlds-largest-rhino-sanctuary-tsavo-west-national-park",
+              "date": "2025-12-09"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "title": "Filipino Girl Group BINI Wins Billboard Global Force Award",
+              "summary": "Eight-member Filipino group BINI made history as the first Southeast Asian act to receive the Billboard Global Force Award, presented at the Hollywood Palladium. Performing in traditional Filipino attire, they dedicated the honour to their fans and declared themselves “proud Filipinas” on the world stage.",
+              "source": "Rappler",
+              "url": "https://www.rappler.com/people/artists/bini-billboard-global-force-award-2026/",
+              "date": "2026-04-30"
+            },
+            {
+              "title": "Bangkok Confirmed as Host of Inaugural Eurovision Song Contest Asia",
+              "summary": "Bangkok, Thailand was officially named host city for the first-ever Eurovision Song Contest Asia, launching in November 2026. The European Broadcasting Union’s expansion brings the beloved competition format to Asia-Pacific for the first time, with 18 participating countries from across the region.",
+              "source": "European Broadcasting Union",
+              "url": "https://www.ebu.ch/news/2026/03/bangkok-to-host-first-ever-eurovision-song-contest-asia-in-2026",
+              "date": "2026-03-15"
+            },
+            {
+              "title": "South Korean Youth Activist Wins Goldman Environmental Prize for Asia",
+              "summary": "31-year-old Borim Kim, founder of Youth 4 Climate Action, won the 2026 Goldman Environmental Prize for leading the first successful youth climate lawsuit in Asia. Her campaign resulted in South Korea’s Constitutional Court ruling that inadequate climate policies violated citizens’ constitutional rights, mandating binding emissions targets through 2049.",
+              "source": "Goldman Environmental Prize",
+              "url": "https://www.goldmanprize.org/recipient/borim-kim/",
+              "date": "2026-04-21"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "title": "Amsterdam Bans Fossil Fuel and Meat Ads From All Public Spaces",
+              "summary": "Amsterdam became the world’s first capital city to prohibit advertising for fossil fuels and meat products across all public spaces, from bus shelters to city buses and billboards. The policy extends the city’s 2022 fossil fuel ad ban into dietary choices as part of its ambitious climate action plan.",
+              "source": "CBS News",
+              "url": "https://www.cbsnews.com/news/amsterdam-bans-advertising-meat-fossil-fuels-public-places/",
+              "date": "2026-05-03"
+            },
+            {
+              "title": "EU Solar Push Could Halve Electricity Costs and Save €223 Billion by 2030",
+              "summary": "A new SolarPower Europe report found that aggressively scaling solar and battery storage across the EU could cut electricity system costs by nearly half before the decade ends, saving €223 billion annually in fossil fuel imports. Clean energy is now both the fastest and cheapest route to European energy security.",
+              "source": "pv magazine",
+              "url": "https://www.pv-magazine.com/2026/05/05/eu-solar-and-storage-push-could-cut-power-system-costs-by-nearly-half/",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "UK Common Cranes Soar to Record Numbers in Historic Breeding Season",
+              "summary": "Britain’s population of common cranes reached an all-time high in 2026, with the iconic birds now breeding successfully across wetlands in East Anglia and beyond. The milestone reflects decades of habitat restoration work and ranks as one of the UK’s most celebrated wildlife comeback stories.",
+              "source": "RSPB",
+              "url": "https://www.rspb.org.uk/media-centre/cranes-have-record-high-year",
+              "date": "2026-04-02"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "title": "Scientists Find “Holy Grail” Gene That Lets Axolotls Regrow Limbs",
+              "summary": "Researchers identified the SP8 transcription factor as a critical driver of limb regeneration in axolotls, and demonstrated it can trigger similar processes in mice, which normally cannot regrow lost tissue. The finding is being hailed as a foundational step toward therapies that could one day help humans recover from traumatic injuries and organ damage.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260508003121.htm",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Mexico Launches Universal Healthcare for All 120 Million Residents",
+              "summary": "President Claudia Sheinbaum signed a historic decree establishing Mexico’s Universal Health Service, committing to free, comprehensive healthcare for every resident by 2027. The programme prioritises underserved rural and Indigenous communities who have historically had the least access to care.",
+              "source": "ZME Science",
+              "url": "https://www.zmescience.com/science/news-science/mexico-is-officially-launching-universal-healthcare-this-week/",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "Endangered Right Whales Celebrate Baby Boom With 23 Calves This Season",
+              "summary": "Scientists documented 23 North Atlantic right whale calves this season—double last year’s count and the highest tally in 17 years for one of the world’s most endangered marine mammals. The baby boom brings cautious hope for a species with only around 380 individuals remaining.",
+              "source": "WUSF Public Media",
+              "url": "https://www.wusf.org/environment/2026-05-07/numbers-endangered-right-whale-calves-rebound-but-threats-remain",
+              "date": "2026-05-07"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "title": "Brazil Welcomes Record 9.3 Million Visitors in Q1 2026, Tourism Up 37%",
+              "summary": "Brazil recorded its best-ever first quarter for international tourism, welcoming 9.3 million visitors—a 37% jump over the previous year. Argentina surpassed the US as Brazil’s top source market, reflecting strengthened regional ties and surging demand for Brazil’s cultural festivals, beaches, and ecotourism experiences.",
+              "source": "Travel and Tour World",
+              "url": "https://www.travelandtourworld.com/news/article/argentina-overtakes-united-states-china-chile-paraguay-uruguay-and-more-in-boosting-brazils-record-breaking-tourism-growth-welcoming-over-three-million-travelers-in-first-quarter-of-202/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Lula and Trump Declare Brazil-US Relations “Stabilized” After White House Summit",
+              "summary": "Brazilian President Lula and President Trump emerged from a three-hour White House meeting with an agreement to resolve trade tensions within 30 days. The breakthrough—linked to US interest in Brazil’s vast critical minerals reserves—signals a new chapter for hemispheric economic cooperation.",
+              "source": "Semafor",
+              "url": "https://www.semafor.com/article/05/08/2026/lula-says-ties-trump-ties-stabilized-after-3-hour-meeting",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Real-Time Payments to Bring 1.1 Million Argentines Into the Banking System",
+              "summary": "A new report by the Centre for Economics and Business Research found real-time payment networks will add $19.3 billion to Argentina’s GDP by 2028 and bring 1.1 million previously unbanked people into the formal financial system. Peru and Chile are set to see similar gains as Latin America’s fintech revolution expands.",
+              "source": "Intelligent CIO LATAM",
+              "url": "https://www.intelligentcio.com/latam/2026/05/08/aci-worldwide-report-highlights-real-time-payments-growth-across-peru-chile-and-argentina/",
+              "date": "2026-05-08"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "title": "Niue Elects Record Seven Women to Parliament, Crossing UN Gender Threshold",
+              "summary": "The tiny Pacific island of Niue made history by electing seven women to its 20-seat parliament, achieving 35% female representation and crossing the UN’s “critical mass” threshold for gender equity in governance. Female representation in Pacific parliaments typically sits below 10%, making Niue’s result a landmark for the region.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/news/pacific_niue/594257/niue-votes-in-record-women-mps",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "Pacific Resilience Facility Enters Into Force as Fiji Completes Ratification",
+              "summary": "The Pacific Resilience Facility Treaty officially came into force on May 6 after Fiji and Australia deposited ratification instruments in Suva. Described as the first Pacific-led climate financing facility, it provides grant funding for community resilience projects, clean energy, and climate adaptation across island nations, with a target of $1.5 billion.",
+              "source": "Pacific Islands News Association",
+              "url": "https://pina.com.fj/2026/05/07/fiji-and-australia-ratify-pacific-resilience-facility/",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "Tonga Establishes Integrated Governance Over 700,000 km² of Ocean Territory",
+              "summary": "Tonga gazetted its landmark Ocean Management Act, establishing comprehensive, integrated governance over its vast 700,000 square kilometre marine territory—one of the most ambitious ocean stewardship frameworks in the Pacific. The law consolidates fisheries, environment, and maritime regulations under a single framework to protect Tonga’s rich marine biodiversity.",
+              "source": "Pacific Islands News Association",
+              "url": "https://pina.com.fj/2025/12/22/tonga-gazettes-ocean-management-act-sets-up-integrated-ocean-governance/",
+              "date": "2025-12-22"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "title": "Antarctic Voyage Maps 400 Deep-Sea Species Near Unexplored Cook Ice Shelf",
+              "summary": "Australia’s CSIRO research vessel RV Investigator completed the COOKIES expedition, documenting over 400 deep-sea species and capturing more than 10,000 images from the rarely visited Cook Ice Shelf marine region. The voyage delivered the most detailed survey of life in these icy depths ever conducted, opening a new window into Antarctic biodiversity.",
+              "source": "CSIRO",
+              "url": "https://www.csiro.au/en/news/All/Articles/2026/March/RV-Investigators-milestone-Antarctic-mission",
+              "date": "2026-03-20"
+            }
+          ]
+        }
+      }
     }
   ]
 }
