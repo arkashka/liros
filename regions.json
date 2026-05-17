@@ -1,6 +1,186 @@
 {
   "pulls": [
     {
+      "date": "2026-05-17",
+      "regions": {
+        "Africa": {
+          "emoji": "🌍",
+          "color": "#FF6B35",
+          "tagline": "A continent rising with energy and hope",
+          "stories": [
+            {
+              "title": "Nigerian Scientist Wins 'Green Nobel' for Saving Endangered Bats and Rainforest",
+              "summary": "Dr. Iroro Tanshi rediscovered a species of endangered roundleaf bat after a 50-year absence, then built a community-led wildfire brigade that stopped over 70 fire outbreaks protecting Nigeria's last remaining rainforest. Her extraordinary conservation work earned her the 2026 Goldman Environmental Prize — the world's highest grassroots environmental honour.",
+              "source": "Goldman Environmental Prize",
+              "url": "https://www.goldmanprize.org/recipient/iroro-tanshi/",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "Africa Forward Summit Unlocks $27 Billion for Clean Energy and Innovation",
+              "summary": "At the Nairobi Africa Forward Summit, 40 companies committed $31.5 billion across 30 projects spanning clean energy, agriculture, and AI — including $2 billion in renewable power for Rwanda alone. The pledges promise 600,000 new jobs across the continent, signalling surging global confidence in Africa's economic and technological future.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/12/frances-macron-announces-27bn-investment-in-africa-at-kenya-summit",
+              "date": "2026-05-12"
+            },
+            {
+              "title": "Algeria Eliminates Trachoma — Becoming the 29th Country to End This Blinding Disease",
+              "summary": "The World Health Organization has validated Algeria as free of trachoma as a public health problem, making it the 10th country in Africa's WHO region to reach this milestone. Decades of national health campaigns, antibiotic distribution, and clean water programmes brought this preventable cause of blindness to an end.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/23-04-2026-algeria-eliminates-trachoma-as-a-public-health-problem",
+              "date": "2026-04-23"
+            }
+          ]
+        },
+        "Asia": {
+          "emoji": "🌏",
+          "color": "#FFB700",
+          "tagline": "Ancient wisdom, modern breakthroughs",
+          "stories": [
+            {
+              "title": "South Korean Activist Wins Goldman Prize for Asia's First Climate Court Victory",
+              "summary": "Borim Kim led a four-year legal battle that produced Asia's first-ever constitutional climate court ruling, forcing the South Korean government to set legally binding emissions reduction targets through 2049. The landmark victory is already inspiring follow-on climate cases in Japan and Taiwan, spreading the legal movement across the continent.",
+              "source": "Goldman Environmental Prize",
+              "url": "https://www.goldmanprize.org/recipient/borim-kim/",
+              "date": "2026-04-20"
+            },
+            {
+              "title": "China's Electric Trucks Hit 20% Market Share in Historic Clean Freight Shift",
+              "summary": "Electric trucks in China outsold diesel for the first time in late 2025 and maintained 45% year-on-year growth into 2026, representing one of the fastest clean-freight transitions in history. The shift signals a dramatic reduction in transport emissions across the world's largest commercial vehicle market.",
+              "source": "Electrive",
+              "url": "https://www.electrive.com/2026/01/23/year-end-surge-electric-trucks-outsell-diesel-for-the-first-time-in-china/",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "Vietnam Gives All 100 Million Citizens Free Annual Health Checkups Starting 2026",
+              "summary": "Every Vietnamese citizen is now entitled to at least one free annual medical checkup, backed by digital health records integrated into the national ID platform. The landmark policy marks a historic shift from treatment-focused to prevention-focused healthcare for a nation of 100 million people.",
+              "source": "VietnamPlus",
+              "url": "https://en.vietnamplus.vn/vietnam-moves-toward-universal-free-annual-health-checkups-from-2026-post342335.vnp",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Europe": {
+          "emoji": "🌍",
+          "color": "#44BBA4",
+          "tagline": "Green, resilient, and reaching for the future",
+          "stories": [
+            {
+              "title": "NHS Gene Therapy Gives Six-Year-Old the Gift of Seeing in the Dark",
+              "summary": "Saffie Sandford, born with a rare inherited blindness, can now see her parents' faces in the dark after receiving gene therapy at Great Ormond Street Hospital. A new UK study confirms the treatment is most effective for young children, opening the door to restoring sight for thousands born with this condition.",
+              "source": "Great Ormond Street Hospital",
+              "url": "https://www.gosh.nhs.uk/news/nhs-eye-gene-therapy-restores-saffies-sight/",
+              "date": "2026-04-22"
+            },
+            {
+              "title": "EU-Funded Project Helps People With Complete Spinal Cord Injuries Walk Again",
+              "summary": "Europe's ReverseParalysis project used next-generation brain-spine interfaces and adaptive machine learning to help two people with complete spinal cord injuries stand and walk, and two others regain use of their hands. The breakthrough, led by ONWARD Medical in the Netherlands, marks a major step toward restoring movement after previously permanent paralysis.",
+              "source": "MedicalXpress",
+              "url": "https://medicalxpress.com/news/2026-05-reconnecting-body-brain-europe-breakthrough.html",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Europe's Community-Owned Night Train Adds a Brussels-to-Milan Route This September",
+              "summary": "European Sleeper — a community-owned rail company — confirmed a new Brussels–Cologne–Zürich–Milan night train launching September 9, 2026, with tickets now on sale. The low-carbon overnight service offers a flight-free connection through the heart of Europe, expanding the continent's fast-growing alternative to short-haul air travel.",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/travel/2026/03/05/european-sleepers-new-brussels-milan-route-delayed-until-september",
+              "date": "2026-05-17"
+            }
+          ]
+        },
+        "North America": {
+          "emoji": "🌎",
+          "color": "#E94F8B",
+          "tagline": "Bold dreams, bigger firsts",
+          "stories": [
+            {
+              "title": "Mayo Clinic Scientists Crack the Code on 'Zombie Cells' That Drive Aging",
+              "summary": "Researchers at Mayo Clinic developed synthetic DNA aptamers that selectively identify senescent 'zombie cells' linked to Alzheimer's, arthritis, and cancer — without harming healthy tissue. The breakthrough could unlock precision drug delivery to clear these cells from the body, potentially transforming treatment for over a billion people living with age-related diseases.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260515001733.htm",
+              "date": "2026-05-15"
+            },
+            {
+              "title": "Canadian Town Is Turning Its Abandoned Coal Mines Into Geothermal Clean Energy",
+              "summary": "Cumberland, British Columbia — a former coal-mining town — is completing a feasibility study to tap warm water trapped deep in its old mine shafts for geothermal heating and cooling. The project shows how fossil-fuel legacy sites can become clean, community-owned energy infrastructure, offering a hopeful blueprint for mining towns around the world.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260505234631.htm",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "North America's Longest Cable-Stayed Bridge Nears Its Long-Awaited Opening",
+              "summary": "The nearly $5 billion Gordie Howe International Bridge, spanning the Detroit River between Windsor, Ontario and Detroit, Michigan, is in final commissioning before its imminent opening. At almost 2.5 kilometres, it will be the longest cable-stayed bridge in North America — with a dedicated cycling and pedestrian path for car-free cross-border travel.",
+              "source": "Detroit News",
+              "url": "https://www.detroitnews.com/story/news/local/michigan/2026/03/11/when-does-the-gordie-howe-bridge-open-in-detroit-michigan-windsor-ontario-canada-what-to-know/89102928007/",
+              "date": "2026-03-11"
+            }
+          ]
+        },
+        "South America": {
+          "emoji": "🌎",
+          "color": "#3B82F6",
+          "tagline": "Nature's guardian, culture's champion",
+          "stories": [
+            {
+              "title": "Chile's Lithium Exports Surge 175% as Its Clean Energy Role Accelerates",
+              "summary": "Chile posted $9.7 billion in exports in April 2026 — its 19th consecutive month of year-on-year trade growth — with lithium carbonate exports surging 175%, driven by the SQM-Codelco state partnership ramping up production. The figures cement Chile's role as a cornerstone of the global clean energy supply chain.",
+              "source": "Rio Times Online",
+              "url": "https://www.riotimesonline.com/chile-april-2026-exports-copper-lithium-may-2026/",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Brazil Leads Launch of $125 Billion Fund That Pays Nations to Protect Their Forests",
+              "summary": "International partners led by Brazil are establishing the Tropical Forests Forever Facility — a $125 billion investment fund whose returns directly reward tropical nations that protect their forests. The scheme gives developing countries financial self-determination over conservation and local communities a direct stake in keeping their forests standing.",
+              "source": "The Pew Charitable Trusts",
+              "url": "https://www.pewtrusts.org/en/trust/archive/winter-2026/in-the-wilds-of-south-america-conservation-comes-from-unlikely-sources",
+              "date": "2026-01-15"
+            },
+            {
+              "title": "Five South American Nations Now Have Visa-Free Entry to China for 30 Days",
+              "summary": "Nationals of Brazil, Argentina, Chile, Peru, and Uruguay can enter mainland China for up to 30 days without a visa, opening new doors for tourism, business, and cultural exchange. The policy has boosted flight bookings and people-to-people connections between two of the world's most diverse regions.",
+              "source": "Xinhua",
+              "url": "https://english.news.cn/20250515/2c6ff73260b0478d9c1abc2a9c4a4cab/c.html",
+              "date": "2025-05-15"
+            }
+          ]
+        },
+        "Oceania": {
+          "emoji": "🌏",
+          "color": "#10B981",
+          "tagline": "Islands of partnership and discovery",
+          "stories": [
+            {
+              "title": "Niue Makes Pacific History Electing a Record Seven Women to Parliament",
+              "summary": "The Pacific island of Niue elected seven women to its 20-seat parliament — 35% female representation — surpassing the UN's 'critical mass' threshold of 30% and making Niue second only to New Zealand for women's parliamentary representation across the Pacific. The historic result marks a generational shift in leadership for the tiny island nation.",
+              "source": "RNZ",
+              "url": "https://www.rnz.co.nz/news/pacific_niue/594257/niue-votes-in-record-women-mps",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "Australia Commits $496 Million to Halt Species Extinction in Its 2026 Budget",
+              "summary": "Australia's federal budget includes $496 million for nature conservation — with $221 million through the Natural Heritage Trust and $50 million annually for a new Australian Bushland Program establishing new conservation areas. The investment represents a sustained national commitment to halting species extinction and restoring 30% of degraded land.",
+              "source": "Biodiversity Council Australia",
+              "url": "https://biodiversitycouncil.org.au/news/whats-in-the-2026-27-federal-budget-for-nature",
+              "date": "2026-05-13"
+            }
+          ]
+        },
+        "Antarctica": {
+          "emoji": "🧊",
+          "color": "#94A3B8",
+          "tagline": "The frozen frontier of human knowledge",
+          "stories": [
+            {
+              "title": "Scientists Find Stardust From Ancient Supernovae Frozen in Antarctic Ice",
+              "summary": "An international team discovered radioactive iron-60 — an isotope forged only inside dying massive stars — in Antarctic ice cores spanning 40,000 to 81,000 years, confirming Earth is currently drifting through ancient supernova debris. The remarkable finding gives scientists a new tool to map our Solar System's journey through the galaxy.",
+              "source": "ScienceAlert",
+              "url": "https://www.sciencealert.com/stardust-trapped-in-antarctic-ice-reveals-earths-journey-through-the-cosmos",
+              "date": "2026-05-13"
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-05-16",
       "regions": {
         "Africa": {
@@ -369,193 +549,6 @@
               "source": "Oregon State University",
               "url": "https://news.oregonstate.edu/news/new-ice-core-studies-expand-histories-of-greenhouse-gases-and-ocean-temperature-3-million-years",
               "date": "2026-04-23"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "date": "2026-05-12",
-      "regions": {
-        "Africa": {
-          "emoji": "🌍",
-          "color": "#FF6B35",
-          "tagline": "A continent rising with energy and hope",
-          "stories": [
-            {
-              "title": "Kenya and France Seal 11 Landmark Deals on Rail, Energy, and Digital",
-              "summary": "Presidents Ruto and Macron signed 11 sweeping agreements including a KSh 12.5 billion modernisation of Nairobi commuter rail and a KSh 104 billion joint logistics venture. The deals also span renewable energy, cybersecurity, and blue economy cooperation.",
-              "source": "Capital FM Kenya",
-              "url": "https://www.capitalfm.co.ke/business/2026/05/kenya-france-sign-11-deals-on-rail-ports-energy-and-digital-economy/",
-              "date": "2026-05-11"
-            },
-            {
-              "title": "Africa's First-Ever Road Safety Charter Enters Into Force",
-              "summary": "After 15 African Union nations ratified it, the continent's historic Road Safety Charter came into force, committing member states to halve road fatalities by 2030. Nigeria has already recorded a 12% drop in road deaths in Q1 2026.",
-              "source": "World Health Organization",
-              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
-              "date": "2026-03-26"
-            },
-            {
-              "title": "Africa's Economy Set to Outpace Asia's for First Time Ever",
-              "summary": "The IMF projects Sub-Saharan Africa will grow 4.4% in 2026, edging past Asia's 4.1% for the first time in modern history. The surge is driven by a booming youth population, strong commodity prices, and a wave of youth-led tech startups attracting global investment.",
-              "source": "Spotlight in Africa",
-              "url": "https://www.spotlightinafrica.com/post/africa-s-economy-to-expand-by-4-4-ahead-of-asia-s-4-1-imf-says",
-              "date": "2026-02-23"
-            }
-          ]
-        },
-        "Asia": {
-          "emoji": "🌏",
-          "color": "#FFB700",
-          "tagline": "Ancient wisdom, modern breakthroughs",
-          "stories": [
-            {
-              "title": "Asian Development Bank Pledges $70 Billion for Clean Energy and Digital Access",
-              "summary": "ADB's bold new initiative will connect 200 million people to clean power through cross-border renewable grids, and build AI-ready digital highways across Asia-Pacific by 2035 — creating 840,000 jobs and cutting regional power emissions by 15%.",
-              "source": "Asian Development Bank",
-              "url": "https://www.adb.org/news/adb-launches-70-billion-push-connect-asia-power-grids-digital-networks",
-              "date": "2026-05-07"
-            },
-            {
-              "title": "India and Japan Unite on Quantum Technology and Health Research",
-              "summary": "Ministers from both nations signed cooperation agreements in quantum computing, AI, and medical devices in New Delhi, combining Japan's robotics expertise with India's data science capabilities in a frontier-tech partnership set to shape the next wave of innovation.",
-              "source": "The Tribune India",
-              "url": "https://www.tribuneindia.com/news/business/india-japan-sign-agreements-in-quantum-technology-health-research-cooperation/",
-              "date": "2026-05-09"
-            },
-            {
-              "title": "36th Macao Arts Festival Opens Celebrating East-West Cultural Dialogue",
-              "summary": "The beloved Macao Arts Festival launched its 36th edition on May 8, gathering artists from across Asia and the world for performances, exhibitions, and cross-cultural collaborations that transform the historic UNESCO-listed city into a living stage.",
-              "source": "Guangming Online",
-              "url": "https://en.gmw.cn/2026-05/09/content_38754599.htm",
-              "date": "2026-05-09"
-            }
-          ]
-        },
-        "Europe": {
-          "emoji": "🌍",
-          "color": "#44BBA4",
-          "tagline": "Green, resilient, and reaching for the future",
-          "stories": [
-            {
-              "title": "Prague and Copenhagen Reunited by Direct Train After a Decade Apart",
-              "summary": "Czech Railways launched daily ComfortJet services connecting Prague to Copenhagen via Berlin and Hamburg on May 1, restoring a link missing for over ten years. The 230 kph trains make the journey in 13 hours and feature restaurant cars, Wi-Fi, and a children's cinema.",
-              "source": "České dráhy",
-              "url": "https://ceskedrahy.cz/en/press-center/press-releases/comfortjet-trains-prague-copenhagen-ceske-drahy-launch-direct-train",
-              "date": "2026-05-01"
-            },
-            {
-              "title": "European Bison Released in Spain's Iberian Highlands for the First Time",
-              "summary": "Nine European bison were released into Spain's Iberian Highlands, marking a historic first for the species in Iberia. Europe's bison population has surged from just 2,500 to around 9,000 over the past decade, a stunning conservation comeback across the continent.",
-              "source": "Rewilding Europe",
-              "url": "https://rewildingeurope.com/news/european-bison-arrive-in-the-iberian-highlands-for-the-first-time/",
-              "date": "2026-03-20"
-            },
-            {
-              "title": "PSG Reach Champions League Final Against Arsenal After Beating Bayern",
-              "summary": "Defending champions Paris Saint-Germain defeated Bayern Munich to set up a glamour Champions League final against Arsenal at Budapest's Puskás Aréna on May 30. The all-or-nothing clash promises one of the most captivating finals in years.",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/sports/2026/5/6/holders-psg-beat-bayern-munich-to-reach-champions-league-final-with-arsenal",
-              "date": "2026-05-06"
-            }
-          ]
-        },
-        "North America": {
-          "emoji": "🌎",
-          "color": "#E94F8B",
-          "tagline": "Bold dreams, bigger firsts",
-          "stories": [
-            {
-              "title": "Georgia Invests $70 Million to Put Literacy Coaches in Every Elementary School",
-              "summary": "Governor Kemp signed the Georgia Early Literacy Act of 2026, deploying 1,300 dedicated literacy coaches to all K-3 public schools statewide. The $70 million investment also expands kindergarten access and creates a task force to strengthen early reading outcomes.",
-              "source": "Governor Brian P. Kemp's Office",
-              "url": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
-              "date": "2026-05-05"
-            },
-            {
-              "title": "Canada and Mexico Forge Stronger Ties With 10+ New Trade Agreements",
-              "summary": "A Mexican trade mission to Toronto and Montréal resulted in over 10 MOUs spanning life sciences, agrifood, education, and creative industries. Highlights include Grupo Bimbo's CA$200 million investment to modernise its Canadian bakeries, deepening North American resilience.",
-              "source": "Government of Canada",
-              "url": "https://www.canada.ca/en/global-affairs/news/2026/05/joint-statement-following-the-conclusion-of-mexicos-trade-mission-to-canada-toronto-and-montreal--may-6-8-2026.html",
-              "date": "2026-05-08"
-            },
-            {
-              "title": "Blight-Resistant American Chestnut Trees Planted at the White House",
-              "summary": "On Arbor Day, the National Park Service planted blight-tolerant American chestnut trees at the White House — a landmark in efforts to restore a species nearly wiped from 200 million acres of eastern forest by an imported Asian blight a century ago.",
-              "source": "University of New England",
-              "url": "https://www.une.edu/news/2026/une-researchers-chestnut-trees-planted-presidents-park-conservation-milestone",
-              "date": "2026-04-24"
-            }
-          ]
-        },
-        "South America": {
-          "emoji": "🌎",
-          "color": "#3B82F6",
-          "tagline": "Nature's guardian, culture's champion",
-          "stories": [
-            {
-              "title": "Colombia's Amazon Deforestation Falls 25% for Second Consecutive Year",
-              "summary": "Colombia logged one of its lowest deforestation totals since 2016, with primary forest loss dropping 25% in 2025 thanks to Indigenous-led land governance, the Conservar Paga payment program supporting 5,500+ families, and expanded Amazon ecotourism.",
-              "source": "Mongabay",
-              "url": "https://news.mongabay.com/2026/01/colombia-poised-for-another-drop-in-deforestation-in-2025-data-show/",
-              "date": "2026-01-15"
-            },
-            {
-              "title": "Argentina's Economy Rebounds 4.4% as Reforms Tame Decades-High Inflation",
-              "summary": "After a sharp 2024 contraction, Argentina grew 4.4% in 2025, driven by a 16% investment surge and rising exports. Inflation has fallen from a peak of 290% to around 33%, restoring household purchasing power and drawing renewed global investor interest.",
-              "source": "Rio Times Online",
-              "url": "https://www.riotimesonline.com/argentina-economy-2026-guide/",
-              "date": "2026-04-01"
-            },
-            {
-              "title": "28 New Deep-Sea Species Found Alongside World's Largest Cold-Water Coral Reef Off Argentina",
-              "summary": "Scientists aboard the R/V Falkor discovered 28 potential new species — including worms, urchins, and anemones — plus the world's largest known Bathelia candida coral reef, roughly the size of Vatican City, in Argentina's remote deep Atlantic waters.",
-              "source": "Schmidt Ocean Institute",
-              "url": "https://schmidtocean.org/argentinas-deep-sea-is-more-biodiverse-than-scientists-thought/",
-              "date": "2026-02-10"
-            }
-          ]
-        },
-        "Oceania": {
-          "emoji": "🌏",
-          "color": "#10B981",
-          "tagline": "Islands of partnership and discovery",
-          "stories": [
-            {
-              "title": "WHO Validates Australia as First High-Income Nation to Eliminate Trachoma",
-              "summary": "Australia has officially eradicated trachoma — the world's leading infectious cause of blindness — becoming the 30th country globally and first wealthy nation to earn WHO validation. Decades of partnership with Aboriginal and Torres Strait Islander communities made it possible.",
-              "source": "World Health Organization",
-              "url": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
-              "date": "2026-04-29"
-            },
-            {
-              "title": "New Zealand Launches Most Significant Conservation Overhaul in 40 Years",
-              "summary": "New Zealand's Conservation Amendment Bill — the biggest reform to conservation law since 1987 — will streamline decisions, support economic growth, and give communities stronger tools to protect native species, habitats, and the natural heritage Kiwis cherish.",
-              "source": "Community Scoop NZ",
-              "url": "https://community.scoop.co.nz/2026/05/landmark-conservation-reform-bill-will-boost-economy-and-protect-nature/",
-              "date": "2026-05-07"
-            },
-            {
-              "title": "Marshall Islands New Aircraft Opens a Lifeline to Remote Island Communities",
-              "summary": "The Marshall Islands welcomed its first Cessna SkyCourier, carrying 5,000 lbs more cargo than the aging Dornier it replaces. President Heine called it a new chapter — ensuring outer-island families can reach medical care, students can travel for education, and essential goods flow.",
-              "source": "Pacific Scoop",
-              "url": "https://pacific.scoop.co.nz/2026/05/marshall-islands-welcomes-first-of-2-new-us-made-planes/",
-              "date": "2026-05-08"
-            }
-          ]
-        },
-        "Antarctica": {
-          "emoji": "🧊",
-          "color": "#94A3B8",
-          "tagline": "The frozen frontier of human knowledge",
-          "stories": [
-            {
-              "title": "NASA Confirms Southern Ocean Is a More Powerful Carbon Sink Than We Thought",
-              "summary": "New aircraft measurements confirm the frigid Southern Ocean absorbs significantly more atmospheric CO₂ than climate models previously estimated, revealing a vital natural buffer against global warming that scientists are now working to better protect and monitor.",
-              "source": "NASA Earth Observatory",
-              "url": "https://earthobservatory.nasa.gov/images/149274/study-confirms-southern-ocean-is-absorbing-carbon",
-              "date": "2026-01-20"
             }
           ]
         }

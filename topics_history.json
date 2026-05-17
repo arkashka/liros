@@ -3939,6 +3939,235 @@
           ]
         }
       }
+    },
+    {
+      "date": "2026-05-12",
+      "topics": {
+        "Economy & Business": {
+          "emoji": "📈",
+          "color": "#FF6B35",
+          "tagline": "Innovation and growth fueling global prosperity",
+          "stories": [
+            {
+              "title": "Asian Development Bank Pledges $70 Billion for Clean Energy and Digital Access",
+              "summary": "ADB's bold new initiative will connect 200 million people to clean power through cross-border renewable grids, and build AI-ready digital highways across Asia-Pacific by 2035 — creating 840,000 jobs and cutting regional power emissions by 15%.",
+              "source": "Asian Development Bank",
+              "url": "https://www.adb.org/news/adb-launches-70-billion-push-connect-asia-power-grids-digital-networks",
+              "date": "2026-05-07"
+            },
+            {
+              "title": "Canada and Mexico Forge Stronger Ties With 10+ New Trade Agreements",
+              "summary": "A Mexican trade mission to Toronto and Montréal resulted in over 10 MOUs spanning life sciences, agrifood, education, and creative industries. Highlights include Grupo Bimbo's CA$200 million investment to modernise its Canadian bakeries, deepening North American resilience.",
+              "source": "Government of Canada",
+              "url": "https://www.canada.ca/en/global-affairs/news/2026/05/joint-statement-following-the-conclusion-of-mexicos-trade-mission-to-canada-toronto-and-montreal--may-6-8-2026.html",
+              "date": "2026-05-08"
+            },
+            {
+              "title": "Kenya and France Seal 11 Landmark Deals on Rail, Energy, and Digital",
+              "summary": "Presidents Ruto and Macron signed 11 sweeping agreements including a KSh 12.5 billion modernisation of Nairobi commuter rail and a KSh 104 billion joint logistics venture. The deals also span renewable energy, cybersecurity, and blue economy cooperation.",
+              "source": "Capital FM Kenya",
+              "url": "https://www.capitalfm.co.ke/business/2026/05/kenya-france-sign-11-deals-on-rail-ports-energy-and-digital-economy/",
+              "date": "2026-05-11"
+            }
+          ]
+        },
+        "Science & Technology": {
+          "emoji": "🚀",
+          "color": "#FFB700",
+          "tagline": "Pushing the boundaries of human ingenuity",
+          "stories": [
+            {
+              "title": "India and Japan Unite on Quantum Technology and Health Research",
+              "summary": "Ministers from both nations signed cooperation agreements in quantum computing, AI, and medical devices in New Delhi, combining Japan's robotics expertise with India's data science capabilities in a frontier-tech partnership set to shape the next wave of innovation.",
+              "source": "The Tribune India",
+              "url": "https://www.tribuneindia.com/news/business/india-japan-sign-agreements-in-quantum-technology-health-research-cooperation/",
+              "date": "2026-05-09"
+            },
+            {
+              "title": "28 New Deep-Sea Species Found Alongside World's Largest Cold-Water Coral Reef Off Argentina",
+              "summary": "Scientists aboard the R/V Falkor discovered 28 potential new species — including worms, urchins, and anemones — plus the world's largest known Bathelia candida coral reef, roughly the size of Vatican City, in Argentina's remote deep Atlantic waters.",
+              "source": "Schmidt Ocean Institute",
+              "url": "https://schmidtocean.org/argentinas-deep-sea-is-more-biodiverse-than-scientists-thought/",
+              "date": "2026-02-10"
+            },
+            {
+              "title": "Scientists Transfer Naked Mole Rat Longevity Gene to Mice — They Live Longer",
+              "summary": "University of Rochester researchers moved a high-molecular-weight hyaluronic acid gene from naked mole rats into mice, extending median lifespan by 4.4%, reducing tumors, and cutting inflammation — proving longevity traits evolved in one species can benefit another.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260510030948.htm",
+              "date": "2026-05-10"
+            }
+          ]
+        },
+        "Environment & Climate": {
+          "emoji": "🌿",
+          "color": "#44BBA4",
+          "tagline": "Restoring the balance of our natural world",
+          "stories": [
+            {
+              "title": "Prague and Copenhagen Reunited by Direct Train After a Decade Apart",
+              "summary": "Czech Railways launched daily ComfortJet services connecting Prague to Copenhagen via Berlin and Hamburg on May 1, restoring a link missing for over ten years. The 230 kph trains make the journey in 13 hours and feature restaurant cars, Wi-Fi, and a children's cinema.",
+              "source": "České dráhy",
+              "url": "https://ceskedrahy.cz/en/press-center/press-releases/comfortjet-trains-prague-copenhagen-ceske-drahy-launch-direct-train",
+              "date": "2026-05-01"
+            },
+            {
+              "title": "Colombia's Amazon Deforestation Falls 25% for Second Consecutive Year",
+              "summary": "Colombia logged one of its lowest deforestation totals since 2016, with primary forest loss dropping 25% in 2025 thanks to Indigenous-led land governance, the Conservar Paga payment program supporting 5,500+ families, and expanded Amazon ecotourism.",
+              "source": "Mongabay",
+              "url": "https://news.mongabay.com/2026/01/colombia-poised-for-another-drop-in-deforestation-in-2025-data-show/",
+              "date": "2026-01-15"
+            },
+            {
+              "title": "NASA Confirms Southern Ocean Is a More Powerful Carbon Sink Than We Thought",
+              "summary": "New aircraft measurements confirm the frigid Southern Ocean absorbs significantly more atmospheric CO₂ than climate models previously estimated, revealing a vital natural buffer against global warming that scientists are now working to better protect and monitor.",
+              "source": "NASA Earth Observatory",
+              "url": "https://earthobservatory.nasa.gov/images/149274/study-confirms-southern-ocean-is-absorbing-carbon",
+              "date": "2026-01-20"
+            }
+          ]
+        },
+        "Health & Wellness": {
+          "emoji": "✨",
+          "color": "#E94F8B",
+          "tagline": "Nurturing the mind, body, and spirit",
+          "stories": [
+            {
+              "title": "WHO Validates Australia as First High-Income Nation to Eliminate Trachoma",
+              "summary": "Australia has officially eradicated trachoma — the world's leading infectious cause of blindness — becoming the 30th country globally and first wealthy nation to earn WHO validation. Decades of partnership with Aboriginal and Torres Strait Islander communities made it possible.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
+              "date": "2026-04-29"
+            },
+            {
+              "title": "Blood Test for Brain Tumors Earns FDA Breakthrough Therapy Designation",
+              "summary": "A simple blood test developed at Imperial College Healthcare NHS Trust that detects brain tumors has been granted FDA Breakthrough Therapy status, fast-tracking its path to clinic and offering hope for earlier, less invasive diagnosis for thousands of patients globally.",
+              "source": "Imperial College Healthcare NHS Trust",
+              "url": "https://www.imperial.nhs.uk/about-us/news/new-blood-test-which-can-detect-brain-tumours-receives-fda-breakthrough-therapy-designation",
+              "date": "2026-04-01"
+            },
+            {
+              "title": "Semaglutide Delivers Remarkable Weight Loss and Heart Benefits in Adults 65+",
+              "summary": "Presented at the European Congress on Obesity 2026, a new analysis found semaglutide helped adults over 65 lose an average of 15% of body weight in 68 weeks. Two-thirds achieved over 10% loss, with meaningful improvements in heart health and metabolic markers.",
+              "source": "ScienceDaily",
+              "url": "https://www.sciencedaily.com/releases/2026/05/260510234654.htm",
+              "date": "2026-05-10"
+            }
+          ]
+        },
+        "Society & Culture": {
+          "emoji": "🤝",
+          "color": "#3B82F6",
+          "tagline": "The vibrant threads of human connection",
+          "stories": [
+            {
+              "title": "Africa's First-Ever Road Safety Charter Enters Into Force",
+              "summary": "After 15 African Union nations ratified it, the continent's historic Road Safety Charter came into force, committing member states to halve road fatalities by 2030. Nigeria has already recorded a 12% drop in road deaths in Q1 2026.",
+              "source": "World Health Organization",
+              "url": "https://www.who.int/news/item/26-03-2026-african-road-safety-charter-comes-into-force",
+              "date": "2026-03-26"
+            },
+            {
+              "title": "Georgia Invests $70 Million to Put Literacy Coaches in Every Elementary School",
+              "summary": "Governor Kemp signed the Georgia Early Literacy Act of 2026, deploying 1,300 dedicated literacy coaches to all K-3 public schools statewide. The $70 million investment also expands kindergarten access and creates a task force to strengthen early reading outcomes.",
+              "source": "Governor Brian P. Kemp's Office",
+              "url": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+              "date": "2026-05-05"
+            },
+            {
+              "title": "Marshall Islands New Aircraft Opens a Lifeline to Remote Island Communities",
+              "summary": "The Marshall Islands welcomed its first Cessna SkyCourier, carrying 5,000 lbs more cargo than the aging Dornier it replaces. President Heine called it a new chapter — ensuring outer-island families can reach medical care, students can travel for education, and essential goods flow.",
+              "source": "Pacific Scoop",
+              "url": "https://pacific.scoop.co.nz/2026/05/marshall-islands-welcomes-first-of-2-new-us-made-planes/",
+              "date": "2026-05-08"
+            }
+          ]
+        },
+        "Entertainment & Arts": {
+          "emoji": "🎨",
+          "color": "#10B981",
+          "tagline": "Stories and visions that move the soul",
+          "stories": [
+            {
+              "title": "36th Macao Arts Festival Opens Celebrating East-West Cultural Dialogue",
+              "summary": "The beloved Macao Arts Festival launched its 36th edition on May 8, gathering artists from across Asia and the world for performances, exhibitions, and cross-cultural collaborations that transform the historic UNESCO-listed city into a living stage.",
+              "source": "Guangming Online",
+              "url": "https://en.gmw.cn/2026-05/09/content_38754599.htm",
+              "date": "2026-05-09"
+            },
+            {
+              "title": "New Taipei Multicultural Festival Celebrates World Folk Arts at City Museum",
+              "summary": "New Taipei City's Multicultural Festival 2026 opened at the New Taipei City Art Museum under the theme 'World Folk Arts Club,' blending live music, handcrafted markets, and cultural performances from dozens of global traditions in a vibrant celebration.",
+              "source": "Radio Taiwan International",
+              "url": "https://www.rti.org.tw/en/news?uid=3&pid=207573",
+              "date": "2026-05-10"
+            },
+            {
+              "title": "Eddie Murphy to Receive AFI Life Achievement Award in Netflix Tribute",
+              "summary": "Hollywood legend Eddie Murphy will be honored at the AFI Life Achievement Award ceremony, with a star-studded tribute streaming on Netflix on May 31. The recognition celebrates his decades of groundbreaking comedy, film, and lasting cultural impact across generations.",
+              "source": "Art Threat",
+              "url": "https://artthreat.net/30950-57537-eddie-murphy-s-afi-life-achievement-award-tribute-streams-on-netflix-may-31/",
+              "date": "2026-05-01"
+            }
+          ]
+        },
+        "Sports & Leisure": {
+          "emoji": "🏆",
+          "color": "#94A3B8",
+          "tagline": "The joy of movement and the spirit of play",
+          "stories": [
+            {
+              "title": "PSG Reach Champions League Final Against Arsenal After Beating Bayern",
+              "summary": "Defending champions Paris Saint-Germain defeated Bayern Munich to set up a glamour Champions League final against Arsenal at Budapest's Puskás Aréna on May 30. The all-or-nothing clash promises one of the most captivating finals in years.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/2026/5/6/holders-psg-beat-bayern-munich-to-reach-champions-league-final-with-arsenal",
+              "date": "2026-05-06"
+            },
+            {
+              "title": "Wings for Life World Run Smashes Records: 9.2 Million Euro and 346,527 Runners",
+              "summary": "The 13th Wings for Life World Run set records in fundraising and participation on May 11, with 346,527 runners from 173 countries raising €9.2 million for spinal cord injury research — pushing the all-time total to €69.7 million in the pursuit of a cure.",
+              "source": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/wings-for-life-world-run-2026-raises-record-9-2-million-for-spinal-cord-injury-research-302768436.html",
+              "date": "2026-05-11"
+            },
+            {
+              "title": "LeBron James Becomes First Player in NBA History to Play 300 Playoff Games",
+              "summary": "LeBron James made NBA history on May 7 by appearing in his 300th playoff game, surpassing the previous record by 41 games. At 41, the four-time champion continues to rewrite the postseason record books with the Los Angeles Lakers.",
+              "source": "Diverze Entertainment",
+              "url": "https://www.diverzeent.com/lebron-james-300-playoff-games-lakers-thunder-2026/",
+              "date": "2026-05-07"
+            }
+          ]
+        },
+        "Pets & Wildlife": {
+          "emoji": "🐾",
+          "color": "#8B5CF6",
+          "tagline": "Every creature, wild and close to home",
+          "stories": [
+            {
+              "title": "European Bison Released in Spain's Iberian Highlands for the First Time",
+              "summary": "Nine European bison were released into Spain's Iberian Highlands, marking a historic first for the species in Iberia. Europe's bison population has surged from just 2,500 to around 9,000 over the past decade, a stunning conservation comeback across the continent.",
+              "source": "Rewilding Europe",
+              "url": "https://rewildingeurope.com/news/european-bison-arrive-in-the-iberian-highlands-for-the-first-time/",
+              "date": "2026-03-20"
+            },
+            {
+              "title": "Blight-Resistant American Chestnut Trees Planted at the White House",
+              "summary": "On Arbor Day, the National Park Service planted blight-tolerant American chestnut trees at the White House — a landmark in efforts to restore a species nearly wiped from 200 million acres of eastern forest by an imported Asian blight a century ago.",
+              "source": "University of New England",
+              "url": "https://www.une.edu/news/2026/une-researchers-chestnut-trees-planted-presidents-park-conservation-milestone",
+              "date": "2026-04-24"
+            },
+            {
+              "title": "Stunning New Glass Frog Species Discovered in Ecuador's Cloud Forest Reserve",
+              "summary": "Scientists identified the Dajomes glassfrog (Nymphargus dajomesae) at Ecuador's El Quimi Nature Reserve, where over 85% of observed amphibians are new to science. The tiny emerald-backed frog joins a growing list of species found nowhere else on Earth.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/14/nx-s1-5776612/new-species-of-glass-frog-identified-in-ecuador",
+              "date": "2026-04-14"
+            }
+          ]
+        }
+      }
     }
   ]
 }
